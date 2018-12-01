@@ -1,2 +1,2 @@
-# GITIDEA_TEST
-a test for intelliF IDEA
+# JAVA learning
+shi-tyan saikou
