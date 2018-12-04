@@ -5,6 +5,12 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.Iterator;
 
+/**
+ * 测试一下文档注释。有趣
+ * @author zrx
+ * @version 1.0
+ */
+
 public class CollectionTestMain {
     public static void arraylistAndCollection(){
         //initialize an array-list and use collection class to operate it
@@ -98,6 +104,13 @@ public class CollectionTestMain {
     public static void main(String[] args) {
         //CollectionTestMain.arraylistAndCollection();
         CollectionTestMain.transverseCollection();
+
+        int a=(int)3E100;
+        System.out.println(a);//2147483647
+
+
+
+
 
     }
 }
