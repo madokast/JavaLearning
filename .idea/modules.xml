@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/20181201BigDecimal/20181201BigDecimal.iml" filepath="$PROJECT_DIR$/20181201BigDecimal/20181201BigDecimal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181201DateClass/20181201DateClass.iml" filepath="$PROJECT_DIR$/20181201DateClass/20181201DateClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181201TimeClass/20181201TimeClass.iml" filepath="$PROJECT_DIR$/20181201TimeClass/20181201TimeClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181202CollectionTest/20181202CollectionTest.iml" filepath="$PROJECT_DIR$/20181202CollectionTest/20181202CollectionTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181203PredicateStream/20181203PredicateStream.iml" filepath="$PROJECT_DIR$/20181203PredicateStream/20181203PredicateStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181204AWTbegging/20181204AWTbegging.iml" filepath="$PROJECT_DIR$/20181204AWTbegging/20181204AWTbegging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181204Set/20181204Set.iml" filepath="$PROJECT_DIR$/20181204Set/20181204Set.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181204Stream/20181204Stream.iml" filepath="$PROJECT_DIR$/20181204Stream/20181204Stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVAlearning.iml" filepath="$PROJECT_DIR$/JAVAlearning.iml" />
+    </modules>
+  </component>
+</project>
