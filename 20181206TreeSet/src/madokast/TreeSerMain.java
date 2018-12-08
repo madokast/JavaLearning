@@ -4,7 +4,6 @@ package madokast;
 * */
 
 import java.util.TreeSet;
-import java.util.zip.CheckedOutputStream;
 
 public class TreeSerMain {
     public static void main(String[] args) {
@@ -50,8 +49,59 @@ public class TreeSerMain {
         System.out.println("ts3 = " + ts3);
         //ts3 = [-2, 4, 5, 10, -12]
         //beautiful
-        
-        
+
+        System.out.println("****************R************");
+        TreeSet ts4 = new TreeSet();
+        ts4.add(new R(5));
+        ts4.add(new R(-3));
+        ts4.add(new R(9));
+        ts4.add(new R(-2));
+        System.out.println("ts4 = " + ts4);
+        //ts4 = [R{count=-3}, R{count=-2}, R{count=5}, R{count=9}]
+
+        R rfirst = (R)ts4.first();
+        rfirst.count=20;
+        R rlast = (R)ts4.last();
+        rlast.count=-2;
+        System.out.println("ts4 = " + ts4);
+        //ts4 = [R{count=20}, R{count=-2}, R{count=5}, R{count=-2}]
+        //无序状态
+        //且有重复
+
+        System.out.println(ts4.remove(new R(-2)));//false
+        System.out.println("ts4 = " + ts4);
+        //ts4 = [R{count=20}, R{count=-2}, R{count=5}, R{count=-2}]
+        //无法删除？为什么？
+
+        System.out.println(ts4.remove(new R(5)));//true
+        System.out.println("ts4 = " + ts4);
+        //ts4 = [R{count=20}, R{count=-2}, R{count=-2}]
+        //删除成功
+
+        System.out.println(ts4.remove(new R(-2)));//true
+        System.out.println("ts4 = " + ts4);
+        //ts4 = [R{count=20}, R{count=-2}]
+        //此时可以正常删除
+
+        //不要修改放入Set中的实例变量
+
+
+        System.out.println("****************R2************");
+        TreeSet ts5 = new TreeSet(
+                (o1,o2)->{
+                    R r1 = (R)o1;
+                    R r2 = (R)o2;
+                    return r1.count>r2.count? -1:
+                            r1.count<r2.count? 1:0;
+                }
+        );
+        ts5.add(new R(5));
+        ts5.add(new R(-3));
+        ts5.add(new R(9));
+        ts5.add(new R(-2));
+        System.out.println("ts5 = " + ts5);
+        //ts5 = [R{count=9}, R{count=5}, R{count=-2}, R{count=-3}]
+        //it means the int compareTo(Object o) in class R doesn't work
 
     }
 }
@@ -118,5 +168,37 @@ class WithComparable implements Comparable{
     @Override
     public String toString() {
         return String.valueOf(this.getX());
+    }
+}
+
+class R implements Comparable{
+    int count;
+    public R(int count){
+        this.count=count;
+    }
+
+    @Override
+    public String toString() {
+        return "R{" +
+                "count=" + count +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(this==obj)
+            return true;
+        if(obj!=null&&obj.getClass()==R.class){
+            R r = (R)obj;
+            return this.count==r.count;
+        }
+        return false;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        R r=(R)o;
+        return this.count>r.count? 1:
+                (this.count<r.count? -1:0);
     }
 }
