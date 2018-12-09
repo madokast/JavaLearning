@@ -13,6 +13,12 @@
       <module fileurl="file://$PROJECT_DIR$/20181206LinkHashSet/20181206LinkHashSet.iml" filepath="$PROJECT_DIR$/20181206LinkHashSet/20181206LinkHashSet.iml" />
       <module fileurl="file://$PROJECT_DIR$/20181206TreeSet/20181206TreeSet.iml" filepath="$PROJECT_DIR$/20181206TreeSet/20181206TreeSet.iml" />
       <module fileurl="file://$PROJECT_DIR$/20181207AWT2/20181207AWT2.iml" filepath="$PROJECT_DIR$/20181207AWT2/20181207AWT2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181208AWT3/20181208AWT3.iml" filepath="$PROJECT_DIR$/20181208AWT3/20181208AWT3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181208EnumSetTest/20181208EnumSetTest.iml" filepath="$PROJECT_DIR$/20181208EnumSetTest/20181208EnumSetTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181208ListTest/20181208ListTest.iml" filepath="$PROJECT_DIR$/20181208ListTest/20181208ListTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181209AWT4/20181209AWT4.iml" filepath="$PROJECT_DIR$/20181209AWT4/20181209AWT4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181209ListTest/20181209ListTest.iml" filepath="$PROJECT_DIR$/20181209ListTest/20181209ListTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181209QueueTest/20181209QueueTest.iml" filepath="$PROJECT_DIR$/20181209QueueTest/20181209QueueTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVAlearning.iml" filepath="$PROJECT_DIR$/JAVAlearning.iml" />
     </modules>
   </component>
