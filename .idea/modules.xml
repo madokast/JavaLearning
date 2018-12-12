@@ -19,7 +19,20 @@
       <module fileurl="file://$PROJECT_DIR$/20181209AWT4/20181209AWT4.iml" filepath="$PROJECT_DIR$/20181209AWT4/20181209AWT4.iml" />
       <module fileurl="file://$PROJECT_DIR$/20181209ListTest/20181209ListTest.iml" filepath="$PROJECT_DIR$/20181209ListTest/20181209ListTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/20181209QueueTest/20181209QueueTest.iml" filepath="$PROJECT_DIR$/20181209QueueTest/20181209QueueTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181210AWT5/20181210AWT5.iml" filepath="$PROJECT_DIR$/20181210AWT5/20181210AWT5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181210LinkedListTest/20181210LinkedListTest.iml" filepath="$PROJECT_DIR$/20181210LinkedListTest/20181210LinkedListTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181210MapTest/20181210MapTest.iml" filepath="$PROJECT_DIR$/20181210MapTest/20181210MapTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181210PinBall/20181210PinBall.iml" filepath="$PROJECT_DIR$/20181210PinBall/20181210PinBall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181210TimerAndWriter/20181210TimerAndWriter.iml" filepath="$PROJECT_DIR$/20181210TimerAndWriter/20181210TimerAndWriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181211HashMapAndHashTable/20181211HashMapAndHashTable.iml" filepath="$PROJECT_DIR$/20181211HashMapAndHashTable/20181211HashMapAndHashTable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181212AWT6/20181212AWT6.iml" filepath="$PROJECT_DIR$/20181212AWT6/20181212AWT6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181212EnumMapTest/20181212EnumMapTest.iml" filepath="$PROJECT_DIR$/20181212EnumMapTest/20181212EnumMapTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181212LinkedHashMapTest/20181212LinkedHashMapTest.iml" filepath="$PROJECT_DIR$/20181212LinkedHashMapTest/20181212LinkedHashMapTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181212Properties/20181212Properties.iml" filepath="$PROJECT_DIR$/20181212Properties/20181212Properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181212TimerTest/20181212TimerTest.iml" filepath="$PROJECT_DIR$/20181212TimerTest/20181212TimerTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20181212TreeMap/20181212TreeMap.iml" filepath="$PROJECT_DIR$/20181212TreeMap/20181212TreeMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVAlearning.iml" filepath="$PROJECT_DIR$/JAVAlearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinedHashMapTest/LinedHashMapTest.iml" filepath="$PROJECT_DIR$/LinedHashMapTest/LinedHashMapTest.iml" />
     </modules>
   </component>
 </project>
