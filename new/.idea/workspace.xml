@@ -91,8 +91,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556200726878" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556204146526" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -112,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RandomTest">
+  <component name="RunManager" selected="Application.StringTest">
     <configuration name="Anonymous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IDEAJAVALEARN.Anonymous" />
       <module name="201904" />
@@ -152,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IDEAJAVALEARN.ScannerTest" />
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IDEAJAVALEARN.eight.StringTest" />
       <module name="201904" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IDEAJAVALEARN.*" />
+          <option name="PATTERN" value="IDEAJAVALEARN.eight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.RandomTest" />
         <item itemvalue="Application.Anonymous" />
         <item itemvalue="Application.Max" />
         <item itemvalue="Application.Sum" />
-        <item itemvalue="Application.ScannerTest" />
       </list>
     </recent_temporary>
   </component>
