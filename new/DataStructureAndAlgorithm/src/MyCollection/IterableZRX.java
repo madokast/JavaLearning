@@ -1,53 +1,42 @@
 package MyCollection;
 
+import java.util.Iterator;
+import java.util.Spliterator;
 import java.util.function.Consumer;
 
 /**
- * Iterator of collection
- * a member of collection framework.
- *
- * @param <E> the type of elements returned by the iterator
- *
- * @author madokast
- * @version 2019.4.25
+ * 实现它的对象可以使用foreach语句
+ * 这个接口好像自己写不出来
+ * 因为forrach语句使用的是Iterator，而不是我写的IteratorZRX
+ * @param <T> the type of elements returned by the iterator
+ * @version 2019.4.26
  */
 
-//学习文档写法
-
-public interface IterableZRX<E> {
+public interface IterableZRX<T> extends Iterable<T>{
     /**
-     *  Return {@code true} if thr iteration has more elements.
-     *  call and check it before using next() mathod everytime.
-     *
-     * @return {@code true} if thr iteration has more elements.
+     * Returns an iterator over elements of type {@code T}.
+     * @return an Iterator.
      */
-    boolean hasNext();
+    IteratorZRX<T> iteratorZRX();
 
     /**
-     * Returns the next element in the iteration.
-     *
-     * @return the next element in the iteration
-     * @throws java.util.NoSuchElementException if the iteration has no more elements
+     * 胡乱写一下，不一定能成
+     * 说不定这样我的集合也可以用foreach了
+     * @return 由IteratorZRX<T> iteratorZRX()得到的迭代器
      */
-    E next();
-
-    /**
-     * 也许需要实现它
-     * default方法，在接口中可以有方法体，即不必实现它，但是可以重写（废话）
-     * @deprecated
-     */
-    default void remove(){
-        throw new UnsupportedOperationException("remove");
+    @Override
+    default Iterator<T> iterator(){
+        return (Iterator<T>) iteratorZRX();
     }
 
-    /**
-     * 暂未实现
-     * Java9中出现的新方法
-     * @param action The action to be performed for each element
-     */
-    default void forEachRemaining(Consumer<? super E> action){
-        // TODO: 2019/4/25 学习流处理，forEachRemaining Consumer
-        throw new UnsupportedOperationException("forEachRemaining");
+    //以下不使用
+    @Override
+    default void forEach(Consumer<? super T> action) {
+        throw new UnsupportedOperationException("forEach(Consumer<? super T> action)");
     }
 
+    @Override
+    default Spliterator<T> spliterator() {
+        throw new UnsupportedOperationException("spliterator()");
+    }
 }

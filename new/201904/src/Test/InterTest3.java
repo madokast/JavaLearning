@@ -1,4 +1,4 @@
 package Test;
 
-public class InterTest3 {
+public interface InterTest3 {
 }
