@@ -32,8 +32,8 @@ public interface IterableZRX<E> {
     E next();
 
     /**
-     * 禁止实现它
-     *
+     * 也许需要实现它
+     * default方法，在接口中可以有方法体，即不必实现它，但是可以重写（废话）
      * @deprecated
      */
     default void remove(){
@@ -42,7 +42,7 @@ public interface IterableZRX<E> {
 
     /**
      * 暂未实现
-     *
+     * Java9中出现的新方法
      * @param action The action to be performed for each element
      */
     default void forEachRemaining(Consumer<? super E> action){
