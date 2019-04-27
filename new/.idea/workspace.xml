@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2042d320-ed17-4121-869f-0fac0543a263" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/201904/src/Test/InterDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/201904/src/Test/InterDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/201904/src/Test/InterDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/201904/src/Test/InterDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/201904/src/Test/InterTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/201904/src/Test/InterTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructureAndAlgorithm/src/MyCollection/CollectionZRX.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructureAndAlgorithm/src/MyCollection/CollectionZRX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructureAndAlgorithm/src/MyCollection/IterableZRX.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructureAndAlgorithm/src/MyCollection/IteratorZRX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructureAndAlgorithm/src/zrx/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructureAndAlgorithm/src/zrx/Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="2042d320-ed17-4121-869f-0fac0543a263" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +40,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="107" column="49" lean-forward="true" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/201904/src/Test/Test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -64,6 +65,8 @@
       <list>
         <option value="Class" />
         <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -93,10 +96,11 @@
         <option value="$PROJECT_DIR$/DataStructureAndAlgorithm/src/MyCollection/CollectionZRX.java" />
         <option value="$PROJECT_DIR$/DataStructureAndAlgorithm/src/MyCollection/ListZRX.java" />
         <option value="$PROJECT_DIR$/DataStructureAndAlgorithm/src/zrx/Test.java" />
+        <option value="$PROJECT_DIR$/201904/src/Test/Test.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="170" />
     <option name="y" value="55" />
     <option name="width" value="1505" />
@@ -128,27 +132,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructureAndAlgorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructureAndAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructureAndAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MyCollection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructureAndAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zrx" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -158,9 +141,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556248873311" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556293428775" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -269,12 +253,12 @@
       <option name="presentableId" value="Default" />
       <updated>1556194458429</updated>
       <workItem from="1556194462280" duration="6336000" />
-      <workItem from="1556204124913" duration="12478000" />
+      <workItem from="1556204124913" duration="14394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18814000" />
+    <option name="totallyTimeSpent" value="20730000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -692,6 +676,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="107" column="49" lean-forward="true" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201904/src/Test/Test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
