@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2042d320-ed17-4121-869f-0fac0543a263" name="Default Changelist" comment="" />
+    <list default="true" id="2042d320-ed17-4121-869f-0fac0543a263" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,135 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Inter1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-              <folding>
-                <element signature="e#94#95#0" expanded="true" />
-                <element signature="e#133#134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/ImpleTwo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-              <folding>
-                <element signature="e#128#129#0" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Animal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-              <folding>
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#162#163#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Cat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-              <folding>
-                <element signature="e#90#91#0" expanded="true" />
-                <element signature="e#113#114#0" expanded="true" />
-                <element signature="e#104#105#0" expanded="true" />
-                <element signature="e#140#141#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-              <folding>
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Host.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#104#105#0" expanded="true" />
-                <element signature="e#136#137#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/TestRed.java">
+        <entry file="file://$PROJECT_DIR$/201904/src/Test/ANG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Member.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="26" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/TestAb.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-              <folding>
-                <element signature="e#178#308#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+            <state relative-caret-position="176">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -200,8 +78,9 @@
         <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Cat.java" />
         <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/User.java" />
         <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Member.java" />
-        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Host.java" />
         <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/TestRed.java" />
+        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Host.java" />
+        <option value="$PROJECT_DIR$/201904/src/Test/ANG.java" />
       </list>
     </option>
   </component>
@@ -211,7 +90,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="801" />
     <option name="y" value="147" />
     <option name="width" value="1505" />
@@ -247,8 +126,7 @@
               <item name="new" type="b2602c69:ProjectViewProjectNode" />
               <item name="201904" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="IDEAJAVALEARN" type="462c0819:PsiDirectoryNode" />
-              <item name="nineInherit" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -280,13 +158,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestRed">
-    <configuration name="ImpleTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IDEAJAVALEARN.nineInherit.ImpleTwo" />
+  <component name="RunManager" selected="Application.ANG">
+    <configuration name="ANG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.ANG" />
       <module name="201904" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IDEAJAVALEARN.nineInherit.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.InterDemo2" />
+    <configuration name="ImpleTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IDEAJAVALEARN.nineInherit.ImpleTwo" />
       <module name="201904" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="IDEAJAVALEARN.nineInherit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -348,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ANG" />
         <item itemvalue="Application.TestRed" />
         <item itemvalue="Application.TestAb" />
         <item itemvalue="Application.ImpleTwo" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.InterDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -371,12 +249,12 @@
       <workItem from="1556324003935" duration="56000" />
       <workItem from="1556324439560" duration="139000" />
       <workItem from="1556324938281" duration="4873000" />
-      <workItem from="1556330796603" duration="3338000" />
+      <workItem from="1556330796603" duration="4798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8411000" />
+    <option name="totallyTimeSpent" value="9871000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,9 +267,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1802949" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1802949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -401,7 +278,7 @@
       <window_info anchor="bottom" id="Problems" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6388102" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6388102" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -409,7 +286,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Statistic" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Statistic" order="10" weight="0.5439094" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32719547" />
@@ -532,17 +409,6 @@
         <state relative-caret-position="-503" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Inter1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding>
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -583,15 +449,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Cat.java">
+    <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Member.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        <state relative-caret-position="462">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="26" selection-end-column="7" />
           <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -613,10 +476,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Member.java">
+    <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/TestRed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="26" selection-end-column="7" />
+        <state relative-caret-position="433">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -625,23 +488,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Host.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="154">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/TestRed.java">
+    <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="220">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Inter1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <element signature="e#94#95#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201904/src/Test/ANG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>
