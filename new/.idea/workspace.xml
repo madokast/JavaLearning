@@ -18,11 +18,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/201904/src/Test/ANG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="-47">
               <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenInterface/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenInterface/Inter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding>
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenPolym/Fu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="e#100#101#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenPolym/Zi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenPolym/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -81,6 +147,14 @@
         <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/TestRed.java" />
         <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Host.java" />
         <option value="$PROJECT_DIR$/201904/src/Test/ANG.java" />
+        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenInterface/Test.java" />
+        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenInterface/Inter.java" />
+        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenInterface/ElevenPolym.java" />
+        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/ElevenPolym/FU.java" />
+        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/ElevenPolym/Fu.java" />
+        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/ElevenPolym/Zi.java" />
+        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/ElevenPolym/Test.java" />
+        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenPolym/Test.java" />
       </list>
     </option>
   </component>
@@ -90,7 +164,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="801" />
     <option name="y" value="147" />
     <option name="width" value="1505" />
@@ -122,12 +196,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="IDEAJAVALEARN" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="201904" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -158,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ANG">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="ANG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.ANG" />
       <module name="201904" />
@@ -172,12 +240,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImpleTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IDEAJAVALEARN.nineInherit.ImpleTwo" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IDEAJAVALEARN.TenInterface.Test" />
       <module name="201904" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IDEAJAVALEARN.nineInherit.*" />
+          <option name="PATTERN" value="IDEAJAVALEARN.TenInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +254,11 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IDEAJAVALEARN.nineInherit.Test" />
+      <option name="MAIN_CLASS_NAME" value="IDEAJAVALEARN.TenPolym.Test" />
       <module name="201904" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="IDEAJAVALEARN.nineInherit.*" />
+          <option name="PATTERN" value="IDEAJAVALEARN.TenPolym.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.ANG" />
         <item itemvalue="Application.TestRed" />
         <item itemvalue="Application.TestAb" />
-        <item itemvalue="Application.ImpleTwo" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -249,12 +317,12 @@
       <workItem from="1556324003935" duration="56000" />
       <workItem from="1556324439560" duration="139000" />
       <workItem from="1556324938281" duration="4873000" />
-      <workItem from="1556330796603" duration="4798000" />
+      <workItem from="1556330796603" duration="9488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9871000" />
+    <option name="totallyTimeSpent" value="14561000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,7 +336,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1802949" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1802949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -278,7 +346,7 @@
       <window_info anchor="bottom" id="Problems" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6388102" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34560907" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -522,8 +590,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/201904/src/Test/ANG.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="-47">
           <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenInterface/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenInterface/ElevenPolym.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="24" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenInterface/Inter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenPolym/Fu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenPolym/Zi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenPolym/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
