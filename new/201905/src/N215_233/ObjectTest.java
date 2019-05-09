@@ -1,4 +1,4 @@
-package N215;
+package N215_233;
 
 import java.util.Objects;
 
@@ -13,8 +13,8 @@ public class ObjectTest {
         String s = p.toString();
         System.out.println("s = " + s);
         System.out.println("p = " + p);
-        //s = N215.Person@b4c966a
-        //p = N215.Person@b4c966a
+        //s = N215_233.Person@b4c966a
+        //p = N215_233.Person@b4c966a
 
         //s = Person{name='miao~', age=20}
         //p = Person{name='miao~', age=20}

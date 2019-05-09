@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2042d320-ed17-4121-869f-0fac0543a263" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/201905/src/N215/AssertionErrorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/N215_233/AssertionErrorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/201905/src/N215/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/N215_233/DateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/201905/src/N215/ObjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/N215_233/ObjectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/201905/src/N215/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/N215_233/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/201905/src/N215/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/N215_233/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/201905/src/N215/SystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/N215_233/SystemTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,104 +39,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201905/src/N215/ObjectTest.java">
+        <entry file="file://$PROJECT_DIR$/201905/src/N215_233/BoxTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="43" column="61" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201905/src/N215/StringTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+            <state relative-caret-position="440">
+              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/StringBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="724">
-              <caret line="377" column="17" lean-forward="true" selection-start-line="377" selection-start-column="17" selection-end-line="377" selection-end-column="17" />
-              <folding>
-                <element signature="e#3454#3455#0" expanded="true" />
-                <element signature="e#3479#3480#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/AbstractStringBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/CharSequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201905/src/N215/DateTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201905/src/N215/SystemTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/System.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2294">
-              <caret line="564" column="30" selection-start-line="564" selection-start-column="30" selection-end-line="564" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201905/src/N215/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="77" column="39" lean-forward="true" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
-              <folding>
-                <element signature="e#112#113#0" expanded="true" />
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#1594#1595#0" expanded="true" />
-                <element signature="e#1640#1641#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="10846">
+              <caret line="582" column="29" selection-start-line="582" selection-start-column="29" selection-end-line="582" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -158,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/201904/src/Test/Nonrecu.java" />
         <option value="$PROJECT_DIR$/201904/src/Test/InterDemo.java" />
         <option value="$PROJECT_DIR$/201904/src/Test/InterTest.java" />
         <option value="$PROJECT_DIR$/201904/src/Test/InterTest2.java" />
@@ -209,6 +129,7 @@
         <option value="$PROJECT_DIR$/201905/src/N215/SystemTest.java" />
         <option value="$PROJECT_DIR$/201905/src/N215/ObjectTest.java" />
         <option value="$PROJECT_DIR$/201905/src/N215/StringTest.java" />
+        <option value="$PROJECT_DIR$/201905/src/N215/BoxTest.java" />
       </list>
     </option>
   </component>
@@ -218,7 +139,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="796" />
     <option name="y" value="142" />
     <option name="width" value="1510" />
@@ -248,7 +169,7 @@
               <item name="new" type="b2602c69:ProjectViewProjectNode" />
               <item name="201905" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="N215" type="462c0819:PsiDirectoryNode" />
+              <item name="N215_233" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="new" type="b2602c69:ProjectViewProjectNode" />
@@ -285,13 +206,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SystemTest">
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.A" />
+  <component name="RunManager" selected="Application.BoxTest">
+    <configuration name="AssertionErrorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="N215_233.AssertionErrorTest" />
       <module name="201905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="N215_233.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,12 +220,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssertionErrorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="N215.AssertionErrorTest" />
+    <configuration name="BoxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="N215_233.BoxTest" />
       <module name="201905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="N215.*" />
+          <option name="PATTERN" value="N215_233.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,11 +234,11 @@
       </method>
     </configuration>
     <configuration name="DateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="N215.DateTest" />
+      <option name="MAIN_CLASS_NAME" value="N215_233.DateTest" />
       <module name="201905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="N215.*" />
+          <option name="PATTERN" value="N215_233.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,11 +247,11 @@
       </method>
     </configuration>
     <configuration name="ObjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="N215.ObjectTest" />
+      <option name="MAIN_CLASS_NAME" value="N215_233.ObjectTest" />
       <module name="201905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="N215.*" />
+          <option name="PATTERN" value="N215_233.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,11 +260,11 @@
       </method>
     </configuration>
     <configuration name="SystemTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="N215.SystemTest" />
+      <option name="MAIN_CLASS_NAME" value="N215_233.SystemTest" />
       <module name="201905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="N215.*" />
+          <option name="PATTERN" value="N215_233.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BoxTest" />
         <item itemvalue="Application.SystemTest" />
         <item itemvalue="Application.DateTest" />
         <item itemvalue="Application.ObjectTest" />
         <item itemvalue="Application.AssertionErrorTest" />
-        <item itemvalue="Application.A" />
       </list>
     </recent_temporary>
   </component>
@@ -379,12 +300,12 @@
       <workItem from="1556330796603" duration="10777000" />
       <workItem from="1556625390003" duration="627000" />
       <workItem from="1556971376561" duration="1224000" />
-      <workItem from="1557228148606" duration="7928000" />
+      <workItem from="1557228148606" duration="9632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25629000" />
+    <option name="totallyTimeSpent" value="27333000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -399,7 +320,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15013404" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1494638" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -408,7 +329,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18271954" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33144477" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -431,44 +352,44 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1494638" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33144477" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.27903682" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004042" side_tool="true" weight="0.32659408" />
+      <window_info anchor="bottom" id="Statistic" order="10" weight="0.5439094" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4995958" weight="0.32577905" />
+      <window_info anchor="bottom" id="Problems" order="14" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/ImpleTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/TestAb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="e#178#308#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Member.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -567,17 +488,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/201904/src/IDEAJAVALEARN/ElevenFinal/LocalClass2.java" />
-    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="1078" column="28" selection-start-line="1078" selection-start-column="28" selection-end-line="1078" selection-end-column="28" />
-          <folding>
-            <element signature="e#44690#44691#0" expanded="true" />
-            <element signature="e#44718#44719#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/201905/src/test/IA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -617,7 +527,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/201905/src/N215/AssertionErrorTest.java">
+    <entry file="file://$PROJECT_DIR$/201905/src/N215_233/AssertionErrorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
@@ -688,7 +598,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/201905/src/N215/Person.java">
+    <entry file="file://$PROJECT_DIR$/201905/src/N215_233/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="77" column="39" lean-forward="true" selection-start-line="77" selection-start-column="39" selection-end-line="77" selection-end-column="39" />
@@ -714,7 +624,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/201905/src/N215/DateTest.java">
+    <entry file="file://$PROJECT_DIR$/201905/src/N215_233/DateTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
           <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
@@ -724,31 +634,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/201905/src/N215/SystemTest.java">
+    <entry file="file://$PROJECT_DIR$/201905/src/N215_233/SystemTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2294">
-          <caret line="564" column="30" selection-start-line="564" selection-start-column="30" selection-end-line="564" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201905/src/N215/ObjectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="43" column="61" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/201905/src/N215/StringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -766,13 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/CharSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -780,24 +662,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/AbstractStringBuilder.java">
+    <entry file="file://$PROJECT_DIR$/201905/src/N215_233/ObjectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        <state relative-caret-position="378">
+          <caret line="43" column="61" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201905/src/N215_233/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1936">
+          <caret line="115" column="64" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="125" column="10" lean-forward="true" selection-start-line="125" selection-start-column="10" selection-end-line="125" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="1161" column="17" selection-start-line="1161" selection-start-column="17" selection-end-line="1161" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#43105#43106#0" expanded="true" />
+            <element signature="e#43139#43140#0" expanded="true" />
+            <element signature="e#44690#44691#0" expanded="true" />
+            <element signature="e#44718#44719#0" expanded="true" />
+            <element signature="e#45213#45214#0" expanded="true" />
+            <element signature="e#45248#45249#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="377" column="17" lean-forward="true" selection-start-line="377" selection-start-column="17" selection-end-line="377" selection-end-column="17" />
+        <state relative-caret-position="358">
+          <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
           <folding>
             <element signature="e#3454#3455#0" expanded="true" />
             <element signature="e#3479#3480#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/AbstractStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/CharSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201905/src/N215_233/BoxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10846">
+          <caret line="582" column="29" selection-start-line="582" selection-start-column="29" selection-end-line="582" selection-end-column="29" />
         </state>
       </provider>
     </entry>

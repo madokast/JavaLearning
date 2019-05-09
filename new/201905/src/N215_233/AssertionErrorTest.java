@@ -1,4 +1,4 @@
-package N215;
+package N215_233;
 
 public class AssertionErrorTest {
     public static void main(String[] args) {
