@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2042d320-ed17-4121-869f-0fac0543a263" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/201905/src/N215/AssertionErrorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/N215_233/AssertionErrorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/201905/src/N215/DateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/N215_233/DateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/201905/src/N215/ObjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/N215_233/ObjectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/201905/src/N215/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/N215_233/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/201905/src/N215/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/N215_233/StringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/201905/src/N215/SystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/N215_233/SystemTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="2042d320-ed17-4121-869f-0fac0543a263" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,20 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/201905/src/N215_233/BoxTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/System.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10846">
-              <caret line="582" column="29" selection-start-line="582" selection-start-column="29" selection-end-line="582" selection-end-column="29" />
+            <state relative-caret-position="396">
+              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -300,12 +283,12 @@
       <workItem from="1556330796603" duration="10777000" />
       <workItem from="1556625390003" duration="627000" />
       <workItem from="1556971376561" duration="1224000" />
-      <workItem from="1557228148606" duration="9632000" />
+      <workItem from="1557228148606" duration="11434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27333000" />
+    <option name="totallyTimeSpent" value="29135000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,7 +300,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1494638" />
@@ -733,17 +716,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/201905/src/N215_233/BoxTest.java">
+    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="-726">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/System.java">
+    <entry file="file://$PROJECT_DIR$/201905/src/N215_233/BoxTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10846">
-          <caret line="582" column="29" selection-start-line="582" selection-start-column="29" selection-end-line="582" selection-end-column="29" />
+        <state relative-caret-position="396">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
