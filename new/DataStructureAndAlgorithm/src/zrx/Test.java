@@ -1,5 +1,9 @@
 package zrx;
 
+import MyCollection.AbstractCollectionZRX;
+
+import java.lang.ref.SoftReference;
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class Test {
@@ -12,8 +16,30 @@ public class Test {
         ArrayList A;
         ListIterator listIterator;
         Iterable i;
+        AbstractList abstractList;
 
-        listIteratorTest();
+//        listIteratorTest();
+        arrayTest();
+    }
+
+    public static void arrayTest(){
+        int[] ints = new int[5];
+        String[] strings = new String[2];
+
+        System.out.println("ints.getClass() = " + ints.getClass());
+        System.out.println("ints.getClass().getComponentType() = " + ints.getClass().getComponentType());
+
+        System.out.println("strings.getClass() = " + strings.getClass());
+        System.out.println("strings.getClass().getComponentType() = " + strings.getClass().getComponentType());
+
+        String[] strings2 = (String[]) Array.newInstance(String.class,10);
+        strings2[0] = "123";
+        for (String s : strings2) {
+            System.out.println("s = " + s);
+        }
+
+        int[] ints2 = (int[]) Array.newInstance(int.class,10);
+
     }
 
     public static void listIteratorTest(){

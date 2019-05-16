@@ -58,7 +58,7 @@ public interface ListIteratorZRX<E> extends IteratorZRX<E> {
      */
     int previousIndex();
 
-    @Override @Deprecated
+    @Override /*@Deprecated 看来还不不能不用迭代器中的此方法*/
     default void remove(){throw new UnsupportedOperationException("remove");}
 
     @Deprecated
