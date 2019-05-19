@@ -34,11 +34,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/201905/src/Collection/Debugtest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="374">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/201905/src/exception/ExceptionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -66,8 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Member.java" />
-        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/TestRed.java" />
         <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Host.java" />
         <option value="$PROJECT_DIR$/201904/src/Test/ANG.java" />
         <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenInterface/Test.java" />
@@ -117,6 +124,8 @@
         <option value="$PROJECT_DIR$/201905/src/Collection/Map/Test.java" />
         <option value="$PROJECT_DIR$/201905/src/Collection/NewInJava9.java" />
         <option value="$PROJECT_DIR$/201905/src/Collection/Debugtest.java" />
+        <option value="$PROJECT_DIR$/201905/src/exception.java" />
+        <option value="$PROJECT_DIR$/201905/src/exception/ExceptionTest.java" />
       </list>
     </option>
   </component>
@@ -126,7 +135,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-99" />
     <option name="y" value="165" />
     <option name="width" value="1512" />
@@ -151,12 +160,6 @@
               <item name="new" type="b2602c69:ProjectViewProjectNode" />
               <item name="201905" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="201905" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Collection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="new" type="b2602c69:ProjectViewProjectNode" />
@@ -327,9 +330,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="775" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18350849" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18350849" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -339,7 +341,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35303265" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39968896" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39968896" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.27903682" />
@@ -398,20 +400,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/201905/src/Collection/Debugtest.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/201905/src/N215_233/StringTest.java" />
     <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Number.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1936">
@@ -768,8 +757,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/201905/src/Collection/Debugtest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="374">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201905/src/exception/ExceptionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
