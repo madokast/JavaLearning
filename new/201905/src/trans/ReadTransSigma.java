@@ -29,6 +29,11 @@ public class ReadTransSigma {
 
     public static String subProcess(String st){
         st = st.trim();
+        if(st.length()<6){
+            System.out.println("处理结束？");
+            throw new StringIndexOutOfBoundsException();
+        }
+
         st = st.substring(5,st.length());
         return  st.trim().split(" ")[0];
     }
