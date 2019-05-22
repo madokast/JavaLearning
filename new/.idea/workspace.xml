@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2042d320-ed17-4121-869f-0fac0543a263" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/201905/deepinADD.txt" beforeDir="false" afterPath="$PROJECT_DIR$/201905/deepinADD.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tools/src/tool/Git.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/src/tool/Git.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tools/src/tool/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/src/tool/Shell.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tools/src/tool/Git.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="2">
+              <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tools/src/tool/Shell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+            <state relative-caret-position="596">
+              <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,8 +128,8 @@
         <option value="$PROJECT_DIR$/201905/src/exception/FinallyTest.java" />
         <option value="$PROJECT_DIR$/201905/src/thread/MyThread.java" />
         <option value="$PROJECT_DIR$/201905/src/thread/Main.java" />
-        <option value="$PROJECT_DIR$/Tools/src/tool/Shell.java" />
         <option value="$PROJECT_DIR$/Tools/src/tool/Git.java" />
+        <option value="$PROJECT_DIR$/Tools/src/tool/Shell.java" />
       </list>
     </option>
   </component>
@@ -322,10 +320,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="334" y="241" width="1510" height="840" extended-state="0" />
+    <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14637482" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11419424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -334,7 +332,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.458037" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8241525" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.13665254" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -585,8 +583,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tools/src/tool/Shell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        <state relative-caret-position="596">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -595,8 +593,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tools/src/tool/Git.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="2">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
