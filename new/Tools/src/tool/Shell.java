@@ -6,12 +6,13 @@ import java.util.Objects;
 
 public class Shell {
     private Process process = null;
-    private String[] command = {"/bin/sh","-c","pwd"};
+    private File file = null;
+    private String[] command = null;
     private StringBuilder result = new StringBuilder();
     private String resultLine = null;
     private BufferedReader inInfo = null;
     private BufferedReader errorInfo = null;
-    private PrintWriter outCmd = null;
+    //private PrintWriter outCmd = null;
     private boolean isSetup = false;
 
     /**
@@ -19,14 +20,18 @@ public class Shell {
      * @param dir 输入shell工作目录，null表示和当前主进程目录相同
      */
     public Shell(String dir) {
-        File file = null;
         if(dir!=null){
             file = new File(dir);
         }
+    }
+
+    public void exec(String cmd) {
+        System.out.println("开始执行 "+cmd);
+        command = new String[] {"/bin/sh","-c",cmd};
 
         try{
             process = Runtime.getRuntime().exec(command,null,file);
-            process.waitFor();//方法阻塞
+            process.waitFor();//方法阻塞 等待这个进程死亡
         } catch (Exception e){
             e.printStackTrace();
             System.out.println("shell进程创建失败");
@@ -36,30 +41,22 @@ public class Shell {
         if(process!=null){
             setupChannal();
             printInput();
-        }
-    }
-
-    public void exec(String cmd) {
-        outCmd.println(cmd);
-        try {
-            process.waitFor();
-            printInput();
-        }catch (Exception e){
             close();
-            e.printStackTrace();
         }
+
+        System.out.println("---------------"+"执行结束"+"--------------");
     }
 
     /**
      * 关闭shell服务进程
      */
-    public void close(){
+    private void close(){
         if(process!=null){
             process.destroy();
         }
-        if(outCmd!=null){
-            outCmd.close();
-        }
+//        if(outCmd!=null){
+//            outCmd.close();
+//        }
         if(inInfo!=null){
             try {
                 inInfo.close();
@@ -72,11 +69,12 @@ public class Shell {
         }
         isSetup = false;
 
-        System.out.println("成功关闭shell服务");
+        //System.out.println("成功关闭shell服务");
     }
 
     /**
-     * 建立输入输出三个管道
+     * 建立输入输出三个管道x
+     * 仅仅输出2个
      */
     private void setupChannal(){
         try{
@@ -88,7 +86,7 @@ public class Shell {
             close();
         }
 
-        outCmd = new PrintWriter(process.getOutputStream());
+        //outCmd = new PrintWriter(process.getOutputStream());
     }
 
     /**
@@ -113,8 +111,8 @@ public class Shell {
         }
 
         if(result.length()!=0&&!isSetup){
-            System.out.print("shell进程建立成功,");
-            System.out.println("工作目录为:");
+            //System.out.print("shell进程建立成功,");
+            //System.out.println("工作目录为:");
             isSetup = true;
         }
         System.out.println(result.toString());

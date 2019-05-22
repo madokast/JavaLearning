@@ -1,19 +1,23 @@
 package tool;
 
-import java.awt.*;
-import java.awt.event.InputEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.MouseEvent;
+
 import java.io.*;
+import java.util.Scanner;
 
 public class Git {
     public static void main(String[] args) {
-//        Shell shell = new Shell("/home/madokast/Documents/JavaLearning");
-//        shell.exec("echo 123");
-//        shell.close();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("请输入commit：");
+        String commit = scanner.nextLine();
 
-        //shellTest();
-        shellProTest();
+
+        String dir = "/home/madokast/Documents/JavaLearning";
+
+        Shell shell = new Shell(dir);
+        shell.exec("git add *");
+        shell.exec("git commit -m "+'\''+commit+'\'');
+        shell.exec("git push -u origin master");
+        shell.exec("git pull origin");
     }
 
     private static void shellProTest() {
