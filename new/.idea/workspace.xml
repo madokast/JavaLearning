@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2042d320-ed17-4121-869f-0fac0543a263" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/201905/src/synchronizedLearn/safeSynchronizedBlock/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/201905/src/synchronizedLearn/safeSynchronizedBlock/Window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/201905/src/synchronizedLearn/unsafe/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/201905/src/synchronizedLearn/unsafe/Window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/201905/src/thread/Cinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/201905/src/thread/KaiSatu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/201905/src/thread/Randoms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/201905/src/thread/RunnableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/201905/src/thread/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201904/META-INF/201904.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/201905/META-INF/201905.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/201904/src/Test/ANG.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/src/tool/ANG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/201905/src/thread/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/thread/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/201905/src/trans/ReadTransSigma.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/src/trans/ReadTransSigma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/201905/src/trans/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/src/trans/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tools/src/tool/Git.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/src/tool/Git.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tools/src/tool/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/src/tool/Shell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/201905/trans/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tools/trans/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/201905/src/synchronizedLearn/sareLock/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/synchronizedLearn/sareLock/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/201905/src/synchronizedLearn/sareLock/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/synchronizedLearn/sareLock/Window.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,20 +34,126 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201905/src/synchronizedLearn/safeSynchronizedMethod/Ticket.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tools/src/tool/Git.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state relative-caret-position="486">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/201905/src/synchronizedLearn/safeSynchronizedMethod/Window.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201905/src/synchronizedLearn/sareLock/Window.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+            <state relative-caret-position="408">
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201905/src/threadCommunicate/musukasii/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" lean-forward="true" selection-start-column="8" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201905/src/WaitAndNotify/BaoZi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201905/src/WaitAndNotify/BaoZiPu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="689">
+              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#142#143#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201905/src/WaitAndNotify/ChiHuo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#109#110#0" expanded="true" />
+                <element signature="e#137#138#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201905/src/WaitAndNotify/Tets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201905/src/threadCommunicate/musukasii/Productor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201905/src/threadCommunicate/musukasii/Shopper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201905/src/threadCommunicate/musukasii/Room.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,8 +166,8 @@
         <option value="FxmlFile" />
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Singleton" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,18 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/User.java" />
-        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Member.java" />
-        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/TestRed.java" />
-        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Host.java" />
-        <option value="$PROJECT_DIR$/201904/src/Test/ANG.java" />
-        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenInterface/Test.java" />
-        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenInterface/Inter.java" />
-        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenInterface/ElevenPolym.java" />
-        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/ElevenPolym/FU.java" />
-        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/ElevenPolym/Fu.java" />
-        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/ElevenPolym/Zi.java" />
-        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/ElevenPolym/Test.java" />
         <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenPolym/Test.java" />
         <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/ElevenFinal/FInalTest.java" />
         <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/ElevenFinal/Test.java" />
@@ -143,6 +221,18 @@
         <option value="$PROJECT_DIR$/201905/src/synchronizedLearn/safeSynchronizedMethod/Seller.java" />
         <option value="$PROJECT_DIR$/201905/src/synchronizedLearn/safeSynchronizedMethod/Ticket.java" />
         <option value="$PROJECT_DIR$/201905/src/synchronizedLearn/safeSynchronizedMethod/Window.java" />
+        <option value="$PROJECT_DIR$/201905/src/synchronizedLearn/sareLock/Ticket.java" />
+        <option value="$PROJECT_DIR$/201905/src/synchronizedLearn/sareLock/Window.java" />
+        <option value="$PROJECT_DIR$/201905/src/threadCommunicate/Room.java" />
+        <option value="$PROJECT_DIR$/201905/src/threadCommunicate/Main.java" />
+        <option value="$PROJECT_DIR$/201905/src/threadCommunicate/Productor.java" />
+        <option value="$PROJECT_DIR$/201905/src/threadCommunicate/Shopper.java" />
+        <option value="$PROJECT_DIR$/201905/src/threadCommunicate/musukasii/Shopper.java" />
+        <option value="$PROJECT_DIR$/201905/src/WaitAndNotify/BaoZI.java" />
+        <option value="$PROJECT_DIR$/201905/src/WaitAndNotify/BaoZi.java" />
+        <option value="$PROJECT_DIR$/201905/src/WaitAndNotify/BaoZiPu.java" />
+        <option value="$PROJECT_DIR$/201905/src/WaitAndNotify/ChiHuo.java" />
+        <option value="$PROJECT_DIR$/201905/src/WaitAndNotify/Tets.java" />
       </list>
     </option>
   </component>
@@ -184,14 +274,22 @@
               <item name="new" type="b2602c69:ProjectViewProjectNode" />
               <item name="201905" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="synchronizedLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="WaitAndNotify" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="new" type="b2602c69:ProjectViewProjectNode" />
-              <item name="201905" type="462c0819:PsiDirectoryNode" />
+              <item name="Tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tools" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="synchronizedLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="safeSynchronizedMethod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tools" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tool" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -212,6 +310,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/201905/src/synchronizedLearn/sareLock" />
       <recent name="$PROJECT_DIR$/201905/src/synchronizedLearn/safeSynchronizedMethod" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -231,32 +330,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Git">
-    <configuration name="ExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.ExceptionTest" />
-      <module name="201905" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FinallyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.FinallyTest" />
-      <module name="201905" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Git" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tool.Git" />
       <module name="Tools" />
@@ -271,11 +344,37 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.Main" />
+      <option name="MAIN_CLASS_NAME" value="threadCommunicate.musukasii.Main" />
       <module name="201905" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.*" />
+          <option name="PATTERN" value="threadCommunicate.musukasii.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WaitAndNotify.Tets" />
+      <module name="201905" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WaitAndNotify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ticket (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="synchronizedLearn.sareLock.Ticket" />
+      <module name="201905" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="synchronizedLearn.sareLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,10 +398,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Git" />
+        <item itemvalue="Application.Tets" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Ticket (1)" />
         <item itemvalue="Application.Ticket" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FinallyTest" />
-        <item itemvalue="Application.ExceptionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -343,10 +442,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1081" extended-state="7" />
+    <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11526147" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1905016" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -355,8 +454,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15783899" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.13665254" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5444915" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45974576" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.27903682" />
@@ -383,35 +482,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/util/Iterator.java" />
-    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Iterable.java" />
-    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/util/ListIterator.java" />
-    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/util/AbstractCollection.java" />
-    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/util/ArrayList.java" />
-    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/util/Objects.java" />
-    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/util/List.java" />
-    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/reflect/Array.java" />
-    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Object.java" />
-    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Class.java" />
-    <entry file="file://$PROJECT_DIR$/DataStructureAndAlgorithm/src/MyCollection/CollectionZRX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
-          <caret line="146" column="29" selection-start-line="146" selection-start-column="20" selection-end-line="146" selection-end-column="29" />
-          <folding>
-            <element signature="e#3579#3580#0" expanded="true" />
-            <element signature="e#3651#3652#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.ArrayList" />
-    <entry file="file://$PROJECT_DIR$/DataStructureAndAlgorithm/src/MyCollection/ListIteratorZRX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataStructureAndAlgorithm/src/MyCollection/ListZRX.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1544">
@@ -461,13 +531,6 @@
       </provider>
     </entry>
     <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/util/AbstractList.java" />
-    <entry file="file://$PROJECT_DIR$/DataStructureAndAlgorithm/src/MyCollection/AbstractListZRX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/io/Serializable.java" />
     <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Throwable.java" />
     <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/OutOfMemoryError.java" />
@@ -592,16 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tools/src/tool/Git.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tools/src/tool/Shell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="596">
@@ -635,8 +688,139 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/201905/src/synchronizedLearn/safeSynchronizedMethod/Window.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201905/src/synchronizedLearn/sareLock/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2568">
+          <caret line="107" column="13" lean-forward="true" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201905/src/synchronizedLearn/sareLock/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201905/201905.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="324" column="22" selection-start-line="324" selection-start-column="22" selection-end-line="324" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructureAndAlgorithm/src/MyCollection/AbstractListZRX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201905/src/threadCommunicate/musukasii/Shopper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201905/src/threadCommunicate/musukasii/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201905/src/threadCommunicate/musukasii/Productor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201905/src/threadCommunicate/musukasii/Test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201905/src/threadCommunicate/musukasii/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201905/src/WaitAndNotify/BaoZi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201905/src/WaitAndNotify/BaoZiPu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201905/src/WaitAndNotify/ChiHuo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201905/src/WaitAndNotify/Tets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/src/tool/Git.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
