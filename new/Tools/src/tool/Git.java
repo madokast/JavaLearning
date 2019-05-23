@@ -11,13 +11,26 @@ public class Git {
         String commit = scanner.nextLine();
 
 
-        String dir = "/home/madokast/Documents/JavaLearning";
+        String dir = "../";
 
         Shell shell = new Shell(dir);
         shell.exec("git add *");
         shell.exec("git commit -m "+'\''+commit+'\'');
         shell.exec("git push -u origin master");
         shell.exec("git pull origin");
+
+//        dirTest();
+    }
+
+    private static void dirTest() {
+        String dir = "../";
+        File file = new File(dir);
+        System.out.println(file.getAbsolutePath());
+        try {
+            System.out.println(file.getCanonicalPath());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private static void shellProTest() {

@@ -26,6 +26,42 @@ public class Shell {
     }
 
     public void exec(String cmd) {
+
+        if(System.getProperty("os.name").toLowerCase().startsWith("win")){
+            execWin(cmd);
+        }else {
+            execLinux(cmd);
+        }
+
+        if(process!=null){
+            setupChannal();
+            printInput();
+            close();
+        }
+
+        //System.out.println("---------------"+"执行结束"+"--------------\n\n");
+    }
+
+    /**
+     * win
+     * @param cmd
+     */
+    private void execWin(String cmd) {
+        try{
+            process = Runtime.getRuntime().exec(cmd);
+            process.waitFor();
+        }catch (Exception e){
+            e.printStackTrace();
+            System.out.println("win处理进程创建失败");
+            close();
+        }
+    }
+
+    /**
+     * linux
+     * @param cmd
+     */
+    private void execLinux(String cmd) {
         System.out.println("开始执行 "+cmd);
         command = new String[] {"/bin/sh","-c",cmd};
 
@@ -37,14 +73,6 @@ public class Shell {
             System.out.println("shell进程创建失败");
             close();
         }
-
-        if(process!=null){
-            setupChannal();
-            printInput();
-            close();
-        }
-
-        //System.out.println("---------------"+"执行结束"+"--------------\n\n");
     }
 
     /**
