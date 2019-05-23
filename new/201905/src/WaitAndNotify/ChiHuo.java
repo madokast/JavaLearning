@@ -16,6 +16,12 @@ public class ChiHuo extends Thread{
                     System.out.println("包子吃完了，请开始生产");
                     bz.notify();
                 }
+                else {
+                    System.out.println("没有包子，请生产");
+                    try {
+                        bz.wait();
+                    }catch (Exception e){e.printStackTrace();}
+                }
 
             }
 
