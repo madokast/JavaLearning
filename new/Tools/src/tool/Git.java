@@ -1,8 +1,14 @@
 package tool;
 
-
 import java.io.*;
 import java.util.Scanner;
+
+/**
+ * git自动化工具
+ * win10
+ * Linux_deepinOS
+ * 测试成功
+ */
 
 public class Git {
     public static void main(String[] args) {
