@@ -27,6 +27,9 @@ public class Shell {
 
     public void exec(String cmd) {
 
+        /**
+         * 操作系统选择
+         */
         if(System.getProperty("os.name").toLowerCase().startsWith("win")){
             execWin(cmd);
         }else {

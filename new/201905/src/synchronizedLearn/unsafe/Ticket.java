@@ -1,0 +1,118 @@
+package synchronizedLearn.unsafe;
+
+public class Ticket {
+    public static void main(String[] args) {
+        Runnable r = new Window();
+        Thread t1 = new Thread(r);
+        Thread t2 = new Thread(r);
+        Thread t3 = new Thread(r);
+        t1.start();
+        t2.start();
+        t3.start();
+    }
+}
+
+//卖出了重复的票和不存在的票
+
+//Thread-1卖出100
+//Thread-2卖出100
+//Thread-0卖出100
+//Thread-0卖出97
+//Thread-1卖出97
+//Thread-2卖出97
+//Thread-1卖出94
+//Thread-0卖出94
+//Thread-2卖出94
+//Thread-1卖出91
+//Thread-2卖出91
+//Thread-0卖出91
+//Thread-1卖出88
+//Thread-2卖出88
+//Thread-0卖出86
+//Thread-0卖出85
+//Thread-2卖出85
+//Thread-1卖出83
+//Thread-2卖出82
+//Thread-0卖出81
+//Thread-1卖出82
+//Thread-2卖出79
+//Thread-1卖出79
+//Thread-0卖出79
+//Thread-1卖出76
+//Thread-0卖出76
+//Thread-2卖出74
+//Thread-0卖出73
+//Thread-2卖出72
+//Thread-1卖出71
+//Thread-0卖出70
+//Thread-2卖出69
+//Thread-1卖出68
+//Thread-1卖出67
+//Thread-2卖出66
+//Thread-0卖出66
+//Thread-0卖出64
+//Thread-2卖出63
+//Thread-1卖出62
+//Thread-1卖出61
+//Thread-2卖出61
+//Thread-0卖出59
+//Thread-0卖出58
+//Thread-2卖出57
+//Thread-1卖出56
+//Thread-2卖出55
+//Thread-0卖出54
+//Thread-1卖出53
+//Thread-1卖出52
+//Thread-0卖出51
+//Thread-2卖出50
+//Thread-2卖出49
+//Thread-0卖出49
+//Thread-1卖出47
+//Thread-0卖出46
+//Thread-2卖出45
+//Thread-1卖出44
+//Thread-0卖出43
+//Thread-1卖出42
+//Thread-2卖出41
+//Thread-0卖出40
+//Thread-2卖出39
+//Thread-1卖出39
+//Thread-0卖出37
+//Thread-2卖出37
+//Thread-1卖出37
+//Thread-2卖出34
+//Thread-0卖出34
+//Thread-1卖出34
+//Thread-1卖出31
+//Thread-2卖出31
+//Thread-0卖出31
+//Thread-2卖出28
+//Thread-1卖出28
+//Thread-0卖出28
+//Thread-1卖出25
+//Thread-2卖出25
+//Thread-0卖出25
+//Thread-2卖出22
+//Thread-0卖出22
+//Thread-1卖出22
+//Thread-2卖出19
+//Thread-0卖出19
+//Thread-1卖出19
+//Thread-1卖出16
+//Thread-2卖出16
+//Thread-0卖出16
+//Thread-0卖出13
+//Thread-1卖出13
+//Thread-2卖出13
+//Thread-2卖出10
+//Thread-1卖出10
+//Thread-0卖出9
+//Thread-0卖出7
+//Thread-1卖出6
+//Thread-2卖出5
+//Thread-0卖出4
+//Thread-1卖出4
+//Thread-2卖出2
+//Thread-1卖出1
+//Thread-2卖出0
+//Thread-0卖出-1

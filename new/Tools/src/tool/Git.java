@@ -6,8 +6,9 @@ import java.util.Scanner;
 /**
  * git自动化工具
  * win10
- * Linux_deepinOS
+ * Linux deepIn OS
  * 测试成功
+ * @version 2019年5月23日
  */
 
 public class Git {
@@ -16,7 +17,6 @@ public class Git {
         System.out.println("请输入commit：");
         String commit = scanner.nextLine();
 
-
         String dir = "../";
 
         Shell shell = new Shell(dir);
@@ -24,10 +24,12 @@ public class Git {
         shell.exec("git commit -m "+'\''+commit+'\'');
         shell.exec("git push -u origin master");
         shell.exec("git pull origin");
-
-//        dirTest();
     }
 
+    /**
+     * 以下都是测试用代码
+     * 详细实现代码在 Shell 类中
+     */
     private static void dirTest() {
         String dir = "../";
         File file = new File(dir);
