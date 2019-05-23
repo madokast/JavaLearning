@@ -1,7 +1,30 @@
 package thread;
 
+
 public class Main {
     public static void main(String[] args) {
+//        threadTest();
+//        runnabletest();
+//        System.out.println(Thread.currentThread().getName());
+        anonymous();
+    }
+
+    private static void anonymous() {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("anony");
+            }
+        }).start();
+    }
+
+
+    private static void runnabletest() {
+        RunnableTest runnableTest = new RunnableTest();
+        new Thread(runnableTest).start();
+    }
+
+    private static void threadTest() {
         MyThread myThread = new MyThread();
         myThread.setName("thread01");
 
@@ -12,7 +35,6 @@ public class Main {
                 Thread.currentThread().sleep(1);
             }catch (Exception e){}
         }
-
     }
 }
 

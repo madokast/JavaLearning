@@ -1,8 +1,15 @@
 package tool;
 
-
 import java.io.*;
 import java.util.Scanner;
+
+/**
+ * git自动化工具
+ * win10
+ * Linux deepIn OS
+ * 测试成功
+ * @version 2019年5月23日
+ */
 
 public class Git {
     public static void main(String[] args) {
@@ -10,14 +17,28 @@ public class Git {
         System.out.println("请输入commit：");
         String commit = scanner.nextLine();
 
-
-        String dir = "/home/madokast/Documents/JavaLearning";
+        String dir = "../";
 
         Shell shell = new Shell(dir);
         shell.exec("git add *");
         shell.exec("git commit -m "+'\''+commit+'\'');
         shell.exec("git push -u origin master");
         shell.exec("git pull origin");
+    }
+
+    /**
+     * 以下都是测试用代码
+     * 详细实现代码在 Shell 类中
+     */
+    private static void dirTest() {
+        String dir = "../";
+        File file = new File(dir);
+        System.out.println(file.getAbsolutePath());
+        try {
+            System.out.println(file.getCanonicalPath());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private static void shellProTest() {
