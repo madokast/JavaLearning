@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2042d320-ed17-4121-869f-0fac0543a263" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tools/src/tool/Git.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/src/tool/Git.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tools/src/tool/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/src/tool/Shell.java" afterDir="false" />
-    </list>
+    <list default="true" id="2042d320-ed17-4121-869f-0fac0543a263" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tools/src/tool/Git.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            <state relative-caret-position="132">
+              <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tools/src/tool/Shell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="230">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -306,12 +302,12 @@
       <workItem from="1557228148606" duration="11434000" />
       <workItem from="1557712310879" duration="40920000" />
       <workItem from="1558491773666" duration="590000" />
-      <workItem from="1558595202928" duration="619000" />
+      <workItem from="1558595202928" duration="962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71264000" />
+    <option name="totallyTimeSpent" value="71607000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -335,7 +331,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13597734" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50141644" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.13665254" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -506,20 +502,20 @@
     <entry file="jar://$USER_HOME$/app/jdk-12.0.1/lib/src.zip!/java.base/java/io/Writer.java" />
     <entry file="jar://$USER_HOME$/app/jdk-12.0.1/lib/src.zip!/java.desktop/java/awt/Robot.java" />
     <entry file="jar://$USER_HOME$/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Runtime.java" />
-    <entry file="file://$PROJECT_DIR$/Tools/src/tool/Git.java">
+    <entry file="file://$PROJECT_DIR$/Tools/src/tool/Shell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        <state relative-caret-position="230">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tools/src/tool/Shell.java">
+    <entry file="file://$PROJECT_DIR$/Tools/src/tool/Git.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="132">
+          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
