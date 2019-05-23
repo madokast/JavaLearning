@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2042d320-ed17-4121-869f-0fac0543a263" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/201904/src/Test/ANG.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/src/tool/ANG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/201905/src/thread/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/thread/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/201905/src/trans/ReadTransSigma.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/src/trans/ReadTransSigma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/201905/src/trans/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/src/trans/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tools/src/tool/Git.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/src/tool/Git.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tools/src/tool/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/src/tool/Shell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/201905/trans/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/201905/src/synchronizedLearn/safe1/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/synchronizedLearn/safe1/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/201905/src/synchronizedLearn/safe1/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/synchronizedLearn/safe1/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/201905/src/thread/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/thread/Cinema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/201905/src/thread/KaiSatu.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/thread/KaiSatu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/201905/src/thread/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/thread/Ticket.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,71 +36,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201905/src/thread/KaiSatu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201905/src/synchronizedLearn/Window.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/201905/src/synchronizedLearn/Ticket.java">
+        <entry file="file://$PROJECT_DIR$/Tools/src/tool/Git.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201905/src/thread/Cinema.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201905/src/thread/Randoms.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-              <folding>
-                <element signature="e#97#98#0" expanded="true" />
-                <element signature="e#144#145#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/201905/src/thread/Ticket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="172">
+              <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#137#138#0" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#132#133#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201905/src/synchronizedLearn/safe1/Ticket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/201905/src/synchronizedLearn/safe1/Window.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -131,10 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/nineInherit/Host.java" />
-        <option value="$PROJECT_DIR$/201904/src/Test/ANG.java" />
-        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenInterface/Test.java" />
-        <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenInterface/Inter.java" />
         <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/TenInterface/ElevenPolym.java" />
         <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/ElevenPolym/FU.java" />
         <option value="$PROJECT_DIR$/201904/src/IDEAJAVALEARN/ElevenPolym/Fu.java" />
@@ -177,11 +131,15 @@
         <option value="$PROJECT_DIR$/201905/src/thread/RunnableTest.java" />
         <option value="$PROJECT_DIR$/201905/src/thread/Main.java" />
         <option value="$PROJECT_DIR$/201905/src/thread/Randoms.java" />
-        <option value="$PROJECT_DIR$/201905/src/thread/Cinema.java" />
+        <option value="$PROJECT_DIR$/201905/src/synchronizedLearn/Window.java" />
+        <option value="$PROJECT_DIR$/201905/src/synchronizedLearn/unsafe/Ticket.java" />
+        <option value="$PROJECT_DIR$/201905/src/synchronizedLearn/Ticket.java" />
+        <option value="$PROJECT_DIR$/201905/src/synchronizedLearn/unsafe/Window.java" />
         <option value="$PROJECT_DIR$/201905/src/thread/Ticket.java" />
         <option value="$PROJECT_DIR$/201905/src/thread/KaiSatu.java" />
-        <option value="$PROJECT_DIR$/201905/src/synchronizedLearn/Window.java" />
-        <option value="$PROJECT_DIR$/201905/src/synchronizedLearn/Ticket.java" />
+        <option value="$PROJECT_DIR$/201905/src/thread/Cinema.java" />
+        <option value="$PROJECT_DIR$/201905/src/synchronizedLearn/safe1/Ticket.java" />
+        <option value="$PROJECT_DIR$/201905/src/synchronizedLearn/safe1/Window.java" />
       </list>
     </option>
   </component>
@@ -223,6 +181,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="synchronizedLearn" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="201905" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="synchronizedLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="safe1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="201905" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tools" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tools" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tool" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -243,6 +229,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\JavaLearning\new\201905\src\synchronizedLearn\unsafe" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Documents\JavaLearning\new\201905\src\trans" />
     </key>
@@ -266,19 +255,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FinallyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.FinallyTest" />
-      <module name="201905" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,6 +288,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ticket (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="synchronizedLearn.safe1.Ticket" />
+      <module name="201905" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="synchronizedLearn.safe1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ticket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="synchronizedLearn.unsafe.Ticket" />
       <module name="201905" />
@@ -328,10 +317,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Git" />
-        <item itemvalue="Application.Ticket" />
+        <item itemvalue="Application.Ticket (1)" />
         <item itemvalue="Application.Cinema" />
+        <item itemvalue="Application.Ticket" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FinallyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -357,12 +346,12 @@
       <workItem from="1557712310879" duration="40920000" />
       <workItem from="1558491773666" duration="590000" />
       <workItem from="1558595202928" duration="962000" />
-      <workItem from="1558596608820" duration="4501000" />
+      <workItem from="1558596608820" duration="6096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76108000" />
+    <option name="totallyTimeSpent" value="77703000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,7 +375,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21954674" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.10906515" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.13665254" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -414,8 +403,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/util/AbstractCollection.java" />
-    <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/util/ArrayList.java" />
     <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/util/Objects.java" />
     <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/util/List.java" />
     <entry file="jar://D:/app/jdk-12.0.1/lib/src.zip!/java.base/java/lang/reflect/Array.java" />
@@ -544,16 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tools/src/tool/Git.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tools/src/tool/ANG.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -594,49 +571,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/201905/src/thread/Ticket.java">
+    <entry file="file://$PROJECT_DIR$/201905/src/synchronizedLearn/unsafe/Ticket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/201905/src/synchronizedLearn/unsafe/Window.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/201905/src/thread/Cinema.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        <state relative-caret-position="3256">
+          <caret line="148" column="7" selection-start-line="148" selection-start-column="7" selection-end-line="148" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/201905/src/thread/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/201905/src/thread/KaiSatu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="128">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/201905/src/synchronizedLearn/Window.java">
+    <entry file="file://$PROJECT_DIR$/201905/src/synchronizedLearn/safe1/Ticket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/201905/src/synchronizedLearn/Ticket.java">
+    <entry file="file://$PROJECT_DIR$/201905/src/synchronizedLearn/safe1/Window.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="249">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/src/tool/Git.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

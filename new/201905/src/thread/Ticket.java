@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Ticket {
+    public static Integer signal = 123456;
+
     private static HashMap<String,Integer> hashMap =  new HashMap<>();
 
     private static int num = 100;
