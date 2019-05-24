@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2042d320-ed17-4121-869f-0fac0543a263" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/201905/src/WaitAndNotify/ChiHuo.java" beforeDir="false" afterPath="$PROJECT_DIR$/201905/src/WaitAndNotify/ChiHuo.java" afterDir="false" />
-    </list>
+    <list default="true" id="2042d320-ed17-4121-869f-0fac0543a263" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tools/src/tool/Git.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+            <state relative-caret-position="407">
+              <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,9 +126,8 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="215" />
-    <option name="y" value="126" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="126" />
     <option name="width" value="1502" />
     <option name="height" value="851" />
   </component>
@@ -322,10 +319,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
+    <frame x="126" y="0" width="1502" height="851" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1905016" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24552958" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -334,7 +331,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17372881" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20338982" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45974576" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -700,8 +697,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tools/src/tool/Git.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        <state relative-caret-position="407">
+          <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
