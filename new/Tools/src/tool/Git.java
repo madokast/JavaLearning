@@ -7,6 +7,7 @@ import java.util.Scanner;
  * git自动化工具
  * win10
  * Linux deepIn OS
+ * Linux ubuntu 16.04
  * 测试成功
  * @version 2019年5月23日
  */
