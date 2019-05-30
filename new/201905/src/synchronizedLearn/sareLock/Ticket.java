@@ -1,0 +1,120 @@
+package synchronizedLearn.sareLock;
+
+public class Ticket {
+    public static void main(String[] args) {
+        Runnable r = new Window();
+        Thread t1 = new Thread(r);
+        Thread t2 = new Thread(r);
+        Thread t3 = new Thread(r);
+        t1.start();
+        t2.start();
+        t3.start();
+    }
+}
+
+///home/madokast/app/jdk-12.0.1/bin/java -javaagent:/home/madokast/app/ideaJ/lib/idea_rt.jar=43179:/home/madokast/app/ideaJ/bin -Dfile.encoding=UTF-8 -classpath /home/madokast/Documents/JavaLearning/new/out/production/201905 synchronizedLearn.sareLock.Ticket
+//Thread-0卖出100
+//Thread-1卖出99
+//Thread-1卖出98
+//Thread-1卖出97
+//Thread-1卖出96
+//Thread-2卖出95
+//Thread-2卖出94
+//Thread-2卖出93
+//Thread-2卖出92
+//Thread-2卖出91
+//Thread-2卖出90
+//Thread-2卖出89
+//Thread-2卖出88
+//Thread-2卖出87
+//Thread-2卖出86
+//Thread-2卖出85
+//Thread-2卖出84
+//Thread-2卖出83
+//Thread-2卖出82
+//Thread-2卖出81
+//Thread-2卖出80
+//Thread-2卖出79
+//Thread-2卖出78
+//Thread-2卖出77
+//Thread-0卖出76
+//Thread-0卖出75
+//Thread-0卖出74
+//Thread-0卖出73
+//Thread-1卖出72
+//Thread-1卖出71
+//Thread-1卖出70
+//Thread-1卖出69
+//Thread-2卖出68
+//Thread-2卖出67
+//Thread-2卖出66
+//Thread-2卖出65
+//Thread-2卖出64
+//Thread-2卖出63
+//Thread-2卖出62
+//Thread-2卖出61
+//Thread-2卖出60
+//Thread-0卖出59
+//Thread-0卖出58
+//Thread-0卖出57
+//Thread-1卖出56
+//Thread-1卖出55
+//Thread-1卖出54
+//Thread-2卖出53
+//Thread-2卖出52
+//Thread-2卖出51
+//Thread-2卖出50
+//Thread-2卖出49
+//Thread-2卖出48
+//Thread-2卖出47
+//Thread-2卖出46
+//Thread-2卖出45
+//Thread-2卖出44
+//Thread-2卖出43
+//Thread-2卖出42
+//Thread-2卖出41
+//Thread-2卖出40
+//Thread-2卖出39
+//Thread-2卖出38
+//Thread-2卖出37
+//Thread-2卖出36
+//Thread-2卖出35
+//Thread-2卖出34
+//Thread-2卖出33
+//Thread-2卖出32
+//Thread-2卖出31
+//Thread-2卖出30
+//Thread-2卖出29
+//Thread-2卖出28
+//Thread-2卖出27
+//Thread-2卖出26
+//Thread-2卖出25
+//Thread-2卖出24
+//Thread-2卖出23
+//Thread-2卖出22
+//Thread-2卖出21
+//Thread-2卖出20
+//Thread-2卖出19
+//Thread-2卖出18
+//Thread-2卖出17
+//Thread-2卖出16
+//Thread-2卖出15
+//Thread-2卖出14
+//Thread-2卖出13
+//Thread-2卖出12
+//Thread-2卖出11
+//Thread-2卖出10
+//Thread-2卖出9
+//Thread-2卖出8
+//Thread-2卖出7
+//Thread-2卖出6
+//Thread-2卖出5
+//Thread-2卖出4
+//Thread-2卖出3
+//Thread-2卖出2
+//Thread-2卖出1
+//Thread-2售罄!
+//Thread-0售罄!
+//Thread-1售罄!
+//
+//Process finished with exit code 0
