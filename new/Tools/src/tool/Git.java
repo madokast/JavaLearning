@@ -9,6 +9,15 @@ import java.util.Scanner;
  * Linux deepIn OS
  * Linux ubuntu 16.04
  * 测试成功
+ *
+ * the way to use it
+ *      $ssh-keygen -t rsa -C "email@..."
+ *      cosy .ssh/id_rsa.pub to github and set it
+ *      then $git clone git...
+ *      last $git config --global user.name "name"
+ *      last $git config --global user.email "email@..."
+ *      OK run it!
+ *
  * @version 2019年5月23日
  */
 
