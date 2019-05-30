@@ -1,17 +1,17 @@
-package tool;
+package tool.TRANSPORTauto;
 
 import java.util.Scanner;
 
 public class ANG {
     public static void main(String[] args) {
-        double ang = 15.0;
-        double length = 0.1963;
+        double ang = 360.0 ;
+        double length = 2* Math.PI ;
         double angn , lengthn ;
         double angTol = 0.0 ;
         String s ;
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in) ;
         while(scanner.hasNext()){
-            s = scanner.next();
+            s = scanner.next() ;
             try {
                 angn = Double.parseDouble(s);
                 angTol+=angn;
