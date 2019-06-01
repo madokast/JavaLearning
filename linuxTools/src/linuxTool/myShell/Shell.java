@@ -1,8 +1,9 @@
-package tool;
+package linuxTool.myShell;
 
 
-import java.io.*;
-import java.util.Objects;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.InputStreamReader;
 
 public class Shell {
     private Process process = null;
@@ -65,7 +66,7 @@ public class Shell {
      * @param cmd
      */
     private void execLinux(String cmd) {
-        System.out.println("开始执行 "+cmd);
+//        System.out.println("开始执行："+cmd);
         command = new String[] {"/bin/sh","-c",cmd};
 
         try{
@@ -147,6 +148,6 @@ public class Shell {
             isSetup = true;
         }
         System.out.println(result.toString());
-        System.out.println();
+        //System.out.println();
     }
 }
