@@ -1,13 +1,15 @@
 package linuxTool.GUItool;
 
+import linuxTool.Enviroment;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 
 public class ImagePreloading{
-    private static final String PRELOAD_IMAGE_DIR = "/home/madokast/Documents/JavaLearning/linuxTools/image/kuro.png";
-    public static final String IMAGE = "kuro.png";
+//    private static final String PRELOAD_IMAGE_DIR = "/home/madokast/Documents/JavaLearning/linuxTools/image/kuro.png";
+//    public static final String IMAGE = "kuro.png";
 
     private static BufferedImage bufferedImage = null;
 
@@ -15,7 +17,7 @@ public class ImagePreloading{
         BufferedImage source;
 
         try{
-            source = ImageIO.read(new File(PRELOAD_IMAGE_DIR));
+            source = ImageIO.read(new File(Enviroment.PRELOAD_IMAGE_DIR));
         }catch (Exception e){
             System.err.println("错误：图片预载入失败！");
             source = new BufferedImage(0,0,1);

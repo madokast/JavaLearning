@@ -1,5 +1,6 @@
 package linuxTool.GIT;
 
+import linuxTool.Enviroment;
 import linuxTool.GUItool.GUItools;
 import linuxTool.myShell.Shell;
 import linuxTool.tool.ThreadSleep;
@@ -53,7 +54,7 @@ public class GITThread extends Thread {
         GITThread.textArea.append("开始提交\n");
         String dir = "../";
 
-        Shell shell = new Shell(dir,textArea);
+        Shell shell = new Shell(Enviroment.GIT_DIR,textArea);
         shell.exec("git add *");
         shell.exec("git commit -m "+'\''+commit+'\'');
         shell.exec("git push -u origin master");

@@ -1,5 +1,6 @@
 package linuxTool;
 
+import linuxTool.GIT.GITWindows;
 import linuxTool.GUItool.ImagePreloading;
 import linuxTool.GUItool.Splash;
 import linuxTool.myShell.Shell;
@@ -42,6 +43,7 @@ public class Main {
             System.out.println("Linux 小工具，可同时执行多条命令～");
             System.out.println("  --splash [imageDir] [duration/ms] 快速显示图片。参数：图片地址和显示时长。可顺序空");
             System.out.println("  --shells [-shell ...]* 顺序执行多条shell指令，每条shell指令用-shell开头，数目不限");
+            System.out.println("  --git 打开窗口执行git&hub");
             System.exit(0);
         }
 
@@ -105,6 +107,9 @@ public class Main {
                 break;
             case "--shells":
                 threadRun(() -> shells(args, start, length));
+                break;
+            case "--git":
+                threadRun(()-> GITWindows.GIT());
                 break;
             default:
                 StringBuilder stringBuilder = new StringBuilder();

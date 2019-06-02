@@ -1,5 +1,7 @@
 package linuxTool.GUItool;
 
+import linuxTool.Enviroment;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -102,7 +104,7 @@ public class Splash {
 
     public static void exhibit(String imageDir, int duration){
         BufferedImage bufferedImage;
-        if(imageDir.endsWith(ImagePreloading.IMAGE)){
+        if(imageDir.endsWith(Enviroment.PRELOAD_IMAGE)){
 //            System.out.println("是预载入的图片");
             if(ImagePreloading.isPreloaded()){
                 bufferedImage = ImagePreloading.getPreloadImage();

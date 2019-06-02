@@ -1,4 +1,4 @@
-package linuxTool;
+package linuxTool.Test;
 
 import linuxTool.GIT.GITThread;
 import linuxTool.GUItool.GUItools;
