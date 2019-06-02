@@ -44,7 +44,7 @@ public class GITThread extends Thread {
     public void run() {
         GITThread.textArea.setEditable(false);
 
-        System.out.println("commit.length() = " + commit.length());
+//        System.out.println("commit.length() = " + commit.length());
 
         if (GITThread.commit.length() == 0) {
             GITThread.textArea.append("无commit，拒绝执行\n");
@@ -52,9 +52,9 @@ public class GITThread extends Thread {
         }
 
         GITThread.textArea.append("开始提交\n");
-        String dir = "../";
+        String dir = Enviroment.GIT_DIR;
 
-        Shell shell = new Shell(Enviroment.GIT_DIR,textArea);
+        Shell shell = new Shell(dir,textArea);
         shell.exec("git add *");
         shell.exec("git commit -m "+'\''+commit+'\'');
         shell.exec("git push -u origin master");

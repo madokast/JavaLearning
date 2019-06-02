@@ -16,7 +16,7 @@ public class GITWindows {
         String title = "---auto-git&hub for JavaLearning---";
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append(" ".repeat(/*(width-title.length())/2*/width/2+5)).append(title).append('\n');
-        stringBuilder.append("commit:\n").append("今天也是充实的一天呢～");
+        stringBuilder.append("commit:\n").append("今天也是充实的一天呢～\n");
 
 
         TextArea textArea = new TextArea(stringBuilder.toString(),height,width,TextArea.SCROLLBARS_NONE){
@@ -25,7 +25,7 @@ public class GITWindows {
         GITThread.readyForTestArea(textArea,jFrame);
 //        textArea.setEditable(false);
         textArea.setCaretPosition(textArea.getText().length());
-        System.out.println("123");
+//        System.out.println("123");
         textArea.addKeyListener(new KeyAdapter() {
             @Override
             public void keyTyped(KeyEvent e) {
