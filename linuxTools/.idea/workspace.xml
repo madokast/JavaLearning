@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaed043c-4eb0-490a-82f5-bae1d059983e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linuxTools.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linuxTool/GUItool/GUItools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linuxTool/GUItool/MyCanvas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linuxTool/GUItool/Splash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linuxTool/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linuxTool/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linuxTool/myShell/Shell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linuxTool/tool/StringTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../new/201905/201906.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../new/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../new/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../new/Tools/src/tool/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../new/Tools/src/tool/Shell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/kuro.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/kuro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linuxTool/GUItool/Splash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linuxTool/GUItool/Splash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linuxTool/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linuxTool/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linuxTool/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linuxTool/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linuxTool/myShell/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linuxTool/myShell/Shell.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/linuxTool/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="153" column="55" lean-forward="true" selection-start-line="153" selection-start-column="55" selection-end-line="153" selection-end-column="55" />
+            <state relative-caret-position="216">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;method#process#0;class#Main#0" />
@@ -49,21 +38,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/linuxTool/tool/StringTool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linuxTool/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="56" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1192#1487#0" expanded="true" />
+                <element signature="e#1486#1487#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,17 +54,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linuxTool/myShell/Shell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-336">
-              <caret line="36" column="25" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="25" />
+            <state relative-caret-position="163">
+              <caret line="124" column="20" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linuxTool/GUItool/Splash.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
+            <state relative-caret-position="264">
+              <caret line="128" column="54" lean-forward="true" selection-start-line="128" selection-start-column="54" selection-end-line="128" selection-end-column="54" />
+              <folding>
+                <element signature="e#3889#4279#0" expanded="true" />
+                <element signature="e#4278#4279#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,14 +90,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/linuxTool/test/GUI/Splash.java" />
         <option value="$PROJECT_DIR$/src/linuxTool/tool/StringTool.java" />
-        <option value="$PROJECT_DIR$/src/linuxTool/myShell/Shell.java" />
         <option value="$PROJECT_DIR$/src/linuxTool/Test.java" />
         <option value="$PROJECT_DIR$/src/linuxTool/Main.java" />
+        <option value="$PROJECT_DIR$/src/linuxTool/myShell/Shell.java" />
         <option value="$PROJECT_DIR$/src/linuxTool/GUItool/Splash.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1017" />
     <option name="y" value="129" />
     <option name="width" value="804" />
@@ -125,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,12 +142,12 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../new" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -233,7 +220,7 @@
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.13113007" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13113007" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -321,34 +308,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/linuxTool/tool/StringTool.java">
+    <entry file="jar://$USER_HOME$/app/jdk-12.0.1/lib/src.zip!/java.desktop/java/awt/image/Raster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="191">
+          <caret line="1550" column="18" selection-start-line="1550" selection-start-column="18" selection-end-line="1550" selection-end-column="18" />
+          <folding>
+            <element signature="e#62508#62509#0" expanded="true" />
+            <element signature="e#62536#62537#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/app/jdk-12.0.1/lib/src.zip!/java.desktop/java/awt/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1097">
+          <caret line="389" column="11" selection-start-line="389" selection-start-column="11" selection-end-line="389" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/app/jdk-12.0.1/lib/src.zip!/java.desktop/java/awt/image/ColorModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="932" column="18" selection-start-line="932" selection-start-column="18" selection-end-line="932" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/app/jdk-12.0.1/lib/src.zip!/java.desktop/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="1532" column="26" selection-start-line="1532" selection-start-column="26" selection-end-line="1532" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/kuronew.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/kuro.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/kuro1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/kuro2.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linuxTool/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="56" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1192#1487#0" expanded="true" />
+            <element signature="e#1486#1487#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linuxTool/tool/StringTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linuxTool/myShell/Shell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="25" />
+        <state relative-caret-position="163">
+          <caret line="124" column="20" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/app/jdk-12.0.1/lib/src.zip!/java.desktop/java/awt/image/BufferedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2329">
+          <caret line="915" column="15" selection-start-line="915" selection-start-column="15" selection-end-line="915" selection-end-column="15" />
+          <folding>
+            <element signature="e#37239#37240#0" expanded="true" />
+            <element signature="e#37315#37316#0" expanded="true" />
+            <element signature="e#40938#40939#0" expanded="true" />
+            <element signature="e#41021#41022#0" expanded="true" />
+            <element signature="e#42988#42989#0" expanded="true" />
+            <element signature="e#43028#43029#0" expanded="true" />
+            <element signature="e#51233#51234#0" expanded="true" />
+            <element signature="e#51272#51273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linuxTool/GUItool/Splash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="128" column="54" lean-forward="true" selection-start-line="128" selection-start-column="54" selection-end-line="128" selection-end-column="54" />
+          <folding>
+            <element signature="e#3889#4279#0" expanded="true" />
+            <element signature="e#4278#4279#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linuxTool/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="153" column="55" lean-forward="true" selection-start-line="153" selection-start-column="55" selection-end-line="153" selection-end-column="55" />
+        <state relative-caret-position="216">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#process#0;class#Main#0" />
@@ -357,13 +418,6 @@
             <element signature="docComment;method#splash#0;class#Main#0" />
             <element signature="method#splash#0;class#Main#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linuxTool/GUItool/Splash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
         </state>
       </provider>
     </entry>

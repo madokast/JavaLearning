@@ -6,6 +6,8 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 
+import static java.awt.image.BufferedImage.TYPE_INT_RGB;
+
 public class Splash {
 //    private static Splash splash = new Splash();
 //    private static Splash getInstance()
@@ -99,86 +101,97 @@ public class Splash {
 //    }
 
 
+    public static void exhibit(String imageDir, int duration) {
+//        BufferedImage bufferedImage = opaque(getImage());
+        BufferedImage bufferedImage = getImage(imageDir);
+//        try{
+//            ImageIO.write(bufferedImage,"png",new File("/home/madokast/Documents/JavaLearning/linuxTools/image/kuronew.png"));
+//        }catch (Exception e){}
 
 
+        JFrame jFrame = new JFrame() {
+            @Override
+            public void paint(Graphics g) {
+                super.paint(g);
+                Graphics2D g2 = (Graphics2D) g;
+//                g2.drawImage(backImage,0,0,backImage.getWidth(),backImage.getHeight(),null);
+                g2.setColor(new Color(0,0,0,0));
+                g2.fillRect( 0, 0, bufferedImage.getWidth(), bufferedImage.getHeight());
+                try{
+                    Thread.currentThread().sleep(10);
+                }catch (Exception e){}
+                g2.drawImage(bufferedImage, 0, 0, bufferedImage.getWidth(), bufferedImage.getHeight(), null);
 
-    public static void exhibit(String imageDir,int duration) {
-//        JFrame jFrame;
-        try{
-            final BufferedImage bufferedImage = ImageIO.read(new File(imageDir));
-            final int width = bufferedImage.getWidth();
-            final int height = bufferedImage.getHeight();
-
-            final JFrame jFrame = new JFrame() {
-                @Override
-                public void paint(Graphics g) {
-                    super.paint(g);
-                    Graphics2D g2 = (Graphics2D) g;
-                    try {
-                        BufferedImage imageIcon = ImageIO.read(new File(imageDir));
-//                ImageIcon imageIcon = new ImageIcon("/home/madokast/Documents/JavaLearning/linuxTools/image/splash.png");
-                        g2.drawImage(imageIcon, 0, 0, width, height, null);
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                }
-            };
-
-            jFrame.setUndecorated(true);
-            jFrame.setBackground(new Color(0,0,0,0));
-//            jFrame.setBackground(Color.pink);
-            jFrame.setBounds(0,0,width,height);
-            GUItools.frameCenter(jFrame);
-
-
-            new Thread(()->{jFrame.setVisible(true);
-                try {
-                    Thread.currentThread().sleep(duration);
-                } catch (Exception ee) {
-                    ee.printStackTrace();
-                }
-                jFrame.dispose();}).start();
-
-            int i = 100;
-            while(--i<0){
-                try {
-                    jFrame.repaint(10);
-                    Thread.currentThread().sleep(duration/100);
-                } catch (Exception ee) {
-                    ee.printStackTrace();
-                }
             }
+        };
 
-        }catch (Exception e){
-            if(imageDir == null){
-                System.err.println("警告：图片地址参数为空，显示空白图");
-            }else {
-                System.err.println("警告：图片载入失败，显示空白图");
-            }
-            final int width = GUItools.getScreenWidth()/2;
-            final int height = GUItools.getScreenHeight()/8;
+        jFrame.setUndecorated(true);
+        jFrame.setBackground(new Color(0, 0, 0, 0));
+        jFrame.setBounds(0, 0, bufferedImage.getWidth(), bufferedImage.getHeight());
+//        jFrame.pack();
+        GUItools.frameCenter(jFrame);
+        jFrame.repaint();
 
-            MyCanvas myCanvas = new MyCanvas();
-            myCanvas.setSize(width,height);
-            myCanvas.setBackground(Color.pink);
 
-            final JFrame jFrame = new JFrame();
-            jFrame.setUndecorated(true);
-            jFrame.setBounds(0,0,width,height);
-            jFrame.add(myCanvas,BorderLayout.CENTER);
-            GUItools.frameCenter(jFrame);
-
+        new Thread(() -> {
             jFrame.setVisible(true);
             try {
+                jFrame.repaint();
                 Thread.currentThread().sleep(duration);
-            } catch (Exception ee) {
-                ee.printStackTrace();
+            } catch (Exception e) {
             }
             jFrame.dispose();
-        }
+        }).start();
 
 
+//        final BufferedImage bufferedImage = getImage(imageDir);
+//        final int width = bufferedImage.getWidth();
+//        final int height = bufferedImage.getHeight();
+//
+//        final JFrame jFrame = new JFrame() {
+//            @Override
+//            public void paint(Graphics g) {
+//                super.paint(g);
+//                Graphics2D graphics = (Graphics2D) g;
+//                for (int i = 0; i < width; i++) {
+//                    for (int j = 0; j < height; j++) {
+//
+//                        int rgb = bufferedImage.getRGB(i, j);
+//
+//                        if ((rgb >> 24) == 0) {
+//                            graphics.setColor(new Color(00, 0, 0, 0));
+//                            graphics.drawLine(i, j, i, j);
+//                        } else {
+//                            graphics.setColor(new Color(rgb | 0xff000000));
+//                            graphics.drawLine(i, j, i, j);
+//                        }
+//                    }
+//                }
+//            }
+//        };
+//
+//        jFrame.setUndecorated(true);
+//        jFrame.setBackground(new Color(0,0,0,0));
+//        jFrame.setBounds(0,0,width,height);
+//        GUItools.frameCenter(jFrame);
+//
+//        new Thread(()->{jFrame.setVisible(true);
+//            try {
+//                Thread.currentThread().sleep(duration);
+//            } catch (Exception ee) {
+//                ee.printStackTrace();
+//            }
+//            jFrame.dispose();}).start();
 
+//        int i = 100;
+//        while(--i<0){
+//            try {
+//                jFrame.repaint();
+//                Thread.currentThread().sleep(duration/100);
+//            } catch (Exception ee) {
+//                ee.printStackTrace();
+//            }
+//        }
 
 
 //            JFrame jFrame = new JFrame() {
@@ -256,8 +269,6 @@ public class Splash {
 //        jFrame.dispose();
 
 
-
-
 //        imageDirection = imageDir;
 //        JFrame splash;
 //        try{
@@ -313,5 +324,49 @@ public class Splash {
 //        splash.dispose();
 //
 //    }
+
+    private static BufferedImage opaque(BufferedImage source) {
+        BufferedImage bufferedImage = new BufferedImage(source.getWidth(), source.getHeight(), BufferedImage.TYPE_INT_ARGB);
+        Graphics graphics = bufferedImage.getGraphics();
+//        System.out.println("des.getRGB(0,0) = " + String.format("%x",source.getRGB(0, 0)));
+
+        for (int i = source.getMinX(); i < source.getWidth(); i++) {
+            for (int j = source.getMinY(); j < source.getHeight(); j++) {
+                int rgb = source.getRGB(i, j);
+
+                if ((rgb >> 24) == 0) {
+                    graphics.setColor(new Color(00, 0, 0, 0));
+                    graphics.drawLine(i, j, i, j);
+                } else {
+                    graphics.setColor(new Color(rgb | 0xff000000));
+                    graphics.drawLine(i, j, i, j);
+                }
+            }
+        }
+
+//        System.out.println("des.getRGB(0,0) = " + String.format("%x",source.getRGB(0, 0)));
+
+        return bufferedImage;
+    }
+
+    private static BufferedImage getImage(String imageDir) {
+        try {
+            BufferedImage imageIcon = ImageIO.read(
+                    new File(imageDir));
+            return imageIcon;
+        } catch (Exception e) {
+            if (imageDir == null) {
+                System.err.println("警告：图片地址参数为空，显示空白图");
+            } else {
+                System.err.println("警告：图片载入失败，显示空白图");
+            }
+
+            BufferedImage bufferedImage = new BufferedImage(GUItools.getScreenWidth() / 2, GUItools.getScreenHeight() / 8, TYPE_INT_RGB);
+            Graphics graphics = bufferedImage.getGraphics();
+            graphics.setColor(Color.RED);
+            graphics.fillRect(0, 0, GUItools.getScreenWidth() / 2, GUItools.getScreenHeight() / 8);
+            return bufferedImage;
+        }
+    }
 
 }
