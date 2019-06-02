@@ -7,6 +7,7 @@ import linuxTool.tool.ThreadSleep;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.File;
 
 public class GITThread extends Thread {
     private static String commit;
@@ -51,8 +52,9 @@ public class GITThread extends Thread {
             return;
         }
 
-        GITThread.textArea.append("开始提交\n");
+        GITThread.textArea.append("开始提交commit:"+commit+"\n");
         String dir = Enviroment.GIT_DIR;
+        GITThread.textArea.append("库所在位置："+new File(dir).getAbsolutePath() +"\n");
 
         Shell shell = new Shell(dir,textArea);
         shell.exec("git add *");
