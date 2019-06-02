@@ -1,9 +1,11 @@
 package linuxTool.myShell;
 
 
+import java.awt.*;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.InputStreamReader;
+import java.io.PrintStream;
 
 public class Shell {
     private Process process = null;
@@ -15,6 +17,9 @@ public class Shell {
     private BufferedReader errorInfo = null;
     //private PrintWriter outCmd = null;
     private boolean isSetup = false;
+    private PrintStream err = System.err;
+    private PrintStream out = System.out;
+    private TextArea textArea;
 
     /**
      * 创建shell服务进程
@@ -25,6 +30,27 @@ public class Shell {
         if (dir != null) {
             file = new File(dir);
         }
+    }
+
+    public Shell(String dir, TextArea textArea) {
+        this(dir);
+        this.textArea = textArea;
+        err = new PrintStream(System.err) {
+            @Override
+            public void print(String s) {
+                textArea.append("error:");
+                textArea.append(s);
+                textArea.append("\n");
+            }
+        };
+
+        out = new PrintStream(System.out) {
+            @Override
+            public void print(String s) {
+                textArea.append(s);
+                textArea.append("\n");
+            }
+        };
     }
 
     public void exec(String cmd) {
@@ -44,7 +70,7 @@ public class Shell {
             close();
         }
 
-        //System.out.println("---------------"+"执行结束"+"--------------\n\n");
+        //out.println("---------------"+"执行结束"+"--------------\n\n");
     }
 
     /**
@@ -58,7 +84,7 @@ public class Shell {
             process.waitFor();
         } catch (Exception e) {
             e.printStackTrace();
-            System.err.println("win处理进程创建失败");
+            err.println("win处理进程创建失败");
             close();
         }
     }
@@ -69,7 +95,7 @@ public class Shell {
      * @param cmd
      */
     private void execLinux(String cmd) {
-//        System.out.println("开始执行："+cmd);
+//        out.println("开始执行："+cmd);
         command = new String[]{"/bin/sh", "-c", cmd};
 
         try {
@@ -77,7 +103,7 @@ public class Shell {
             process.waitFor();//方法阻塞 等待这个进程死亡
         } catch (Exception e) {
             e.printStackTrace();
-            System.err.println("shell进程创建失败");
+            err.println("shell进程创建失败");
             close();
         }
     }
@@ -108,7 +134,7 @@ public class Shell {
         }
         isSetup = false;
 
-        //System.out.println("成功关闭shell服务");
+        //out.println("成功关闭shell服务");
     }
 
     /**
@@ -120,7 +146,7 @@ public class Shell {
             inInfo = new BufferedReader(new InputStreamReader(process.getInputStream(), "UTF-8"));
             errorInfo = new BufferedReader(new InputStreamReader(process.getErrorStream(), "UTF-8"));
         } catch (Exception e) {
-            System.out.println("管道建立失败");
+            out.println("管道建立失败");
             e.printStackTrace();
             close();
         }
@@ -150,11 +176,11 @@ public class Shell {
         }
 
         if (result.length() != 0 && !isSetup) {
-            //System.out.print("shell进程建立成功,");
-            //System.out.println("工作目录为:");
+            //out.print("shell进程建立成功,");
+            //out.println("工作目录为:");
             isSetup = true;
         }
-        System.out.println(result.toString());
-        //System.out.println();
+        out.println(result.toString());
+        //out.println();
     }
 }

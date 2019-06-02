@@ -29,7 +29,7 @@ public class MyCanvas extends Canvas {
         this.paint(graphics);//传缓存图的画笔给paint
 
         //一次性画到屏幕上
-        g.drawImage(offScreenImage,0,0,null);
+        g.drawImage(offScreenImage,0,0,new Color(0,0,0,0),null);
     }
 
     //update调用，传来的是缓冲图的画笔

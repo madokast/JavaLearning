@@ -100,8 +100,47 @@ public class Splash {
 
 //    }
 
+    public static void exhibit(String imageDir, int duration){
+        BufferedImage bufferedImage;
+        if(imageDir.endsWith(ImagePreloading.IMAGE)){
+//            System.out.println("是预载入的图片");
+            if(ImagePreloading.isPreloaded()){
+                bufferedImage = ImagePreloading.getPreloadImage();
+            }else {
+//                System.out.println("然而预载入未完成,阻塞自己？");
+                try{ImagePreloading.class.wait();}catch (Exception e){}
+//                System.out.println("被唤醒了");
+                bufferedImage = opaque(getImage(imageDir));
+            }
+        }else {
+            bufferedImage = opaque(getImage(imageDir));
+        }
 
-    public static void exhibit(String imageDir, int duration) {
+        MyCanvas myCanvas = new MyCanvas();
+        myCanvas.setSize(bufferedImage.getWidth(),bufferedImage.getHeight());
+        myCanvas.getImageAndPrintIt(bufferedImage);
+        Frame jFrame = new Frame();
+        jFrame.setUndecorated(true);
+        jFrame.setBackground(new Color(0,0,0,0));
+//        JFrame.setDefaultLookAndFeelDecorated(true);
+//        jFrame.setOpacity(0.3f);
+        jFrame.add(myCanvas,BorderLayout.CENTER);
+        jFrame.setAlwaysOnTop(true);
+        jFrame.pack();
+//        jFrame.setBounds(0,0,bufferedImage.getWidth(),bufferedImage.getHeight());
+        GUItools.frameCenter(jFrame);
+        new Thread(() -> {
+            jFrame.setVisible(true);
+            try {
+                Thread.currentThread().sleep(duration);
+            } catch (Exception e) {
+            }
+            jFrame.dispose();
+        }).start();
+    }
+
+
+    public static void exhibit2(String imageDir, int duration) {
 //        BufferedImage bufferedImage = opaque(getImage());
         BufferedImage bufferedImage = getImage(imageDir);
 //        try{

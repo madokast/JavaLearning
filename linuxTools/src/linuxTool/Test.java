@@ -1,5 +1,6 @@
 package linuxTool;
 
+import linuxTool.GIT.GITThread;
 import linuxTool.GUItool.GUItools;
 import linuxTool.myShell.Shell;
 import linuxTool.tool.StringTool;
@@ -7,6 +8,8 @@ import linuxTool.tool.StringTool;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 import java.awt.image.BufferedImage;
 import java.awt.image.Raster;
 import java.io.File;
@@ -16,7 +19,66 @@ import static java.awt.image.BufferedImage.TYPE_INT_RGB;
 public class Test {
     public static void main(String[] args) {
 
-        transparent();
+//        transparent();
+        GIT();
+
+
+
+    }
+
+    public static void GIT(){
+        JFrame jFrame = new JFrame();
+        final int width = 80;
+        final int height = 40;
+        String title = "---auto-git&hub for JavaLearning---";
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(" ".repeat(/*(width-title.length())/2*/width/2+5)).append(title).append('\n');
+        stringBuilder.append("commit:\n").append("今天也是充实的一天呢～");
+
+
+        TextArea textArea = new TextArea(stringBuilder.toString(),height,width,TextArea.SCROLLBARS_NONE){
+            public void println(String s){this.append(s);}
+        };
+        GITThread.readyForTestArea(textArea,jFrame);
+//        textArea.setEditable(false);
+        textArea.setCaretPosition(textArea.getText().length());
+        System.out.println("123");
+        textArea.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+//                System.out.println("e = " + String.format("%d",(int)e.getKeyChar()));
+
+                if(e.getKeyChar() == KeyEvent.VK_ENTER){
+                    String commit = textArea.getText().split("\n")[textArea.getText().split("\n").length-1];
+                    GITThread.sendCommitAndRun(commit);
+                }
+
+                //ctrl+c
+                if((int)e.getKeyChar()==3){
+//                    System.out.println("收到停止命令");
+                    GITThread.kill();
+                    jFrame.dispose();
+                }
+            }
+        });
+
+
+//        TextField textField = new TextField(width);
+//        textArea.setBackground(new Color(0,0,0,0));
+        jFrame.add(textArea,BorderLayout.CENTER);
+//        jFrame.add(textField,BorderLayout.SOUTH);
+        jFrame.setUndecorated(true);
+//        jFrame.setBackground(new Color(0,255,0,128));
+        jFrame.pack();
+        GUItools.frameCenter(jFrame);
+        jFrame.setVisible(true);
+    }
+
+    //        for (String availableFontFamilyName : GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames()) {
+//            System.out.println(availableFontFamilyName);
+//        }
+
+
 //        Shell shell = new Shell(null);
 //        shell.exec("firefox");
 
@@ -24,11 +86,34 @@ public class Test {
 //        System.out.println("StringTool.isCloseWithDoubleQuotation(\"\\\"123\\\"\") = " + StringTool.isCloseWithDoubleQuotation("\"123\""));
 //        System.out.println("StringTool.removeDoubleQuotation(\"123\") = " + StringTool.removeDoubleQuotation("123"));
 //        System.out.println("StringTool.removeDoubleQuotation(\"\\\"123\\\"\") = " + StringTool.removeDoubleQuotation("\"123\""));
+
+    private static BufferedImage imageWord(){
+        int width = GUItools.getScreenWidth()/2;
+        int height = GUItools.getScreenHeight()/8;
+        String string = "汉字";
+
+        BufferedImage bufferedImage = new BufferedImage(width,height,BufferedImage.TYPE_INT_ARGB);
+        Graphics graphics = bufferedImage.getGraphics();
+        graphics.setColor(Color.WHITE);
+        graphics.fillRect(0,0,width,height);
+        graphics.setColor(Color.black);
+
+//        Font font = new Font(GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames()[1],Font.BOLD,40);
+        Font font = new Font("AR PL UKai CN",Font.PLAIN,50);
+
+        FontMetrics fontMetrics = graphics.getFontMetrics(font);
+        int x = (width - fontMetrics.stringWidth(string))/2;
+        int y = (height - fontMetrics.getHeight())/2+fontMetrics.getAscent();
+        graphics.setFont(font);
+        graphics.drawString(string,x,y);
+
+        return bufferedImage;
     }
 
     private static void transparent(){
 //        BufferedImage bufferedImage = opaque(getImage());
-        BufferedImage bufferedImage = getImage();
+//        BufferedImage bufferedImage = opaque(getImage());
+        BufferedImage bufferedImage = imageWord();
 //        try{
 //            ImageIO.write(bufferedImage,"png",new File("/home/madokast/Documents/JavaLearning/linuxTools/image/kuronew.png"));
 //        }catch (Exception e){}
@@ -60,7 +145,7 @@ public class Test {
     private static BufferedImage getImage(){
         try{
             BufferedImage imageIcon = ImageIO.read(
-                    new File("/home/madokast/Documents/JavaLearning/linuxTools/image/kuronew.png"));
+                    new File("/home/madokast/Documents/JavaLearning/linuxTools/image/kuro2.png"));
             return imageIcon;
         }catch (Exception e){
             BufferedImage bufferedImage = new BufferedImage(GUItools.getScreenWidth()/2,GUItools.getScreenHeight()/8,TYPE_INT_RGB);

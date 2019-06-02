@@ -1,5 +1,6 @@
 package linuxTool;
 
+import linuxTool.GUItool.ImagePreloading;
 import linuxTool.GUItool.Splash;
 import linuxTool.myShell.Shell;
 import linuxTool.tool.StringTool;
@@ -18,6 +19,12 @@ public class Main {
          */
 //        args = new String[]{"--splash","/home/madokast/Documents/JavaLearning/linuxTools/image/kuro.png","2000"};
 //        args = new String[]{"--splash"};
+
+        /**
+         * preload picture
+         */
+        new Thread(()-> ImagePreloading.preload()).start();
+
 
         /**
          * 零参数 显示如何获得帮助
