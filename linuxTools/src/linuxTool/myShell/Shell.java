@@ -17,9 +17,13 @@ public class Shell {
     private BufferedReader errorInfo = null;
     //private PrintWriter outCmd = null;
     private boolean isSetup = false;
+
+    /**
+     * 重构，以适用于输出重定位
+     */
     private PrintStream err = System.err;
     private PrintStream out = System.out;
-    private TextArea textArea;
+//    private TextArea textArea;
 
     /**
      * 创建shell服务进程
@@ -32,9 +36,19 @@ public class Shell {
         }
     }
 
+    /**
+     * 将输出重定位到 textArea
+     * @param dir 输入shell工作目录，null表示和当前主进程目录相同。注意执行git命令
+     * @param textArea 将输出重定位到 textArea 。暂时被用于git提交
+     */
     public Shell(String dir, TextArea textArea) {
         this(dir);
-        this.textArea = textArea;
+//        this.textArea = textArea;
+
+        /**
+         * 美妙的代码！！
+         * 今日最佳 20190602
+         */
         err = new PrintStream(System.err) {
             @Override
             public void print(String s) {

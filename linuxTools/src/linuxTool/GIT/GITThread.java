@@ -9,6 +9,23 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.File;
 
+/**
+ * GIT提交线程
+ * 感觉非常robust
+ * 可以重启、可以被杀死
+ *
+ * 使用方法
+ *      首先readyForTestArea，将窗口和文本框交过来
+ *          文本框用于输出
+ *          窗口用于任务完成后杀死
+ *      然后sendCommitAndRun
+ *          拿到commit 自动执行
+ *      出现问题，kill杀死
+ *          注意键盘事件需要写好一点
+ *
+ * 20190602
+ */
+
 public class GITThread extends Thread {
     private static String commit;
     private static TextArea textArea;

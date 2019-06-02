@@ -7,6 +7,13 @@ import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
+/**
+ * GIT执行窗口
+ * 代码需要大改
+ *
+ * 20190602
+ */
+
 public class GITWindows {
     private GITWindows(){}
     public static void GIT(){
@@ -36,7 +43,12 @@ public class GITWindows {
                     GITThread.sendCommitAndRun(commit);
                 }
 
-                //ctrl+c
+                /**
+                 * ctrl+C终止GIT提交线程，同时关闭窗口，结束一切
+                 * 同样是今日最佳
+                 *
+                 * 20190602
+                 */
                 if((int)e.getKeyChar()==3){
 //                    System.out.println("收到停止命令");
                     GITThread.kill();
