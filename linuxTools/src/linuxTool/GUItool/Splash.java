@@ -6,12 +6,27 @@ import linuxTool.tool.ThreadSleep;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseMotionAdapter;
 import java.awt.image.BufferedImage;
 import java.io.File;
 
 import static java.awt.image.BufferedImage.TYPE_INT_RGB;
 
 public class Splash {
+    /**
+     * 以下变量用于得到鼠标移动过程，从而控制splash的移动
+     * 性能意外的好
+     */
+    private static int oldX = -1;
+    private static int oldY = -1;
+    private static int jFrameNewLocalX;
+    private static int jFrameNewLocalY;
+    private static int moveX;
+    private static int moveY;
+
+
 //    private static Splash splash = new Splash();
 //    private static Splash getInstance()
 //    {
@@ -138,11 +153,54 @@ public class Splash {
         MyCanvas myCanvas = new MyCanvas();
         myCanvas.setSize(bufferedImage.getWidth(), bufferedImage.getHeight());
         myCanvas.getImageAndPrintIt(bufferedImage);
+
         Frame jFrame = new Frame();
         jFrame.setUndecorated(true);
         jFrame.setBackground(new Color(0, 0, 0, 0));
 //        JFrame.setDefaultLookAndFeelDecorated(true);
 //        jFrame.setOpacity(0.3f);
+
+        myCanvas.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mousePressed(MouseEvent e) {
+                oldX = e.getX();
+                oldY = e.getY();
+            }
+
+            long lastClick = 0L;
+            long currentClick;
+            @Override
+            public void mouseClicked(MouseEvent e){
+                currentClick = e.getWhen();
+                if(currentClick-lastClick<500){
+                    jFrame.dispose();
+                }else {
+                    lastClick = currentClick;
+                }
+            }
+        });
+
+        myCanvas.addMouseMotionListener(new MouseMotionAdapter() {
+
+            @Override
+            public void mouseDragged(MouseEvent e) {
+
+                moveX = e.getX() - oldX;
+                moveY = e.getY() - oldY;
+
+//                oldX = e.getX();
+//                oldY = e.getY();
+
+                jFrameNewLocalX = jFrame.getX() + moveX;
+                jFrameNewLocalY = jFrame.getY() + moveY;
+
+                jFrame.setLocation(jFrameNewLocalX, jFrameNewLocalY);
+
+
+            }
+        });
+
+
         jFrame.add(myCanvas, BorderLayout.CENTER);
         jFrame.setAlwaysOnTop(true);
         jFrame.pack();
@@ -431,27 +489,27 @@ public class Splash {
         }
     }
 
-    private static BufferedImage imageWord(){
-        int width = GUItools.getScreenWidth()/3;
-        int height = GUItools.getScreenHeight()/8;
+    private static BufferedImage imageWord() {
+        int width = GUItools.getScreenWidth() / 3;
+        int height = GUItools.getScreenHeight() / 8;
         String string = "さくら  もゆ";
 
-        BufferedImage bufferedImage = new BufferedImage(width,height,BufferedImage.TYPE_INT_ARGB);
+        BufferedImage bufferedImage = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
         Graphics graphics = bufferedImage.getGraphics();
-        graphics.setColor(new Color(0,0,0,0));
-        graphics.fillRect(0,0,width,height);
+        graphics.setColor(new Color(0, 0, 0, 0));
+        graphics.fillRect(0, 0, width, height);
         graphics.setColor(Color.CYAN);
-        graphics.fillOval(0,0,width,height);
+        graphics.fillOval(0, 0, width, height);
 
 //        Font font = new Font(GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames()[1],Font.BOLD,40);
-        Font font = new Font(/*"AR PL UKai CN"*/"Noto Serif CJK JP",Font.BOLD,80);
+        Font font = new Font(/*"AR PL UKai CN"*/"Noto Serif CJK JP", Font.BOLD, 80);
 
         FontMetrics fontMetrics = graphics.getFontMetrics(font);
-        int x = (width - fontMetrics.stringWidth(string))/2;
-        int y = (height - fontMetrics.getHeight())/2+fontMetrics.getAscent();
+        int x = (width - fontMetrics.stringWidth(string)) / 2;
+        int y = (height - fontMetrics.getHeight()) / 2 + fontMetrics.getAscent();
         graphics.setFont(font);
         graphics.setColor(Color.RED);
-        graphics.drawString(string,x,y);
+        graphics.drawString(string, x, y);
 
         return bufferedImage;
     }
