@@ -20,7 +20,19 @@ public class Test {
     public static void main(String[] args) {
 
 //        transparent();
-        GIT();
+//        GIT();
+//        synchronized (Test.class) {
+//            System.out.println("123");
+//            try {
+//                Test.class.wait();
+//            } catch (Exception x) {
+//            }
+//            System.out.println("456");
+//        }
+
+                for (String availableFontFamilyName : GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames()) {
+                    System.out.println(availableFontFamilyName);
+                }
 
 
 
@@ -90,21 +102,22 @@ public class Test {
     private static BufferedImage imageWord(){
         int width = GUItools.getScreenWidth()/2;
         int height = GUItools.getScreenHeight()/8;
-        String string = "汉字";
+        String string = "さくら もゆ";
 
         BufferedImage bufferedImage = new BufferedImage(width,height,BufferedImage.TYPE_INT_ARGB);
         Graphics graphics = bufferedImage.getGraphics();
-        graphics.setColor(Color.WHITE);
+        graphics.setColor(new Color(200, 120, 18));
         graphics.fillRect(0,0,width,height);
         graphics.setColor(Color.black);
 
 //        Font font = new Font(GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames()[1],Font.BOLD,40);
-        Font font = new Font("AR PL UKai CN",Font.PLAIN,50);
+        Font font = new Font(/*"AR PL UKai CN"*/"Noto Serif CJK JP",Font.PLAIN,50);
 
         FontMetrics fontMetrics = graphics.getFontMetrics(font);
         int x = (width - fontMetrics.stringWidth(string))/2;
         int y = (height - fontMetrics.getHeight())/2+fontMetrics.getAscent();
         graphics.setFont(font);
+        graphics.setColor(Color.pink);
         graphics.drawString(string,x,y);
 
         return bufferedImage;

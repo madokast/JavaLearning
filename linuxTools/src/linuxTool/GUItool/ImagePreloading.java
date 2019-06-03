@@ -1,19 +1,23 @@
 package linuxTool.GUItool;
 
 import linuxTool.Enviroment;
+import linuxTool.tool.ThreadSleep;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class ImagePreloading{
 //    private static final String PRELOAD_IMAGE_DIR = "/home/madokast/Documents/JavaLearning/linuxTools/image/kuro.png";
 //    public static final String IMAGE = "kuro.png";
 
     private static BufferedImage bufferedImage = null;
+    private static boolean preloaded = false;
 
     public static void preload(){
+//        System.out.println("执行预载入");
         BufferedImage source;
 
         try{
@@ -40,15 +44,26 @@ public class ImagePreloading{
             }
         }
 
-        try{ImagePreloading.class.notify();}catch (Exception e){}
-        ImagePreloading.bufferedImage = bufferedImage;
+//        System.out.println("其实已经完工了。可是我如果偷懒了呢？");
+//        ThreadSleep.sleep(Thread.currentThread(),5000);
+
+        synchronized (ImagePreloading.class) {
+            ImagePreloading.bufferedImage = bufferedImage;
+            preloaded = true;
+//            System.out.println("预载入成功，开始唤醒");
+            try {
+                ImagePreloading.class.notify();
+            } catch (Exception e) {
+            }
+        }
+
     }
 
-    public static boolean isPreloaded(){
-        return bufferedImage!=null;
+    public static boolean isPreloaded() {
+        return preloaded;
     }
 
-    public static BufferedImage getPreloadImage(){
+    public static BufferedImage getBufferedImage() {
         return bufferedImage;
     }
 }

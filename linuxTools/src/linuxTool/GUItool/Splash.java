@@ -1,6 +1,7 @@
 package linuxTool.GUItool;
 
 import linuxTool.Enviroment;
+import linuxTool.tool.ThreadSleep;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -102,31 +103,47 @@ public class Splash {
 
 //    }
 
-    public static void exhibit(String imageDir, int duration){
+    public static synchronized void exhibit(String imageDir, int duration) {
         BufferedImage bufferedImage;
-        if(imageDir.endsWith(Enviroment.PRELOAD_IMAGE)){
+        if (imageDir != null && imageDir.endsWith(Enviroment.PRELOAD_IMAGE)) {
 //            System.out.println("是预载入的图片");
-            if(ImagePreloading.isPreloaded()){
-                bufferedImage = ImagePreloading.getPreloadImage();
-            }else {
-//                System.out.println("然而预载入未完成,阻塞自己？");
-                try{ImagePreloading.class.wait();}catch (Exception e){}
-//                System.out.println("被唤醒了");
-                bufferedImage = opaque(getImage(imageDir));
+//            ThreadSleep.sleep(Thread.currentThread(),5000);
+//            System.out.println("休息结束");
+            synchronized (ImagePreloading.class) {
+                if (ImagePreloading.isPreloaded()) {
+//                    System.out.println("拿到图片");
+                    bufferedImage = ImagePreloading.getBufferedImage();
+                } else {
+//                    System.out.println("然而预载入未完成,阻塞自己？");
+//                    System.out.println("可是我偷懒了怎么办呢？");
+//                    ThreadSleep.sleep(Thread.currentThread(), 10000);
+                    try {
+                        ImagePreloading.class.wait();
+                    } catch (Exception e) {
+                    }
+//                    System.out.println("被唤醒了");
+                    bufferedImage = ImagePreloading.getBufferedImage();
+
+                }
             }
-        }else {
+
+        } else {
             bufferedImage = opaque(getImage(imageDir));
         }
 
+//        System.out.println("拿到图片了，可惜我要偷懒");
+//        ThreadSleep.sleep(Thread.currentThread(),5000);
+//        System.out.println("干活了干活了");
+
         MyCanvas myCanvas = new MyCanvas();
-        myCanvas.setSize(bufferedImage.getWidth(),bufferedImage.getHeight());
+        myCanvas.setSize(bufferedImage.getWidth(), bufferedImage.getHeight());
         myCanvas.getImageAndPrintIt(bufferedImage);
         Frame jFrame = new Frame();
         jFrame.setUndecorated(true);
-        jFrame.setBackground(new Color(0,0,0,0));
+        jFrame.setBackground(new Color(0, 0, 0, 0));
 //        JFrame.setDefaultLookAndFeelDecorated(true);
 //        jFrame.setOpacity(0.3f);
-        jFrame.add(myCanvas,BorderLayout.CENTER);
+        jFrame.add(myCanvas, BorderLayout.CENTER);
         jFrame.setAlwaysOnTop(true);
         jFrame.pack();
 //        jFrame.setBounds(0,0,bufferedImage.getWidth(),bufferedImage.getHeight());
@@ -156,11 +173,12 @@ public class Splash {
                 super.paint(g);
                 Graphics2D g2 = (Graphics2D) g;
 //                g2.drawImage(backImage,0,0,backImage.getWidth(),backImage.getHeight(),null);
-                g2.setColor(new Color(0,0,0,0));
-                g2.fillRect( 0, 0, bufferedImage.getWidth(), bufferedImage.getHeight());
-                try{
+                g2.setColor(new Color(0, 0, 0, 0));
+                g2.fillRect(0, 0, bufferedImage.getWidth(), bufferedImage.getHeight());
+                try {
                     Thread.currentThread().sleep(10);
-                }catch (Exception e){}
+                } catch (Exception e) {
+                }
                 g2.drawImage(bufferedImage, 0, 0, bufferedImage.getWidth(), bufferedImage.getHeight(), null);
 
             }
@@ -396,18 +414,46 @@ public class Splash {
                     new File(imageDir));
             return imageIcon;
         } catch (Exception e) {
+//            e.printStackTrace();
             if (imageDir == null) {
                 System.err.println("警告：图片地址参数为空，显示空白图");
             } else {
                 System.err.println("警告：图片载入失败，显示空白图");
             }
 
-            BufferedImage bufferedImage = new BufferedImage(GUItools.getScreenWidth() / 2, GUItools.getScreenHeight() / 8, TYPE_INT_RGB);
-            Graphics graphics = bufferedImage.getGraphics();
-            graphics.setColor(Color.RED);
-            graphics.fillRect(0, 0, GUItools.getScreenWidth() / 2, GUItools.getScreenHeight() / 8);
-            return bufferedImage;
+//            BufferedImage bufferedImage = new BufferedImage(GUItools.getScreenWidth() / 2, GUItools.getScreenHeight() / 8, TYPE_INT_RGB);
+//            Graphics graphics = bufferedImage.getGraphics();
+//            graphics.setColor(Color.RED);
+//            graphics.fillRect(0, 0, GUItools.getScreenWidth() / 2, GUItools.getScreenHeight() / 8);
+//            return bufferedImage;
+
+            return imageWord();
         }
+    }
+
+    private static BufferedImage imageWord(){
+        int width = GUItools.getScreenWidth()/3;
+        int height = GUItools.getScreenHeight()/8;
+        String string = "さくら  もゆ";
+
+        BufferedImage bufferedImage = new BufferedImage(width,height,BufferedImage.TYPE_INT_ARGB);
+        Graphics graphics = bufferedImage.getGraphics();
+        graphics.setColor(new Color(0,0,0,0));
+        graphics.fillRect(0,0,width,height);
+        graphics.setColor(Color.CYAN);
+        graphics.fillOval(0,0,width,height);
+
+//        Font font = new Font(GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames()[1],Font.BOLD,40);
+        Font font = new Font(/*"AR PL UKai CN"*/"Noto Serif CJK JP",Font.BOLD,80);
+
+        FontMetrics fontMetrics = graphics.getFontMetrics(font);
+        int x = (width - fontMetrics.stringWidth(string))/2;
+        int y = (height - fontMetrics.getHeight())/2+fontMetrics.getAscent();
+        graphics.setFont(font);
+        graphics.setColor(Color.RED);
+        graphics.drawString(string,x,y);
+
+        return bufferedImage;
     }
 
 }

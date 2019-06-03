@@ -42,8 +42,8 @@ public class DipoleFactory {
     }
 
     private static void individual45_3() {
-        double n = 25.57;
-        double a1 = 6.17;
+        double n = 26.3;
+        double a1 = 5.912;
         double a2 = 45-2*a1;
         double a3 = a1;
         double r = 1.0;
