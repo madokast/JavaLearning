@@ -1,4 +1,4 @@
-package tool;
+package tool.GitXX;
 
 import java.io.*;
 import java.util.Scanner;
