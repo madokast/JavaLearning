@@ -1,12 +1,12 @@
 package IO;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.InputStreamReader;
-import java.io.Reader;
+import java.io.*;
+import java.util.Arrays;
+import java.util.stream.Stream;
+import java.util.stream.StreamSupport;
 
 public class ReaderTest {
-    File file = new File("./a.txt");
+    static File file = new File("./a.txt");
 
     // * Abstract class for reading character streams.  The only methods that a
     // * subclass must implement are read(char[], int, int) and close().  Most
@@ -35,7 +35,7 @@ public class ReaderTest {
     //reset()重置该流。
     // long
     //skip(long n)跳过字符。
-    Reader reader;
+//    Reader reader;
 
     //用来读取字符文件的便捷类。
     // 此类的构造方法假定默认字符编码和默认字节缓冲区大小都是适当的。
@@ -57,7 +57,7 @@ public class ReaderTest {
     //从类 java.lang.Object 继承的方法
     //clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait
 
-    FileReader fileReader;
+//    FileReader fileReader;
 
 
     //InputStreamReader 是字节流通向字符流的桥梁：
@@ -69,33 +69,77 @@ public class ReaderTest {
     // BufferedReader in
     //   = new BufferedReader(new InputStreamReader(System.in));
 
-    //InputStreamReader(InputStream in)
-    //          创建一个使用默认字符集的 InputStreamReader。
-    //InputStreamReader(InputStream in, Charset cs)
-    //          创建使用给定字符集的 InputStreamReader。
-    //InputStreamReader(InputStream in, CharsetDecoder dec)
-    //          创建使用给定字符集解码器的 InputStreamReader。
-    //InputStreamReader(InputStream in, String charsetName)
-    //          创建使用指定字符集的 InputStreamReader。
+    //InputStreamReader(InputStream in)创建一个使用默认字符集的 InputStreamReader。
+    //InputStreamReader(InputStream in, Charset cs)创建使用给定字符集的 InputStreamReader。
+    //InputStreamReader(InputStream in, CharsetDecoder dec)创建使用给定字符集解码器的 InputStreamReader。
+    //InputStreamReader(InputStream in, String charsetName)创建使用指定字符集的 InputStreamReader。
 
     // void
-    //close()
-    //          关闭该流并释放与之关联的所有资源。
+    //close()关闭该流并释放与之关联的所有资源。
     // String
-    //getEncoding()
-    //          返回此流使用的字符编码的名称。
+    //getEncoding()返回此流使用的字符编码的名称。
     // int
-    //read()
-    //          读取单个字符。
+    //read()读取单个字符。
     // int
-    //read(char[] cbuf, int offset, int length)
-    //          将字符读入数组中的某一部分。
+    //read(char[] cbuf, int offset, int length)将字符读入数组中的某一部分。
     // boolean
-    //ready()
-    //          判断此流是否已经准备好用于读取。
-    InputStreamReader inputStreamReader;
+    //ready()判断此流是否已经准备好用于读取。
+//    InputStreamReader inputStreamReader;
+
+//    static File file;
+    static FileOutputStream fileOutputStream;
+    static FileInputStream fileInputStream;
+    static InputStreamReader inputStreamReader;
+    static FileReader fileReader;
 
     public static void main(String[] args) {
+//        prepare();
+        fileReaderTest();
+//        fileReaderTest2();
+    }
+
+    private static void fileReaderTest2() {
+        try {
+            fileInputStream = new FileInputStream(file);
+            inputStreamReader = new InputStreamReader(fileInputStream);
+//            System.out.println("inputStreamReader.getEncoding() = " + inputStreamReader.getEncoding());
+//            int ch = 0;
+//            while((ch=inputStreamReader.read())!=-1){
+//                System.out.print((char) ch);
+//            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void fileReaderTest() {
+        try {
+            fileReader = new FileReader(file);
+            final int buffer = 100;
+            int length = 0;
+            char[] chars = new char[buffer];
+            while((length = fileReader.read(chars))!=-1){
+                new String(chars).chars().limit(length).mapToObj(c->(char)c).forEach(System.out::print);
+//                Arrays.stream(chars).limit(length).forEach(System.out::print);
+
+            }
+            fileReader.close();
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void prepare(){
+        try{
+            file.createNewFile();
+            fileOutputStream = new FileOutputStream(file,true);
+            fileInputStream = new FileInputStream(file);
+        }catch (Exception e){System.exit(-1);}
 
     }
 }

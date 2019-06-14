@@ -24,6 +24,7 @@ public class Activity {
             int year = Integer.parseInt(dates[0]);
             int month = Integer.parseInt(dates[1]);
             int day = Integer.parseInt(dates[2]);
+//            System.out.println("day = " + day);
             this.date = new Date(year, month - 1, day);
 
             this.act = act;
@@ -54,6 +55,6 @@ public class Activity {
     @Override
     public String toString() {
         return date.getYear() + "-" + (date.getMonth() + 1) + "-" +
-                date.getDay() + " " + String.format("%6s",act) + " " + length + "min";
+                date.getDate() + " " + String.format("%6s",act) + " " + length + "min";
     }
 }
