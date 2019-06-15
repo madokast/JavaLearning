@@ -38,6 +38,7 @@ public interface IteratorZRX<E> {
      * default方法，在接口中可以有方法体，即不必实现它，但是可以重写（废话）
      * @deprecated
      */
+    @Deprecated
     default void remove(){
         throw new UnsupportedOperationException("remove");
     }
