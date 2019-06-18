@@ -55,6 +55,15 @@ public class Activity {
     @Override
     public String toString() {
         return date.getYear() + "-" + (date.getMonth() + 1) + "-" +
-                date.getDate() + " " + String.format("%6s",act) + " " + length + "min";
+                date.getDate() + " " + String.format("%10s",act) + ((length<99)?" 0":" " +
+                "") + length + "min";
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public String getAct() {
+        return act;
     }
 }

@@ -56,6 +56,13 @@ public class ArrayListMooc implements ListMooc{
         return true;
     }
 
+    public void zeros(){
+        size = arr.length;
+        for (int i = 0; i < size; i++) {
+            arr[i]=0;
+        }
+    }
+
     @Override
     public String toString(){
         return ArrToString.arrToString(arr,size);

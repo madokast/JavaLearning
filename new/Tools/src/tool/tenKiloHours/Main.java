@@ -19,5 +19,12 @@ public class Main {
             length = length + e.getLength();
             System.out.println(e+" "+totaltime(length));
         });
+
+        long start = list.get(0).getDate().getTime();
+        long end = list.get(list.size()-1).getDate().getTime();
+        int days = (int)((end-start)/1000/60/60/24)+1;
+        double avg = (double)length/days;
+        System.out.println("\ntotal day:"+days+"  avg="+String.format("%.3f",avg)+"min");
+
     }
 }
