@@ -1,4 +1,4 @@
-package mooc1001660013;
+package mooc1001660013.ListSeriesMooc;
 
 public interface ListMooc {
     /**

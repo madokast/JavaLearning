@@ -1,8 +1,7 @@
 package mooc1001660013.Test;
 
-import mooc1001660013.ArrayListMooc;
+import mooc1001660013.ListSeriesMooc.ArrayListMooc;
 
-import java.util.Random;
 import java.util.stream.Stream;
 
 public class 顺序表 {

@@ -1,4 +1,4 @@
-package mooc1001660013;
+package mooc1001660013.ListSeriesMooc;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,8 +46,14 @@ public class LinkedListMooc implements ListMooc {
         int j=0;
         while (node!=null){
             node=node.next;
-            if(i==j)
+            if(i==j){
+                if(node==null){
+                    System.err.println("err in get");
+                    return i;
+                }
+
                 return node.data;
+            }
             else
                 j++;
         }
@@ -68,8 +74,9 @@ public class LinkedListMooc implements ListMooc {
                 insert.next = next;
                 return true;
             }
-            else
-                j++;
+
+            node=node.next;
+            j++;
         }
 
         System.err.println("err in insert");
@@ -78,6 +85,23 @@ public class LinkedListMooc implements ListMooc {
 
     @Override
     public boolean delete(int i) {
+        Node node = dummy.next;
+        int j=0;
+        while (node!=null){
+            if(i==j){
+                try {
+                    node.next=node.next.next;
+                    return true;
+                }catch (Exception e){
+                    System.err.println("err in delete");
+                    return false;
+                }
+            }
+            node=node.next;
+            j++;
+        }
+
+        System.err.println("err in delete");
         return false;
     }
 
