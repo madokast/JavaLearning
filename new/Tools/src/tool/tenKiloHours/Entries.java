@@ -18,11 +18,21 @@ public class Entries {
             "2019-6-14 java 1:25",
             "2019-6-15 dataStruct 1:10",
 
-            "2019-6-17 dataStruct 1:50"
+            "2019-6-17 dataStruct 1:50",
+
+            "2019-6-18 python 1:06",
+            "2019-6-18 rk 0:51",
+            "2019-6-18 rk 1:13"
     };
 
     public static String[] line = {
             "2019-6-15 6753",
-            "2019-6-17 7088"
+            "2019-6-17 7088",
+            "2019-6-17 7324"
+
     };
+
+    public static void main(String[] args) {
+        Main.main(null);
+    }
 }

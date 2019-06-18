@@ -1,5 +1,10 @@
 package IO;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+import java.rmi.server.ExportException;
 import java.util.Properties;
 
 /**
@@ -24,19 +29,44 @@ import java.util.Properties;
 
 public class PropertiesTest {
     public static void main(String[] args) {
-        show1();
+//        show1();
+//        show2();
+    }
+
+    public static void show2(){
+        File file = new File("./a.txt");
+        Properties properties = new Properties();
+        try(FileInputStream fileInputStream = new FileInputStream(file)){
+            properties.load(fileInputStream);
+            System.out.println(properties);
+            //{xzc=8484561, gfd=212484651, jyt=67461866, qwe=1343645765}
+        }catch (Exception e){e.printStackTrace();}
     }
 
     public static void show1(){
         Properties properties = new Properties();
+
+        //setProperty(String key, String value)
         properties.setProperty("qwe","1343645765");
         properties.setProperty("xzc","8484561");
         properties.setProperty("gfd","212484651");
         properties.setProperty("jyt","67461866");
 
+
         properties.stringPropertyNames().forEach(System.out::println);
         System.out.println("---------------");
         System.out.println("properties.getProperty(\"xzc\") = " + properties.getProperty("xzc"));
+
+        File file = new File("./a.txt");
+        try(FileOutputStream fileOutputStream = new FileOutputStream(file)){
+            properties.store(fileOutputStream,"");
+            //#
+            //#Tue Jun 18 16:18:56 CST 2019
+            //xzc=8484561
+            //gfd=212484651
+            //jyt=67461866
+            //qwe=1343645765
+        }catch (Exception e){e.printStackTrace();}
 
     }
 }
