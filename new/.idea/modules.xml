@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/201905/201905.iml" filepath="$PROJECT_DIR$/201905/201905.iml" />
       <module fileurl="file://$PROJECT_DIR$/201906/201906.iml" filepath="$PROJECT_DIR$/201906/201906.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataStructureAndAlgorithm/DataStructureAndAlgorithm.iml" filepath="$PROJECT_DIR$/DataStructureAndAlgorithm/DataStructureAndAlgorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tools/Tools.iml" filepath="$PROJECT_DIR$/Tools/Tools.iml" />
     </modules>
   </component>

@@ -6,6 +6,9 @@ import java.util.logging.Level;
 import java.util.stream.Stream;
 
 public class Main {
+    /**
+     * length / min
+     */
     private static int length=0;
     private static String totaltime(int length){
         return length/60+"h"+(length-length/60*60)+"m";
@@ -25,6 +28,7 @@ public class Main {
         int days = (int)((end-start)/1000/60/60/24)+1;
         double avg = (double)length/days;
         System.out.println("\ntotal day:"+days+"  avg="+String.format("%.3f",avg)+"min");
+        System.out.println(":::"+(double)length/Entries.ICHIWAN*100.0+"%:::");
 
     }
 }

@@ -1,6 +1,7 @@
 package tool.tenKiloHours;
 
 public class Entries {
+    static public final int ICHIWAN = 10000*60;
     public static String[] entries = {
             "2019-6-10 rk 1:3",
             "2019-6-10 Internet 0:18",
@@ -24,7 +25,12 @@ public class Entries {
             "2019-6-18 rk 0:51",
             "2019-6-18 rk 1:13",
             "2019-6-18 python 0:47",
-            "2019-6-18 dataStruct 2:20"
+            "2019-6-18 dataStruct 2:20",
+
+            "2019-6-19 python 1:00",
+
+            "2019-6-25 algorithm 1:00"
+
     };
 
     public static String[] line = {
