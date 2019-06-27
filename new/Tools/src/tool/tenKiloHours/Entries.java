@@ -29,7 +29,9 @@ public class Entries {
 
             "2019-6-19 python 1:00",
 
-            "2019-6-25 algorithm 1:00"
+            "2019-6-25 algorithm 1:00",
+
+            "2019-6-27 web 0:30"
 
     };
 
