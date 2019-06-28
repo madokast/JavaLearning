@@ -18,16 +18,17 @@ public class Main {
         final List<Activity> list  = new LinkedList<>();
         Stream.of(Entries.entries).forEach((e)->list.add(Activity.getInstance(e)));
 
+        final long start = list.get(0).getDate().getTime();
+
         list.stream().forEach((e)->{
             length = length + e.getLength();
-            System.out.println(e+" "+totaltime(length));
+            long end = e.getDate().getTime();
+            int days = (int)((end-start)/1000/60/60/24)+1;
+            double avg = (double)length/days;
+            System.out.println(e+String.format(" %7s %6s min",totaltime(length),String.format("%3.2f",avg)));
         });
 
-        long start = list.get(0).getDate().getTime();
-        long end = list.get(list.size()-1).getDate().getTime();
-        int days = (int)((end-start)/1000/60/60/24)+1;
-        double avg = (double)length/days;
-        System.out.println("\ntotal day:"+days+"  avg="+String.format("%.3f",avg)+"min");
+
         System.out.println(":::"+(double)length/Entries.ICHIWAN*100.0+"%:::");
 
     }
