@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.stream.Stream;
+package Q30;
 
 public class LongestCommonPrefix14 {
     public static void main(String[] args) {

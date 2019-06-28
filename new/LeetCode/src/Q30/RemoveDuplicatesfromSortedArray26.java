@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.List;
+package Q30;
 
 public class RemoveDuplicatesfromSortedArray26 {
     public static void main(String[] args) {

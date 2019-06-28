@@ -1,7 +1,7 @@
 package IO;
 
-import java.io.ObjectOutput;
-import java.io.ObjectOutputStream;
+import java.io.*;
+import java.util.Properties;
 
 /**
  * 什么是序列化？
@@ -56,6 +56,31 @@ public class 序列化 {
      * PipedOutputStream
      */
     ObjectOutput objectOutput;
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
+//        ObjectOutputStream objectOutputStream = new ObjectOutputStream(
+//                new FileOutputStream(new File("./text.txt"))
+//        );
+//
+//        objectOutputStream.writeObject(new Person("zrx",20));
+//        objectOutputStream.writeObject(new Person("abc",10));
+//        objectOutputStream.flush();
+//        objectOutputStream.close();
+
+        ObjectInputStream objectInputStream = new ObjectInputStream(
+                new FileInputStream(new File("./text.txt"))
+        );
+        Object person = objectInputStream.readObject();
+        System.out.println(person.toString());
+        person = objectInputStream.readObject();
+        System.out.println(person.toString());
+        objectInputStream.close();
+
+        //�� sr 	IO.Person��y4��� I ageL namet Ljava/lang/String;xp   t zrxsq ~
+        //t abc
+
+        //Exception in thread "main" java.io.InvalidClassException:
+        // IO.Person; local class incompatible:
+        // stream classdesc serialVersionUID = 2575352518912626865,
+        // local class serialVersionUID = 4988818701535755662
     }
 }

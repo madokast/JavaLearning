@@ -1,7 +1,4 @@
-import javax.sound.midi.Soundbank;
-import java.awt.*;
-import java.util.Arrays;
-import java.util.logging.Level;
+package Q30;
 
 public class ImplementStrStr28 {
 
@@ -144,6 +141,6 @@ public class ImplementStrStr28 {
         System.out.println(new ImplementStrStr28().strStr(h, n));
         System.out.println(new ImplementStrStr28().strStr2(h, n));
 //        System.out.println();
-//        Arrays.stream(new ImplementStrStr28().back(n)).forEach(System.out::print);
+//        Arrays.stream(new Q30.ImplementStrStr28().back(n)).forEach(System.out::print);
     }
 }

@@ -1,6 +1,5 @@
-import com.sun.jdi.PathSearchingVirtualMachine;
+package Q30;
 
-import javax.xml.stream.FactoryConfigurationError;
 import java.util.Stack;
 
 public class ValidParentheses20 {
