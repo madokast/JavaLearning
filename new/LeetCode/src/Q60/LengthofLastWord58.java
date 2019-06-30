@@ -1,6 +1,8 @@
+package Q60;
+
 public class LengthofLastWord58 {
     public static void main(String[] args) {
-        System.out.println("new LengthofLastWord58().lengthOfLastWord(\"  a c dd  \") = " + new LengthofLastWord58().lengthOfLastWord("123"));
+        System.out.println("new Q60.LengthofLastWord58().lengthOfLastWord(\"  a c dd  \") = " + new LengthofLastWord58().lengthOfLastWord("123"));
     }
 
     public int lengthOfLastWord(String s) {

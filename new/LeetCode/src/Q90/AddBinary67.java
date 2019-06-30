@@ -1,5 +1,4 @@
-import org.w3c.dom.css.CSSFontFaceRule;
-import tools.Tools;
+package Q90;
 
 public class AddBinary67 {
     public static void main(String[] args) {

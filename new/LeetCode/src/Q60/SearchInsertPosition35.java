@@ -1,3 +1,5 @@
+package Q60;
+
 public class SearchInsertPosition35 {
     public static void main(String[] args) {
         System.out.println(new SearchInsertPosition35().searchInsert(new int[]{1}, 1));

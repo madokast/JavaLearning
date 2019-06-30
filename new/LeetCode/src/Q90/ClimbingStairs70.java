@@ -1,5 +1,4 @@
-import java.time.Year;
-import java.util.PropertyResourceBundle;
+package Q90;
 
 public class ClimbingStairs70 {
     public static void main(String[] args) {
