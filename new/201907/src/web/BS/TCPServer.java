@@ -1,13 +1,19 @@
 package web.BS;
 
 import javax.sql.rowset.spi.SyncResolver;
+import javax.xml.crypto.Data;
 import java.io.*;
 import java.lang.reflect.AccessibleObject;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.net.URL;
+import java.net.URLDecoder;
+import java.util.Date;
 import java.util.HashSet;
+import java.util.InputMismatchException;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.CountDownLatch;
 
 /**
  * 409
@@ -27,42 +33,54 @@ public class TCPServer {
                 set.add(accept);
             }
             new Thread(()->{
-
+                Socket socket;
+                InputStream inputStream;
+                OutputStream outputStream;
+                BufferedReader bufferedReader;
                 try{
-                    Socket socket;
                     synchronized (set){
                         socket = set.iterator().next();
                         set.remove(socket);
                     }
 
                     System.out.println("收到一个请求");
-                    InputStream inputStream = socket.getInputStream();
-                    OutputStream outputStream = socket.getOutputStream();
-                    BufferedReader bufferedReader = new BufferedReader(
+                    inputStream = socket.getInputStream();
+                    outputStream = socket.getOutputStream();
+                    bufferedReader = new BufferedReader(
                             new InputStreamReader(inputStream)
-                    );
+                    );//java 恶不恶心？
                     String s = bufferedReader.readLine();
                     System.out.println("s = " + s);
-                    String file = s.split(" ")[1];
+                    String urls = s.split(" ")[1];
+                    System.out.println("urls = " + urls);
+                    String file = URLDecoder.decode(urls, "UTF-8");
                     System.out.println("file = " + file);
+
 
                     System.out.println("响应");
 
-                    outputStream.write("HTTP/1.1 200 OK\r\n".getBytes());
-                    outputStream.write("Content-Type:text/html\r\n".getBytes());
-                    outputStream.write("\r\n".getBytes());
-                    int len;
-                    byte[] bytes = new byte[1024];
-                    FileInputStream fileInputStream = new FileInputStream("D:\\Documents\\GitHub\\htmlAndCSS\\WebProgramDesign\\htmlBase.html");
-                    while((len=fileInputStream.read(bytes))!=-1){
-                        outputStream.write(bytes,0,len);
+                    try{
+                        FileInputStream fileInputStream = new FileInputStream(new File("D:\\Documents\\GitHub\\htmlAndCSS",file));
+                        outputStream.write("HTTP/1.1 200 OK\r\n".getBytes());
+                        outputStream.write("Content-Type:text/html\r\n".getBytes());
+                        outputStream.write("\r\n".getBytes());
+                        int len;
+                        byte[] bytes = new byte[1024];
+                        while((len=fileInputStream.read(bytes))!=-1){
+                            outputStream.write(bytes,0,len);
+                        }
+                    }catch (Exception e){
+                        outputStream.write("HTTP/1.1 404 NO-FOUND\r\n".getBytes());
+                        outputStream.write("\r\n".getBytes());
+                        System.out.println("没找到文件");
+                    }finally {
+                        outputStream.flush();
+                        socket.shutdownOutput();
+                        socket.close();
                     }
-
-                    outputStream.flush();
-                    System.out.println("发送完毕");
-                }catch (Exception e){e.printStackTrace();}
-                finally {
+                }catch (Exception e){e.printStackTrace();
                 }
+                finally { }
 
 
 

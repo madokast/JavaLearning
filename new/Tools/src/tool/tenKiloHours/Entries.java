@@ -51,6 +51,7 @@ public class Entries {
             "2019-6-30 algorithm 0:57",
 
             "2019-7-01 java 1:45",
+            "2019-7-01 java 0:30"
 
 
     };
