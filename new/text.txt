@@ -1,1 +1,825 @@
-123
+
+概述 	软件包 	 类 	使用 	树 	已过时 	索引 	帮助 	JavaTM Platform
+Standard Ed. 6
+ 上一个类   下一个类	框架    无框架
+摘要： 嵌套 | 字段 | 构造方法 | 方法	详细信息： 字段 | 构造方法 | 方法
+java.net
+类 Socket
+java.lang.Object
+  继承者 java.net.Socket
+直接已知子类：
+SSLSocket
+public class Socket
+
+
+      extends
+      Object
+
+此类实现客户端套接字（也可以就叫“套接字”）。套接字是两台机器间通信的端点。
+
+套接字的实际工作由 SocketImpl 类的实例执行。应用程序通过更改创建套接字实现的套接字工厂可以配置它自身，以创建适合本地防火墙的套接字。
+
+从以下版本开始：
+JDK1.0
+另请参见：
+setSocketImplFactory(java.net.SocketImplFactory), SocketImpl, SocketChannel
+
+构造方法摘要
+ 	Socket()
+          通过系统默认类型的 SocketImpl 创建未连接套接字
+ 	Socket(InetAddress address, int port)
+          创建一个流套接字并将其连接到指定 IP 地址的指定端口号。
+ 	Socket(InetAddress host, int port, boolean stream)
+          已过时。 Use DatagramSocket instead for UDP transport.
+ 	Socket(InetAddress address, int port, InetAddress localAddr, int localPort)
+          创建一个套接字并将其连接到指定远程地址上的指定远程端口。
+ 	Socket(Proxy proxy)
+          创建一个未连接的套接字并指定代理类型（如果有），该代理不管其他设置如何都应被使用。
+protected	Socket(SocketImpl impl)
+          使用用户指定的 SocketImpl 创建一个未连接 Socket。
+ 	Socket(String host, int port)
+          创建一个流套接字并将其连接到指定主机上的指定端口号。
+ 	Socket(String host, int port, boolean stream)
+          已过时。 使用 DatagramSocket 取代 UDP 传输。
+ 	Socket(String host, int port, InetAddress localAddr, int localPort)
+          创建一个套接字并将其连接到指定远程主机上的指定远程端口。
+方法摘要
+ void	bind(SocketAddress bindpoint)
+          将套接字绑定到本地地址。
+ void	close()
+          关闭此套接字。
+ void	connect(SocketAddress endpoint)
+          将此套接字连接到服务器。
+ void	connect(SocketAddress endpoint, int timeout)
+          将此套接字连接到服务器，并指定一个超时值。
+ SocketChannel	getChannel()
+          返回与此数据报套接字关联的唯一 SocketChannel 对象（如果有）。
+ InetAddress	getInetAddress()
+          返回套接字连接的地址。
+ InputStream	getInputStream()
+          返回此套接字的输入流。
+ boolean	getKeepAlive()
+          测试是否启用 SO_KEEPALIVE。
+ InetAddress	getLocalAddress()
+          获取套接字绑定的本地地址。
+ int	getLocalPort()
+          返回此套接字绑定到的本地端口。
+ SocketAddress	getLocalSocketAddress()
+          返回此套接字绑定的端点的地址，如果尚未绑定则返回 null。
+ boolean	getOOBInline()
+          测试是否启用 OOBINLINE。
+ OutputStream	getOutputStream()
+          返回此套接字的输出流。
+ int	getPort()
+          返回此套接字连接到的远程端口。
+ int	getReceiveBufferSize()
+          获取此 Socket 的 SO_RCVBUF 选项的值，该值是平台在 Socket 上输入时使用的缓冲区大小。
+ SocketAddress	getRemoteSocketAddress()
+          返回此套接字连接的端点的地址，如果未连接则返回 null。
+ boolean	getReuseAddress()
+          测试是否启用 SO_REUSEADDR。
+ int	getSendBufferSize()
+          获取此 Socket 的 SO_SNDBUF 选项的值，该值是平台在 Socket 上输出时使用的缓冲区大小。
+ int	getSoLinger()
+          返回 SO_LINGER 的设置。
+ int	getSoTimeout()
+          返回 SO_TIMEOUT 的设置。
+ boolean	getTcpNoDelay()
+          测试是否启用 TCP_NODELAY。
+ int	getTrafficClass()
+          为从此 Socket 上发送的包获取 IP 头中的流量类别或服务类型。
+ boolean	isBound()
+          返回套接字的绑定状态。
+ boolean	isClosed()
+          返回套接字的关闭状态。
+ boolean	isConnected()
+          返回套接字的连接状态。
+ boolean	isInputShutdown()
+          返回是否关闭套接字连接的半读状态 (read-half)。
+ boolean	isOutputShutdown()
+          返回是否关闭套接字连接的半写状态 (write-half)。
+ void	sendUrgentData(int data)
+          在套接字上发送一个紧急数据字节。
+ void	setKeepAlive(boolean on)
+          启用/禁用 SO_KEEPALIVE。
+ void	setOOBInline(boolean on)
+          启用/禁用 OOBINLINE（TCP 紧急数据的接收者） 默认情况下，此选项是禁用的，即在套接字上接收的 TCP 紧急数据被静默丢弃。
+ void	setPerformancePreferences(int connectionTime, int latency, int bandwidth)
+          设置此套接字的性能偏好。
+ void	setReceiveBufferSize(int size)
+          将此 Socket 的 SO_RCVBUF 选项设置为指定的值。
+ void	setReuseAddress(boolean on)
+          启用/禁用 SO_REUSEADDR 套接字选项。
+ void	setSendBufferSize(int size)
+          将此 Socket 的 SO_SNDBUF 选项设置为指定的值。
+static void	setSocketImplFactory(SocketImplFactory fac)
+          为应用程序设置客户端套接字实现工厂。
+ void	setSoLinger(boolean on, int linger)
+          启用/禁用具有指定逗留时间（以秒为单位）的 SO_LINGER。
+ void	setSoTimeout(int timeout)
+          启用/禁用带有指定超时值的 SO_TIMEOUT，以毫秒为单位。
+ void	setTcpNoDelay(boolean on)
+          启用/禁用 TCP_NODELAY（启用/禁用 Nagle 算法）。
+ void	setTrafficClass(int tc)
+          为从此 Socket 上发送的包在 IP 头中设置流量类别 (traffic class) 或服务类型八位组 (type-of-service octet)。
+ void	shutdownInput()
+          此套接字的输入流置于“流的末尾”。
+ void	shutdownOutput()
+          禁用此套接字的输出流。
+ String	toString()
+          将此套接字转换为 String。
+从类 java.lang.Object 继承的方法
+clone, equals, finalize, getClass, hashCode, notify, notifyAll, wait, wait, wait
+
+构造方法详细信息
+Socket
+public Socket()
+通过系统默认类型的 SocketImpl 创建未连接套接字
+从以下版本开始：
+JDK1.1
+Socket
+public Socket(Proxy proxy)
+创建一个未连接的套接字并指定代理类型（如果有），该代理不管其他设置如何都应被使用。
+如果有安全管理器，则使用代理主机地址和端口号作为参数调用其 checkConnect 方法。这可能会导致 SecurityException 异常。
+
+示例：
+
+Socket s = new Socket(Proxy.NO_PROXY); 将创建忽略任何其他代理配置的普通套接字。
+Socket s = new Socket(new Proxy(Proxy.Type.SOCKS, new InetSocketAddress("socks.mydom.com", 1080))); 将创建通过指定的 SOCKS 代理服务器进行连接的套接字。
+参数：
+proxy - 指定应使用的代理种类的 Proxy 对象。
+抛出：
+IllegalArgumentException - 如果代理的类型无效或者为 null。
+SecurityException - 如果存在安全管理器，但拒绝连接到代理的权限。
+从以下版本开始：
+1.5
+另请参见：
+ProxySelector, Proxy
+Socket
+protected Socket(SocketImpl impl)
+          throws SocketException
+使用用户指定的 SocketImpl 创建一个未连接 Socket。
+参数：
+impl - 子类希望在 Socket 上使用的 SocketImpl 的实例。
+抛出：
+SocketException - 如果底层协议出现错误，例如 TCP 错误。
+从以下版本开始：
+JDK1.1
+Socket
+public Socket(String host,
+              int port)
+       throws UnknownHostException,
+              IOException
+创建一个流套接字并将其连接到指定主机上的指定端口号。
+如果指定的主机为 null，则等效于指定与 InetAddress.getByName(null) 相同的地址。换句话话，等效于指定回送接口的地址。
+
+如果应用程序已指定服务器套接字工厂，则调用该工厂的 createSocketImpl 方法来创建实际套接字实现。否则创建“普通”套接字。
+
+如果有安全管理器，则使用主机地址和 port 作为参数调用其 checkConnect 方法。这可能会导致 SecurityException 异常。
+
+参数：
+host - 主机名，或者为 null，表示回送地址。
+port - 端口号。
+抛出：
+UnknownHostException - 如果无法确定主机的 IP 地址。
+IOException - 如果创建套接字时发生 I/O 错误。
+SecurityException - 如果安全管理器存在并且其 checkConnect 方法不允许进行该操作。
+另请参见：
+setSocketImplFactory(java.net.SocketImplFactory), SocketImpl, SocketImplFactory.createSocketImpl(), SecurityManager.checkConnect(java.lang.String, int)
+Socket
+public Socket(InetAddress address,
+              int port)
+       throws IOException
+创建一个流套接字并将其连接到指定 IP 地址的指定端口号。
+如果应用程序已指定套接字工厂，则调用该工厂的 createSocketImpl 方法来创建实际套接字实现。否则创建“普通”套接字。
+
+如果有安全管理器，则使用主机地址和 port 作为参数调用其 checkConnect 方法。这可能会导致 SecurityException 异常。
+
+参数：
+address - IP 地址。
+port - 端口号。
+抛出：
+IOException - 如果创建套接字时发生 I/O 错误。
+SecurityException - 如果安全管理器存在并且其 checkConnect 方法不允许进行该操作。
+另请参见：
+setSocketImplFactory(java.net.SocketImplFactory), SocketImpl, SocketImplFactory.createSocketImpl(), SecurityManager.checkConnect(java.lang.String, int)
+Socket
+public Socket(String host,
+              int port,
+              InetAddress localAddr,
+              int localPort)
+       throws IOException
+创建一个套接字并将其连接到指定远程主机上的指定远程端口。socket 会通过调用 bind() 函数来绑定提供的本地地址及端口。
+如果指定的主机为 null，则等效于指定与 InetAddress.getByName(null) 相同的地址。换句话话，等效于指定回送接口的地址。
+
+如果有安全管理器，则使用主机地址和 port 作为参数调用其 checkConnect 方法。这可能会导致 SecurityException 异常。
+
+参数：
+host - 远程主机名，或者为 null，表示回送地址。
+port - 远程端口
+localAddr - 要将套接字绑定到的本地地址
+localPort - 要将套接字绑定到的本地端口
+抛出：
+IOException - 如果在创建套接字时发生 I/O 错误。
+SecurityException - 如果安全管理器存在并且其 checkConnect 方法不允许进行该操作。
+从以下版本开始：
+JDK1.1
+另请参见：
+SecurityManager.checkConnect(java.lang.String, int)
+Socket
+public Socket(InetAddress address,
+              int port,
+              InetAddress localAddr,
+              int localPort)
+       throws IOException
+创建一个套接字并将其连接到指定远程地址上的指定远程端口。socket 会通过调用 bind() 函数来绑定提供的本地地址及端口。
+如果有安全管理器，则使用主机地址和 port 作为参数调用其 checkConnect 方法。这可能会导致 SecurityException 异常。
+
+参数：
+address - 远程地址
+port - 远程端口
+localAddr - 要将套接字绑定到的本地地址
+localPort - 要将套接字绑定到的本地端口
+抛出：
+IOException - 如果在创建套接字时发生 I/O 错误。
+SecurityException - 如果安全管理器存在并且其 checkConnect 方法不允许进行该操作。
+从以下版本开始：
+JDK1.1
+另请参见：
+SecurityManager.checkConnect(java.lang.String, int)
+Socket
+@Deprecated
+public Socket(String host,
+                         int port,
+                         boolean stream)
+       throws IOException
+已过时。  使用 DatagramSocket 取代 UDP 传输。
+创建一个流套接字并将其连接到指定主机上的指定端口号。
+如果指定的主机为 null，则等效于指定与 InetAddress.getByName(null) 相同的地址。换句话话，等效于指定回送接口的地址。
+
+如果流参数为 true，则创建流套接字。如果流参数为 false，则创建数据报套接字。
+
+如果应用程序已指定服务器套接字工厂，则调用该工厂的 createSocketImpl 方法来创建实际套接字实现。否则创建“普通”套接字。
+
+如果有安全管理器，则使用主机地址和 port 作为参数调用其 checkConnect 方法。这可能会导致 SecurityException 异常。
+
+如果使用 UDP 套接字，则不应用与 TCP/IP 相关的套接字选项。
+
+参数：
+host - 主机名，或者为 null，表示回送地址。
+port - 端口号。
+stream - 指示此为流套接字还是数据报套接字的 boolean。
+抛出：
+IOException - 如果创建套接字时发生 I/O 错误。
+SecurityException - 如果安全管理器存在并且其 checkConnect 方法不允许进行该操作。
+另请参见：
+setSocketImplFactory(java.net.SocketImplFactory), SocketImpl, SocketImplFactory.createSocketImpl(), SecurityManager.checkConnect(java.lang.String, int)
+Socket
+@Deprecated
+public Socket(InetAddress host,
+                         int port,
+                         boolean stream)
+       throws IOException
+已过时。  Use DatagramSocket instead for UDP transport.
+创建一个套接字并将其连接到指定 IP 地址的指定端口号。
+如果流参数为 true，则创建流套接字。如果流参数为 false，则创建数据报套接字。
+
+如果应用程序已指定服务器套接字工厂，则调用该工厂的 createSocketImpl 方法来创建实际套接字实现。否则创建“普通”套接字。
+
+如果有安全管理器，则使用 host.getHostAddress() 和 port 作为参数调用其 checkConnect 方法。这可能会导致 SecurityException 异常。
+
+如果使用 UDP 套接字，则不应用与 TCP/IP 相关的套接字选项。
+
+参数：
+host - IP 地址。
+port - 端口号。
+stream - 如果为 true，则创建流套接字；否则创建数据报套接字。
+抛出：
+IOException - 如果创建套接字时发生 I/O 错误。
+SecurityException - 如果安全管理器存在并且其 checkConnect 方法不允许进行该操作。
+另请参见：
+setSocketImplFactory(java.net.SocketImplFactory), SocketImpl, SocketImplFactory.createSocketImpl(), SecurityManager.checkConnect(java.lang.String, int)
+方法详细信息
+connect
+public void connect(SocketAddress endpoint)
+             throws IOException
+将此套接字连接到服务器。
+参数：
+endpoint - SocketAddress
+抛出：
+IOException - 如果在连接期间发生错误
+IllegalBlockingModeException - 如果此套接字具有关联的通道并且该通道处于非阻塞模式
+IllegalArgumentException - 如果端点为 null 或者此套接字不支持 SocketAddress 子类
+从以下版本开始：
+1.4
+connect
+public void connect(SocketAddress endpoint,
+                    int timeout)
+             throws IOException
+将此套接字连接到服务器，并指定一个超时值。超时值零被解释为无限超时。在建立连接或者发生错误之前，连接一直处于阻塞状态。
+参数：
+endpoint - SocketAddress
+timeout - 要使用的超时值（以毫秒为单位）。
+抛出：
+IOException - 如果在连接期间发生错误
+SocketTimeoutException - 如果在连接之前超时期满
+IllegalBlockingModeException - 如果此套接字具有关联的通道并且该通道处于非阻塞模式
+IllegalArgumentException - 如果端点为 null 或者此套接字不支持 SocketAddress 子类
+从以下版本开始：
+1.4
+bind
+public void bind(SocketAddress bindpoint)
+          throws IOException
+将套接字绑定到本地地址。
+如果地址为 null，则系统将挑选一个临时端口和一个有效本地地址来绑定套接字。
+
+参数：
+bindpoint - 要绑定到的 SocketAddress
+抛出：
+IOException - 如果绑定操作失败或者已经绑定了套接字。
+IllegalArgumentException - 如果 bindpoint 是不受此套接字支持的 SocketAddress 子类。
+从以下版本开始：
+1.4
+另请参见：
+isBound()
+getInetAddress
+public InetAddress getInetAddress()
+返回套接字连接的地址。
+返回：
+此套接字连接到的远程 IP 地址；如果套接字是未连接的，则返回 null。
+getLocalAddress
+public InetAddress getLocalAddress()
+获取套接字绑定的本地地址。
+返回：
+将套接字绑定到的本地地址；如果尚未绑定套接字，则返回 InetAddress.anyLocalAddress()。
+从以下版本开始：
+JDK1.1
+getPort
+public int getPort()
+返回此套接字连接到的远程端口。
+返回：
+此套接字连接到的远程端口号；如果尚未连接套接字，则返回 0。
+getLocalPort
+public int getLocalPort()
+返回此套接字绑定到的本地端口。
+返回：
+此套接字绑定到的本地端口号；如果尚未绑定套接字，则返回 -1。
+getRemoteSocketAddress
+public SocketAddress getRemoteSocketAddress()
+返回此套接字连接的端点的地址，如果未连接则返回 null。
+返回：
+表示此套接字远程端点的 SocketAddress，如果尚未连接则返回 null。
+从以下版本开始：
+1.4
+另请参见：
+getInetAddress(), getPort(), connect(SocketAddress, int), connect(SocketAddress)
+getLocalSocketAddress
+public SocketAddress getLocalSocketAddress()
+返回此套接字绑定的端点的地址，如果尚未绑定则返回 null。
+返回：
+表示此套接字的本地端点的 SocketAddress，如果尚未绑定则返回 null。
+从以下版本开始：
+1.4
+另请参见：
+getLocalAddress(), getLocalPort(), bind(SocketAddress)
+getChannel
+public SocketChannel getChannel()
+返回与此数据报套接字关联的唯一 SocketChannel 对象（如果有）。
+当且仅当通过 SocketChannel.open 或 ServerSocketChannel.accept 方法创建了通道本身时，套接字才具有一个通道。
+
+返回：
+与此套接字关联的套接字通道，如果没有为通道创建套接字，则返回 null。
+从以下版本开始：
+1.4
+getInputStream
+public InputStream getInputStream()
+                           throws IOException
+返回此套接字的输入流。
+如果此套接字具有关联的通道，则所得的输入流会将其所有操作委托给通道。如果通道为非阻塞模式，则输入流的 read 操作将抛出 IllegalBlockingModeException。
+
+在非正常条件下，底层连接可能被远程主机或网络软件中断（例如，TCP 连接情况下的连接重置）。当网络软件检测到中断的连接时，将对返回的输入流应用以下操作：
+
+网络软件可能丢弃经过套接字缓冲的字节。网络软件没有丢弃的字节可以使用 read 读取。
+
+如果没有任何字节在套接字上缓冲，或者 read 已经消耗了所有缓冲的字节，则对 read 的所有后续调用都将抛出 IOException。
+
+如果没有任何字节在套接字上缓冲，并且没有使用 close 关闭套接字，则 available 将返回 0。
+
+关闭返回的 InputStream 将关闭关联套接字。
+
+返回：
+从此套接字读取字节的输入流。
+抛出：
+IOException - 如果在创建输入流时发生 I/O 错误、没有关闭套接字、没有连接套接字或者使用 shutdownInput() 关闭了套接字输入
+getOutputStream
+public OutputStream getOutputStream()
+                             throws IOException
+返回此套接字的输出流。
+如果此套接字具有关联的通道，则得到的输出流会将其所有操作委托给通道。如果通道为非阻塞模式，则输出流的 write 操作将抛出 IllegalBlockingModeException。
+
+关闭返回的 OutputStream 将关闭关联套接字。
+
+返回：
+将字节写入此套接字的输出流。
+抛出：
+IOException - 如果创建输出流时发生 I/O 错误或者没有连接套接字。
+setTcpNoDelay
+public void setTcpNoDelay(boolean on)
+                   throws SocketException
+启用/禁用 TCP_NODELAY（启用/禁用 Nagle 算法）。
+参数：
+on - 为 true 表示启用 TCP_NODELAY；为 false 表示禁用。
+抛出：
+SocketException - 如果底层协议出现错误，例如 TCP 错误。
+从以下版本开始：
+JDK1.1
+另请参见：
+getTcpNoDelay()
+getTcpNoDelay
+public boolean getTcpNoDelay()
+                      throws SocketException
+测试是否启用 TCP_NODELAY。
+返回：
+指示是否启用 TCP_NODELAY 的 boolean 值。
+抛出：
+SocketException - 如果底层协议出现错误，例如 TCP 错误。
+从以下版本开始：
+JDK1.1
+另请参见：
+setTcpNoDelay(boolean)
+setSoLinger
+public void setSoLinger(boolean on,
+                        int linger)
+                 throws SocketException
+启用/禁用具有指定逗留时间（以秒为单位）的 SO_LINGER。最大超时值是特定于平台的。 该设置仅影响套接字关闭。
+参数：
+on - 是否逗留。
+linger - 逗留时间，如果 on 为 true。
+抛出：
+SocketException - 如果底层协议出现错误，例如 TCP 错误。
+IllegalArgumentException - 如果逗留值为负。
+从以下版本开始：
+JDK1.1
+另请参见：
+getSoLinger()
+getSoLinger
+public int getSoLinger()
+                throws SocketException
+返回 SO_LINGER 的设置。返回 -1 意味着禁用该选项。 该设置仅影响套接字关闭。
+返回：
+SO_LINGER 的设置。
+抛出：
+SocketException - 如果底层协议出现错误，例如 TCP 错误。
+从以下版本开始：
+JDK1.1
+另请参见：
+setSoLinger(boolean, int)
+sendUrgentData
+public void sendUrgentData(int data)
+                    throws IOException
+在套接字上发送一个紧急数据字节。要发送的字节是数据参数的八个最低位。紧急字节在对套接字 OutputStream 的所有预先写入之后但在任何以后写入之前发送。
+参数：
+data - 要发送的数据字节
+抛出：
+IOException - 如果发送数据时发生错误。
+从以下版本开始：
+1.4
+setOOBInline
+public void setOOBInline(boolean on)
+                  throws SocketException
+启用/禁用 OOBINLINE（TCP 紧急数据的接收者） 默认情况下，此选项是禁用的，即在套接字上接收的 TCP 紧急数据被静默丢弃。如果用户希望接收到紧急数据，则必须启用此选项。启用时，可以将紧急数据内嵌在普通数据中接收
+注意，仅为处理传入紧急数据提供有限支持。特别要指出的是，不提供传入紧急数据的任何通知并且不存在区分普通数据和紧急数据的功能（除非更高级别的协议提供）。
+
+参数：
+on - true 表示启用 OOBINLINE； false 表示禁用。
+抛出：
+SocketException - 如果底层协议出现错误，例如 TCP 错误。
+从以下版本开始：
+1.4
+另请参见：
+getOOBInline()
+getOOBInline
+public boolean getOOBInline()
+                     throws SocketException
+测试是否启用 OOBINLINE。
+返回：
+指示是否启用 OOBINLINE 的 boolean 值。
+抛出：
+SocketException - 如果底层协议出现错误，例如 TCP 错误。
+从以下版本开始：
+1.4
+另请参见：
+setOOBInline(boolean)
+setSoTimeout
+public void setSoTimeout(int timeout)
+                  throws SocketException
+启用/禁用带有指定超时值的 SO_TIMEOUT，以毫秒为单位。将此选项设为非零的超时值时，在与此 Socket 关联的 InputStream 上调用 read() 将只阻塞此时间长度。如果超过超时值，将引发 java.net.SocketTimeoutException，虽然 Socket 仍旧有效。选项 必须在进入阻塞操作前被启用才能生效。超时值必须是 > 0 的数。超时值为 0 被解释为无穷大超时值。
+参数：
+timeout - 指定的以毫秒为单位的超时值。
+抛出：
+SocketException - 如果底层协议出现错误，例如 TCP 错误。
+从以下版本开始：
+JDK 1.1
+另请参见：
+getSoTimeout()
+getSoTimeout
+public int getSoTimeout()
+                 throws SocketException
+返回 SO_TIMEOUT 的设置。返回 0 意味着禁用了选项（即无穷大的超时值）。
+返回：
+SO_TIMEOUT 的设置。
+抛出：
+SocketException - 如果底层协议出现错误，例如 TCP 错误。
+从以下版本开始：
+JDK1.1
+另请参见：
+setSoTimeout(int)
+setSendBufferSize
+public void setSendBufferSize(int size)
+                       throws SocketException
+将此 Socket 的 SO_SNDBUF 选项设置为指定的值。平台的网络连接代码将 SO_SNDBUF 选项用作设置底层网络 I/O 缓存的大小的提示。
+由于 SO_SNDBUF 是一种提示，想要验证缓冲区设置大小的应用程序应该调用 getSendBufferSize()。
+
+参数：
+size - 将设置的发送缓冲区大小。此值必须大于 0。
+抛出：
+SocketException - 如果底层协议出现错误，例如 TCP 错误。
+IllegalArgumentException - 如果值为 0 或负。
+从以下版本开始：
+1.2
+另请参见：
+getSendBufferSize()
+getSendBufferSize
+public int getSendBufferSize()
+                      throws SocketException
+获取此 Socket 的 SO_SNDBUF 选项的值，该值是平台在 Socket 上输出时使用的缓冲区大小。
+返回：
+此 Socket 的 SO_SNDBUF 选项的值。
+抛出：
+SocketException - 如果底层协议出现错误，例如 TCP 错误。
+从以下版本开始：
+1.2
+另请参见：
+setSendBufferSize(int)
+setReceiveBufferSize
+public void setReceiveBufferSize(int size)
+                          throws SocketException
+将此 Socket 的 SO_RCVBUF 选项设置为指定的值。平台的网络连接代码将 SO_RCVBUF 选项用作设置底层网络 I/O 缓存的大小的提示。
+增大接收缓存大小可以增大大量连接的网络 I/O 的性能，而减小它有助于减少传入数据的 backlog。
+
+由于 SO_RCVBUF 是一种提示，想要验证缓冲区设置大小的应用程序应该调用 getReceiveBufferSize()。
+
+SO_RCVBUF 的值还用于设置公布到远程同位体的 TCP 接收窗口。一般情况下，当连接套接字时，可以在任意时间更改窗口大小。然而，如果需要的接收窗口大于 64K，则必须在将套接字连接到远程同位体之前请求。下面是需要知道的两种情况：
+
+对于从 ServerSocket 接受的套接字，必须在将 ServerSocket 绑定到本地地址前通过调用 ServerSocket.setReceiveBufferSize(int) 执行此操作。
+对于客户端套接字，则必须在将套接字连接到其远程同位体前调用 setReceiveBufferSize()。
+参数：
+size - 要设置的接收缓冲区大小。此值必须大于 0。
+抛出：
+IllegalArgumentException - 如果值为 0 或负。
+SocketException - 如果底层协议出现错误，例如 TCP 错误。
+从以下版本开始：
+1.2
+另请参见：
+getReceiveBufferSize(), ServerSocket.setReceiveBufferSize(int)
+getReceiveBufferSize
+public int getReceiveBufferSize()
+                         throws SocketException
+获取此 Socket 的 SO_RCVBUF 选项的值，该值是平台在 Socket 上输入时使用的缓冲区大小。
+返回：
+此 Socket 的 SO_RCVBUF 选项的值。
+抛出：
+SocketException - 如果底层协议出现错误，例如 TCP 错误。
+从以下版本开始：
+1.2
+另请参见：
+setReceiveBufferSize(int)
+setKeepAlive
+public void setKeepAlive(boolean on)
+                  throws SocketException
+启用/禁用 SO_KEEPALIVE。
+参数：
+on - 是否开启保持活动状态的套接字。
+抛出：
+SocketException - 如果底层协议出现错误，例如 TCP 错误。
+从以下版本开始：
+1.3
+另请参见：
+getKeepAlive()
+getKeepAlive
+public boolean getKeepAlive()
+                     throws SocketException
+测试是否启用 SO_KEEPALIVE。
+返回：
+指示是否启用 SO_KEEPALIVE 的 boolean 值。
+抛出：
+SocketException - 如果底层协议出现错误，例如 TCP 错误。
+从以下版本开始：
+1.3
+另请参见：
+setKeepAlive(boolean)
+setTrafficClass
+public void setTrafficClass(int tc)
+                     throws SocketException
+为从此 Socket 上发送的包在 IP 头中设置流量类别 (traffic class) 或服务类型八位组 (type-of-service octet)。由于底层网络实现可能忽略此值，应用程序应该将其视为一种提示。
+tc 的值必须在 0 <= tc <= 255 范围内，否则将抛出 IllegalArgumentException。
+
+注：
+
+对于 Internet Protocol v4 该值由包含优先级和 TOS 字段的八位组组成，这在 RFC 1349 中有详细叙述。TOS 字段是由以下逐位或所得值创建的位集：
+
+IPTOS_LOWCOST (0x02)
+IPTOS_RELIABILITY (0x04)
+IPTOS_THROUGHPUT (0x08)
+IPTOS_LOWDELAY (0x10)
+末尾的最低位常常被忽略，因为该位对应于 MBZ（必须为 0）位。
+设置优先级字段中的位可能导致 SocketException，指示不允许该操作。
+
+根据 RFC 1122 第 4.2.4.2 节中的指示，兼容的 TCP 实现应该（但不是必须）让应用程序在连接的生命周期中改变 TOS 字段。因此，type-of-service（服务类型）字段在已建立 TCP 连接之后能否更改取决于底层平台的实现。应用程序不应假定它们在连接之后能够改变 TOS 字段。
+
+对于 Internet Protocol v6 tc 是将被放置到 IP 头部的 sin6_flowinfo 字段中的值。
+
+参数：
+tc - 此位集的 int 值。
+抛出：
+SocketException - 如果设置流量类别或服务类型时出现错误
+从以下版本开始：
+1.4
+另请参见：
+getTrafficClass()
+getTrafficClass
+public int getTrafficClass()
+                    throws SocketException
+为从此 Socket 上发送的包获取 IP 头中的流量类别或服务类型。
+由于底层网络实现可能忽略使用 setTrafficClass(int) 设置的流量类别或服务类型，因而此方法可能返回一个不同于以前用 setTrafficClass(int) 在此 Socket 上设置的值。
+
+返回：
+已经设置的流量类别或服务类型
+抛出：
+SocketException - 如果获取流量类别或服务类型值时出现错误。
+从以下版本开始：
+1.4
+另请参见：
+setTrafficClass(int)
+setReuseAddress
+public void setReuseAddress(boolean on)
+                     throws SocketException
+启用/禁用 SO_REUSEADDR 套接字选项。
+关闭 TCP 连接时，该连接可能在关闭后的一段时间内保持超时状态（通常称为 TIME_WAIT 状态或 2MSL 等待状态）。对于使用已知套接字地址或端口的应用程序而言，如果存在处于超时状态的连接（包括地址和端口），可能不能将套接字绑定到所需的 SocketAddress 上。
+
+使用 bind(SocketAddress) 绑定套接字前启用 SO_REUSEADDR 允许在上一个连接处于超时状态时绑定套接字。
+
+当创建 Socket 时，禁用 SO_REUSEADDR 的初始设置。
+
+在绑定套接字（请参阅 isBound()）后启用或禁用 SO_REUSEADDR 时的行为是不确定的。
+
+参数：
+on - 是否启用 SO_REUSEADDR 套接字选项
+抛出：
+SocketException - 如果启用或禁用 SO_RESUEADDR 套接字选项时发生错误，或者关闭了套接字。
+从以下版本开始：
+1.4
+另请参见：
+getReuseAddress(), bind(SocketAddress), isClosed(), isBound()
+getReuseAddress
+public boolean getReuseAddress()
+                        throws SocketException
+测试是否启用 SO_REUSEADDR。
+返回：
+指示是否启用 SO_REUSEADDR 的 boolean 值。
+抛出：
+SocketException - 如果底层协议出现错误，例如 TCP 错误。
+从以下版本开始：
+1.4
+另请参见：
+setReuseAddress(boolean)
+close
+public void close()
+           throws IOException
+关闭此套接字。
+所有当前阻塞于此套接字上的 I/O 操作中的线程都将抛出 SocketException。
+
+套接字被关闭后，便不可在以后的网络连接中使用（即无法重新连接或重新绑定）。需要创建新的套接字。
+
+关闭此套接字也将会关闭该套接字的 InputStream 和 OutputStream。
+
+如果此套接字有一个与之关联的通道，则关闭该通道。
+
+抛出：
+IOException - 如果关闭此套接字时发生 I/O 错误。
+另请参见：
+isClosed()
+shutdownInput
+public void shutdownInput()
+                   throws IOException
+此套接字的输入流置于“流的末尾”。发送到套接字的输入流端的任何数据都将被确认然后被静默丢弃。
+如果在套接字上调用 shutdownInput() 后从套接字输入流读取内容，则流将返回 EOF（文件结束符）。
+
+抛出：
+IOException - 如果关闭此套接字时发生 I/O 错误。
+从以下版本开始：
+1.3
+另请参见：
+shutdownOutput(), close(), setSoLinger(boolean, int), isInputShutdown()
+shutdownOutput
+public void shutdownOutput()
+                    throws IOException
+禁用此套接字的输出流。对于 TCP 套接字，任何以前写入的数据都将被发送，并且后跟 TCP 的正常连接终止序列。 如果在套接字上调用 shutdownOutput() 后写入套接字输出流，则该流将抛出 IOException。
+抛出：
+IOException - 如果关闭此套接字时发生 I/O 错误。
+从以下版本开始：
+1.3
+另请参见：
+shutdownInput(), close(), setSoLinger(boolean, int), isOutputShutdown()
+toString
+public String toString()
+将此套接字转换为 String。
+覆盖：
+类 Object 中的 toString
+返回：
+此套接字的字符串表示形式。
+isConnected
+public boolean isConnected()
+返回套接字的连接状态。
+返回：
+如果将套接字成功地连接到服务器，则为 true。
+从以下版本开始：
+1.4
+isBound
+public boolean isBound()
+返回套接字的绑定状态。
+返回：
+如果将套接字成功地绑定到一个地址，则返回 true
+从以下版本开始：
+1.4
+另请参见：
+bind(java.net.SocketAddress)
+isClosed
+public boolean isClosed()
+返回套接字的关闭状态。
+返回：
+如果已经关闭了套接字，则返回 true
+从以下版本开始：
+1.4
+另请参见：
+close()
+isInputShutdown
+public boolean isInputShutdown()
+返回是否关闭套接字连接的半读状态 (read-half)。
+返回：
+如果已关闭套接字的输入，则返回 true
+从以下版本开始：
+1.4
+另请参见：
+shutdownInput()
+isOutputShutdown
+public boolean isOutputShutdown()
+返回是否关闭套接字连接的半写状态 (write-half)。
+返回：
+如果已关闭套接字的输出，则返回 true
+从以下版本开始：
+1.4
+另请参见：
+shutdownOutput()
+setSocketImplFactory
+public static void setSocketImplFactory(SocketImplFactory fac)
+                                 throws IOException
+为应用程序设置客户端套接字实现工厂。工厂只能指定一次。
+当应用程序创建新的客户端套接字时，调用套接字实现工厂的 createSocketImpl 方法创建实际的套接字实现。
+
+除非已经设置了工厂，否则向该方法传递 null 是无操作。
+
+如果有安全管理器，则此方法首先调用安全管理器的 checkSetFactory 方法，以确保允许进行该操作。这可能会导致 SecurityException 异常。
+
+参数：
+fac - 所需的工厂。
+抛出：
+IOException - 如果设置套接字工厂时发生 I/O 错误。
+SocketException - 如果已经定义该工厂。
+SecurityException - 如果安全管理器存在并且其 checkSetFactory 方法不允许进行该操作。
+另请参见：
+SocketImplFactory.createSocketImpl(), SecurityManager.checkSetFactory()
+setPerformancePreferences
+public void setPerformancePreferences(int connectionTime,
+                                      int latency,
+                                      int bandwidth)
+设置此套接字的性能偏好。
+默认情况下套接字使用 TCP/IP 协议。有些实现可能提供与 TCP/IP 具有不同性能特征的替换协议。此方法允许应用程序在实现从可用协议中作出选择时表达它自己关于应该如何进行折衷的偏好。
+
+性能偏好由三个整数描述，它们的值分别指示短连接时间、低延迟和高带宽的相对重要性。这些整数的绝对值没有意义；为了选择协议，需要简单比较它们的值，较大的值指示更强的偏好。负值表示的优先级低于正值。例如，如果应用程序相对于低延迟和高带宽更偏好短连接时间，则其可以使用值 (1, 0, 0) 调用此方法。如果应用程序相对于低延迟更偏好高带宽，而相对于短连接时间更偏好低延迟，则其可以使用值 (0, 1, 2) 调用此方法。
+
+在连接套接字后调用此方法无效。
+
+参数：
+connectionTime - 表达短连接时间的相对重要性的 int
+latency - 表达低延迟的相对重要性的 int
+bandwidth - 表达高带宽的相对重要性的 int
+从以下版本开始：
+1.5
+概述 	软件包 	 类 	使用 	树 	已过时 	索引 	帮助 	JavaTM Platform
+Standard Ed. 6
+ 上一个类   下一个类	框架    无框架
+摘要： 嵌套 | 字段 | 构造方法 | 方法	详细信息： 字段 | 构造方法 | 方法
+提交错误或意见
+有关更多的 API 参考资料和开发人员文档，请参阅 Java SE 开发人员文档。该文档包含更详细的、面向开发人员的描述，以及总体概述、术语定义、使用技巧和工作代码示例。
+版权所有 2007 Sun Microsystems, Inc. 保留所有权利。 请遵守许可证条款。另请参阅文档重新分发政策。
