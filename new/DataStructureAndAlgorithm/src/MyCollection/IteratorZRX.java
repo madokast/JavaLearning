@@ -49,7 +49,7 @@ public interface IteratorZRX<E> {
      * @param action The action to be performed for each element
      */
     default void forEachRemaining(Consumer<? super E> action){
-        // TODO: 2019/4/25 学习流处理，forEachRemaining Consumer
+        //2019/4/25 学习流处理，forEachRemaining Consumer
         throw new UnsupportedOperationException("forEachRemaining");
     }
 
