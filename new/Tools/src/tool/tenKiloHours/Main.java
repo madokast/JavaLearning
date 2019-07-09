@@ -30,7 +30,7 @@ public class Main {
         });
 
         printReport(mapStatistic);
-        System.out.println(":::"+(double)length/Entries.ICHIWAN*100.0+"%:::");
+//        System.out.println(":::"+(double)length/Entries.ICHIWAN*100.0+"%:::");
 
     }
 
@@ -52,12 +52,13 @@ public class Main {
      * @param map
      */
     public static void printReport(Map<String,Integer> map){
-        System.out.println("----------report----------");
+        System.out.println("----------REPORT----------");
         int total = 0;
         for (int t:map.values()){
             total+=t;
         }
-        System.out.println("total time: "+totaltime(total));
+        System.out.print("total time: "+totaltime(total));
+        System.out.println("   :::"+(double)total/Entries.ICHIWAN*100.0+"%:::");
         for(String name:map.keySet()){
             System.out.print(String.format("%15s : ",name));
             System.out.print(String.format("%7s",totaltime(map.get(name))));
