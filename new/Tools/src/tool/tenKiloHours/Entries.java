@@ -73,7 +73,17 @@ public class Entries {
             "2019-7-06 Internet 1:08",
             "2019-7-06 Internet 0:40",
 
-            "2019-7-07 Internet 0:20"
+            "2019-7-07 Internet 0:20",
+
+            "2019-7-09 Internet 1:04",
+
+            "2019-7-10 Internet 1:04",
+            "2019-7-10 basic 1:00",
+
+            "2019-7-10 dataStruct 2:09",
+            "2019-7-10 dataStruct 0:28",
+
+
     };
 
     //粒子仿真程序 7656行...
