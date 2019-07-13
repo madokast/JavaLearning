@@ -1,8 +1,6 @@
 package mooc1001660013.TreeMooc;
 
-import com.sun.source.tree.CompilationUnitTree;
-
-import javax.naming.InsufficientResourcesException;
+import java.net.PortUnreachableException;
 import java.util.*;
 
 /**
@@ -15,6 +13,9 @@ public class BiTree<T> {
     public T t;
     public BiTree<T> left;
     public BiTree<T> right;
+
+    public BiTree() {
+    }
 
     public BiTree(T t) {
         this.t = t;

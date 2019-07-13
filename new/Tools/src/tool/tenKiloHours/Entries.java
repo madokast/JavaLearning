@@ -80,9 +80,14 @@ public class Entries {
             "2019-7-10 Internet 1:04",
             "2019-7-10 basic 1:00",
 
-            "2019-7-10 dataStruct 2:09",
-            "2019-7-10 dataStruct 0:28",
+            "2019-7-11 dataStruct 2:09",
+            "2019-7-11 dataStruct 0:28",
+            "2019-7-11 java 1:04",
+            "2019-7-11 Internet 1:26",
 
+            "2019-7-12 java 0:55",
+            "2019-7-12 dataStruct 0:45",
+            "2019-7-12 dataStruct 1:09"
 
     };
 

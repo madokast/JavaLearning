@@ -1,15 +1,86 @@
 package mooc1001660013.TreeMooc;
 
-import java.util.Arrays;
-
 public class Test {
     public static void main(String[] args) {
 //        traversal();
 //        lateyTraversal();
 //        printTree();
 //        constructorFromPreAndMidTest();
-        searchTreeTest();
+//        searchTreeTest();
+//        compare();
+//        searchTreeTest2();
+//        searchTreeTest3();
+        searchTreeTest4();
     }
+
+    private static void searchTreeTest4() {
+        final SearchTree searchTree = SearchTree.getInstance();
+        searchTree.add(63);
+        searchTree.add(45);
+        searchTree.add(72);
+
+        searchTree.add(40);
+        searchTree.add(53);
+        searchTree.add(81);
+
+        searchTree.add(30);
+        searchTree.add(51);
+        searchTree.add(60);
+        searchTree.add(77);
+        searchTree.add(95);
+
+        searchTree.add(23);
+        searchTree.add(35);
+        searchTree.add(48);
+        searchTree.add(55);
+        searchTree.add(57);
+
+        searchTree.printTree();
+
+        System.out.println("-------------------------删除叶子结点48");
+        searchTree.remove(48);
+        searchTree.printTree();
+
+        System.out.println("-------------------------只有一个子树的结点60");
+        searchTree.remove(60);
+        searchTree.printTree();
+
+        System.out.println("-------------------------删除有两个子树的结点45");
+        searchTree.remove(45);
+        searchTree.printTree();
+
+        System.out.println("-------------------------删除有两个子树的结点63 最复杂");
+        searchTree.remove(63);
+        searchTree.printTree();
+
+    }
+
+    private static void searchTreeTest3() {
+//        SearchTree root = new SearchTree(10);
+//        root.printTree();
+    }
+
+    private static void searchTreeTest2() {
+        SearchTreeXXX<Integer> searchTree = new SearchTreeXXX<>();
+        searchTree.printTree();
+        searchTree.insert(1);
+        searchTree.insert(2);
+        searchTree.insert(-1);
+
+        searchTree.printTree();
+        System.out.println("searchTree.t = " + searchTree.t);
+        System.out.println("searchTree.left.t = " + searchTree.left.t);
+        System.out.println("searchTree.right.t = " + searchTree.right.t);
+    }
+
+    private static void compare() {
+        Integer a = 1;
+        Integer b = 2;
+
+        System.out.println("a.compareTo(b) = " + a.compareTo(b));
+    }
+
+
     private static void searchTreeTest(){
         final BiTree searchTree = BiTree.searchTree(new int[]{1, 2, 3, 4});
         searchTree.printTree();
