@@ -15,7 +15,7 @@ package JunitLearn.code;
  * 452
  * 第一步：定义测试用例/就是一个类
  *    建议：
- *      类名：叫做 被测试类名+Test
+ *      类名：叫做 被测试类名+test01
  *      包名：xxx.xxx.xxx.test下
  * 第二步：定义测试方法：可以独立运行
  *    建议：方法名，text+被方法名  ： testAdd
