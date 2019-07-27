@@ -50,7 +50,7 @@ public class JDBCTest {
  *
  * Connection
  *      Statement createStatement()
- *      PreparedStatement prepareStatement(sql)
+ *      PreparedStatementTest prepareStatement(sql)
  *      void setAutoCommit(boolean autoCommit) 开启事务，参数false则开启事务
  *      void commit() 提交事务
  *      void rollback() throws 回滚事务
