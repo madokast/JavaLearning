@@ -812,139 +812,172 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="204" parent="5" name="course"/>
-    <table id="205" parent="5" name="dept"/>
-    <table id="206" parent="5" name="score"/>
-    <table id="207" parent="5" name="student"/>
-    <column id="208" parent="204" name="Cid">
+    <table id="204" parent="5" name="account"/>
+    <table id="205" parent="5" name="course"/>
+    <table id="206" parent="5" name="dept"/>
+    <table id="207" parent="5" name="score"/>
+    <table id="208" parent="5" name="student"/>
+    <column id="209" parent="204" name="Aid">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="209" parent="204" name="Cname">
+    <column id="210" parent="204" name="name">
       <Position>2</Position>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="210" parent="204" name="Ccredit">
+    <column id="211" parent="204" name="balance">
       <Position>3</Position>
-      <DataType>int(11)|0s</DataType>
+      <DataType>double|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="211" parent="204" name="PRIMARY">
+    <column id="212" parent="204" name="create_time">
+      <Position>4</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <key id="213" parent="204" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>Cid</ColNames>
+      <ColNames>Aid</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="212" parent="205" name="Did">
+    <column id="214" parent="205" name="Cid">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="213" parent="205" name="Dname">
+    <column id="215" parent="205" name="Cname">
+      <Position>2</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="216" parent="205" name="Ccredit">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="217" parent="205" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Cid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="218" parent="206" name="Did">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="219" parent="206" name="Dname">
       <Position>2</Position>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;````&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="214" parent="205" name="dun">
+    <index id="220" parent="206" name="dun">
       <ColNames>Dname</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="215" parent="205" name="PRIMARY">
+    <key id="221" parent="206" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Did</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="216" parent="205" name="dun">
+    <key id="222" parent="206" name="dun">
       <ColNames>Dname</ColNames>
       <UnderlyingIndexName>dun</UnderlyingIndexName>
     </key>
-    <column id="217" parent="206" name="Sid">
+    <column id="223" parent="207" name="Sid">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="218" parent="206" name="Cid">
+    <column id="224" parent="207" name="Cid">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="219" parent="206" name="Grade">
+    <column id="225" parent="207" name="Grade">
       <Position>3</Position>
       <DataType>double|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="220" parent="206" name="scck">
+    <index id="226" parent="207" name="scck">
       <ColNames>Cid</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="221" parent="206" name="PRIMARY">
+    <key id="227" parent="207" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Sid
 Cid</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="222" parent="206" name="scsfk">
+    <foreign-key id="228" parent="207" name="scsfk">
       <ColNames>Sid</ColNames>
       <RefSchemaName>school</RefSchemaName>
       <RefTableName>student</RefTableName>
       <RefColNames>Sid</RefColNames>
     </foreign-key>
-    <foreign-key id="223" parent="206" name="scck">
+    <foreign-key id="229" parent="207" name="scck">
       <ColNames>Cid</ColNames>
       <RefSchemaName>school</RefSchemaName>
       <RefTableName>course</RefTableName>
       <RefColNames>Cid</RefColNames>
     </foreign-key>
-    <column id="224" parent="207" name="Sid">
+    <column id="230" parent="208" name="Sid">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="225" parent="207" name="Sname">
+    <column id="231" parent="208" name="Sname">
       <Position>2</Position>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="226" parent="207" name="Ssex">
+    <column id="232" parent="208" name="Ssex">
       <Position>3</Position>
       <DataType>varchar(3)|0s</DataType>
       <DefaultExpression>&apos;M&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="227" parent="207" name="Sage">
+    <column id="233" parent="208" name="Sage">
       <Position>4</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="228" parent="207" name="Sdept">
+    <column id="234" parent="208" name="Sdept">
       <Position>5</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="229" parent="207" name="sfk">
+    <index id="235" parent="208" name="sfk">
       <ColNames>Sdept</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="230" parent="207" name="PRIMARY">
+    <key id="236" parent="208" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Sid</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="231" parent="207" name="sfk">
+    <foreign-key id="237" parent="208" name="sfk">
       <ColNames>Sdept</ColNames>
       <RefSchemaName>school</RefSchemaName>
       <RefTableName>dept</RefTableName>

@@ -35,3 +35,16 @@ CREATE TABLE if not exists  Score(
     CONSTRAINT scck FOREIGN key (Cid) references Course(Cid),
     CONSTRAINT gch CHECK(Grade >= 0.0 and Grade<=  100.0)
 );
+
+-- ---------------------------------
+
+create table if not exists  Account(
+    Aid int auto_increment primary key ,
+    name VARCHAR(10) not null ,
+    balance double default 0.0,
+    create_time timestamp
+);
+
+insert into Account(name, balance) values ('zrx',100),('miao',10000);
+
+-- ---------------------------------

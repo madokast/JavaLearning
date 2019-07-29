@@ -46,6 +46,7 @@ public class JDBCUtils {
             return DriverManager.getConnection(url,user,password);
         }catch (Exception e){
             e.printStackTrace();
+            System.exit(-1);
             return null;
         }
     }
