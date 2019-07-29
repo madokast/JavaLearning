@@ -1,10 +1,6 @@
-package MySQL.school;
+package MySQL;
 
-import com.sun.source.tree.CompilationUnitTree;
-
-import java.io.File;
 import java.sql.*;
-import java.time.Year;
 import java.util.Properties;
 
 public class JDBCUtils {
