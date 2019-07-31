@@ -5,11 +5,11 @@ import javax.swing.*;
 public class TimeCounterThread implements Runnable {
     int textFieldNumber;
     int seconds;
-    JTextField[] jTextFields;
-    public TimeCounterThread(int textField, int second, JTextField[] jTextFields) {
+    JLabel[] timeJLabels;
+    public TimeCounterThread(int textField, int second, JLabel[] timeJLabels) {
         this.textFieldNumber = textField;
         this.seconds = second;
-        this.jTextFields = jTextFields;
+        this.timeJLabels = timeJLabels;
     }
 
     @Override
@@ -20,10 +20,10 @@ public class TimeCounterThread implements Runnable {
             while(true){
                 long current = System.currentTimeMillis()/1000;
                 long remain = end - current;
-                jTextFields[textFieldNumber].setText(""+(remain));
+                timeJLabels[textFieldNumber].setText(""+(remain));
                 Thread.currentThread().sleep(1000);
                 if(remain<=0){
-                    jTextFields[textFieldNumber].setText("Time out");
+                    timeJLabels[textFieldNumber].setText("▇ ▇ ▇");
                     break;
                 }
             }

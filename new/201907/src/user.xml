@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--文档声明 必须定义在第一行-->
+
+<users>
+<!--    标签名字命令规则-->
+    <user id="1">
+<!--        属性 id属性值唯一-->
+        <name>zhengsan</name>
+        <age>23</age>
+        <gender>male</gender>
+    </user>
+
+<!--    约束 谁定义？谁解析？ 用户/程序员编写XML，软件/框架解析XML-->
+<!--    XML说明文档 规定标签 内容怎么写 称为约束-->
+<!--    现在要求： 会看约束就行-->
+<!--    约束分类 DTD scheme-->
+    <!--    XML解析 解析和写入-->
+
+    <user id="2">
+        <name>lisi</name>
+        <age>20</age>
+        <gender>female</gender>
+    </user>
+
+</users>
