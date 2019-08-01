@@ -3,4 +3,15 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    <servlet>
+        <servlet-name>Demo01</servlet-name>
+        <servlet-class>M01_Servlet.ServletDemo01</servlet-class>
+        <!--执行创建时机 配0或整数，就会在启动服务时执行-->
+        <load-on-startup>5</load-on-startup>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Demo01</servlet-name>
+        <url-pattern>/demo001</url-pattern>
+    </servlet-mapping>
 </web-app>
