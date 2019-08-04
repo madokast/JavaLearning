@@ -817,26 +817,27 @@
     <table id="206" parent="5" name="dept"/>
     <table id="207" parent="5" name="score"/>
     <table id="208" parent="5" name="student"/>
-    <column id="209" parent="204" name="Aid">
+    <table id="209" parent="5" name="user"/>
+    <column id="210" parent="204" name="Aid">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="210" parent="204" name="name">
+    <column id="211" parent="204" name="name">
       <Position>2</Position>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="211" parent="204" name="balance">
+    <column id="212" parent="204" name="balance">
       <Position>3</Position>
       <DataType>double|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="212" parent="204" name="create_time">
+    <column id="213" parent="204" name="create_time">
       <Position>4</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
@@ -844,144 +845,169 @@
       <ColumnKind>normal</ColumnKind>
       <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
     </column>
-    <key id="213" parent="204" name="PRIMARY">
+    <key id="214" parent="204" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Aid</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="214" parent="205" name="Cid">
+    <column id="215" parent="205" name="Cid">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="215" parent="205" name="Cname">
+    <column id="216" parent="205" name="Cname">
       <Position>2</Position>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="216" parent="205" name="Ccredit">
+    <column id="217" parent="205" name="Ccredit">
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="217" parent="205" name="PRIMARY">
+    <key id="218" parent="205" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Cid</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="218" parent="206" name="Did">
+    <column id="219" parent="206" name="Did">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="219" parent="206" name="Dname">
+    <column id="220" parent="206" name="Dname">
       <Position>2</Position>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;````&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="220" parent="206" name="dun">
+    <index id="221" parent="206" name="dun">
       <ColNames>Dname</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="221" parent="206" name="PRIMARY">
+    <key id="222" parent="206" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Did</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="222" parent="206" name="dun">
+    <key id="223" parent="206" name="dun">
       <ColNames>Dname</ColNames>
       <UnderlyingIndexName>dun</UnderlyingIndexName>
     </key>
-    <column id="223" parent="207" name="Sid">
+    <column id="224" parent="207" name="Sid">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="224" parent="207" name="Cid">
+    <column id="225" parent="207" name="Cid">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="225" parent="207" name="Grade">
+    <column id="226" parent="207" name="Grade">
       <Position>3</Position>
       <DataType>double|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="226" parent="207" name="scck">
+    <index id="227" parent="207" name="scck">
       <ColNames>Cid</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="227" parent="207" name="PRIMARY">
+    <key id="228" parent="207" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Sid
 Cid</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="228" parent="207" name="scsfk">
+    <foreign-key id="229" parent="207" name="scsfk">
       <ColNames>Sid</ColNames>
       <RefSchemaName>school</RefSchemaName>
       <RefTableName>student</RefTableName>
       <RefColNames>Sid</RefColNames>
     </foreign-key>
-    <foreign-key id="229" parent="207" name="scck">
+    <foreign-key id="230" parent="207" name="scck">
       <ColNames>Cid</ColNames>
       <RefSchemaName>school</RefSchemaName>
       <RefTableName>course</RefTableName>
       <RefColNames>Cid</RefColNames>
     </foreign-key>
-    <column id="230" parent="208" name="Sid">
+    <column id="231" parent="208" name="Sid">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="231" parent="208" name="Sname">
+    <column id="232" parent="208" name="Sname">
       <Position>2</Position>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="232" parent="208" name="Ssex">
+    <column id="233" parent="208" name="Ssex">
       <Position>3</Position>
       <DataType>varchar(3)|0s</DataType>
       <DefaultExpression>&apos;M&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="233" parent="208" name="Sage">
+    <column id="234" parent="208" name="Sage">
       <Position>4</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="234" parent="208" name="Sdept">
+    <column id="235" parent="208" name="Sdept">
       <Position>5</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="235" parent="208" name="sfk">
+    <index id="236" parent="208" name="sfk">
       <ColNames>Sdept</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="236" parent="208" name="PRIMARY">
+    <key id="237" parent="208" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>Sid</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="237" parent="208" name="sfk">
+    <foreign-key id="238" parent="208" name="sfk">
       <ColNames>Sdept</ColNames>
       <RefSchemaName>school</RefSchemaName>
       <RefTableName>dept</RefTableName>
       <RefColNames>Did</RefColNames>
     </foreign-key>
+    <column id="239" parent="209" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="240" parent="209" name="username">
+      <Position>2</Position>
+      <DataType>varchar(32)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+      <Collation>ucs2_general_ci</Collation>
+    </column>
+    <column id="241" parent="209" name="password">
+      <Position>3</Position>
+      <DataType>varchar(32)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="242" parent="209" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
   </database-model>
 </dataSource>

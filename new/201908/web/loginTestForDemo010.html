@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+    <style type="text/css">
+        div{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <p>用户登录</p>
+<!--    action写法  虚拟目的+servlet的urlPattern-->
+    <form action="/201908_war_exploded/loginServlet011" method="post">
+        <label for="username">用户名: </label><input id="username" type="text" name="username" placeholder="请输入用户名"><br>
+        <label for="password">用户名: </label><input id="password" type="password" name="password" placeholder="请输入密码"><br>
+        <input type="submit" value="提交">
+    </form>
+</div>
+</body>
+</html>
