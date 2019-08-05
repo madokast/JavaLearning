@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>带验证码的登陆</title>
+    <script type="text/javascript">
+        window.onload = function () {
+            var a_reload = document.getElementById("reload");
+            var captcha = document.getElementById("captcha");
+
+            function reload_img () {
+                captcha.setAttribute("src","/201908_war_exploded/CAPTCHAServlet?A="+new Date().getTime());
+            }
+
+            a_reload.onclick = reload_img;
+            captcha.onclick = reload_img;
+        };
+    </script>
+</head>
+<body>
+<h1>验证码</h1>
+<img id="captcha" src="/201908_war_exploded/CAPTCHAServlet" alt="请刷新验证码"><br>
+<a id="reload" href="javascript:void(0)">看不清换一张</a><br>
+
+</body>
+</html>

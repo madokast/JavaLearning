@@ -1,7 +1,7 @@
 package tool.tenKiloHours;
 
 public class Entries {
-    static public final int ICHIWAN = 10000*60;
+    static public final int ICHIWAN = 10000 * 60;
     public static String[] entries = {
             "2019-6-10 basic 1:3",
             "2019-6-10 Internet 0:18",
@@ -152,6 +152,14 @@ public class Entries {
             "2019-8-3 java 0:20",/*701*/
             "2019-8-3 java 0:20",/*703*/
 
+            "2019-8-4 java 1:45",/*706*/
+            "2019-8-4 java 0:35",/*711*/
+            "2019-8-4 java 0:45",/*715*/
+
+            "2019-8-5 java 1:05",/*719*/
+            "2019-8-5 java 1:05",/*724*/
+            "2019-8-5 java 1:05",/*727*/
+            "2019-8-5 java 1:25",/*730*/
     };
 
     //粒子仿真程序 7656行...

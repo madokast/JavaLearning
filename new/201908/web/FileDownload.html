@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件下载</title>
+    <script type="text/javascript">
+        window.onload=function () {
+            var a_down = document.getElementById("a_down");
+            a_down.onclick = function () {
+                //弹出下载提示框//不谈了，使用 Content-Disposition
+                if(true||window.confirm("确认要下载吗？")){
+                    open("fileDownloadServlet");
+                }
+            };
+        };
+    </script>
+</head>
+<body>
+<p>文件下载</p>
+<a id="a_down" href="javascript:void(0);">点击下载</a><br>
+<a id="a_down1" href="fileDownloadServlet2?filename=java.jpg">英文文件名测试 </a><br>
+<a id="a_down2" href="fileDownloadServlet2?filename=%E4%B8%AD%E6%96%87%E6%B5%8B%E8%AF%95java.jpg">中文文件名测试 </a><br>
+<a id="a_down3" href="fileDownloadServlet2?filename=中文测试java.jpg">中文文件名测试2 </a><br>
+</body>
+</html>
