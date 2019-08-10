@@ -19,11 +19,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.43" level="application_server_libraries" />
-    <orderEntry type="library" name="tomcat" level="project" />
-    <orderEntry type="library" name="mysql-connector-java-8.0.17" level="project" />
     <orderEntry type="module-library">
-      <library name="201908Lib">
+      <library name="lib201908">
         <CLASSES>
           <root url="file://$MODULE_DIR$/web/WEB-INF/lib" />
         </CLASSES>
@@ -32,25 +29,7 @@
         <jarDirectory url="file://$MODULE_DIR$/web/WEB-INF/lib" recursive="false" />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library name="lib1908">
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/web/WEB-INF/lib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/web/WEB-INF/lib" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="lib">
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/web/WEB-INF/lib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/web/WEB-INF/lib" recursive="false" />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="lib201908Global" level="application" />
+    <orderEntry type="library" name="lib201908" level="application" />
   </component>
 </module>

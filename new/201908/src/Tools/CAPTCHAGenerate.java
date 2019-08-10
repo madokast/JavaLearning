@@ -30,7 +30,6 @@ public class CAPTCHAGenerate {
     }
 
     public ImgAndInfo getCAPTCHA(){
-        System.out.println("getCAPTCHA 1223");
 
         final BufferedImage bufferedImage = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
         final Graphics graphics = bufferedImage.getGraphics();
@@ -55,6 +54,8 @@ public class CAPTCHAGenerate {
 
             graphics.drawLine(x1,y1,x2,y2);
         }
+
+        System.out.println("getCAPTCHA " + captche);
 
 
         return new ImgAndInfo(bufferedImage,captche);
