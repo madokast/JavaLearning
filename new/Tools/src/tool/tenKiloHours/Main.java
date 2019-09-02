@@ -26,6 +26,10 @@ public class Main {
             int days = (int)((end-start)/1000/60/60/24)+1;
             double avg = (double)length/days;
             System.out.println(e+String.format(" %7s %6s min",totaltime(length),String.format("%3.2f",avg)));
+//            System.out.println(
+//                    "insert into entries(dateDone,name,lengthMinute) values('"+ e.getDate().getYear() + "-" + (e.getDate().getMonth() + 1) + "-" +
+//                            ((e.getDate().getDate()<10)?("0"+e.getDate().getDate()):(e.getDate().getDate())) +"','"+e.getAct()+"','"+e.getLength()+"');"
+//            );
             statistic(mapStatistic,e);
         });
 

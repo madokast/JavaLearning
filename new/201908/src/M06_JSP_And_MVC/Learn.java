@@ -106,8 +106,62 @@ package M06_JSP_And_MVC;
  *              pageContext.request.contextPath 动态获取虚拟目录
  *
  * JSTL标签
+ *      概念 Java server pages tag library  JSP标准标签库
+ *      由apache提供的开源的免费JSP标签
+ *      作用 用于简化和替换jsp上的Java代码 <标签>
+ *      使用步骤：
+ *          导入jar包
+ *          引入变迁库 利用tablib指令 <% taglib %>
+ *          使用标签
+ *
+ *      常用的jsp标签——jsp中的Java代码大部分用途——查询数据库然后展示list集合中的数据
+ *          if
+ *          choose——相当于switch语句
+ *          foreach
  *
  * 三层架构
+ *      软件设计架构 和 mvc类似
+ *      把一个软件分为3层
+ *          界面/表示层web层：用户看得到，通过界面上的组件和服务器交互
+ *          业务逻辑层service层：即完成各种功能
+ *              组合基本的数据访问方法，合成一个完整的业务
+ *          数据访问层dao层：操作数据库。
+ *              封装最简单的数据库访问方法
+ *
+ *      分为不同包
+ *          项目名.web
+ *          。。。.service
+ *          。。。.dao
+ *
+ *      框架
+ *          web层——是springMVC
+ *          dao层——是MyBatis
+ *          service层——是spring框架
+ *
+ * 案例：
+ *      用户信息列表展示
+ *      需求：用户信息的增删改查操作
+ *      设计：
+ *          1. 技术选型。用什么技术？
+ *              servlet+JSP+MySQL+JDBCTemplate+Duird+BeanUtils+tomcat
+ *          2. 数据库设计
+ *              create database day17; -- 创建数据库
+ *              use day17; -- 使用数据库
+ *              create table user{ --创建表
+ *                  id int primary key auto_increment,
+ *                  name varchar(20) not null,
+ *                  gender varchar(5)
+ *              }
+ *          3. 环境搭建
+ *              TODO：创建新项目，回顾整个过程
+ *              创建数据库环境
+ *              创建项目
+ *              导入jar包
+ *          4. 编码
+ *          5. 测试
+ *          6. 部署
+ *          7. 运维
+ *
  */
 
 public class Learn {

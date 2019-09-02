@@ -19,5 +19,6 @@
     </orderEntry>
     <orderEntry type="library" name="c3p0-0.9.5.4" level="project" />
     <orderEntry type="library" name="jsoup-1.12.1" level="project" />
+    <orderEntry type="library" name="libAll" level="application" />
   </component>
 </module>

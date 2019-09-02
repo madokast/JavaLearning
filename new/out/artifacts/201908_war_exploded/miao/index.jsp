@@ -55,8 +55,8 @@
     <script type="text/javascript">
         window.onload = function (ev) {
             var insertDiv = document.getElementById("insertDiv");
-            var title = "國語魯語上";
-            var content = "莊公如齊觀社。曹劌諫曰：「不可。夫禮，所以正民也。是故先王制諸侯，使五年四王、一相朝。終則講于會，以正班爵之義，帥長幼之序，訓上下之則，制財用之節，其間無由荒怠。夫齊棄太公之法而觀民于社，君為是舉而往之，非故業也，何以訓民？土發而社，助時也。收捃而蒸，納要也。今齊社而往觀旅，非先王之訓也。天子祀上帝，諸侯會之受命焉。諸侯祀先王、先公，卿大夫佐之受事焉。臣不聞諸侯相會祀也，祀又不法。君舉必書，書而不法，後嗣何觀？」公不聽，遂如齊。";
+            var title = "韓詩外傳〇卷二";
+            var content = "楚昭王有士曰石奢，其為人也，公而好直，王使為理。於是道有殺人者，石奢追之，則父也，還返於廷，曰：「殺人者，臣之父也。以父成政，非孝也；不行君法，非忠也；弛罪廢法，而伏其辜，臣之所守也。」遂伏斧鑕，曰：「命在君。」君曰：「追而不及，庸有罪乎？子其治事矣。」石奢曰：「不然。不私其父，非孝也；不行君法、非忠也；以死罪生、不廉也。君欲赦之，上之惠也；臣不能失法，下之義也。」遂不去鈇鑕，刎頸而死乎廷。君子聞之曰：「貞夫法哉！石先生乎！」孔子曰：「子為父隱，父為子隱，直在其中矣。」《詩》曰：「彼已之子，邦之司直。」石先生之謂也。";
 
             var mapDot = new Map();
             mapDot.set("。",true);
@@ -66,6 +66,9 @@
             mapDot.set("：",true);
             mapDot.set("「",true);
             mapDot.set("」",true);
+            mapDot.set("；",true);
+            mapDot.set("《",true);
+            mapDot.set("》",true);
 
 
             //標題擡頭
@@ -82,10 +85,21 @@
             //正文換行
             insertDiv.innerHTML = insertDiv.innerHTML + "<div class=\"re contentZRX\">"+content.charAt(0)+"</div>";
             //正文
+            var isDot = false;
             for (var j = 1; j < content.length; j++) {
                 if(mapDot.get(content.charAt(j))){
+                    if(isDot){
+                        continue;
+                    }
+                    var div2 = document.createElement("div");
+                    div2.className  = "re";
+                    div2.innerText = "・";
+                    insertDiv.appendChild(div2);
+                    isDot=true;
                     continue;
                 }
+
+                isDot=false;
 
                 var div2 = document.createElement("div");
                 div2.className  = "re";
