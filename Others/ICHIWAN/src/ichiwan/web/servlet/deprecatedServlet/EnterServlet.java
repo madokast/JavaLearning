@@ -1,14 +1,7 @@
-package ichiwan.web.servlet;
+package ichiwan.web.servlet.deprecatedServlet;
 
-import ichiwan.Validator.EntryPageValidator;
-import ichiwan.Validator.EntryPageValidatorImpl;
-import ichiwan.domain.Entry;
 import ichiwan.domain.EntryTail;
 import ichiwan.domain.PageBean;
-import ichiwan.service.EntryService;
-import ichiwan.service.EntryServiceImpl;
-import ichiwan.service.EntryTailService;
-import ichiwan.service.EntryTailServiceImpl;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,7 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.List;
 
 @WebServlet("/enterServlet")
 public class EnterServlet extends HttpServlet {

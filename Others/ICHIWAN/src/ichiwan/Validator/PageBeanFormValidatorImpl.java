@@ -1,8 +1,8 @@
 package ichiwan.Validator;
 
 import ichiwan.domain.PageBeanForm;
-import ichiwan.service.EntryTailService;
-import ichiwan.service.EntryTailServiceImpl;
+import ichiwan.service.EntryService;
+import ichiwan.service.EntryServiceImpl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,8 +42,9 @@ public class PageBeanFormValidatorImpl implements PageBeanFormValidator {
             }
 
             if(rowsOK){
-                EntryTailService entryTailService = new EntryTailServiceImpl();
-                final int pageNumberLimit = entryTailService.pageNumberLimit(rowsNumber);
+//                EntryTailService entryTailService = new EntryTailServiceImpl();
+                EntryService entryService = new EntryServiceImpl();
+                final int pageNumberLimit = entryService.totalPage(rowsNumber);
 
                 if(currentPageNumber>pageNumberLimit){
                     errors.add("当前页数("+currentPageNumber+")不能超过总页数"+pageNumberLimit);

@@ -850,37 +850,29 @@
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="213" parent="206" name="relativeDate">
+    <column id="213" parent="206" name="deleteBool">
       <Position>6</Position>
-      <DataType>int(11)|0s</DataType>
+      <DataType>tinyint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="214" parent="206" name="totalMinute">
-      <Position>7</Position>
-      <DataType>int(11)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="215" parent="206" name="averageMinute">
-      <Position>8</Position>
-      <DataType>double|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="216" parent="206" name="PRIMARY">
+    <key id="214" parent="206" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="217" parent="207" name="date0">
+    <column id="215" parent="207" name="date0">
       <Position>1</Position>
       <DataType>date|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="218" parent="207" name="p">
+    <column id="216" parent="207" name="p">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <trigger id="219" parent="207" name="period">
+    <trigger id="217" parent="207" name="period">
       <SourceTextLength>110</SourceTextLength>
       <Definer>root@localhost</Definer>
       <Turn>before-row</Turn>

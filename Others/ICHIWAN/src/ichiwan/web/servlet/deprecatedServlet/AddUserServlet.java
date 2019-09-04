@@ -1,10 +1,11 @@
-package ichiwan.web.servlet;
+package ichiwan.web.servlet.deprecatedServlet;
 
 import ichiwan.Validator.EntryFromValidator;
 import ichiwan.Validator.EntryFromValidatorImpl;
 import ichiwan.domain.EntryForm;
 import ichiwan.service.EntryService;
 import ichiwan.service.EntryServiceImpl;
+import ichiwanTest.Tools;
 import org.apache.commons.beanutils.BeanUtils;
 
 import javax.servlet.ServletException;
@@ -12,10 +13,12 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.swing.*;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.lang.reflect.InvocationTargetException;
 import java.net.URLDecoder;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -43,15 +46,19 @@ public class AddUserServlet extends HttpServlet {
 
         //打印一下
         System.out.println("/addUserServlet");
-        request.getParameterMap().entrySet().forEach(e->{
-            for (int i = 0; i < e.getValue().length; i++) {
-                System.out.println(e.getKey()+"="+e.getValue()[i]);
-            }
-        });
+
+        //查看全部Parameter
+        final Map<String, String[]> allMap = request.getParameterMap();
+        Tools.printMapStrStrs(allMap);
 
         //开始业务
         //获取参数
-        final Map<String, String[]> map = request.getParameterMap();
+        final Map<String, String[]> map = new HashMap<>();
+        map.put("id",request.getParameterValues("id"));
+        map.put("dateDone",request.getParameterValues("dateDone"));
+        map.put("name",request.getParameterValues("name"));
+        map.put("lengthMinute",request.getParameterValues("lengthMinute"));
+        map.put("describing",request.getParameterValues("describing"));
         //封装对象
         EntryForm entryForm = new EntryForm();
         try {
@@ -75,8 +82,8 @@ public class AddUserServlet extends HttpServlet {
             errors.add("添加成功!");
         }
 
-        //跳转到enterServlet
-        request.getRequestDispatcher("/enterServlet").forward(request,response);
+        //跳转到findUserByPageServlet
+        request.getRequestDispatcher("/findUserByPageServlet").forward(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -1,4 +1,4 @@
-package ichiwan.service;
+package ichiwan.service.deprecated;
 
 import ichiwan.domain.EntryTail;
 import ichiwan.domain.PageBean;
@@ -12,6 +12,7 @@ public interface EntryTailService {
      *
      * @return List<EntryTail>
      */
+    @Deprecated
     List<EntryTail> findAll();
 
     /**
@@ -22,6 +23,7 @@ public interface EntryTailService {
      * @param n 从n页开始
      * @return List<EntryTail>
      */
+    @Deprecated
     List<EntryTail> findLimit10(int n);
 
     /**
@@ -38,6 +40,7 @@ public interface EntryTailService {
      * @param limit 每页显示条数
      * @return 总页数
      */
+    @Deprecated
     int pageNumberLimit(int limit);
 
     /**
@@ -45,5 +48,14 @@ public interface EntryTailService {
      * @param pageBeanForm 以检验
      * @return PageBean<EntryTail>
      */
+    @Deprecated
     PageBean<EntryTail> findByPageBeanForm(PageBeanForm pageBeanForm);
+
+    /**
+     * 获得默认的 PageBeanForm
+     * 属性见 ichiwan.properties
+     * @return 默认的 PageBeanForm
+     */
+    @Deprecated
+    PageBeanForm getDefaultPageBeanForm();
 }

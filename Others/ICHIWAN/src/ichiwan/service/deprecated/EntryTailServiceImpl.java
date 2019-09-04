@@ -1,13 +1,15 @@
-package ichiwan.service;
+package ichiwan.service.deprecated;
 
-import ichiwan.dao.EntryDaoImpl;
-import ichiwan.dao.EntryTailDao;
-import ichiwan.dao.EntryTailDaoImpl;
+import ichiwan.dao.deprecated.EntryTailDao;
+import ichiwan.dao.deprecated.EntryTailDaoImpl;
 import ichiwan.domain.EntryTail;
 import ichiwan.domain.PageBean;
 import ichiwan.domain.PageBeanForm;
+import ichiwan.web.servlet.utils.IChiWan;
+import org.apache.commons.beanutils.BeanUtils;
 
 import java.util.List;
+import java.util.Properties;
 
 public class EntryTailServiceImpl implements EntryTailService{
     private final EntryTailDao entryTailDao = new EntryTailDaoImpl();
@@ -68,5 +70,20 @@ public class EntryTailServiceImpl implements EntryTailService{
 
         return pageBean;
 
+    }
+
+    @Override
+    public PageBeanForm getDefaultPageBeanForm() {
+        PageBeanForm defaultPageBeanForm = new PageBeanForm();
+        Properties properties = new Properties();
+        try {
+            properties.load(IChiWan.class.getClassLoader().getResourceAsStream("ichiwan.properties"));
+            BeanUtils.populate(defaultPageBeanForm, properties);
+
+        } catch (Exception ee) {
+            ee.printStackTrace();
+        }
+
+        return defaultPageBeanForm;
     }
 }

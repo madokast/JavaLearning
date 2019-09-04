@@ -2,8 +2,6 @@ package ichiwan.Validator;
 
 import ichiwan.service.EntryService;
 import ichiwan.service.EntryServiceImpl;
-import ichiwan.service.EntryTailService;
-import ichiwan.service.EntryTailServiceImpl;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package ichiwan.dao;
+package ichiwan.dao.deprecated;
 
 import ichiwan.domain.EntryTail;
 import ichiwan.domain.PageBean;
@@ -12,6 +12,7 @@ public interface EntryTailDao {
      *
      * @return List<EntryTail>
      */
+    @Deprecated
     List<EntryTail> findAll();
 
     /**
@@ -30,6 +31,7 @@ public interface EntryTailDao {
      *
      * @return 总数
      */
+    @Deprecated
     int entryNumber();
 
     /**
@@ -39,5 +41,6 @@ public interface EntryTailDao {
      * @param limit 每页限制
      * @return List<EntryTail>
      */
+    @Deprecated
     List<EntryTail> findLimite(int start,int limit);
 }

@@ -1,4 +1,4 @@
-<%--
+<%@ page import="ichiwan.web.servlet.utils.IChiWan" %><%--
   Created by IntelliJ IDEA.
   User: madokast
   Date: 2019/8/21
@@ -11,7 +11,7 @@
     <title>一小时计划</title>
   </head>
   <body>
-  <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=1&rows=10">
+  <a href="${pageContext.request.contextPath}/handOutServlet">
     <h1>enter</h1>
   </a>
   </body>

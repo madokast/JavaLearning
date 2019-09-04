@@ -1,4 +1,4 @@
-package ichiwan.web.servlet;
+package ichiwan.web.servlet.deprecatedServlet;
 
 import ichiwan.Validator.EntryIdValidator;
 import ichiwan.Validator.EntryIdValidatorImpl;
@@ -49,7 +49,7 @@ public class DeleteEntryServlet extends HttpServlet {
         }
 
         request.setAttribute("errors",errors);
-        request.getRequestDispatcher("enterServlet").forward(request,response);
+        request.getRequestDispatcher("findUserByPageServlet").forward(request,response);
 
 
 
