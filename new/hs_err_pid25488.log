@@ -1,0 +1,197 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 400556032 bytes for Failed to commit area from 0x0000000682000000 to 0x0000000699e00000 of length 400556032.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (t:/workspace/open/src/hotspot/os/windows/os_windows.cpp:3254), pid=25488, tid=9256
+#
+# JRE version:  (12.0.1+12) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (12.0.1+12, mixed mode, aot, sharing, tiered, compressed oops, g1 gc, windows-amd64)
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -javaagent:D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\lib\idea_rt.jar=52603:D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin -Dfile.encoding=UTF-8 tool.tenKiloHours.SQL
+
+Host: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz, 4 cores, 23G,  Windows 10 , 64 bit Build 17134 (10.0.17134.753)
+Time: Fri Sep  6 23:26:15 2019 ?D1¨²¡À¨º¡Á?¨º¡À?? elapsed time: 0 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000001bc70bf5800):  JavaThread "Unknown thread" [_thread_in_vm, id=9256, stack(0x000000b3af600000,0x000000b3af700000)]
+
+Stack: [0x000000b3af600000,0x000000b3af700000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x63948a]
+V  [jvm.dll+0x78b31f]
+V  [jvm.dll+0x78c9c1]
+V  [jvm.dll+0x78d013]
+V  [jvm.dll+0x262138]
+V  [jvm.dll+0x63698a]
+V  [jvm.dll+0x62b505]
+V  [jvm.dll+0x31d9bc]
+V  [jvm.dll+0x31d7ef]
+V  [jvm.dll+0x323526]
+V  [jvm.dll+0x370f76]
+V  [jvm.dll+0x370750]
+V  [jvm.dll+0x2f786a]
+V  [jvm.dll+0x2f8af2]
+V  [jvm.dll+0x7657b7]
+V  [jvm.dll+0x766e95]
+V  [jvm.dll+0x37f089]
+V  [jvm.dll+0x749b14]
+V  [jvm.dll+0x3ee48d]
+V  [jvm.dll+0x3f03c1]
+C  [jli.dll+0x51cf]
+C  [ucrtbase.dll+0x1e3fe]
+C  [KERNEL32.DLL+0x14034]
+C  [ntdll.dll+0x73691]
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x00007ffd7eed48e8, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+  0x000001bc70c80800 GCTaskThread "GC Thread#0" [stack: 0x000000b3af700000,0x000000b3af800000] [id=23660]
+  0x000001bc70ca6800 ConcurrentGCThread "G1 Main Marker" [stack: 0x000000b3af800000,0x000000b3af900000] [id=6604]
+  0x000001bc70ca9800 ConcurrentGCThread "G1 Conc#0" [stack: 0x000000b3af900000,0x000000b3afa00000] [id=19692]
+
+[error occurred during error reporting (printing all threads), id 0xc0000005, EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffd7e707a37]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x000001bc70bf1a70] Heap_lock - owner thread: 0x000001bc70bf5800
+
+Heap address: 0x0000000682000000, size: 6112 MB, Compressed Oops mode: Non-zero based: 0x0000000682000000
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff7e0e80000 - 0x00007ff7e0e8f000 	D:\Program Files\jdk-12.0.1\bin\java.exe
+0x00007ffe073f0000 - 0x00007ffe075d1000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ffe06eb0000 - 0x00007ffe06f61000 	C:\Windows\System32\KERNEL32.DLL
+0x00007ffe041c0000 - 0x00007ffe04433000 	C:\Windows\System32\KERNELBASE.dll
+0x00007ffe045e0000 - 0x00007ffe046d8000 	C:\Windows\System32\ucrtbase.dll
+0x00007ffdec470000 - 0x00007ffdec488000 	D:\Program Files\jdk-12.0.1\bin\jli.dll
+0x00007ffe04a00000 - 0x00007ffe04aa1000 	C:\Windows\System32\ADVAPI32.dll
+0x00007ffe04da0000 - 0x00007ffe04e3e000 	C:\Windows\System32\msvcrt.dll
+0x00007ffe07360000 - 0x00007ffe073bb000 	C:\Windows\System32\sechost.dll
+0x00007ffe06f70000 - 0x00007ffe07094000 	C:\Windows\System32\RPCRT4.dll
+0x00007ffe04c10000 - 0x00007ffe04da0000 	C:\Windows\System32\USER32.dll
+0x00007ffe04790000 - 0x00007ffe047b0000 	C:\Windows\System32\win32u.dll
+0x00007ffe064c0000 - 0x00007ffe064e8000 	C:\Windows\System32\GDI32.dll
+0x00007ffe04440000 - 0x00007ffe045d1000 	C:\Windows\System32\gdi32full.dll
+0x00007ffe037c0000 - 0x00007ffe0385f000 	C:\Windows\System32\msvcp_win.dll
+0x00007ffddb090000 - 0x00007ffddb0a6000 	D:\Program Files\jdk-12.0.1\bin\VCRUNTIME140.dll
+0x00007ffdf5fc0000 - 0x00007ffdf6229000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.950_none_fb3da4273069d3e0\COMCTL32.dll
+0x00007ffe064f0000 - 0x00007ffe06812000 	C:\Windows\System32\combase.dll
+0x00007ffe047b0000 - 0x00007ffe04829000 	C:\Windows\System32\bcryptPrimitives.dll
+0x00007ffdfee80000 - 0x00007ffdfee8a000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007ffe06e70000 - 0x00007ffe06e9d000 	C:\Windows\System32\IMM32.DLL
+0x00007ffdacd60000 - 0x00007ffdace0a000 	D:\Program Files\jdk-12.0.1\bin\msvcp140.dll
+0x00007ffd7e400000 - 0x00007ffd7ef74000 	D:\Program Files\jdk-12.0.1\bin\server\jvm.dll
+0x00007ffe06ea0000 - 0x00007ffe06ea8000 	C:\Windows\System32\PSAPI.DLL
+0x00007ffdf34b0000 - 0x00007ffdf34b9000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007ffe06c80000 - 0x00007ffe06cec000 	C:\Windows\System32\WS2_32.dll
+0x00007ffdfbab0000 - 0x00007ffdfbad3000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ffdfba80000 - 0x00007ffdfbaaa000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x00007ffe04830000 - 0x00007ffe04879000 	C:\Windows\System32\cfgmgr32.dll
+0x00007ffe03730000 - 0x00007ffe03741000 	C:\Windows\System32\kernel.appcore.dll
+0x00007ffdd7fd0000 - 0x00007ffdd7fe1000 	D:\Program Files\jdk-12.0.1\bin\verify.dll
+0x00007ffe020e0000 - 0x00007ffe022a9000 	C:\Windows\SYSTEM32\DBGHELP.DLL
+0x00007ffdfd7c0000 - 0x00007ffdfd7e9000 	C:\Windows\SYSTEM32\dbgcore.DLL
+0x00007ffdacd30000 - 0x00007ffdacd56000 	D:\Program Files\jdk-12.0.1\bin\java.dll
+0x00007ffdfde60000 - 0x00007ffdfde6e000 	D:\Program Files\jdk-12.0.1\bin\instrument.dll
+0x00007ffdd2b80000 - 0x00007ffdd2b97000 	D:\Program Files\jdk-12.0.1\bin\zip.dll
+0x00007ffdff0e0000 - 0x00007ffdff0ea000 	D:\Program Files\jdk-12.0.1\bin\jimage.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;D:\Program Files\jdk-12.0.1\bin;C:\Windows\SYSTEM32;C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.950_none_fb3da4273069d3e0;D:\Program Files\jdk-12.0.1\bin\server
+
+VM Arguments:
+jvm_args: -javaagent:D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\lib\idea_rt.jar=52603:D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin -Dfile.encoding=UTF-8 
+java_command: tool.tenKiloHours.SQL
+java_class_path (initial): D:\Documents\GitHub\JavaLearning\new\out\production\Tools;D:\Documents\GitHub\JavaLearning\new\lib\mysql-connector-java-8.0.17.jar
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     intx CICompilerCount                          = 3                                         {product} {ergonomic}
+     uint ConcGCThreads                            = 1                                         {product} {ergonomic}
+     uint G1ConcRefinementThreads                  = 4                                         {product} {ergonomic}
+   size_t G1HeapRegionSize                         = 1048576                                   {product} {ergonomic}
+    uintx GCDrainStackTargetSize                   = 64                                        {product} {ergonomic}
+   size_t InitialHeapSize                          = 400556032                                 {product} {ergonomic}
+   size_t MarkStackSize                            = 4194304                                   {product} {ergonomic}
+   size_t MaxHeapSize                              = 6408896512                                {product} {ergonomic}
+   size_t MinHeapDeltaBytes                        = 1048576                                   {product} {ergonomic}
+    uintx NonNMethodCodeHeapSize                   = 5830732                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122913754                              {pd product} {ergonomic}
+    uintx ProfiledCodeHeapSize                     = 122913754                              {pd product} {ergonomic}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+     bool UseCompressedClassPointers               = true                                 {lp64_product} {ergonomic}
+     bool UseCompressedOops                        = true                                 {lp64_product} {ergonomic}
+     bool UseG1GC                                  = true                                      {product} {ergonomic}
+     bool UseLargePagesIndividualAllocation        = false                                  {pd product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags
+ #1: stderr all=off uptime,level,tags
+
+Environment Variables:
+JAVA_HOME=D:\Program Files\jdk-12.0.1
+PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;D:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Program Files\jdk-12.0.1\bin;C:\Users\madokast\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\madokast\AppData\Local\Programs\Python\Python37-32\;C:\Users\madokast\AppData\Local\Microsoft\WindowsApps;C:\Users\madokast\AppData\Local\GitHubDesktop\bin
+USERNAME=madokast
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10 , 64 bit Build 17134 (10.0.17134.753)
+
+CPU:total 4 (initial active 4) (4 cores per cpu, 1 threads per core) family 6 model 158 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, 3dnowpref, lzcnt, tsc, tscinvbit, bmi1, bmi2, adx, fma
+
+Memory: 4k page, system-wide physical 24442M (9516M free)
+TotalPageFile size 37761M (AvailPageFile size 350M)
+current process WorkingSet (physical memory assigned to process): 10M, peak: 10M
+current process commit charge ("private bytes"): 52M, peak: 434M
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (12.0.1+12) for windows-amd64 JRE (12.0.1+12), built on Apr  2 2019 14:02:19 by "mach5one" with MS VC++ 15.5 (VS2017)
+
+END.

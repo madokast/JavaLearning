@@ -6,53 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c48bac0-8308-43cd-b824-4f2fb4c19430" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/dump/0904.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dispatchServlet.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ichiwan.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ichiwan/Validator/ErrorsUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ichiwan/domain/deprecated/IChiWanBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ichiwan/service/pack/EntryTailStatistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ichiwan/util/Tools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ichiwan/web/servlet/deprecatedServlet/SelectUserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ichiwan/web/servlet/deprecatedServlet/addAndSelectUserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ichiwan/web/servlet/utils/IChiWan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ichiwan/web/servlet/utils/ServletUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ichiwan/web/servlet/web/AddEntryServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ichiwan/web/servlet/web/DefaultServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ichiwan/web/servlet/web/DeleteLastServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ichiwan/web/servlet/web/HandOutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ichiwan/web/servlet/web/PageServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ichiwan/web/servlet/web/SelectEntryServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ichiwan/web/servlet/web/StatisticsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ichiwanTest/Tools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ichiwanTest/test/EntryServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ichiwanTest/test/ThreadExitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/80a8f410-0a08-499d-bac3-4f29a24994ab.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/80a8f410-0a08-499d-bac3-4f29a24994ab.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/sqlCreate.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/sqlCreate.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ICHIWAN_war_exploded/ichiwan.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ICHIWAN_war_exploded/ichiwan.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ICHIWAN_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ICHIWAN_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ichiwan/Validator/EntryIdValidatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ichiwan/Validator/EntryIdValidatorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ichiwan/Validator/EntryPageValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ichiwan/Validator/EntryPageValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ichiwan/Validator/EntryPageValidatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ichiwan/Validator/EntryPageValidatorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ichiwan/Validator/PageBeanFormValidatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ichiwan/Validator/PageBeanFormValidatorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ichiwan/dao/EntryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ichiwan/dao/EntryDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ichiwan/dao/EntryDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ichiwan/dao/EntryDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ichiwan/dao/EntryTailDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ichiwan/dao/deprecated/EntryTailDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ichiwan/dao/EntryTailDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ichiwan/dao/deprecated/EntryTailDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ichiwan/service/EntryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ichiwan/service/EntryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ichiwan/service/EntryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ichiwan/service/EntryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ichiwan/service/EntryTailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ichiwan/service/deprecated/EntryTailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ichiwan/service/EntryTailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ichiwan/service/deprecated/EntryTailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ichiwan/web/servlet/AddUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ichiwan/web/servlet/deprecatedServlet/AddUserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ichiwan/web/servlet/DeleteEntryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ichiwan/web/servlet/deprecatedServlet/DeleteEntryServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ichiwan/web/servlet/EnterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ichiwan/web/servlet/deprecatedServlet/EnterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ichiwan/web/servlet/FindUserByPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ichiwan/web/servlet/deprecatedServlet/FindUserByPageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/ichiwan.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/ichiwan.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="5c48bac0-8308-43cd-b824-4f2fb4c19430" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ichiwan/web/servlet/web/PageServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-86">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="304">
+              <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -362,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ThreadExitTest.run">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.43">
     <configuration name="EntryDaoImpl.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ICHIWAN" />
       <extension name="coverage">
@@ -543,7 +497,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566395583698</updated>
-      <workItem from="1566395588004" duration="65323000" />
+      <workItem from="1566395588004" duration="65480000" />
     </task>
     <servers />
   </component>
@@ -580,7 +534,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65323000" />
+    <option name="totallyTimeSpent" value="65480000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1114,8 +1068,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ichiwan/web/servlet/web/PageServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="304">
+          <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>04-事件绑定入口函数样式</title>
+    <script src="js/jquery-3.4.1.js"></script>
+
+    <script >
+
+        $(function () {//入口函数..区别在于可以写多次
+            var div = $("div");
+            div.css("color","yellow");
+            div.click(function () {
+                div.html(div.html()+div.html());
+            })
+        })
+
+
+
+    </script>
+
+</head>
+<body>
+<div style="color: red">哈哈哈</div>
+
+
+</body>
+</html>

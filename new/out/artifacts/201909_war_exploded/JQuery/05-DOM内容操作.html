@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>05-DOM内容操作</title>
+    <script src="js/jquery-3.4.1.js"></script>
+
+    <script>
+
+        $(function () {
+            var input = $("#input");
+            input.val("我来了");
+
+            var name = input.prop("name");
+            input.val(name);
+        });
+
+    </script>
+
+</head>
+<body>
+<form action="">
+    <input id="input" type="text" name="a" value="">
+</form>
+
+
+
+</body>
+</html>

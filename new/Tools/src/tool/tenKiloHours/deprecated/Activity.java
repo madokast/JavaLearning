@@ -1,6 +1,5 @@
-package tool.tenKiloHours;
+package tool.tenKiloHours.deprecated;
 
-import java.lang.ref.SoftReference;
 import java.util.Date;
 
 public class Activity {

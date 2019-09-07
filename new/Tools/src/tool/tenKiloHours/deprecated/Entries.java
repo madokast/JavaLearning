@@ -1,4 +1,4 @@
-package tool.tenKiloHours;
+package tool.tenKiloHours.deprecated;
 
 public class Entries {
     static public final int ICHIWAN = 10000 * 60;

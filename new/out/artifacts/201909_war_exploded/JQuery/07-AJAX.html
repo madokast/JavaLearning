@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>07-AJAX</title>
+    <script>
+        function fun() {
+            var xmlhttp;
+            if(window.XMLHttpRequest){
+                xmlhttp=new XMLHttpRequest();
+            }else {
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+
+            //建立连接 方法 请求url 异步?
+            xmlhttp.open("GET","ajaxServlet?username=tom",true);
+            //发送
+            xmlhttp.send();//发 POST参数写这里
+            //等待
+            xmlhttp.onreadystatechange=function (ev) {
+              if(xmlhttp.readyState==4&&xmlhttp.status==200){
+
+                  //接收
+                  document.getElementById("text").setAttribute("value",xmlhttp.responseText);
+
+              }
+            };
+        }
+    </script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script>
+        function fun2() {
+            $.ajax({
+                url:"ajaxServlet",      //请求路径
+                type:"post",             //请求方式
+                data:{
+                    "username":"jack"
+                },
+                success:function (data) {
+                    //收到请求后的回调函数
+                    $("#text2").prop("value",data);
+                },
+                error:function () {
+                    //出错了
+                }
+            });
+        }
+    </script>
+    <script>
+        function fun3() {
+            $.get("ajaxServlet",{"username":'tom'},function (data) {
+                $("#text3").prop("value",data);
+            })
+        }
+    </script>
+</head>
+<body>
+<div>
+    <input id="input" type="button" value="发送异步请求" onclick="fun();">
+    <input id="text" type="text" value="">
+</div>
+<div>
+    <input id="input2" type="button" value="JQ实现Ajax" onclick="fun2();">
+    <input id="text2" type="text" value="">
+</div>
+<div>
+    <input id="input3" type="button" value="JQ实现Ajax2" onclick="fun3();">
+    <input id="text3" type="text" value="">
+</div>
+</body>
+</html>

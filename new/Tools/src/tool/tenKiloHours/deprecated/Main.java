@@ -1,10 +1,9 @@
-package tool.tenKiloHours;
+package tool.tenKiloHours.deprecated;
 
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.logging.Level;
 import java.util.stream.Stream;
 
 public class Main {
