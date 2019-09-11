@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script>
+        $(function () {
+            var inputUsername = $("#input_username");
+            var spanUsername = $("#span_username");
+            inputUsername.blur(function () {
+                //获取值
+                 var username = $(this).val();
+
+                //发送json请求
+                //收到{userExist,true;msg,"要显示信息"}
+                $.get("/201909"+"/ajax/registerServlet",{username:username},function (data) {
+
+                    if(data.userExist){
+                        //存在
+                        spanUsername.text(data.msg);
+                        spanUsername.css("color","red");
+                    }else {
+                        //不存在
+                        spanUsername.text(data.msg);
+                        spanUsername.css("color","green");
+                    }
+                },"json");
+
+            });
+        });
+    </script>
+</head>
+<body>
+<div>
+    <form action="javascript:void(0)" method="get">
+        <label for="input_username">用户名:</label>
+        <input id="input_username" type="text" name="username" placeholder="请输入用户名"><span id="span_username"></span>
+    </form>
+</div>
+</body>
+</html>

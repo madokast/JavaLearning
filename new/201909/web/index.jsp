@@ -9,9 +9,34 @@
 <html>
   <head>
     <title>$Title$</title>
+    <script src="JQuery/js/jquery-3.4.1.js"></script>
+    <script>
+      $(
+              function () {
+                $.get("provinceServlet",{},function (data) {
+
+                  var province = $("#province");
+
+                  $(data).each(function () {
+
+                    var option = "<option value=\""+this.id+"\">"+this.name+"</option>"
+
+                    province.append(option);
+                  })
+
+                })
+
+              }
+      );
+    </script>
   </head>
   <body>
   $END$
-<div><%System.out.println("index.jsp"); %></div>
+<div>
+
+  <select name="province" id="province">
+    <option value="null">--请选择省份--</option>
+  </select>
+</div>
   </body>
 </html>

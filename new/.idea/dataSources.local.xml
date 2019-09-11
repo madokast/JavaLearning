@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="jdbc:mysql://localhost:3306/school?serverTimezone=Asia/Shanghai" uuid="3343a325-24b4-4c9e-9a24-57c3a81bda61">
+    <data-source name="school" uuid="3343a325-24b4-4c9e-9a24-57c3a81bda61">
       <database-info product="MySQL" version="5.5.62" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.15 (Revision: 79a4336f140499bd22dd07f02b708e163844e3d5)" dbms="MYSQL" exact-version="5.5.62" exact-driver-version="8.0">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
@@ -11,7 +11,17 @@
       <user-name>root</user-name>
       <introspection-schemas>*:@</introspection-schemas>
     </data-source>
-    <data-source name="jdbc:mysql://localhost:3306/ichiwan?serverTimezone=Asia/Shanghai" uuid="aca0f4c7-e3e1-48c7-84c5-082b1f909c13">
+    <data-source name="ichiwan" uuid="aca0f4c7-e3e1-48c7-84c5-082b1f909c13">
+      <database-info product="MySQL" version="5.5.62" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.15 (Revision: 79a4336f140499bd22dd07f02b708e163844e3d5)" dbms="MYSQL" exact-version="5.5.62" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:@</introspection-schemas>
+    </data-source>
+    <data-source name="day190909" uuid="cc00c6be-75a4-46f0-bb9a-cce7a28db352">
       <database-info product="MySQL" version="5.5.62" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.15 (Revision: 79a4336f140499bd22dd07f02b708e163844e3d5)" dbms="MYSQL" exact-version="5.5.62" exact-driver-version="8.0">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>

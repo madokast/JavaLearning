@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>09-JSON遍历</title>
+    <script>
+        var person = {
+            name: "张三",
+            age: 23,
+            gender: true
+        };
+
+        var persons = [
+            {
+                name: "张三",
+                age: 23,
+                gender: true
+            }, {
+                name: "李四",
+                age: 52,
+                gender: false
+            }
+        ];
+
+        //遍历person
+        for(var key in person){
+            console.log(key+" "+person[key]);
+        }
+
+        console.log("---------------");
+
+        //遍历persons
+        for (var i = 0; i < persons.length; i++) {
+            for(var key2 in persons[i]){
+                console.log(key+" "+persons[i][key2]);
+            }
+        }
+    </script>
+</head>
+<body>
+
+
+</body>
+</html>

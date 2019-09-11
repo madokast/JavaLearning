@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="jdbc:mysql://localhost:3306/school?serverTimezone=Asia/Shanghai">
+<dataSource name="school">
   <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.15">
     <root id="1">
       <ServerVersion>5.5.62</ServerVersion>

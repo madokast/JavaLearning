@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * HttpServlet->GenericServlet->Servlet
+ * HttpServlet->GenericServlet->Servlet01
  * 对heep协议的封装
  *
  * 1.判断请求方式，并判断
