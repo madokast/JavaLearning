@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Sep 11 17:25:20 CST 2019
+jcommander-1.27.pom>nexus-aliyun=
+jcommander-1.27.jar>nexus-aliyun=
+jcommander-1.27.pom>central=
+jcommander-1.27.jar>central=

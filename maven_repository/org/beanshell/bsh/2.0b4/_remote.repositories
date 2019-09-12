@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Sep 10 19:32:53 CST 2019
+#Wed Sep 11 17:23:20 CST 2019
 bsh-2.0b4.jar>central=
+bsh-2.0b4.jar>nexus-aliyun=
 bsh-2.0b4.pom>central=
+bsh-2.0b4.pom>nexus-aliyun=

@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Sep 10 22:03:39 CST 2019
+#Wed Sep 11 17:08:18 CST 2019
+maven-install-plugin-2.4.jar>nexus-aliyun=
 maven-install-plugin-2.4.jar>central=
 maven-install-plugin-2.4.pom>central=
+maven-install-plugin-2.4.pom>nexus-aliyun=

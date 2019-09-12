@@ -1,3 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Sep 10 20:19:28 CST 2019
+#Wed Sep 11 17:08:14 CST 2019
 maven-plugins-23.pom>central=
+maven-plugins-23.pom>nexus-aliyun=

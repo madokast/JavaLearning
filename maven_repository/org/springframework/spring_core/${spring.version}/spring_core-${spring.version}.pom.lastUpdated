@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Sep 11 16:56:24 CST 2019
+https\://repo.maven.apache.org/maven2/.lastUpdated=1568190290714
+http\://maven.aliyun.com/nexus/content/groups/public/.error=Could not transfer artifact org.springframework\:spring_core\:pom\:${spring.version} from/to nexus-aliyun (http\://maven.aliyun.com/nexus/content/groups/public)\: TransferFailedException
+https\://repo.maven.apache.org/maven2/.error=
+@default-nexus-aliyun-http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1568192184467

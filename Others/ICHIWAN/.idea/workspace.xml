@@ -7,77 +7,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c48bac0-8308-43cd-b824-4f2fb4c19430" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven02_0910/.idea/artifacts/maven02_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven02_0910/.idea/artifacts/maven02_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven02_0910/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven02_0910/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven02_0910/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven02_0910/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven02_0910/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven02_0910/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven02_0910/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven02_0910/maven02/maven02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven02_0910/maven02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven02_0910/maven022/maven022.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven02_0910/maven022/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven05_sql/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven05_sql/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven05_sql/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven05_sql/src/main/java/cn.zrx.domain/Items.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven05_sql/src/main/java/cn.zrx.domain/cn/zrx/dao/ItemsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven05_sql/src/main/java/cn.zrx.domain/cn/zrx/dao/impl/ItemsDaoimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../testDemo/maven05_sql/src/test/java/ItemsDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/.idea/libraries/jsckson.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/.idea/libraries/lib1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/AJAX/Servlet01/RegisterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/AJAX/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/day190909/dao/ProvinceDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/day190909/dao/impl/ProvinceDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/day190909/doamin/Province.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/day190909/service/ProvinceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/day190909/service/impl/ProvinceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/day190909/sql.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/day190909/web/servlet/ProvinceServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/jedisAddr.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/jedisConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/learn/D0907JSON.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/learn/D0908Redis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/learn/D0909Maven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/redis/JedisPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/redis/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/util/JedisPoolUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/web/JQuery/08-JSON.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/web/JQuery/09-JSON遍历.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/web/JQuery/regist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/web/WEB-INF/lib/commons-pool2-2.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/web/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/web/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/web/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/web/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/binTree/TreePrintable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/Tools/src/yume/Yume01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/Tools/src/yume/yume.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo01PreFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo01PreFramework/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/chapter2_firstSpring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/java/com/smart/dao/LoginLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/java/com/smart/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/java/com/smart/domain/LoginLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/java/com/smart/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/java/com/smart/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/resources/smart-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/schema/creat.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/test/java/com/smart/service/UserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/.idea/artifacts/201909_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/.idea/artifacts/201909_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/.idea/dataSources/3343a325-24b4-4c9e-9a24-57c3a81bda61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/.idea/dataSources/3343a325-24b4-4c9e-9a24-57c3a81bda61.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/.idea/dataSources/aca0f4c7-e3e1-48c7-84c5-082b1f909c13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/.idea/dataSources/aca0f4c7-e3e1-48c7-84c5-082b1f909c13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/.idea/libraries/annotations_api.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/.idea/libraries/tomcat.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/201908/src/M01_Servlet/HttpServletDemo06.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/201908/src/M01_Servlet/HttpServletDemo06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/201908/src/M04_HTTP_And_Response/ContextServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/201908/src/M04_HTTP_And_Response/ContextServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/201909/201909.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/201909/201909.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/201909/src/learn/D0905过滤器.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/201909/src/learn/D0905过滤器.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/201909/web/JQuery/07-AJAX.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/201909/web/JQuery/07-AJAX.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/201909/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/201909/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/LeetCode/src/learn/binTree/BinNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/binTree/BinNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/LeetCode/src/learn/binTree/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/binTree/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/out/artifacts/201909_war_exploded/JQuery/07-AJAX.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/out/artifacts/201909_war_exploded/JQuery/07-AJAX.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/out/artifacts/201909_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/out/artifacts/201909_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/junit/junit/4.10/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/junit/junit/4.10/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/apache/10/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/apache/10/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/apache/11/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/apache/11/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/apache/13/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/apache/13/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/apache/3/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/apache/3/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/apache/4/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/apache/4/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/commons/commons-parent/12/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/commons/commons-parent/12/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-parent/21/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-parent/21/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-parent/22/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-parent/22/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-parent/23/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-parent/23/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-parent/5/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-parent/5/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-api/2.0.6/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-api/2.0.6/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven/2.0.6/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven/2.0.6/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-clean-plugin/2.5/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-clean-plugin/2.5/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-compiler-plugin/3.1/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-compiler-plugin/3.1/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-install-plugin/2.4/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-install-plugin/2.4/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-plugins/22/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-plugins/22/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-plugins/23/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-plugins/23/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-plugins/24/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-plugins/24/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-resources-plugin/2.6/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-resources-plugin/2.6/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/beanshell/beanshell/2.0b4/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/beanshell/beanshell/2.0b4/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/beanshell/bsh/2.0b4/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/beanshell/bsh/2.0b4/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-utils/3.0/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-utils/3.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-parent/14/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-parent/14/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.1/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.1/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-parent/1.1/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-parent/1.1/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jetty-parent/10/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jetty-parent/10/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/mortbay/jetty/project/6.1.25/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mortbay/jetty/project/6.1.25/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/sonatype/forge/forge-parent/5/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/sonatype/forge/forge-parent/5/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/sonatype/spice/spice-parent/16/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/sonatype/spice/spice-parent/16/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,8 +84,7 @@
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -133,8 +115,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dispatchServlet.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="130">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -232,7 +214,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="115" />
     <option name="y" value="50" />
     <option name="width" value="1750" />
@@ -246,6 +228,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -377,7 +360,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -388,14 +370,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testDemo/maven_firstDemo0910" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -612,6 +594,8 @@
       <workItem from="1568113216207" duration="178000" />
       <workItem from="1568113425399" duration="72000" />
       <workItem from="1568126052334" duration="1020000" />
+      <workItem from="1568173040478" duration="2838000" />
+      <workItem from="1568210621521" duration="647000" />
     </task>
     <servers />
   </component>
@@ -648,7 +632,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72417000" />
+    <option name="totallyTimeSpent" value="75902000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -660,9 +644,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.17761394" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.1816354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -672,7 +657,7 @@
       <window_info id="Web" order="7" sideWeight="0.50141644" side_tool="true" weight="0.20107238" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45892352" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45892352" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.65014166" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1184,8 +1169,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dispatchServlet.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="130">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

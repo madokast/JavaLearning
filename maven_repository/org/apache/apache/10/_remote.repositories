@@ -1,3 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Sep 10 19:24:00 CST 2019
+#Wed Sep 11 17:08:18 CST 2019
 apache-10.pom>central=
+apache-10.pom>nexus-aliyun=
