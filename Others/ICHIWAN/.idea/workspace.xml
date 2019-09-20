@@ -6,7 +6,36 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c48bac0-8308-43cd-b824-4f2fb4c19430" name="Default Changelist" comment="" />
+    <list default="true" id="5c48bac0-8308-43cd-b824-4f2fb4c19430" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../chapter2_jdk8_0920/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2_jdk8_0920/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapter2_jdk8_0920/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/java/com/smart/service/InfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/java/com/smart/web/InfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/webapp/WEB-INF/jsp/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/webapp/WEB-INF/smart-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/webapp/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/test/java/com/smart/service/InfoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter2_jdk8_0920/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter2_jdk8_0920/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter2_jdk8_0920/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter2_jdk8_0920/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter2_jdk8_0920/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/chapter2_jdk8_0920.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/chapter2_jdk8_0920.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/java/com.smart.domain/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/java/com/smart/domain/Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/java/com/smart/dao/InfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/java/com/smart/dao/InfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/resources/smart-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/resources/smart-context.xml" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.5.62/mysql-connector-java-5.5.62.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.5.62/mysql-connector-java-5.5.62.jar.lastUpdated" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.5.62/mysql-connector-java-5.5.62.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.5.62/mysql-connector-java-5.5.62.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-utils/1.2/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-utils/1.2/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-utils/1.5.8/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-utils/1.5.8/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +188,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="115" />
     <option name="y" value="50" />
     <option name="width" value="1750" />
@@ -173,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,6 +333,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -315,7 +344,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -541,6 +570,7 @@
       <workItem from="1568126052334" duration="1020000" />
       <workItem from="1568173040478" duration="2838000" />
       <workItem from="1568210621521" duration="1495000" />
+      <workItem from="1568952372817" duration="641000" />
     </task>
     <servers />
   </component>
@@ -577,7 +607,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76750000" />
+    <option name="totallyTimeSpent" value="77391000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -589,9 +619,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.1816354" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.18364611" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -601,7 +631,7 @@
       <window_info id="Web" order="7" sideWeight="0.50141644" side_tool="true" weight="0.20107238" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.60481584" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.60339946" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.65014166" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -646,13 +676,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/jdk-12.0.1/lib/src.zip!/java.base/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19539">
-          <caret line="158" column="17" selection-start-line="158" selection-start-column="17" selection-end-line="158" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files/jdk-12.0.1/lib/src.zip!/java.base/java/util/Map.java" />
     <entry file="jar://D:/Program Files/apache-tomcat-8.5.43/lib/servlet-api.jar!/javax/servlet/ServletRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -850,13 +874,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/jdk-12.0.1/lib/src.zip!/java.base/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="571" column="6" selection-start-line="571" selection-start-column="6" selection-end-line="571" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files/jdk-12.0.1/lib/src.zip!/java.base/java/util/List.java" />
     <entry file="file://$PROJECT_DIR$/src/ichiwanTest/test/EntryServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -981,13 +999,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="785" column="29" selection-start-line="785" selection-start-column="29" selection-end-line="785" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Thread.java" />
     <entry file="file://$PROJECT_DIR$/src/ichiwanTest/test/ThreadExitTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
