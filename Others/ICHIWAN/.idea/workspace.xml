@@ -6,112 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c48bac0-8308-43cd-b824-4f2fb4c19430" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/java/com/smart/web/LoginCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/java/com/smart/web/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/resources/log4j是日志配置文件" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/webapp/WEB-INF/jsp/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/webapp/WEB-INF/smart-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/learn/Main函数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/learn/三元运算符.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/201909/src/learn/自动类型转换.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/AVL树/AVLNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/AVL树/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/AVL树/AVLTreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/AVL树/TreePrintable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/查找树/B2SNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/查找树/B2STree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/查找树/B2STreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/查找树/TreePrintable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/算法第四版/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/算法第四版/MyArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/算法第四版/MyLinkedStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/算法第四版/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/算法第四版/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/算法第四版/Test/MyArrayStackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/算法第四版/其他/算术表达式求值.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/java/com/smart/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/java/com/smart/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0/WEB-INF/classes/smart-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0/WEB-INF/lib/aspectjweaver-1.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0/WEB-INF/lib/commons-dbcp-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0/WEB-INF/lib/commons-pool-1.5.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0/WEB-INF/lib/mysql-connector-java-5.1.29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0/WEB-INF/lib/spring-aop-4.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0/WEB-INF/lib/spring-beans-4.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0/WEB-INF/lib/spring-context-4.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0/WEB-INF/lib/spring-context-support-4.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0/WEB-INF/lib/spring-core-4.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0/WEB-INF/lib/spring-expression-4.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0/WEB-INF/lib/spring-jdbc-4.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0/WEB-INF/lib/spring-tx-4.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0/WEB-INF/lib/spring-web-4.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0/WEB-INF/lib/spring-webmvc-4.2.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/chapter2-1.0/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter2_firstSpring/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/ant/ant/1.6.5/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/ant/ant/1.6.5/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/geronimo-spec/geronimo-spec-jta/1.0.1B-rc4/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/geronimo-spec/geronimo-spec-jta/1.0.1B-rc4/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/javax/activation/activation/1.1/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/javax/activation/activation/1.1/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/javax/mail/mail/1.4/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/javax/mail/mail/1.4/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/geronimo/genesis/config/config/1.1/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/geronimo/genesis/config/config/1.1/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/geronimo/genesis/config/project-config/1.1/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/geronimo/genesis/config/project-config/1.1/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/geronimo/genesis/genesis/1.1/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/geronimo/genesis/genesis/1.1/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/geronimo/specs/geronimo-annotation_1.0_spec/1.0/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/geronimo/specs/geronimo-annotation_1.0_spec/1.0/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/geronimo/specs/specs/1.2/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/geronimo/specs/specs/1.2/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-artifact-manager/2.0.3/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-artifact-manager/2.0.3/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-artifact-manager/2.0.3/maven-artifact-manager-2.0.3.jar.part" beforeDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-artifact-manager/2.0.3/maven-artifact-manager-2.0.3.jar.part.lock" beforeDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-artifact/2.0.3/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-artifact/2.0.3/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-model/2.0.3/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-model/2.0.3/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-model/2.0.3/maven-model-2.0.3.jar.part" beforeDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-model/2.0.3/maven-model-2.0.3.jar.part.lock" beforeDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-api/2.0.3/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-api/2.0.3/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-api/2.0/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-api/2.0/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-descriptor/2.0/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-descriptor/2.0/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-tools-api/2.0/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-tools-api/2.0/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-tools/2.0/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-tools/2.0/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-profile/2.0.3/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-profile/2.0.3/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-profile/2.0.3/maven-profile-2.0.3.jar.part" beforeDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-profile/2.0.3/maven-profile-2.0.3.jar.part.lock" beforeDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-project/2.0.3/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-project/2.0.3/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-project/2.0.3/maven-project-2.0.3.jar.part" beforeDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-project/2.0.3/maven-project-2.0.3.jar.part.lock" beforeDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-repository-metadata/2.0.3/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-repository-metadata/2.0.3/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-settings/2.0.3/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-settings/2.0.3/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-settings/2.0.3/maven-settings-2.0.3.jar.part" beforeDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-settings/2.0.3/maven-settings-2.0.3.jar.part.lock" beforeDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven/2.0.3/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven/2.0.3/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-utils/1.1/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-utils/1.1/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-velocity/1.1.7/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-velocity/1.1.7/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/eclipse/jdt/core/3.1.1/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/eclipse/jdt/core/3.1.1/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/eclipse/jdt/core/compiler/ecj/3.5.1/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/eclipse/jdt/core/compiler/ecj/3.5.1/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-parent/9/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-parent/9/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jetty-annotations/6.1.25/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jetty-annotations/6.1.25/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jetty-jsp/2.1.v20091210/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jetty-jsp/2.1.v20091210/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jetty-management/6.1.25/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jetty-management/6.1.25/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jetty-naming/6.1.25/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jetty-naming/6.1.25/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jetty-parent/8/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jetty-parent/8/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jetty-plus/6.1.25/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jetty-plus/6.1.25/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jsp-2.1-glassfish/2.1.v20091210/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jsp-2.1-glassfish/2.1.v20091210/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jsp-2.1-jetty/6.1.25/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jsp-2.1-jetty/6.1.25/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jsp-api-2.1-glassfish/2.1.v20091210/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mortbay/jetty/jsp-api-2.1-glassfish/2.1.v20091210/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/mortbay/jetty/maven-jetty-plugin/6.1.25/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mortbay/jetty/maven-jetty-plugin/6.1.25/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/mortbay/jetty/start/6.1.25/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mortbay/jetty/start/6.1.25/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" afterDir="false" />
-    </list>
+    <list default="true" id="5c48bac0-8308-43cd-b824-4f2fb4c19430" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -645,7 +540,7 @@
       <workItem from="1568113425399" duration="72000" />
       <workItem from="1568126052334" duration="1020000" />
       <workItem from="1568173040478" duration="2838000" />
-      <workItem from="1568210621521" duration="1250000" />
+      <workItem from="1568210621521" duration="1495000" />
     </task>
     <servers />
   </component>
@@ -682,7 +577,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76505000" />
+    <option name="totallyTimeSpent" value="76750000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -694,7 +589,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.1816354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -706,7 +601,7 @@
       <window_info id="Web" order="7" sideWeight="0.50141644" side_tool="true" weight="0.20107238" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45892352" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.60481584" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.65014166" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
