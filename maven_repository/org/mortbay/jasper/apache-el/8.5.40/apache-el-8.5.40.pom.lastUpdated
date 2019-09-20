@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 19 23:54:43 CST 2019
+https\://artifacts.alfresco.com/nexus/content/groups/public/.lastUpdated=1568908437586
+https\://repo.maven.apache.org/maven2/.lastUpdated=1568908483929
+https\://artifacts.alfresco.com/nexus/content/groups/public-snapshots/.lastUpdated=1568908440356
+https\://artifacts.alfresco.com/nexus/content/groups/public/.error=
+https\://artifacts.alfresco.com/nexus/content/groups/public-snapshots/.error=
+@default-beardedgeeks-releases-http\://beardedgeeks.googlecode.com/svn/repository/releases/.lastUpdated=1568908482373
+http\://beardedgeeks.googlecode.com/svn/repository/releases/.error=Could not transfer artifact org.mortbay.jasper\:apache-el\:pom\:8.5.40 from/to beardedgeeks-releases (http\://beardedgeeks.googlecode.com/svn/repository/releases)\: Connect to beardedgeeks.googlecode.com\:80 [beardedgeeks.googlecode.com/64.233.189.82, beardedgeeks.googlecode.com/2404\:6800\:4008\:c00\:0\:0\:0\:52] failed\: Connection timed out\: connect

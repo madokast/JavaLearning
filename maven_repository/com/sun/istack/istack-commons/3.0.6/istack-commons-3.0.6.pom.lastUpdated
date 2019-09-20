@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 19 21:05:57 CST 2019
+https\://repo.maven.apache.org/maven2/.lastUpdated=1568898352924
+http\://maven.java.net/content/repositories/snapshots/.lastUpdated=1568898354795
+http\://maven.java.net/content/repositories/releases/.lastUpdated=1568898353470
+http\://maven.java.net/content/repositories/staging/.lastUpdated=1568898357295
+https\://repo.maven.apache.org/maven2/.error=
+http\://maven.java.net/content/repositories/releases/.error=
+http\://maven.java.net/content/repositories/snapshots/.error=
