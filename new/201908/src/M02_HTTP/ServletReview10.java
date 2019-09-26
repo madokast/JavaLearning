@@ -1,14 +1,12 @@
 package M02_HTTP;
 
-import Tools.MyDataSource;
-import com.alibaba.druid.pool.DruidDataSourceFactory;
+import Java并发编程的艺术.Tools.MyDataSource;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.sql.DataSource;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;

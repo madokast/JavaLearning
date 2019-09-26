@@ -1,6 +1,6 @@
 package mooc1001660013.ListSeriesMooc;
 
-import Tools.ArrToString;
+import Java并发编程的艺术.Tools.ArrToString;
 
 public class ArrayListMooc implements ListMooc{
     private int[] arr;

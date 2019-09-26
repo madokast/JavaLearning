@@ -1,8 +1,7 @@
 package M04_HTTP_And_Response;
 
 
-import Tools.CAPTCHAGenerate;
-import org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding;
+import Java并发编程的艺术.Tools.CAPTCHAGenerate;
 
 import javax.imageio.ImageIO;
 import javax.servlet.ServletException;
@@ -11,7 +10,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.awt.*;
 import java.io.IOException;
 
 /**

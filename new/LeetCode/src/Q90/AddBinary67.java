@@ -13,12 +13,12 @@ public class AddBinary67 {
         for (int i = a.length()-1; i >= 0; i--) {
             arr[j--] = a.charAt(i) - '0';
         }
-//        Tools.printIntArr(arr);
+//        Java并发编程的艺术.Tools.printIntArr(arr);
         j = arr.length-1;
         for (int i = b.length()-1; i >= 0; i--) {
             brr[j--] = b.charAt(i) - '0';
         }
-//        Tools.printIntArr(brr);
+//        Java并发编程的艺术.Tools.printIntArr(brr);
 
         int carry = 0;
 

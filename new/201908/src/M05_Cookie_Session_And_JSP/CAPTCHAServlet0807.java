@@ -1,7 +1,6 @@
 package M05_Cookie_Session_And_JSP;
 
-import Tools.CAPTCHAGenerate;
-import org.springframework.beans.factory.NoUniqueBeanDefinitionException;
+import Java并发编程的艺术.Tools.CAPTCHAGenerate;
 
 import javax.imageio.ImageIO;
 import javax.servlet.ServletException;

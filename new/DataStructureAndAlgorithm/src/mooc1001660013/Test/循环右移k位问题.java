@@ -1,7 +1,7 @@
 package mooc1001660013.Test;
 
 
-import Tools.ArrToString;
+import Java并发编程的艺术.Tools.ArrToString;
 
 public class 循环右移k位问题 {
     public static void main(String[] args) {

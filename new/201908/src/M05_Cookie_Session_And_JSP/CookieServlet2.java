@@ -2,9 +2,6 @@ package M05_Cookie_Session_And_JSP;
 
 
 
-import Tools.ArrayToList;
-import org.eclipse.jdt.internal.compiler.ast.ForeachStatement;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
@@ -14,7 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.URLDecoder;
-import java.util.Date;
 
 /**
  * 获取Cookie

@@ -1,0 +1,10 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Sep 20 16:19:20 CST 2019
+http\://repo.spring.io/ext-release-local/.lastUpdated=1568967554323
+http\://repo.spring.io/milestone/.error=
+http\://repo.spring.io/ext-release-local/.error=
+http\://repo.spring.io/snapshot/.lastUpdated=1568967560801
+http\://repo.spring.io/snapshot/.error=
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1568967550694
+http\://repo.spring.io/milestone/.lastUpdated=1568967557219
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.apache.maven\:maven-model-builder\:pom\:3.2.1 from/to central (https\://repo.maven.apache.org/maven2)\: Read timed out

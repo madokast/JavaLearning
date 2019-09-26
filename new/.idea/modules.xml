@@ -9,9 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/201908/201908.iml" filepath="$PROJECT_DIR$/201908/201908.iml" />
       <module fileurl="file://$PROJECT_DIR$/201909/201909.iml" filepath="$PROJECT_DIR$/201909/201909.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataStructureAndAlgorithm/DataStructureAndAlgorithm.iml" filepath="$PROJECT_DIR$/DataStructureAndAlgorithm/DataStructureAndAlgorithm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java并发编程的艺术/Java并发编程的艺术.iml" filepath="$PROJECT_DIR$/Java并发编程的艺术/Java并发编程的艺术.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tools/Tools.iml" filepath="$PROJECT_DIR$/Tools/Tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/多线程相关/多线程相关.iml" filepath="$PROJECT_DIR$/多线程相关/多线程相关.iml" />
     </modules>
   </component>
 </project>

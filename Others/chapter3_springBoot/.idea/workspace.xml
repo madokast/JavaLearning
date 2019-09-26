@@ -2,32 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c820ac1c-5318-4adf-9dde-8bd587ffb22d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../chapter2_jdk8_0920/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter2_jdk8_0920/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter2_jdk8_0920/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/java/com/smart/service/InfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/java/com/smart/web/InfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/webapp/WEB-INF/jsp/main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/webapp/WEB-INF/smart-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/webapp/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/test/java/com/smart/service/InfoServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICHIWAN/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICHIWAN/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ICHIWAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICHIWAN/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter2_jdk8_0920/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter2_jdk8_0920/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter2_jdk8_0920/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter2_jdk8_0920/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter2_jdk8_0920/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/chapter2_jdk8_0920.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/chapter2_jdk8_0920.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/java/com.smart.domain/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/java/com/smart/domain/Info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/java/com/smart/dao/InfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/java/com/smart/dao/InfoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/resources/smart-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter2_jdk8_0920/src/main/resources/smart-context.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.5.62/mysql-connector-java-5.5.62.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.5.62/mysql-connector-java-5.5.62.jar.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.5.62/mysql-connector-java-5.5.62.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.5.62/mysql-connector-java-5.5.62.pom.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-utils/1.2/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-utils/1.2/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-utils/1.5.8/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-utils/1.5.8/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot/chapter3_springBoot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot/chapter3_springBoot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot/src/main/java/com/smart/web/BbsDaemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot/src/main/java/com/smart/web/BbsDaemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot/target/chapter3_springBoot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot/target/chapter3_springBoot-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/com/smart/chapter3_springBoot/1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/smart/chapter3_springBoot/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/com/smart/chapter3_springBoot/1.0-SNAPSHOT/chapter3_springBoot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/smart/chapter3_springBoot/1.0-SNAPSHOT/chapter3_springBoot-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/com/smart/chapter3_springBoot/1.0-SNAPSHOT/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/smart/chapter3_springBoot/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/com/smart/chapter3_springBoot/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/smart/chapter3_springBoot/maven-metadata-local.xml" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" afterDir="false" />
     </list>
@@ -57,12 +42,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../spring4Master/chapter3_springBoot/src/main/java/com/smart/web/BbsDaemon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="344">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,8 +67,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../spring4Master/chapter3_springBoot/src/main/java/com/smart/web/BbsDaemon.java" />
         <option value="$PROJECT_DIR$/../spring4Master/chapter3_springBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring4Master/chapter3_springBoot/src/main/java/com/smart/web/BbsDaemon.java" />
       </list>
     </option>
   </component>
@@ -98,7 +82,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
-        <option name="jdkForImporter" value="1.8 (2)" />
+        <option name="jdkForImporter" value="1.8" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -129,7 +113,7 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="115" />
     <option name="y" value="50" />
     <option name="width" value="1750" />
@@ -186,14 +170,18 @@
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelWidth0" value="15" />
+    <property name="RequestMappingsPanelWidth1" value="15" />
+    <property name="RequestMappingsPanelWidth2" value="15" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ICHIWAN" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RunDashboard">
@@ -238,16 +226,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568950553838</updated>
-      <workItem from="1568950556901" duration="2845000" />
+      <workItem from="1568950556901" duration="3163000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2845000" />
+    <option name="totallyTimeSpent" value="3163000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -273,7 +260,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" visible="true" weight="0.08914209" />
+      <window_info anchor="right" id="Maven" visible="true" weight="0.23458445" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="SciView" />
@@ -299,15 +286,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../spring4Master/chapter3_springBoot/src/main/java/com/smart/web/BbsDaemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="344">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>chapter3_springBoot</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
