@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<!--        namespace全类名-->
+<mapper namespace="com.zrx.dao.IUserDao">
+
+<!--    id 方法名-->
+    <select id="findAll" resultType="com.zrx.domain.User">
+        select * from mybatisT.user
+    </select>
+
+
+
+<!--    这样就不用写实现类了-->
+
+</mapper>

@@ -1,0 +1,3 @@
+com\zrx\domain\User.class
+com\zrx\dao\IUserDao.class
+com\zrx\dao\IUserDaoAnno.class

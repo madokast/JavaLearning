@@ -7,88 +7,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c48bac0-8308-43cd-b824-4f2fb4c19430" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../chapter3_springBoot_demo/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter3_springBoot_demo/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter3_springBoot_demo/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter3_springBoot_demo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter3_springBoot_demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter3_springBoot_demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapter3_springBoot_demo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot_demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot_demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot_demo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot_demo/chapter3_springBoot_demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot_demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot_demo/src/main/java/com/smart/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot_demo/src/main/java/com/smart/controller/InfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot_demo/src/main/java/com/smart/dao/InfoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot_demo/src/main/java/com/smart/domain/Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot_demo/src/main/java/com/smart/service/InfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot_demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot_demo/src/main/webapp/WEB-INF/jsp/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/java/com/smart/AOP/AOPLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/java/com/smart/AOP/CgLibProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/java/com/smart/AOP/GreetingBeforeAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/java/com/smart/AOP/NaiveWaiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/java/com/smart/AOP/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/java/com/smart/AOP/PreGreetingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/java/com/smart/AOP/Sayable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/java/com/smart/AOP/Waiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/java/com/smart/BeanFactoryLearn/BeanFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/java/com/smart/BeanFactoryLearn/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/java/com/smart/MyAppContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/java/com/smart/SpELTest/JsSp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/java/com/smart/UserBeanTest/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/resources/carBean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/resources/user.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/resources/userBean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/test/java/com/smart/AOPSpringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/test/java/com/smart/SpELTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/算法第四版/动态联通问题/IUF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/算法第四版/动态联通问题/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/算法第四版/动态联通问题/UF01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/多线程相关/src/Java多线程编程核心技术/A1Java多线程技能/Learn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/多线程相关/src/Java多线程编程核心技术/Learn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/多线程相关/src/Java并发编程的艺术/Tools/Sleep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/多线程相关/src/Other/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../new/多线程相关/src/Other/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/MyBatisTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/dao/IUserDaoAnno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/resources/com/zrx/dao/IUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/test/java/com/zrx/IUserDaoAnnoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/test/java/com/zrx/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/MyBatisTest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/MyBatisTest/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/MyBatisTest/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/MyBatisTest/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/MyBatisTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/MyBatisTest/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/MyBatisTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/MyBatisTest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/java/com/smart/JdbcTemplateTest/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/java/com/smart/cacheLearn/CacheSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/test/java/com/smart/CacheTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/test/java/com/smart/JdbcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/算法第四版/动态联通问题/UF02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../new/多线程相关/src/Other/ThreadLocalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter3_springBoot/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3_springBoot/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapter3_springBoot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3_springBoot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot/chapter3_springBoot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot/chapter3_springBoot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot/src/main/java/com/smart/web/BbsDaemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot/src/main/java/com/smart/web/BbsDaemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot/target/chapter3_springBoot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot/target/chapter3_springBoot-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter3_springBoot/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/smart/chapter3_springBoot/1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/smart/chapter3_springBoot/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/smart/chapter3_springBoot/1.0-SNAPSHOT/chapter3_springBoot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/smart/chapter3_springBoot/1.0-SNAPSHOT/chapter3_springBoot-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/smart/chapter3_springBoot/1.0-SNAPSHOT/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/smart/chapter3_springBoot/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/smart/chapter3_springBoot/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/smart/chapter3_springBoot/maven-metadata-local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter4/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/resources/smart-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter4/src/main/resources/smart-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter4/target/classes/smart-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter4/target/classes/smart-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter4/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter4/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter4/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter4/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter4/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter4/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter4/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter4/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter4/target/surefire-reports/TEST-com.smart.AOPSpringTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter4/target/surefire-reports/TEST-com.smart.AOPSpringTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter4/target/surefire-reports/TEST-com.smart.SpELTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter4/target/surefire-reports/TEST-com.smart.SpELTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter4/target/surefire-reports/TEST-com.smart.TestJunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter4/target/surefire-reports/TEST-com.smart.TestJunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter4/target/surefire-reports/com.smart.AOPSpringTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter4/target/surefire-reports/com.smart.AOPSpringTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter4/target/surefire-reports/com.smart.SpELTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter4/target/surefire-reports/com.smart.SpELTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter4/target/surefire-reports/com.smart.TestJunit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter4/target/surefire-reports/com.smart.TestJunit.txt" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/201908/src/M02_HTTP/ServletRequestLearn07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/201908/src/M02_HTTP/ServletRequestLearn07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/201908/src/M02_HTTP/ServletReview10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/201908/src/M02_HTTP/ServletReview10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/201908/src/M04_HTTP_And_Response/CAPTCHASServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/201908/src/M04_HTTP_And_Response/CAPTCHASServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/201908/src/M05_Cookie_Session_And_JSP/CAPTCHAServlet0807.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/201908/src/M05_Cookie_Session_And_JSP/CAPTCHAServlet0807.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/201908/src/M05_Cookie_Session_And_JSP/CookieServlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/201908/src/M05_Cookie_Session_And_JSP/CookieServlet2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/201908/src/Tools/ArrayToList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/201908/src/Java并发编程的艺术/Tools/ArrayToList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/201908/src/Tools/CAPTCHAGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/201908/src/Java并发编程的艺术/Tools/CAPTCHAGenerate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/201908/src/Tools/MyDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/201908/src/Java并发编程的艺术/Tools/MyDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/201908/src/Tools/PrintMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/201908/src/Java并发编程的艺术/Tools/PrintMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/DataStructureAndAlgorithm/src/Tools/ArrToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/DataStructureAndAlgorithm/src/Java并发编程的艺术/Tools/ArrToString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/DataStructureAndAlgorithm/src/mooc1001660013/ListSeriesMooc/ArrayListMooc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/DataStructureAndAlgorithm/src/mooc1001660013/ListSeriesMooc/ArrayListMooc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/DataStructureAndAlgorithm/src/mooc1001660013/Test/循环右移k位问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/DataStructureAndAlgorithm/src/mooc1001660013/Test/循环右移k位问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/Java并发编程的艺术/Java并发编程的艺术.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/多线程相关/多线程相关.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/Java并发编程的艺术/src/A1并发编程的挑战/上下文切换.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/多线程相关/src/Java并发编程的艺术/A1并发编程的挑战/上下文切换.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/Java并发编程的艺术/src/B2Java并发机制的底层实现原理/Synchronized的实现与原理.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/多线程相关/src/Java并发编程的艺术/B2Java并发机制的底层实现原理/Synchronized的实现与原理.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/Java并发编程的艺术/src/B2Java并发机制的底层实现原理/Volatile的应用.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/多线程相关/src/Java并发编程的艺术/B2Java并发机制的底层实现原理/Volatile的应用.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/Java并发编程的艺术/src/Tools/Timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/多线程相关/src/Java并发编程的艺术/Tools/Timer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/LeetCode/src/Q90/AddBinary67.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/LeetCode/src/Q90/AddBinary67.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/LeetCode/src/learn/算法第四版/MyLinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/算法第四版/MyLinkedStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../new/LeetCode/src/learn/算法第四版/Test/MyArrayStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/算法第四版/Test/MyArrayStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../new/LeetCode/src/learn/算法第四版/动态联通问题/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../new/LeetCode/src/learn/算法第四版/动态联通问题/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -143,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dispatchServlet.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="15">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -242,7 +206,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="115" />
     <option name="y" value="50" />
     <option name="width" value="1750" />
@@ -625,7 +589,7 @@
       <workItem from="1568173040478" duration="2838000" />
       <workItem from="1568210621521" duration="1495000" />
       <workItem from="1568952372817" duration="1054000" />
-      <workItem from="1568972057464" duration="628000" />
+      <workItem from="1568972057464" duration="1864000" />
     </task>
     <servers />
   </component>
@@ -662,7 +626,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78432000" />
+    <option name="totallyTimeSpent" value="79668000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -674,7 +638,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.18632708" />
@@ -687,7 +651,7 @@
       <window_info id="Web" order="7" sideWeight="0.50141644" side_tool="true" weight="0.20107238" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.60339946" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.60339946" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.65014166" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -709,7 +673,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="SciView" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.22855228" />
+      <window_info anchor="right" id="Database" order="7" weight="0.13941018" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
@@ -1181,8 +1145,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dispatchServlet.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="15">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>

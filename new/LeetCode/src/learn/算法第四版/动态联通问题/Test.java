@@ -3,7 +3,8 @@ package learn.算法第四版.动态联通问题;
 public class Test {
     public static void main(String[] args) {
         int N = 10;
-        IUF iuf = new UF01(N);
+//        IUF iuf = new UF01(N);
+        IUF iuf = new UF02(N);
         int[][] conn = new int[][]{
                 {4,3},
                 {3,8},

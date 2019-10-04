@@ -1,3 +1,5 @@
-com\smart\SpELTest.class
 com\smart\TestJunit.class
+com\smart\JdbcTest.class
+com\smart\SpELTest.class
 com\smart\AOPSpringTest.class
+com\smart\CacheTest.class
