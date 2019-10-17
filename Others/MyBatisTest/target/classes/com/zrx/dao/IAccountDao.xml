@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zrx.dao.IAccountDao">
+
+    <!--    定义封装了account和user的map-->
+    <resultMap id="accountUserMap" type="com.zrx.domain.Account">
+        <id property="id" column="id"/>
+        <result property="uid" column="uid"/>
+        <result property="money" column="money"/>
+        <association property="user" column="uid" javaType="com.zrx.domain.User" select="com.zrx.dao.IUserDao.findById">
+            <!--            <id property="id" column="userid"/>-->
+            <!--            <result property="username" column="username"/>-->
+            <!--            <result property="address" column="address"/>-->
+        </association>
+    </resultMap>
+
+    <select id="findAll" resultMap="accountUserMap">
+        <!--select account.* ,user.id as userid ,username,address from user,account where user.id=account.uid;-->
+        select * from account;
+    </select>
+
+    <select id="findAllAccountUser" resultType="com.zrx.domain.AccountUser">
+        select account.*, username, address
+        from user,
+             account
+        where user.id = account.UID
+    </select>
+
+    <select id="findAccountByUid" resultType="com.zrx.domain.Account" parameterType="int">
+        select * from account where UID = #{id}
+    </select>
+
+</mapper>

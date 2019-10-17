@@ -10,6 +10,11 @@
 
     <packaging>jar</packaging>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+
     <dependencies>
         <dependency>
             <groupId>org.mybatis</groupId>
@@ -35,8 +40,14 @@
             <version>4.10</version>
         </dependency>
 
-    </dependencies>
+        <!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>1.6.1</version>
+        </dependency>
 
+    </dependencies>
 
 
 </project>

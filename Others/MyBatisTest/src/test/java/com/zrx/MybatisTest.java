@@ -2,26 +2,41 @@ package com.zrx;
 
 import com.zrx.dao.IUserDao;
 import com.zrx.domain.User;
-import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import com.zrx.mybatisImpl.io.Resources;
+import com.zrx.mybatisImpl.io.session.SqlSession;
+import com.zrx.mybatisImpl.io.session.SqlSessionFactory;
+import com.zrx.mybatisImpl.io.session.SqlSessionFactoryBuilder;
 import org.junit.Test;
 
 import java.io.InputStream;
 import java.util.List;
 
+/**
+ * 读取配置文件
+ * 创建 sqlSessionFactoryBuilder -> sqlSessionFactory
+ * 代理 IUserDao
+ * 使用
+ * 释放资源
+ */
+
 public class MybatisTest {
     @Test
+    public void test01(){
+        System.out.println("测试");
+    }
+
+
+    @Test
     public void test() throws Exception{
+        System.out.println("-----读配置文件-----");
         //读配置文件
-        InputStream in = Resources.getResourceAsStream("SqlMapConfig.xml");
-        //创建sql session factory
+        InputStream in = Resources.getResourceAsStream("SqlMapConfig.xml"); // org.apache.ibatis.io.Resources
+        //创建sql session factory -- 构建者模式
         SqlSessionFactoryBuilder sqlSessionFactoryBuilder = new SqlSessionFactoryBuilder();
         final SqlSessionFactory sqlSessionFactory = sqlSessionFactoryBuilder.build(in);
-        //生成 sql session
+        //生成 sql session -- 工厂模式
         final SqlSession sqlSession = sqlSessionFactory.openSession();
-        //使用sql session 动态代理 dao 接口
+        //使用sql session 动态代理 dao 接口  -- 代理模式
         IUserDao userDao = sqlSession.getMapper(IUserDao.class);
         //使用
         final List<User> all = userDao.findAll();

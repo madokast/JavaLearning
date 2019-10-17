@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.zrx.IUserDaoAnnoTest" time="0.536" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.zrx.IUserDaoAnnoTest" time="0.557" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\program\jdk1.8.0_221\jre\bin"/>
@@ -30,7 +30,7 @@
     <property name="archetypeCatalog" value="internal"/>
     <property name="classworlds.conf" value="D:\program\apache-maven-3.5.2\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="D:\program\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\jre64\\bin;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\jre64\\bin\server;D:\program\jdk1.8.0_221\bin;D:\program\apache-maven-3.5.2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;D:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Users\madokast\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\madokast\AppData\Local\Programs\Python\Python37-32\;C:\Users\madokast\AppData\Local\Microsoft\WindowsApps;C:\Users\madokast\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.library.path" value="D:\program\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\jre64\\bin;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\jre64\\bin\server;D:\program\jdk1.8.0_221\bin;D:\program\apache-maven-3.5.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\Git\cmd;D:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Users\madokast\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\madokast\AppData\Local\Programs\Python\Python37-32\;C:\Users\madokast\AppData\Local\Microsoft\WindowsApps;C:\Users\madokast\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="maven.conf" value="D:\program\apache-maven-3.5.2/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -53,7 +53,7 @@
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.8.0_221"/>
-    <property name="java.ext.dirs" value="D:\program\jdk1.8.0_221\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="java.ext.dirs" value="D:\program\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="D:\program\jdk1.8.0_221\jre\lib\resources.jar;D:\program\jdk1.8.0_221\jre\lib\rt.jar;D:\program\jdk1.8.0_221\jre\lib\sunrsasign.jar;D:\program\jdk1.8.0_221\jre\lib\jsse.jar;D:\program\jdk1.8.0_221\jre\lib\jce.jar;D:\program\jdk1.8.0_221\jre\lib\charsets.jar;D:\program\jdk1.8.0_221\jre\lib\jfr.jar;D:\program\jdk1.8.0_221\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="D:\program\apache-maven-3.5.2"/>
@@ -64,5 +64,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase classname="com.zrx.IUserDaoAnnoTest" name="test" time="0.536"/>
+  <testcase classname="com.zrx.IUserDaoAnnoTest" name="test" time="0.557"/>
 </testsuite>

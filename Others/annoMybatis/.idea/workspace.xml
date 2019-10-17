@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e34fc6dc-fccf-499c-b152-6392f9059a9f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/Learn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/domain/AccountUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/domain/UserX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/domain/assist/Ids.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/mybatisImpl/io/Resources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/mybatisImpl/io/cgf/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/mybatisImpl/io/cgf/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/mybatisImpl/io/session/SqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/mybatisImpl/io/session/SqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/mybatisImpl/io/session/SqlSessionFactoryBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/mybatisImpl/io/session/impl/DefaultSqlSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/mybatisImpl/io/session/impl/DefaultSqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/resources/com/zrx/dao/IAccountDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/resources/sql/account.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/test/java/com/zrx/DaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/test/java/com/zrx/GenericP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/test/java/com/zrx/InterfaceImplementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/test/java/com/zrx/MyBatisTest1004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyBatisTest/src/test/java/com/zrx/MyBatisTest1012.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annoMybatis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zrx/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zrx/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zrx/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zrx/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zrx/domain/Userx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/SqlMapCig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zrx/Test1015.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICHIWAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICHIWAN/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/MyBatisTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/MyBatisTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/java/com/zrx/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/src/main/resources/com/zrx/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/resources/com/zrx/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/src/test/java/com/zrx/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/src/test/java/com/zrx/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/target/MyBatisTest-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/target/MyBatisTest-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/target/classes/com/zrx/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/target/classes/com/zrx/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/target/surefire-reports/TEST-com.zrx.IUserDaoAnnoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/target/surefire-reports/TEST-com.zrx.IUserDaoAnnoTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/target/surefire-reports/TEST-com.zrx.MybatisTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/target/surefire-reports/TEST-com.zrx.MybatisTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/target/surefire-reports/com.zrx.IUserDaoAnnoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/target/surefire-reports/com.zrx.IUserDaoAnnoTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisTest/target/surefire-reports/com.zrx.MybatisTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/target/surefire-reports/com.zrx.MybatisTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/MyBatisTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/MyBatisTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring4Master/chapter4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring4Master/chapter4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/MyBatisTest/1.0-SNAPSHOT/MyBatisTest-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/MyBatisTest/1.0-SNAPSHOT/MyBatisTest-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/MyBatisTest/1.0-SNAPSHOT/MyBatisTest-1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/MyBatisTest/1.0-SNAPSHOT/MyBatisTest-1.0-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/MyBatisTest/1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/MyBatisTest/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/MyBatisTest/1.0-SNAPSHOT/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/MyBatisTest/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/MyBatisTest/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/MyBatisTest/maven-metadata-local.xml" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/xml-apis/xml-apis/1.0.b2/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/xml-apis/xml-apis/1.0.b2/_remote.repositories" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zrx/dao/IUserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="19" column="26" selection-end-line="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapCig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="24" column="39" lean-forward="true" selection-end-line="32" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zrx/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#937#938#0" expanded="true" />
+                <element signature="e#998#999#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1428#1429#0" expanded="true" />
+                <element signature="e#1453#1454#0" expanded="true" />
+                <element signature="e#1490#1491#0" expanded="true" />
+                <element signature="e#1518#1519#0" expanded="true" />
+                <element signature="e#1553#1554#0" expanded="true" />
+                <element signature="e#1584#1585#0" expanded="true" />
+                <element signature="e#1632#1633#0" expanded="true" />
+                <element signature="e#1672#1673#0" expanded="true" />
+                <element signature="e#1705#1706#0" expanded="true" />
+                <element signature="e#1736#1737#0" expanded="true" />
+                <element signature="e#1782#1783#0" expanded="true" />
+                <element signature="e#1822#1823#0" expanded="true" />
+                <element signature="e#1852#1853#0" expanded="true" />
+                <element signature="e#1878#1879#0" expanded="true" />
+                <element signature="e#1916#1917#0" expanded="true" />
+                <element signature="e#1946#1947#0" expanded="true" />
+                <element signature="e#1980#1981#0" expanded="true" />
+                <element signature="e#2010#2011#0" expanded="true" />
+                <element signature="e#2056#2057#0" expanded="true" />
+                <element signature="e#2094#2095#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zrx/dao/IAccountDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="20" column="49" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zrx/Test1015.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zrx/Domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zrx/domain/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zrx/domain/com/zrx/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/SqlMapCig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zrx/domain/Userx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zrx/dao/IAccountDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zrx/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zrx/Test1015.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zrx/dao/IUserDao.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/program/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\program\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=GB2312" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="115" />
+    <option name="y" value="50" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="annoMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annoMybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="annoMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annoMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="annoMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annoMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="annoMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annoMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="annoMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annoMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zrx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="annoMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annoMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zrx" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="annoMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annoMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zrx" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="annoMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annoMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="annoMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annoMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="annoMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annoMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="annoMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annoMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zrx" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zrx.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\GitHub\JavaLearning\Others\annoMybatis\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Test1015.findAllTest2">
+    <configuration name="Test1015" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="annoMybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zrx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zrx" />
+      <option name="MAIN_CLASS_NAME" value="com.zrx.Test1015" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1015.findAllATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="annoMybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zrx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zrx" />
+      <option name="MAIN_CLASS_NAME" value="com.zrx.Test1015" />
+      <option name="METHOD_NAME" value="findAllATest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1015.findAllTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="annoMybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zrx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zrx" />
+      <option name="MAIN_CLASS_NAME" value="com.zrx.Test1015" />
+      <option name="METHOD_NAME" value="findAllTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1015.findAllXTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="annoMybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zrx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zrx" />
+      <option name="MAIN_CLASS_NAME" value="com.zrx.Test1015" />
+      <option name="METHOD_NAME" value="findAllXTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1015.findByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="annoMybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zrx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zrx" />
+      <option name="MAIN_CLASS_NAME" value="com.zrx.Test1015" />
+      <option name="METHOD_NAME" value="findByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Test1015.findAllTest2" />
+        <item itemvalue="JUnit.Test1015.findAllATest" />
+        <item itemvalue="JUnit.Test1015.findByIdTest" />
+        <item itemvalue="JUnit.Test1015" />
+        <item itemvalue="JUnit.Test1015.findAllXTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e34fc6dc-fccf-499c-b152-6392f9059a9f" name="Default Changelist" comment="" />
+      <created>1571145677130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571145677130</updated>
+      <workItem from="1571145683150" duration="7438000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test1015_findAllATest - 2019.10.15 at 22h 25m 33s.xml">
+      <configuration name="Test1015.findAllATest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1015_findAllATest - 2019.10.15 at 22h 25m 57s.xml">
+      <configuration name="Test1015.findAllATest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1015_findAllTest2 - 2019.10.17 at 19h 47m 11s.xml">
+      <configuration name="Test1015.findAllTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1015_findAllTest2 - 2019.10.17 at 19h 47m 57s.xml">
+      <configuration name="Test1015.findAllTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1015_findAllTest2 - 2019.10.17 at 19h 48m 22s.xml">
+      <configuration name="Test1015.findAllTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1015_findAllTest2 - 2019.10.17 at 19h 48m 57s.xml">
+      <configuration name="Test1015.findAllTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1015_findAllTest2 - 2019.10.17 at 19h 49m 30s.xml">
+      <configuration name="Test1015.findAllTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1015_findAllTest2 - 2019.10.17 at 19h 50m 24s.xml">
+      <configuration name="Test1015.findAllTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1015_findAllTest2 - 2019.10.17 at 19h 51m 42s.xml">
+      <configuration name="Test1015.findAllTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1015_findAllTest2 - 2019.10.17 at 19h 51m 51s.xml">
+      <configuration name="Test1015.findAllTest2" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7438000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Build" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0878187" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9b05dfcc-2106-45db-a8f2-91286212d046/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zrx/domain/Userx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245">
+          <caret line="47" column="48" lean-forward="true" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+          <folding>
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
+            <element signature="e#1497#1498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zrx/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/annotations/One.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zrx/Test1015.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="25" column="42" lean-forward="true" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapCig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="24" column="39" lean-forward="true" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zrx/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
+            <element signature="e#1490#1491#0" expanded="true" />
+            <element signature="e#1518#1519#0" expanded="true" />
+            <element signature="e#1553#1554#0" expanded="true" />
+            <element signature="e#1584#1585#0" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1672#1673#0" expanded="true" />
+            <element signature="e#1705#1706#0" expanded="true" />
+            <element signature="e#1736#1737#0" expanded="true" />
+            <element signature="e#1782#1783#0" expanded="true" />
+            <element signature="e#1822#1823#0" expanded="true" />
+            <element signature="e#1852#1853#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+            <element signature="e#1916#1917#0" expanded="true" />
+            <element signature="e#1946#1947#0" expanded="true" />
+            <element signature="e#1980#1981#0" expanded="true" />
+            <element signature="e#2010#2011#0" expanded="true" />
+            <element signature="e#2056#2057#0" expanded="true" />
+            <element signature="e#2094#2095#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zrx/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="19" column="26" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zrx/dao/IAccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="49" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

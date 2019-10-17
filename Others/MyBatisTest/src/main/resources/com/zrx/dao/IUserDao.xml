@@ -2,17 +2,114 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
+<!--mapper约束 映射配置文件 -->
 
-<!--        namespace全类名-->
+<!--        //    id       int(11)     not null auto_increment,-->
+<!--        //    username varchar(32) not null comment '用户名称',-->
+<!--        //    birthday datetime     default null comment '生日',-->
+<!--        //    sex      char(1)      default null comment '性别',-->
+<!--        //    address  varchar(256) default null comment '地址',-->
+
+<!-- 采用OGNL表达式解析pojo对象的值
+     对象图导航语言，通过对象的getter方法获取数据，省略get，大小首字母，类似EL表达式
+ -->
+
+<!--利用 namespace 和 id 定位一个查询语句-->
+
+<!--        必须是 namespace 全类名 -->
 <mapper namespace="com.zrx.dao.IUserDao">
 
-<!--    id 方法名-->
-    <select id="findAll" resultType="com.zrx.domain.User">
-        select * from mybatisT.user
+    <resultMap id="userMap" type="com.zrx.domain.UserX">
+        <id property="userId" column="id"/>
+        <result property="userName" column="username"/>
+        <result property="userBirthday" column="birthday"/>
+    </resultMap>
+
+    <resultMap id="userAccount" type="com.zrx.domain.User">
+        <id property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="birthday" column="birthday"/>
+
+        <collection property="accounts" ofType="com.zrx.domain.Account" select="com.zrx.dao.IAccountDao.findAccountByUid" column="id">
+<!--            <id property="id" column="aid"/>-->
+<!--            <result property="money" column="money"/>-->
+        </collection>
+    </resultMap>
+
+    <!--    id 必须是 dao 接口的方法名 / resultType 返回类型-->
+    <select id="findAll" resultMap="userAccount">
+        <!--select user.*, a.id as aid ,MONEY from user left join account a on user.id = a.UID-->
+        select * from user
+    </select>
+
+    <insert id="saveUser" parameterType="com.zrx.domain.User">
+        <!-- 得到插入的新增id值 最后的值在user对象中得到 -->
+        <selectKey keyProperty="id" keyColumn="id" resultType="int" order="AFTER">
+            select last_insert_id();
+        </selectKey>
+        insert into user(username, birthday, sex, address)
+        values (#{username}, #{birthday}, #{sex}, #{address});
+    </insert>
+
+    <update id="updateUser" parameterType="com.zrx.domain.User">
+        update user
+        set username=#{username},
+            address=#{address},
+            birthday=#{birthday},
+            sex=#{sex}
+        where id = #{id};
+    </update>
+
+    <delete id="deleteUser" parameterType="java.lang.Integer">
+        <!--只有一个参量 名字随便写-->
+        delete from user where id=#{asfsbgfgf};
+    </delete>
+
+    <select id="findById" parameterType="int" resultType="com.zrx.domain.User">
+        select *
+        from user
+        where id = #{asfs};
+    </select>
+
+    <select id="findByName" parameterType="string" resultType="com.zrx.domain.User">
+        select *
+        from user
+        where username like #{name};
     </select>
 
 
+    <select id="findTotal" resultType="int">
+        select count(*)
+        from user;
+    </select>
+    <!--    这样就不用写实现类了-->
 
-<!--    这样就不用写实现类了-->
+    <select id="findAllX" resultMap="userMap">
+        <!-- 起别名 -->
+        <!-- select id as userid, username, birthday as userbirthday, sex as usersex, address as useraddress from user; -->
+        select * from user
+    </select>
+
+    <select id="findUserByCondition" resultType="com.zrx.domain.User" parameterType="com.zrx.domain.User">
+        select * from user
+        <where>
+            <if test="username != null">
+                and username = #{username}
+            </if>
+            <if test="sex != null">
+                and sex = #{sex}
+            </if>
+        </where>
+
+    </select>
+
+    <select id="findUserInIds" resultType="com.zrx.domain.User" parameterType="com.zrx.domain.assist.Ids">
+        select * from user
+        <where>
+            <if test="ids!=null and ids.size>0">
+                <foreach collection="ids" open="id in (" close=")" item="id" separator=", ">#{id}</foreach>
+            </if>
+        </where>
+    </select>
 
 </mapper>

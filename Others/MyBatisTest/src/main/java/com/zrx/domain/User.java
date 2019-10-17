@@ -23,6 +23,7 @@ package com.zrx.domain;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 public class User implements Serializable {
     //    id       int(11)     not null auto_increment,
@@ -37,6 +38,17 @@ public class User implements Serializable {
     private String sex;
     private String address;
 
+    // 一对多关系映射，主表应该包含从表实体的集合应用
+    private List<Account> accounts;
+
+    public List<Account> getAccountList() {
+        return accounts;
+    }
+
+    public void setAccountList(List<Account> accountList) {
+        this.accounts = accountList;
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -45,6 +57,7 @@ public class User implements Serializable {
                 ", birthday=" + birthday +
                 ", sex='" + sex + '\'' +
                 ", address='" + address + '\'' +
+                ", accountList=" + accounts +
                 '}';
     }
 

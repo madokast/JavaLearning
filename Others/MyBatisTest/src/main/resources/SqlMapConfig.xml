@@ -7,6 +7,18 @@
 
 
 <configuration>
+
+    <settings>
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+    </settings>
+
+    <!--    <properties resource=""></properties>-->
+
+    <!--    <typeAliases>-->
+    <!--        <typeAlias type="" alias=""></typeAlias>-->
+    <!--    </typeAliases>-->
+
     <!--    配置信息-->
     <environments default="mysql">
         <!--        配置mysql环境-->
@@ -15,8 +27,10 @@
             <transactionManager type="JDBC"></transactionManager>
             <!--            连接池-->
             <dataSource type="POOLED">
+                <!--                配置连接数据库的基本信息-->
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/mybatisT?serverTimezone=Asia/Shanghai"/>
+                <property name="url"
+                          value="jdbc:mysql://localhost:3306/mybatisT?serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8"/>
                 <property name="username" value="root"/>
                 <property name="password" value="123456"/>
             </dataSource>
@@ -27,8 +41,11 @@
     <mappers>
         <!--        配置-->
         <mapper resource="com/zrx/dao/IUserDao.xml"/>
+        <mapper resource="com/zrx/dao/IAccountDao.xml"/>
         <!--        注解-->
         <mapper class="com.zrx.dao.IUserDaoAnno"/>
+
+        <!--        <package name="com.zrx.dao"/>-->
     </mappers>
 
 </configuration>
