@@ -2,27 +2,85 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-        https://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd"
+>
     <!--    <context:component-scan base-package="com.zrx.demo"/>-->
 
     <!--    context名称空间-->
-    <context:component-scan base-package="com.zrx.demo"/>
+    <context:component-scan base-package="com.zrx"/>
 
     <bean id="car" class="com.zrx.demo.Car">
         <property name="name" value="maio"/>
     </bean>
 
-    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">
-        <constructor-arg name="ds" ref="dataSource"/>
-    </bean>
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype"/>
 
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="driverClass" value="com.mysql.jdbc.Driver"/>
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/springb?serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8"/>
-        <property name="password" value="123456"/>
+        <property name="jdbcUrl"
+                  value="jdbc:mysql://localhost:3306/springb?serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8"/>
         <property name="user" value="root"/>
+        <property name="password" value="123456"/>
     </bean>
 
+    <bean id="accountServiceWaitForAndGet" factory-bean="accountServiceProxyFactory"
+          factory-method="getAccountServiceWaitFor"/>
+
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+
+    <!--    AOP配置-->
+    <!--    首先IOC导入beam-->
+    <!--    <bean id="aRuService" class="com.zrx.service.impl.ARuServiceImpl"/>-->
+    <!--    <bean id="enhanceClass" class="com.zrx.utils.EnhanceClass"/>-->
+    <!--    <aop:config>-->
+    <!--        <aop:aspect id="enhanceAdvice" ref="enhanceClass">-->
+    <!--            &lt;!&ndash;            切入点别名&ndash;&gt;-->
+    <!--            <aop:pointcut id="methodNeedEnhance" expression="execution(public int com.zrx.service.impl.ARuServiceImpl.methodNeedEnhance())"/>-->
+    <!--            &lt;!&ndash; 增强的方位、方法、位置 &ndash;&gt;-->
+    <!--            <aop:before method="frontEnhance" pointcut-ref="methodNeedEnhance" />-->
+    <!--            <aop:after-returning method="afterEnhance" pointcut-ref="methodNeedEnhance" />-->
+    <!--            <aop:after-throwing method="exceptionEnhance" pointcut-ref="methodNeedEnhance" />-->
+    <!--            <aop:after method="finallyEnhance" pointcut-ref="methodNeedEnhance" />-->
+
+    <!--            <aop:around method="aroundEnhance"-->
+    <!--                        pointcut="execution(void com.zrx.service.impl.ARuServiceImpl.methodNeedAroundEnhance())"/>-->
+    <!--        </aop:aspect>-->
+    <!--    </aop:config>-->
+
+<!--    <aop:aspectj-autoproxy proxy-target-class="true"/>-->
+
+    <bean id="accountServiceWaitForSpring" class="com.zrx.service.impl.AccountServiceWaitForSpring">
+        <property name="accountDao" ref="accountDao"/>
+    </bean>
+
+<!--    内置的声明式事务控制-->
+    <bean id="txM" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <tx:advice id="txAdvice233" transaction-manager="txM">
+        <tx:attributes>
+            <tx:method name="*" propagation="REQUIRED" read-only="false"/>
+            <tx:method name="find*" propagation="SUPPORTS" read-only="true"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <aop:config>
+        <aop:pointcut id="pt01" expression="execution(* com.zrx.service.impl.*.*(..))"/>
+<!--        事务txAdvice233和要增强的方法绑定-->
+        <aop:advisor advice-ref="txAdvice233" pointcut-ref="pt01"/>
+    </aop:config>
 
 </beans>

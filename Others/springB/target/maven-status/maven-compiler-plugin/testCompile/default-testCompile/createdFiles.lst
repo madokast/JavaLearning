@@ -1,3 +1,10 @@
-com\zrx\AccountServiceTest.class
+com\zrx\OtherTest\TransferTest.class
+com\zrx\cgilbTest\ProxyTest$1.class
+com\zrx\cgilbTest\Log.class
+com\zrx\OtherTest\TestAccountDaoJdbcTemplate.class
 com\zrx\demo\CarTest.class
+com\zrx\cgilbTest\Person.class
+com\zrx\OtherTest\AOPTest.class
+com\zrx\cgilbTest\ProxyTest.class
 com\zrx\demo\CarXTest.class
+com\zrx\OtherTest\AccountServiceTest.class

@@ -9,4 +9,6 @@ public interface IAccountService {
     List<Account> findAll();
 
     Account findById(Integer id);
+
+    void transfer(String source,String target,Float money);
 }

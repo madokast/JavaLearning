@@ -1,0 +1,4 @@
+2019-10-18 22:55:11,730 [com.mchange.v2.log.MLog$1 run] INFO MLog clients using log4j logging.
+2019-10-18 22:55:11,913 [com.mchange.v2.c3p0.C3P0Registry banner] INFO Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2019-10-18 22:58:16,991 [com.mchange.v2.log.MLog$1 run] INFO MLog clients using log4j logging.
+2019-10-18 22:58:17,074 [com.mchange.v2.c3p0.C3P0Registry banner] INFO Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]

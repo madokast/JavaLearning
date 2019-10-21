@@ -8,4 +8,8 @@ public interface IAccountDao {
     List<Account> findAll();
 
     Account findById(Integer id);
+
+    Account findByName(String name);
+
+    void update(Account account);
 }
