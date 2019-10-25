@@ -2,72 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f223977-865f-4370-ada8-2b9630902a4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../springB/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/cofig/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/dao/impl/AccountDaoJdbcTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/factory/AccountServiceProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/service/IARuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/service/impl/ARuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/service/impl/AccountServiceWaitFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/service/impl/AccountServiceWaitForSpring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/utils/ConnectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/utils/EnhanceClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/utils/TransactionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/test/java/com/zrx/OtherTest/AOPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/test/java/com/zrx/OtherTest/AccountServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/test/java/com/zrx/OtherTest/TestAccountDaoJdbcTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/test/java/com/zrx/OtherTest/TransferTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/test/java/com/zrx/cgilbTest/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/test/java/com/zrx/cgilbTest/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/test/java/com/zrx/cgilbTest/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springB2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zrx/Domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zrx/dao/IAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zrx/dao/impl/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zrx/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zrx/service/impl/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zrx/service/AccountServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ICHIWAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICHIWAN/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/logs/AnalyzeRelation.log" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/logs/AnalyzeRelation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/src/main/java/Learn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/src/main/java/Learn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/dao/IAccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/dao/IAccountDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/dao/impl/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/dao/impl/AccountDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/demo/CarX.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/demo/CarX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/service/IAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/service/IAccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/service/impl/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/service/impl/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/src/main/resources/bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/src/test/java/com/zrx/AccountServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/classes/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/classes/bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/springB-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/springB-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/surefire-reports/TEST-com.zrx.AccountServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/surefire-reports/TEST-com.zrx.AccountServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/surefire-reports/TEST-com.zrx.demo.CarTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/surefire-reports/TEST-com.zrx.demo.CarTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/surefire-reports/TEST-com.zrx.demo.CarXTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/surefire-reports/TEST-com.zrx.demo.CarXTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/surefire-reports/com.zrx.AccountServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/surefire-reports/com.zrx.AccountServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/surefire-reports/com.zrx.demo.CarTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/surefire-reports/com.zrx.demo.CarTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/surefire-reports/com.zrx.demo.CarXTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/surefire-reports/com.zrx.demo.CarXTest.txt" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/springB/1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/springB/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/springB/1.0-SNAPSHOT/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/springB/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/springB/1.0-SNAPSHOT/springB-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/springB/1.0-SNAPSHOT/springB-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/springB/1.0-SNAPSHOT/springB-1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/springB/1.0-SNAPSHOT/springB-1.0-SNAPSHOT.pom" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/springB/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/springB/maven-metadata-local.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zrx/dao/impl/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zrx/dao/impl/AccountDao.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,10 +21,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
+            <state relative-caret-position="1236">
               <caret line="106" column="17" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
             </state>
           </provider>
@@ -95,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zrx/service/AccountServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+            <state relative-caret-position="344">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,29 +45,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="39" column="58" lean-forward="true" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zrx/dao/impl/AccountDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="26" column="55" lean-forward="true" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="208">
+              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.2.RELEASE/spring-jdbc-5.0.2.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zrx/dao/impl/AccountDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="240" column="78" lean-forward="true" selection-start-line="240" selection-start-column="78" selection-end-line="240" selection-end-column="78" />
+            <state relative-caret-position="218">
+              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -365,7 +294,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571580221038</updated>
-      <workItem from="1571580224609" duration="4005000" />
+      <workItem from="1571580224609" duration="5813000" />
     </task>
     <servers />
   </component>
@@ -399,18 +328,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4005000" />
+    <option name="totallyTimeSpent" value="5813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20375335" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20375335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" />
@@ -422,7 +350,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1388102" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.08923513" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -521,37 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.2.RELEASE/spring-jdbc-5.0.2.RELEASE.jar!/org/springframework/jdbc/core/support/JdbcDaoSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-468">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zrx/service/AccountServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="106" column="17" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="39" column="58" lean-forward="true" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/program/jdk1.8.0_221/src.zip!/java/sql/SQLException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="728">
@@ -573,13 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.2.RELEASE/spring-jdbc-5.0.2.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="240" column="78" lean-forward="true" selection-start-line="240" selection-start-column="78" selection-end-line="240" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/program/jdk1.8.0_221/src.zip!/java/lang/ArithmeticException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -587,13 +477,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.2.RELEASE/spring-jdbc-5.0.2.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-569">
+          <caret line="240" column="78" lean-forward="true" selection-start-line="240" selection-start-column="78" selection-end-line="240" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.2.RELEASE/spring-jdbc-5.0.2.RELEASE.jar!/org/springframework/jdbc/core/support/JdbcDaoSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="51" column="41" lean-forward="true" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zrx/dao/impl/AccountDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="26" column="55" lean-forward="true" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        <state relative-caret-position="218">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zrx/service/AccountServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1236">
+          <caret line="106" column="17" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
         </state>
       </provider>
     </entry>

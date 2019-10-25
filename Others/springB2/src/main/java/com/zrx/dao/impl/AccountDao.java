@@ -17,6 +17,8 @@ import java.util.List;
 @Repository
 public class AccountDao extends JdbcDaoSupport implements IAccountDao {
 
+
+
     public List<Account> findAll() {
         return getJdbcTemplate().query("select * from account",new BeanPropertyRowMapper<Account>(Account.class));
     }

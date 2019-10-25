@@ -7,70 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c48bac0-8308-43cd-b824-4f2fb4c19430" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../springB/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/cofig/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/dao/impl/AccountDaoJdbcTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/factory/AccountServiceProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/service/IARuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/service/impl/ARuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/service/impl/AccountServiceWaitFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/service/impl/AccountServiceWaitForSpring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/utils/ConnectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/utils/EnhanceClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/utils/TransactionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/test/java/com/zrx/OtherTest/AOPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/test/java/com/zrx/OtherTest/AccountServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/test/java/com/zrx/OtherTest/TestAccountDaoJdbcTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/test/java/com/zrx/OtherTest/TransferTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/test/java/com/zrx/cgilbTest/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/test/java/com/zrx/cgilbTest/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB/src/test/java/com/zrx/cgilbTest/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB2/springB2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB2/src/main/java/com/zrx/Domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB2/src/main/java/com/zrx/dao/IAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB2/src/main/java/com/zrx/dao/impl/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB2/src/main/java/com/zrx/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB2/src/main/java/com/zrx/service/impl/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB2/src/main/resources/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springB2/src/test/java/com/zrx/service/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC01/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC01/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC01/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC01/springMVC01.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/logs/AnalyzeRelation.log" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/logs/AnalyzeRelation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/src/main/java/Learn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/src/main/java/Learn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/dao/IAccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/dao/IAccountDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/dao/impl/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/dao/impl/AccountDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/demo/CarX.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/demo/CarX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/service/IAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/service/IAccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/service/impl/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/src/main/java/com/zrx/service/impl/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/src/main/resources/bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/src/test/java/com/zrx/AccountServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/classes/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/classes/bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/springB-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/springB-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/surefire-reports/TEST-com.zrx.AccountServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/surefire-reports/TEST-com.zrx.AccountServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/surefire-reports/TEST-com.zrx.demo.CarTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/surefire-reports/TEST-com.zrx.demo.CarTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/surefire-reports/TEST-com.zrx.demo.CarXTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/surefire-reports/TEST-com.zrx.demo.CarXTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/surefire-reports/com.zrx.AccountServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/surefire-reports/com.zrx.AccountServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/surefire-reports/com.zrx.demo.CarTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/surefire-reports/com.zrx.demo.CarTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springB/target/surefire-reports/com.zrx.demo.CarXTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../springB/target/surefire-reports/com.zrx.demo.CarXTest.txt" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/springB/1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/springB/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/springB/1.0-SNAPSHOT/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/springB/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/springB/1.0-SNAPSHOT/springB-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/springB/1.0-SNAPSHOT/springB-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/springB/1.0-SNAPSHOT/springB-1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/springB/1.0-SNAPSHOT/springB-1.0-SNAPSHOT.pom" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/springB/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/springB/maven-metadata-local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springB2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springB2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springB2/src/main/java/com/zrx/dao/impl/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springB2/src/main/java/com/zrx/dao/impl/AccountDao.java" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/javax/servlet/jsp/jsp-api/2.0/jsp-api-2.0.pom.lastUpdated" beforeDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/archetypes/maven-archetype-webapp/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/archetypes/maven-archetype-webapp/resolver-status.properties" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" afterDir="false" />
     </list>
@@ -127,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dispatchServlet.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="420">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -226,7 +177,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-100" />
     <option name="y" value="270" />
     <option name="width" value="1750" />
@@ -612,7 +563,7 @@
       <workItem from="1568952372817" duration="1054000" />
       <workItem from="1568972057464" duration="1897000" />
       <workItem from="1570256270017" duration="2475000" />
-      <workItem from="1571362496181" duration="3925000" />
+      <workItem from="1571362496181" duration="5478000" />
     </task>
     <servers />
   </component>
@@ -649,7 +600,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86101000" />
+    <option name="totallyTimeSpent" value="87654000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -661,8 +612,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.19168901" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -674,7 +624,7 @@
       <window_info id="Web" order="7" sideWeight="0.50141644" side_tool="true" weight="0.20107238" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.407932" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.407932" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.65014166" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1168,8 +1118,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dispatchServlet.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="420">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
