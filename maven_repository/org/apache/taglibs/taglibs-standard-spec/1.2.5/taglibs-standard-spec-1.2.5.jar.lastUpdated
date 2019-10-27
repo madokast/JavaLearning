@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 25 21:13:25 CST 2019
+https\://artifacts.alfresco.com/nexus/content/groups/public-snapshots/.lastUpdated=1572007974770
+http\://beardedgeeks.googlecode.com/svn/repository/releases/.error=Could not transfer artifact org.apache.taglibs\:taglibs-standard-spec\:jar\:1.2.5 from/to beardedgeeks-releases (http\://beardedgeeks.googlecode.com/svn/repository/releases)\: Failed to transfer file\: http\://beardedgeeks.googlecode.com/svn/repository/releases/org/apache/taglibs/taglibs-standard-spec/1.2.5/taglibs-standard-spec-1.2.5.jar. Return code is\: 504 , ReasonPhrase\:Gateway Time-out.
+https\://repo.maven.apache.org/maven2/.lastUpdated=1572009205922
+https\://artifacts.alfresco.com/nexus/content/groups/public-snapshots/.error=
+https\://artifacts.alfresco.com/nexus/content/groups/public/.lastUpdated=1572007921064
+https\://artifacts.alfresco.com/nexus/content/groups/public/.error=
+@default-beardedgeeks-releases-http\://beardedgeeks.googlecode.com/svn/repository/releases/.lastUpdated=1572008648066

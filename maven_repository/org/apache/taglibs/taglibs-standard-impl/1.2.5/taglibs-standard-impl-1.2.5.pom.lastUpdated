@@ -1,10 +1,9 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Sep 19 23:59:33 CST 2019
-https\://artifacts.alfresco.com/nexus/content/groups/public/.lastUpdated=1568908729471
-@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1568908773241
-https\://artifacts.alfresco.com/nexus/content/groups/public-snapshots/.lastUpdated=1568908731209
+#Fri Oct 25 20:51:01 CST 2019
+https\://artifacts.alfresco.com/nexus/content/groups/public/.lastUpdated=1572007770266
+https\://artifacts.alfresco.com/nexus/content/groups/public-snapshots/.lastUpdated=1572007773447
+@default-beardedgeeks-releases-http\://beardedgeeks.googlecode.com/svn/repository/releases/.lastUpdated=1572007857755
 https\://artifacts.alfresco.com/nexus/content/groups/public/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1572007861467
 https\://artifacts.alfresco.com/nexus/content/groups/public-snapshots/.error=
-https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.apache.taglibs\:taglibs-standard-impl\:pom\:1.2.5 from/to central (https\://repo.maven.apache.org/maven2)\: Connection reset
-@default-beardedgeeks-releases-http\://beardedgeeks.googlecode.com/svn/repository/releases/.lastUpdated=1568908773223
-http\://beardedgeeks.googlecode.com/svn/repository/releases/.error=Could not transfer artifact org.apache.taglibs\:taglibs-standard-impl\:pom\:1.2.5 from/to beardedgeeks-releases (http\://beardedgeeks.googlecode.com/svn/repository/releases)\: Connect to beardedgeeks.googlecode.com\:80 [beardedgeeks.googlecode.com/64.233.189.82, beardedgeeks.googlecode.com/2404\:6800\:4008\:c00\:0\:0\:0\:52] failed\: Connection timed out\: connect
+http\://beardedgeeks.googlecode.com/svn/repository/releases/.error=Could not transfer artifact org.apache.taglibs\:taglibs-standard-impl\:pom\:1.2.5 from/to beardedgeeks-releases (http\://beardedgeeks.googlecode.com/svn/repository/releases)\: Connect to beardedgeeks.googlecode.com\:80 [beardedgeeks.googlecode.com/64.233.189.82, beardedgeeks.googlecode.com/2404\:6800\:4008\:c07\:0\:0\:0\:52] failed\: Connection timed out\: connect

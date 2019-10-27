@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/mvc
+           http://www.springframework.org/schema/mvc/spring-mvc.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.zrx.controller"/>
+
+    <!--    配置视图解析器，才能通过return的字符串找到jsp页面-->
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/pages/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!--    文件解析器 用于上传文件-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="10485760"/>
+    </bean>
+
+    <!--    配置异常处理器-->
+<!--    <bean id="sysExceptionResolver" class="com.zrx.exception.SysExceptionResolver"/>-->
+
+    <!--    配置拦截器-->
+<!--    <mvc:interceptors>-->
+<!--        <mvc:interceptor>-->
+<!--            &lt;!&ndash;            要拦截的方法&ndash;&gt;-->
+<!--            <mvc:mapping path="/interceptor/*"/>-->
+<!--            &lt;!&ndash;            具体的拦截器&ndash;&gt;-->
+<!--            <bean id="myInterceptor01" class="com.zrx.interceptor.MyInterceptor01"/>-->
+<!--        </mvc:interceptor>-->
+<!--    </mvc:interceptors>-->
+
+    <!--    静态资源不要被DispatcherServlet拦截-->
+    <mvc:resources mapping="/js/**" location="/js/"/>
+<!--    <mvc:resources mapping="/images/**" location="/images/"/>-->
+<!--    <mvc:resources mapping="/css/**" location="/css/"/>-->
+<!--    <mvc:resources mapping="/uploads/**" location="/uploads/"/>-->
+
+    <!--    配置自定义类型转换器 需要在mvc:annotation-driven中注册-->
+<!--    <bean id="conversionServiceFactoryBean" class="org.springframework.context.support.ConversionServiceFactoryBean">-->
+<!--        <property name="converters">-->
+<!--            <set>-->
+<!--                <bean id="stringToDateConverter" class="com.zrx.utils.StringToDateConverter"/>-->
+<!--            </set>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+    <!--    开启springMVC注解支持-->
+<!--    <mvc:annotation-driven conversion-service="conversionServiceFactoryBean"/>-->
+    <mvc:annotation-driven />
+
+</beans>

@@ -1,4 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Thu Oct 24 22:31:12 CST 2019
+#Sun Oct 27 22:06:44 CST 2019
 jsp-api-2.0.pom>central=
+jsp-api-2.0-sources.jar>central=
 jsp-api-2.0.jar>central=

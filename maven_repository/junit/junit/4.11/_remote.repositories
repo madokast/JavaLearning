@@ -1,4 +1,5 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Tue Sep 10 19:41:20 CST 2019
-junit-4.11.pom>central=
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Oct 27 22:11:00 CST 2019
 junit-4.11.jar>central=
+junit-4.11-sources.jar>central=
+junit-4.11.pom>central=

@@ -1,0 +1,3 @@
+0:0:0:0:0:0:0:1 - - [27/Oct/2019:17:02:35 +0800] "GET / HTTP/1.1" 200 57 http-bio-9090-exec-1 598
+127.0.0.1 - - [27/Oct/2019:17:02:41 +0800] "PUT /uploadFile/171f6725c5184c83afad04bfa7e7594cleetcode.png HTTP/1.1" 201 - http-bio-9090-exec-4 2
+0:0:0:0:0:0:0:1 - - [27/Oct/2019:17:02:41 +0800] "GET /uploadFile/171f6725c5184c83afad04bfa7e7594cleetcode.png HTTP/1.1" 200 9483 http-bio-9090-exec-3 3
