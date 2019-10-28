@@ -1,4 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Oct 18 22:36:36 CST 2019
+#Sun Oct 27 22:32:39 CST 2019
 c3p0-0.9.5.2.jar>central=
+c3p0-0.9.5.2-sources.jar>central=
 c3p0-0.9.5.2.pom>central=

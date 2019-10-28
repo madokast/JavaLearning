@@ -1,4 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Oct 18 23:09:18 CST 2019
+#Sun Oct 27 22:33:35 CST 2019
 mchange-commons-java-0.2.11.jar>central=
 mchange-commons-java-0.2.11.pom>central=
+mchange-commons-java-0.2.11-sources.jar>central=
