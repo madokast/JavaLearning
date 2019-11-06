@@ -1,5 +1,9 @@
 package zrx.com.leetcode.Q0000;
 
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Description
  * leetcode第一个问题
@@ -9,6 +13,9 @@ package zrx.com.leetcode.Q0000;
  * You may assume that each input would have
  * exactly one solution, and you may not use
  * the same element twice.
+ * 解法：One-pass Hash Table
+ * 定义一个Map<Integer, Integer> map存放(值,索引) 遍历数组，若 target-arr[i] in map ，极为找到
+ * 否则存入map
  *
  * Example:
  * Given nums = [2, 7, 11, 15], target = 9,
@@ -22,7 +29,7 @@ package zrx.com.leetcode.Q0000;
  * @version 1.0
  */
 
-public class TwoSum {
+public class Q0001TwoSum {
     /**
      * entry from outer
      * @param nums arr
@@ -46,7 +53,7 @@ public class TwoSum {
      * @return 目标
      */
     public int inputB01(){
-        return 8;
+        return 9;
     }
 
 
@@ -54,6 +61,20 @@ public class TwoSum {
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        
+        Map<Integer,Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int counterpart = target - nums[i];
+            if(map.containsKey(counterpart)){
+                return new int[]{map.get(counterpart), i};
+            }else {
+                map.put(nums[i],i);
+            }
+        }
+
+        return null;
     }
 }
+
+//Details
+//Runtime: 2 ms, faster than 98.96% of Java online submissions for Two Sum.
+//Memory Usage: 38.3 MB, less than 78.35% of Java online submissions for Two Sum.

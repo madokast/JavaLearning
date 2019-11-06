@@ -7,60 +7,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c48bac0-8308-43cd-b824-4f2fb4c19430" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/DataStructuresAndAlgorithms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0000/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyRequire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/others/Symbolics/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/others/Symbolics/Factor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/others/Symbolics/Matrix2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/others/Symbolics/Matrix3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/others/Symbolics/Symbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/others/Symbolics/Vector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/Q0000Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/UtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/others/Symblic/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructuresAndAlgorithms/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructuresAndAlgorithms/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructuresAndAlgorithms/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructuresAndAlgorithms/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructuresAndAlgorithms/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSM01/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSM01/src/main/resources/springMVC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSM01/src/main/resources/sqlMapConfigDeletable.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSM01/src/main/webapp/sqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSM01/src/test/java/com/zrx/ComponetTest/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSM01/src/test/java/com/zrx/ComponetTest/TestMybatis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0000/Q0015ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0160/Q0167TwoSum2InputArrayIsSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyArrayTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/刷题日志.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/Q0160Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/DataStructuresAndAlgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/DataStructuresAndAlgorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0000/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0000/Q0001TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyRequire.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyRequire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/Q0000Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/Q0000Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/UtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/UtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/t126.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/t126.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.others.Symblic.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.others.Symblic.Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.others.Symblic.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.others.Symblic.Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructuresAndAlgorithms/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructuresAndAlgorithms/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructuresAndAlgorithms/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructuresAndAlgorithms/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataStructuresAndAlgorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataStructuresAndAlgorithms/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyBatisTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM01/SSM01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/SSM01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/dao/IAccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/dao/IAccountDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/learn/Learn01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/learn/Learn01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/service/impl/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/service/impl/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM01/src/main/resources/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM01/src/main/resources/ssm01DB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/src/main/resources/ssm01DB.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM01/src/main/webapp/WEB-INF/pages/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/src/main/webapp/WEB-INF/pages/success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM01/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM01/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM01/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/target/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM01/target/tomcat/work/Tomcat/localhost/zrx/org/apache/jsp/WEB_002dINF/pages/success_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/target/tomcat/work/Tomcat/localhost/zrx/org/apache/jsp/WEB_002dINF/pages/success_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SSM01/target/tomcat/work/Tomcat/localhost/zrx/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/target/tomcat/work/Tomcat/localhost/zrx/org/apache/jsp/index_jsp.java" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/log4j/log4j/1.2.12/log4j-1.2.12-sources.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/log4j/log4j/1.2.12/log4j-1.2.12-sources.jar.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6-sources.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6-sources.jar.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/shared/maven-shared-utils/3.1.0/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/shared/maven-shared-utils/3.1.0/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/3.4.5/mybatis-spring-3.4.5.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/3.4.5/mybatis-spring-3.4.5.jar.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/3.4.5/mybatis-spring-3.4.5.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/3.4.5/mybatis-spring-3.4.5.pom.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -214,7 +199,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="108" />
     <option name="y" value="72" />
     <option name="width" value="1750" />
@@ -371,7 +356,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SSM01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DataStructuresAndAlgorithms" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -601,7 +586,7 @@
       <workItem from="1568972057464" duration="1897000" />
       <workItem from="1570256270017" duration="2475000" />
       <workItem from="1571362496181" duration="5478000" />
-      <workItem from="1571972142523" duration="9655000" />
+      <workItem from="1571972142523" duration="10261000" />
     </task>
     <servers />
   </component>
@@ -638,7 +623,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97309000" />
+    <option name="totallyTimeSpent" value="97915000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -650,7 +635,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.19436997" />

@@ -2,6 +2,7 @@ package zrx.com.leetcode.utils;
 
 import javax.print.DocFlavor;
 import java.util.Arrays;
+import java.util.Objects;
 import java.util.function.IntConsumer;
 
 /**
@@ -17,10 +18,15 @@ import java.util.function.IntConsumer;
 
 public class MyPrinter {
     public static void printIntArray(int[] arr, int width,boolean isErr){
+        Objects.requireNonNull(arr);
         print("IntArray:[",isErr);
         Arrays.stream(arr).forEach(e->print(wideFormat(e,width),isErr));
         print("]",isErr);
         newline(isErr);
+    }
+
+    public static void printIntArray(int[] arr){
+        printIntArray(arr,4,true);
     }
 
 

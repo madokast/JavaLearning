@@ -12,16 +12,30 @@ package zrx.com.leetcode.utils;
  */
 
 public class MyRequire {
-    public static void greaterThanZero(int num){
-        if(num<=0){
-            throw new RuntimeException(num+"<=0");
+    public static boolean equal(int[] a, int[] b) {
+        if (a.length == b.length) {
+            for (int i = 0; i < a.length; i++) {
+                if (a[i] != b[i]) {
+                    return false;
+                }
+            }
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+
+    public static void greaterThanZero(int num) {
+        if (num <= 0) {
+            throw new RuntimeException(num + "<=0");
         }
 
     }
 
-    public static void greater(int smaller,int bigger){
-        if(bigger<=smaller){
-            throw new RuntimeException(smaller+">="+bigger);
+    public static void greater(int smaller, int bigger) {
+        if (bigger <= smaller) {
+            throw new RuntimeException(smaller + ">=" + bigger);
         }
     }
 }
