@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--mybatis主配置文件-->
+
+<configuration>
+    <settings>
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+    </settings>
+
+    <environments default="mysql">
+        <!--        配置mysql环境-->
+        <environment id="mysql">
+            <!--            事务类型-->
+            <transactionManager type="JDBC" />
+            <!--            连接池-->
+            <dataSource type="POOLED">
+                <!--                配置连接数据库的基本信息-->
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url"
+                          value="jdbc:mysql://localhost:3306/ssm01?serverTimezone=Asia/Shanghai&amp;characterEncoding=utf8"/>
+                <property name="username" value="root"/>
+                <property name="password" value="123456"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--    映射配置文件-->
+    <mappers>
+        <!--        注解-->
+        <mapper class="com.zrx.dao.IAccountDao"/>
+        <!--        <package name="com.zrx.dao"/>-->
+    </mappers>
+
+</configuration>

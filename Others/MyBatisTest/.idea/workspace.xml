@@ -2,32 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04a16ea9-f778-4e4f-bc52-5562a082b060" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SSM01/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/dao/IAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/service/impl/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SSM01/src/main/resources/ssm01DB.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSM01/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSM01/src/main/resources/springMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSM01/src/main/resources/sqlMapConfigDeletable.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSM01/src/main/webapp/sqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSM01/src/test/java/com/zrx/ComponetTest/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSM01/src/test/java/com/zrx/ComponetTest/TestMybatis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ICHIWAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICHIWAN/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SSM01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM01/SSM01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/SSM01.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SSM01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/pom.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/mchange/c3p0/0.9.5.2/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/mchange/c3p0/0.9.5.2/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/mchange/mchange-commons-java/0.2.11/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/mchange/mchange-commons-java/0.2.11/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/javax/servlet/jstl/1.2/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/javax/servlet/jstl/1.2/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/junit/junit/4.12/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/junit/junit/4.12/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/mybatis/mybatis/mybatis-.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mybatis/mybatis/mybatis-.jar.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/mybatis/mybatis/mybatis-.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mybatis/mybatis/mybatis-.pom.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.2.RELEASE/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.2.RELEASE/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.2.RELEASE/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.2.RELEASE/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.2.RELEASE/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.2.RELEASE/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/dao/IAccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/dao/IAccountDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/learn/Learn01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/learn/Learn01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/service/impl/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/src/main/java/com/zrx/service/impl/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM01/src/main/resources/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM01/src/main/resources/ssm01DB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/src/main/resources/ssm01DB.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM01/src/main/webapp/WEB-INF/pages/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/src/main/webapp/WEB-INF/pages/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM01/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM01/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM01/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/target/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM01/target/tomcat/work/Tomcat/localhost/zrx/org/apache/jsp/WEB_002dINF/pages/success_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/target/tomcat/work/Tomcat/localhost/zrx/org/apache/jsp/WEB_002dINF/pages/success_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM01/target/tomcat/work/Tomcat/localhost/zrx/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM01/target/tomcat/work/Tomcat/localhost/zrx/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/log4j/log4j/1.2.12/log4j-1.2.12-sources.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/log4j/log4j/1.2.12/log4j-1.2.12-sources.jar.lastUpdated" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6-sources.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6-sources.jar.lastUpdated" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/3.4.5/mybatis-spring-3.4.5.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/3.4.5/mybatis-spring-3.4.5.jar.lastUpdated" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/3.4.5/mybatis-spring-3.4.5.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/3.4.5/mybatis-spring-3.4.5.pom.lastUpdated" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -442,7 +445,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570256423703</updated>
       <workItem from="1570256831504" duration="38921000" />
-      <workItem from="1572186048539" duration="622000" />
+      <workItem from="1572186048539" duration="624000" />
     </task>
     <servers />
   </component>
@@ -479,7 +482,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39543000" />
+    <option name="totallyTimeSpent" value="39545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />

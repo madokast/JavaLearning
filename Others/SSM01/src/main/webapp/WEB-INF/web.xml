@@ -4,6 +4,16 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <!-- __________________________________配置监听器，加载applicationConfig.xml_________________________________ -->
+  <listener>
+<!--    默认加载/WEB-INF/applicationContext.xml-->
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+<!--设置配置文件的路径-->
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath:applicationContext.xml</param-value>
+  </context-param>
 
   <!-- __________________________________解决中文乱码的过滤器__________________________________________________ -->
   <filter>
@@ -28,7 +38,7 @@
     <!--        利用这个dispatcherServlet初始化的时候，加载spring配置文件，这样就能启动spring了-->
     <init-param>
       <param-name>contextConfigLocation</param-name>
-      <param-value>classpath:springmvc.xml</param-value>
+      <param-value>classpath:springMVC.xml</param-value>
     </init-param>
 
     <!--        启动服务器即创建这个对象-->
