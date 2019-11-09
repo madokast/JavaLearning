@@ -19,15 +19,27 @@ import zrx.com.leetcode.utils.MyRequire;
 
 public class Q0160Test {
     @Test
+    public void testTwoSum2InputArrayIsSorted2(){
+        final Q0167TwoSum2InputArrayIsSorted twoSum2InputArrayIsSorted = new Q0167TwoSum2InputArrayIsSorted();
+        final int[] ans = twoSum2InputArrayIsSorted.twoSum(Q0167TwoSum2InputArrayIsSorted.numbers, Q0167TwoSum2InputArrayIsSorted.target);
+        MyPrinter.printIntArray(ans);
+        Assert.assertTrue(MyRequire.isEqual(ans, Q0167TwoSum2InputArrayIsSorted.answer));
+
+        final int[] ans2 = twoSum2InputArrayIsSorted.twoSum(Q0167TwoSum2InputArrayIsSorted.numbers2, Q0167TwoSum2InputArrayIsSorted.target2);
+        MyPrinter.printIntArray(ans2);
+        Assert.assertTrue(MyRequire.isEqual(ans2, Q0167TwoSum2InputArrayIsSorted.answer2));
+    }
+
+    @Test
     public void testTwoSum2InputArrayIsSorted(){
         final Q0167TwoSum2InputArrayIsSorted twoSum2InputArrayIsSorted = new Q0167TwoSum2InputArrayIsSorted();
         final int[] ans = twoSum2InputArrayIsSorted.twoSum2(Q0167TwoSum2InputArrayIsSorted.numbers, Q0167TwoSum2InputArrayIsSorted.target);
         MyPrinter.printIntArray(ans);
-        Assert.assertTrue(MyRequire.equal(ans, Q0167TwoSum2InputArrayIsSorted.answer));
+        Assert.assertTrue(MyRequire.isEqual(ans, Q0167TwoSum2InputArrayIsSorted.answer));
 
         final int[] ans2 = twoSum2InputArrayIsSorted.twoSum2(Q0167TwoSum2InputArrayIsSorted.numbers2, Q0167TwoSum2InputArrayIsSorted.target2);
         MyPrinter.printIntArray(ans2);
-        Assert.assertTrue(MyRequire.equal(ans2, Q0167TwoSum2InputArrayIsSorted.answer2));
+        Assert.assertTrue(MyRequire.isEqual(ans2, Q0167TwoSum2InputArrayIsSorted.answer2));
     }
 
 }

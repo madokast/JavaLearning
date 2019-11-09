@@ -114,9 +114,13 @@ public class Test {
         fileWriter.close();
 
         System.err.println("finished");
-        new File("matlabEval.txt").delete();
+//        new File("matlabEval.txt").delete();
     }
 
+    /**
+     * importance
+     * @throws Exception
+     */
     @org.junit.Test
     public void matlabEval2() throws Exception {
         StringBuilder sb = new StringBuilder();
@@ -194,7 +198,7 @@ public class Test {
 
         System.err.println("finished");
 
-        new File("matlabEval.txt").delete();
+//        new File("matlabEval.txt").delete();
     }
 
     @org.junit.Test

@@ -1,5 +1,6 @@
 package zrx.com.leetcode;
 
+import org.junit.Assert;
 import org.junit.Test;
 import zrx.com.leetcode.utils.MyArrayTools;
 import zrx.com.leetcode.utils.MyPrinter;
@@ -19,6 +20,86 @@ import zrx.com.leetcode.utils.MyRequire;
 
 
 public class UtilsTest {
+    @Test public void test(){}
+
+    @Test public void testNumberInListBiggerThan(){
+        System.out.println(MyArrayTools.numberInListBiggerThan(1,MyArrayTools.intArrayToList(new int[]{2})));//1
+        System.out.println(MyArrayTools.numberInListBiggerThan(2,MyArrayTools.intArrayToList(new int[]{2})));//0
+        System.out.println(MyArrayTools.numberInListBiggerThan(3,MyArrayTools.intArrayToList(new int[]{2})));//0
+
+        System.out.println("------------------------");
+
+        System.out.println(MyArrayTools.numberInListBiggerThan(1,MyArrayTools.intArrayToList(new int[]{2,4})));//2
+        System.out.println(MyArrayTools.numberInListBiggerThan(2,MyArrayTools.intArrayToList(new int[]{2,4})));//1
+        System.out.println(MyArrayTools.numberInListBiggerThan(3,MyArrayTools.intArrayToList(new int[]{2,4})));//1
+        System.out.println(MyArrayTools.numberInListBiggerThan(4,MyArrayTools.intArrayToList(new int[]{2,4})));//0
+        System.out.println(MyArrayTools.numberInListBiggerThan(5,MyArrayTools.intArrayToList(new int[]{2,4})));//0
+
+        System.out.println("------------------------");
+
+        System.out.println(MyArrayTools.numberInListBiggerThan(1,MyArrayTools.intArrayToList(new int[]{2,4,6})));//3
+        System.out.println(MyArrayTools.numberInListBiggerThan(2,MyArrayTools.intArrayToList(new int[]{2,4,6})));//2
+        System.out.println(MyArrayTools.numberInListBiggerThan(3,MyArrayTools.intArrayToList(new int[]{2,4,6})));//2
+        System.out.println(MyArrayTools.numberInListBiggerThan(4,MyArrayTools.intArrayToList(new int[]{2,4,6})));//1
+        System.out.println(MyArrayTools.numberInListBiggerThan(5,MyArrayTools.intArrayToList(new int[]{2,4,6})));//1
+        System.out.println(MyArrayTools.numberInListBiggerThan(6,MyArrayTools.intArrayToList(new int[]{2,4,6})));//0
+        System.out.println(MyArrayTools.numberInListBiggerThan(7,MyArrayTools.intArrayToList(new int[]{2,4,6})));//0
+    }
+
+    @Test public void insertIndexTest(){
+        System.out.println(MyArrayTools.insertIndex(MyArrayTools.intArrayToList(new int[]{2}), 1));//0
+        System.out.println(MyArrayTools.insertIndex(MyArrayTools.intArrayToList(new int[]{2}), 2));//0
+        System.out.println(MyArrayTools.insertIndex(MyArrayTools.intArrayToList(new int[]{2}), 3));//1
+
+        System.out.println("------------------------");
+
+        System.out.println(MyArrayTools.insertIndex(MyArrayTools.intArrayToList(new int[]{2,4}), 1));//0
+        System.out.println(MyArrayTools.insertIndex(MyArrayTools.intArrayToList(new int[]{2,4}), 2));//0
+        System.out.println(MyArrayTools.insertIndex(MyArrayTools.intArrayToList(new int[]{2,4}), 3));//1
+        System.out.println(MyArrayTools.insertIndex(MyArrayTools.intArrayToList(new int[]{2,4}), 4));//1
+        System.out.println(MyArrayTools.insertIndex(MyArrayTools.intArrayToList(new int[]{2,4}), 5));//2
+
+
+        System.out.println("------------------------");
+
+        System.out.println(MyArrayTools.insertIndex(MyArrayTools.intArrayToList(new int[]{2,4,6}), 1));//0
+        System.out.println(MyArrayTools.insertIndex(MyArrayTools.intArrayToList(new int[]{2,4,6}), 2));//0
+        System.out.println(MyArrayTools.insertIndex(MyArrayTools.intArrayToList(new int[]{2,4,6}), 3));//1
+        System.out.println(MyArrayTools.insertIndex(MyArrayTools.intArrayToList(new int[]{2,4,6}), 4));//1
+        System.out.println(MyArrayTools.insertIndex(MyArrayTools.intArrayToList(new int[]{2,4,6}), 5));//2
+        System.out.println(MyArrayTools.insertIndex(MyArrayTools.intArrayToList(new int[]{2,4,6}), 6));//2
+        System.out.println(MyArrayTools.insertIndex(MyArrayTools.intArrayToList(new int[]{2,4,6}), 7));//3
+        System.out.println(MyArrayTools.insertIndex(MyArrayTools.intArrayToList(new int[]{2,4,6}), 8));//3
+    }
+
+    @Test public void testQuickSort(){
+        testQuickSorted(1);
+        testQuickSorted(1,2);
+        testQuickSorted(2,1);
+        testQuickSorted(1,1);
+        testQuickSorted(1,1,2);
+        testQuickSorted(2,1,1);
+        testQuickSorted(2,1,0);
+        testQuickSorted(1,2,0);
+
+        testQuickSorted(MyRandom.randomIntArray(9,6));
+        testQuickSorted(MyRandom.randomIntArray(9,6));
+        testQuickSorted(MyRandom.randomIntArray(9,6));
+
+        testQuickSorted(MyRandom.randomIntArray(99,30));
+        testQuickSorted(MyRandom.randomIntArray(99,30));
+        testQuickSorted(MyRandom.randomIntArray(99,30));
+    }
+
+    private void testQuickSorted(int...ints){
+        final int[] array1 = MyArrayTools.getIntArray(ints);
+        MyPrinter.printIntArray(array1);
+        MyArrayTools.quickSort(array1);
+        MyPrinter.printIntArray(array1);
+        Assert.assertTrue(MyRequire.isOrdered(array1));
+        System.out.println("--------------------");
+    }
+
     @Test
     public void binarySearchTest() {
         System.out.println(MyArrayTools.binarySearch(MyArrayTools.getIntArray(1, 2, 3), 1));

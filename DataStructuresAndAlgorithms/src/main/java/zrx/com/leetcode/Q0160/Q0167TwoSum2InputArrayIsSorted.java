@@ -78,8 +78,35 @@ public class Q0167TwoSum2InputArrayIsSorted {
 
 class Solution {
     //    双指针法
+    // 没错，双指针是正确的
+    // 这里给出证明：因为是i j反别往内走，而且一次只有一个走
+    // 那么一定存在一个时刻，i或j走到了答案所指向得位置
+    // 比如说 答案是 3/5 那么假设i首先到了3
+    // 这时j肯定大于5
+    // 这时一定由[i]+[j]>target
+    // 所以 j 肯定要变小
+    // 然后就是 j 一直走
+    // 当然就成了
+    // 证明与 2019年11月6日 21点49分
+    //Details
+    //Runtime: 1 ms, faster than 57.01% of Java online submissions for Two Sum II - Input array is sorted.
+    //Memory Usage: 37.8 MB, less than 99.25% of Java online submissions for Two Sum II - Input array is sorted.
+    //Next challenges:
+    //Two Sum IV - Input is a BST
+    //Two Sum Less Than K
     public int[] twoSum(int[] numbers, int target) {
-        //TODO 双指针法
+        int left = 0;
+        int right = numbers.length-1;
+        while (left<right){
+            if((numbers[left]+numbers[right])==target){
+                return new int[]{left+1,right+1};
+            }else if((numbers[left]+numbers[right])<target){
+                left++;
+            }else {
+                right--;
+            }
+        }
+
         return null;
     }
 

@@ -1,5 +1,7 @@
 package zrx.com.leetcode.utils;
 
+import sun.awt.windows.ThemeReader;
+
 /**
  * Description
  * 需求类，不满足抛出异常
@@ -12,7 +14,37 @@ package zrx.com.leetcode.utils;
  */
 
 public class MyRequire {
-    public static boolean equal(int[] a, int[] b) {
+    /**
+     * a!=b时，抛出异常
+     * @param a 数1
+     * @param b 数2
+     */
+    public static void equal(int a, int b){
+        if(a!=b){
+            throw new RuntimeException(a+"!="+b);
+        }
+    }
+
+    /**
+     * int[]是否是递增
+     * @param arr 数组
+     */
+    public static boolean isOrdered(int[] arr){
+        for (int i = 1; i < arr.length; i++) {
+            if(arr[i-1]>arr[i])
+                return false;
+        }
+        return true;
+    }
+
+    /**
+     * 判断两个int[] 是否长度一致，元素相同
+     * 不会抛出异常
+     * @param a 数组一
+     * @param b 数组二
+     * @return 是否一致
+     */
+    public static boolean isEqual(int[] a, int[] b) {
         if (a.length == b.length) {
             for (int i = 0; i < a.length; i++) {
                 if (a[i] != b[i]) {
@@ -37,5 +69,11 @@ public class MyRequire {
         if (bigger <= smaller) {
             throw new RuntimeException(smaller + ">=" + bigger);
         }
+    }
+
+
+    public static void requireTrue(boolean b){
+        if(!b)
+            throw new RuntimeException("requireTrue failed");
     }
 }
