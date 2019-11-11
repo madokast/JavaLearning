@@ -12,8 +12,8 @@ import java.util.*;
  * k = 符号
  * v = 阶数
  *
- * 如 因子 = (A12,1) (a,2)
- * 即表示"A12 * a * a"
+ * 如 因子 = (A12,1) (MyTools,2)
+ * 即表示"A12 * MyTools * MyTools"
  *
  * 没有系数
  */
@@ -91,7 +91,7 @@ public class Factor {
 
     /**
      * 打印因数
-     * @return like a*b*b
+     * @return like MyTools*b*b
      */
     @Override
     public String toString() {

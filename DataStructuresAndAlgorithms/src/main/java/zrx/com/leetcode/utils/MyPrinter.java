@@ -26,7 +26,7 @@ public class MyPrinter {
     }
 
     public static void printIntArray(int[] arr){
-        printIntArray(arr,4,true);
+        printIntArray(arr,4,false);
     }
 
 

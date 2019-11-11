@@ -2,7 +2,7 @@ package zrx.com.others.Symbolics;
 
 /**
  * 符号，代表一个变量
- * 如 x a A11
+ * 如 x MyTools A11
  *
  * 这是一个不可变类!
  */

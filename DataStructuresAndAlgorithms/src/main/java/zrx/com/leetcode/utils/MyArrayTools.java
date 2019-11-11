@@ -1,5 +1,6 @@
 package zrx.com.leetcode.utils;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -17,6 +18,31 @@ import java.util.List;
  */
 
 public class MyArrayTools {
+    public static String intArrayToString(Object arr){
+        if(!(arr instanceof int[])){
+            return arr.toString();
+        }
+
+        int[] array = (int[])arr;
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("ints[");
+        for (int i = 0; i < array.length; i++) {
+            sb.append(array[i]);
+            sb.append(",");
+        }
+        sb.deleteCharAt(sb.length()-1);
+        sb.append("]");
+
+        return sb.toString();
+    }
+
+    public static void swap(int[] arr,int i,int j){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+
     public static int[] getSortedArray(int... ints) {
         return null;
     }
@@ -178,5 +204,35 @@ public class MyArrayTools {
         } else {
             return list.size() - insertIndex(list, aim);
         }
+    }
+
+    public static List<Integer> getIntList(int...ints){
+        return MyArrayTools.intArrayToList(ints);
+    }
+
+    /**
+     * 数组加法，对ret加1，max[i].length代表ret第i位的权
+     * @param ret 被加数
+     * @param max max[i].length代表ret第i位的权
+     * @return 0-正常/ -1 溢出
+     */
+    public static int addOne(int[] ret,int[][] max){
+        int i = ret.length-1;
+        int carry = 1;
+        while (carry!=0){
+            if(i==-1){
+                return -1;//溢出
+            }
+            ret[i]++;
+            if(ret[i]==max[i].length){
+                ret[i]=0;
+                i--;
+                carry = 1;
+            }else {
+                carry = 0;
+            }
+        }
+
+        return 0;
     }
 }

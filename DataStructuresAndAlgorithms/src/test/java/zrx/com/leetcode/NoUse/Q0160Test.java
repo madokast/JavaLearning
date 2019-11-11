@@ -1,4 +1,4 @@
-package zrx.com.leetcode;
+package zrx.com.leetcode.NoUse;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -18,7 +18,7 @@ import zrx.com.leetcode.utils.MyRequire;
  */
 
 public class Q0160Test {
-    @Test
+//    @Test
     public void testTwoSum2InputArrayIsSorted2(){
         final Q0167TwoSum2InputArrayIsSorted twoSum2InputArrayIsSorted = new Q0167TwoSum2InputArrayIsSorted();
         final int[] ans = twoSum2InputArrayIsSorted.twoSum(Q0167TwoSum2InputArrayIsSorted.numbers, Q0167TwoSum2InputArrayIsSorted.target);
@@ -30,7 +30,7 @@ public class Q0160Test {
         Assert.assertTrue(MyRequire.isEqual(ans2, Q0167TwoSum2InputArrayIsSorted.answer2));
     }
 
-    @Test
+//    @Test
     public void testTwoSum2InputArrayIsSorted(){
         final Q0167TwoSum2InputArrayIsSorted twoSum2InputArrayIsSorted = new Q0167TwoSum2InputArrayIsSorted();
         final int[] ans = twoSum2InputArrayIsSorted.twoSum2(Q0167TwoSum2InputArrayIsSorted.numbers, Q0167TwoSum2InputArrayIsSorted.target);

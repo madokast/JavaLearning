@@ -6,7 +6,7 @@ import zrx.com.leetcode.utils.MyArrayTools;
  * Description
  * Two Sum II - Input array is sorted
  * Given an array of integers that is already sorted in ascending order, //增序
- * find two numbers such that they add up to a specific target number.
+ * find two numbers such that they add up to MyTools specific target number.
  * <p>
  * The function twoSum should return indices of the two numbers
  * such that they add up to the target, where index1 must be less than index2.
@@ -92,7 +92,7 @@ class Solution {
     //Runtime: 1 ms, faster than 57.01% of Java online submissions for Two Sum II - Input array is sorted.
     //Memory Usage: 37.8 MB, less than 99.25% of Java online submissions for Two Sum II - Input array is sorted.
     //Next challenges:
-    //Two Sum IV - Input is a BST
+    //Two Sum IV - Input is MyTools BST
     //Two Sum Less Than K
     public int[] twoSum(int[] numbers, int target) {
         int left = 0;
@@ -117,7 +117,7 @@ class Solution {
     //Runtime: 2 ms, faster than 31.24% of Java online submissions for Two Sum II - Input array is sorted.
     //Memory Usage: 38.1 MB, less than 94.03% of Java online submissions for Two Sum II - Input array is sorted.
     //Next challenges:
-    //Two Sum IV - Input is a BST
+    //Two Sum IV - Input is MyTools BST
     //Two Sum Less Than K
     public int[] twoSum2(int[] numbers, int target) {
         for (int i = 0; i < numbers.length; i++) {

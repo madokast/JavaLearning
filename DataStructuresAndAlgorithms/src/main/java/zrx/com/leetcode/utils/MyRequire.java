@@ -1,6 +1,5 @@
 package zrx.com.leetcode.utils;
 
-import sun.awt.windows.ThemeReader;
 
 /**
  * Description
@@ -15,7 +14,7 @@ import sun.awt.windows.ThemeReader;
 
 public class MyRequire {
     /**
-     * a!=b时，抛出异常
+     * MyTools!=b时，抛出异常
      * @param a 数1
      * @param b 数2
      */

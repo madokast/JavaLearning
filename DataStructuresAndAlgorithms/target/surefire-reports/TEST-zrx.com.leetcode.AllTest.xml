@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="16" failures="0" name="zrx.com.others.Symblic.Test" time="0.63" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="zrx.com.leetcode.AllTest" time="2.061" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\program\jdk1.8.0_221\jre\bin"/>
@@ -64,20 +64,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase classname="zrx.com.others.Symblic.Test" name="SymbolTest" time="0"/>
-  <testcase classname="zrx.com.others.Symblic.Test" name="Matrix3Test01" time="0"/>
-  <testcase classname="zrx.com.others.Symblic.Test" name="hasFactorTest" time="0"/>
-  <testcase classname="zrx.com.others.Symblic.Test" name="matlabEval2" time="0"/>
-  <testcase classname="zrx.com.others.Symblic.Test" name="addTest" time="0"/>
-  <testcase classname="zrx.com.others.Symblic.Test" name="ExpressionTest01" time="0"/>
-  <testcase classname="zrx.com.others.Symblic.Test" name="ExpressionTest02" time="0.001"/>
-  <testcase classname="zrx.com.others.Symblic.Test" name="T126" time="0.601"/>
-  <testcase classname="zrx.com.others.Symblic.Test" name="factorTest2" time="0"/>
-  <testcase classname="zrx.com.others.Symblic.Test" name="split" time="0.003"/>
-  <testcase classname="zrx.com.others.Symblic.Test" name="subExpressionTest" time="0"/>
-  <testcase classname="zrx.com.others.Symblic.Test" name="matlabEval" time="0.023"/>
-  <testcase classname="zrx.com.others.Symblic.Test" name="createTest" time="0.001"/>
-  <testcase classname="zrx.com.others.Symblic.Test" name="Matrix2Test01" time="0.001"/>
-  <testcase classname="zrx.com.others.Symblic.Test" name="factorTest" time="0"/>
-  <testcase classname="zrx.com.others.Symblic.Test" name="VectorTest" time="0"/>
+  <testcase classname="zrx.com.leetcode.AllTest" name="test" time="2.06"/>
+  <testcase classname="zrx.com.leetcode.AllTest" name="utilsTest" time="0.001"/>
 </testsuite>

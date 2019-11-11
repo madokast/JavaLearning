@@ -1,11 +1,8 @@
-package zrx.com.leetcode;
+package zrx.com.leetcode.NoUse;
 
 import org.junit.Assert;
 import org.junit.Test;
-import zrx.com.leetcode.Q0000.Q0001TwoSum;
-import zrx.com.leetcode.Q0000.Q0015ThreeSum;
-import zrx.com.leetcode.Q0000.Q0016ThreeSumClosest;
-import zrx.com.leetcode.Q0000.Q0018FourSum;
+import zrx.com.leetcode.Q0000.*;
 import zrx.com.leetcode.Q0440.Q0454FourSumII;
 import zrx.com.leetcode.Q0560.Q0560SubarraySumEqualsK;
 import zrx.com.leetcode.utils.MyPrinter;
@@ -27,19 +24,40 @@ import java.util.List;
 public class Q0000Test {
     @Test public void test(){}
 
-    @Test public void testSubarraySumEqualsK(){
+
+
+//    @Test
+    public void testQ0019(){
+        Q0019RemoveNthNodeFromEndOfList.test();
+    }
+
+//    @Test
+    public void testQ0003(){
+        Q0003LongestSubstringWithoutRepeatingCharacters.test();
+    }
+
+//    @Test
+    public void testQ0011(){
+        Q0011ContainerWithMostWater.test();
+    }
+
+//    @Test
+    public void testSubarraySumEqualsK(){
         Q0560SubarraySumEqualsK.test();
     }
 
-    @Test public void testFourSumII(){
+//    @Test
+    public void testFourSumII(){
         Q0454FourSumII.test();
     }
 
-    @Test public void fourSumTest(){
+//    @Test
+    public void fourSumTest(){
         new Q0018FourSum().test();
     }
 
-    @Test public void threeSumClosest(){
+//    @Test
+    public void threeSumClosest(){
         final Q0016ThreeSumClosest threeSumClosest = new Q0016ThreeSumClosest();
 
          int ans012 = threeSumClosest.threeSumClosest(Q0016ThreeSumClosest.in012, Q0016ThreeSumClosest.in022);
@@ -70,7 +88,8 @@ public class Q0000Test {
         Assert.assertEquals(ans011,Q0016ThreeSumClosest.ans011);
     }
 
-    @Test public void testThreeSum(){
+//    @Test
+    public void testThreeSum(){
         final Q0015ThreeSum threeSumSum = new Q0015ThreeSum();
         final List<List<Integer>> ans = threeSumSum.threeSum(Q0015ThreeSum.input);
         System.err.println(ans);
@@ -101,7 +120,7 @@ public class Q0000Test {
         MyTimer.runtime();
     }
 
-    @Test
+//    @Test
     public void testTwoSum(){
         final Q0001TwoSum twoSum = new Q0001TwoSum();
         final int[] ans = twoSum.twoSum(twoSum.inputA01(), twoSum.inputB01());

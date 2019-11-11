@@ -9,7 +9,7 @@ import java.io.FileWriter;
 
 @SuppressWarnings("all")
 public class Test {
-    @org.junit.Test
+//    @org.junit.Test
     public void T126() throws Exception {
         final Vector x0 = Vector.create("x0_", 6);
         final Matrix2 r10 = Matrix2.create("R10_", 6);
@@ -58,7 +58,7 @@ public class Test {
         fileWriter.close();
     }
 
-    @org.junit.Test
+//    @org.junit.Test
     public void split(){
         String ss = "r21_11*t10_126 + r21_12*t10_226 + r21_13*t10_326 + r21_14*t10_426 + r21_15*t10_526 + r21_16*t10_626 + 2*r10_12*r10_16*t21_111 + r10_12*r10_26*t21_112 + r10_16*r10_22*t21_112 + r10_12*r10_36*t21_113 + r10_16*r10_32*t21_113 + 2*r10_22*r10_26*t21_122 + r10_12*r10_46*t21_114 + r10_16*r10_42*t21_114 + r10_22*r10_36*t21_123 + r10_26*r10_32*t21_123 + r10_12*r10_56*t21_115 + r10_16*r10_52*t21_115 + r10_22*r10_46*t21_124 + r10_26*r10_42*t21_124 + r10_12*r10_66*t21_116 + r10_16*r10_62*t21_116 + 2*r10_32*r10_36*t21_133 + r10_22*r10_56*t21_125 + r10_26*r10_52*t21_125 + r10_32*r10_46*t21_134 + r10_36*r10_42*t21_134 + r10_22*r10_66*t21_126 + r10_26*r10_62*t21_126 + r10_32*r10_56*t21_135 + r10_36*r10_52*t21_135 + 2*r10_42*r10_46*t21_144 + r10_32*r10_66*t21_136 + r10_36*r10_62*t21_136 + r10_42*r10_56*t21_145 + r10_46*r10_52*t21_145 + r10_42*r10_66*t21_146 + r10_46*r10_62*t21_146 + 2*r10_52*r10_56*t21_155 + r10_52*r10_66*t21_156 + r10_56*r10_62*t21_156 + 2*r10_62*r10_66*t21_166";
         for (String s : ss.split("\\+")) {
@@ -72,9 +72,9 @@ public class Test {
         }
     }
 
-    @org.junit.Test
+//    @org.junit.Test
     public void matlabEval() throws Exception {
-        //eval('syms a ;')
+        //eval('syms MyTools ;')
 
         StringBuilder sb = new StringBuilder();
 
@@ -121,7 +121,7 @@ public class Test {
      * importance
      * @throws Exception
      */
-    @org.junit.Test
+//    @org.junit.Test
     public void matlabEval2() throws Exception {
         StringBuilder sb = new StringBuilder();
         int len = 6;
@@ -201,10 +201,10 @@ public class Test {
 //        new File("matlabEval.txt").delete();
     }
 
-    @org.junit.Test
+//    @org.junit.Test
     public void subExpressionTest() {
-        final Expression expression = Expression.create("a*a+a*b+b*b+a");
-        final Expression subExpression = expression.subExpression(Factor.create("a"));
+        final Expression expression = Expression.create("MyTools*MyTools+MyTools*b+b*b+MyTools");
+        final Expression subExpression = expression.subExpression(Factor.create("MyTools"));
         System.err.println(subExpression);
 
         final Expression subExpression2 = expression.subExpression(Factor.create("b"));
@@ -213,17 +213,17 @@ public class Test {
         final Expression subExpression3 = expression.subExpression(Factor.create("b*b"));
         System.err.println(subExpression3);
 
-        final Expression subExpression4 = expression.subExpression(Factor.create("a*b"));
+        final Expression subExpression4 = expression.subExpression(Factor.create("MyTools*b"));
         System.err.println(subExpression4);
 
-        final Expression subExpression5 = expression.subExpression(Factor.create("b*a"));
+        final Expression subExpression5 = expression.subExpression(Factor.create("b*MyTools"));
         System.err.println(subExpression5);
     }
 
-    @org.junit.Test
+//    @org.junit.Test
     public void addTest() {
         Expression add = Expression.add(
-                Expression.create("a+b"), Expression.create("a+c")
+                Expression.create("MyTools+b"), Expression.create("MyTools+c")
         );
 
         System.err.println(add);
@@ -241,11 +241,11 @@ public class Test {
         System.err.println(Vector.add(Vector.add(x1, x1), Vector.add(x1, x1)));
     }
 
-    @org.junit.Test
+//    @org.junit.Test
     public void ExpressionTest02() {
-        final Expression a = Expression.create("a");
-        final Expression ab = Expression.create("a+b");
-        final Expression ab2 = Expression.create("a+b");
+        final Expression a = Expression.create("MyTools");
+        final Expression ab = Expression.create("MyTools+b");
+        final Expression ab2 = Expression.create("MyTools+b");
 
         System.err.println(Expression.multiply(a, ab));
         System.err.println(Expression.multiply(a, ab2));
@@ -254,7 +254,7 @@ public class Test {
         System.err.println(Expression.multiply(a, ab2, ab2));
     }
 
-    @org.junit.Test
+//    @org.junit.Test
     public void Matrix3Test01() {
         final Matrix3 T = Matrix3.create("T", 2);
         T.printHalf(true);
@@ -272,7 +272,7 @@ public class Test {
     }
 
 
-    @org.junit.Test
+//    @org.junit.Test
     public void Matrix2Test01() {
         final Matrix2 matrix2 = Matrix2.create("A", 2);
         matrix2.print(5, true);
@@ -283,23 +283,23 @@ public class Test {
         System.err.println(Ax);
     }
 
-    @org.junit.Test
+//    @org.junit.Test
     public void VectorTest() {
         final Vector x0 = Vector.create("x0_", 6);
 
         System.err.println(x0);
     }
 
-    @org.junit.Test
+//    @org.junit.Test
     public void createTest() {
-        final Factor a = Factor.create("a");
+        final Factor a = Factor.create("MyTools");
         System.err.println(a);
 
-        final Factor ab = Factor.create("a*b");
+        final Factor ab = Factor.create("MyTools*b");
         System.err.println(ab);
 
-        final Expression e1 = Expression.create("a+b");
-        final Expression e2 = Expression.create("a+b+b");
+        final Expression e1 = Expression.create("MyTools+b");
+        final Expression e2 = Expression.create("MyTools+b+b");
         System.err.println(e1);
         System.err.println(e2);
 
@@ -311,10 +311,10 @@ public class Test {
 
     }
 
-    @org.junit.Test
+//    @org.junit.Test
     public void ExpressionTest01() {
-        // a*b
-        final Factor a = new Factor("a");
+        // MyTools*b
+        final Factor a = new Factor("MyTools");
         final Factor b = new Factor("b");
 
         final Factor ab = new Factor();
@@ -322,7 +322,7 @@ public class Test {
         ab.multiply(b);
         System.err.println(ab);
 
-        //a*b*b
+        //MyTools*b*b
         final Factor abb = new Factor();
         abb.multiply(a);
         abb.multiply(a);
@@ -337,9 +337,9 @@ public class Test {
 
     }
 
-    @org.junit.Test
+//    @org.junit.Test
     public void hasFactorTest() {
-        final Factor a = new Factor("a");
+        final Factor a = new Factor("MyTools");
         final Factor b = new Factor("b");
 
         a.multiply(a);
@@ -347,9 +347,9 @@ public class Test {
 
         Assert.assertTrue(a.hasFactor(a));
         Assert.assertTrue(a.hasFactor(b));
-        Assert.assertTrue(a.hasFactor(new Factor("a")));
+        Assert.assertTrue(a.hasFactor(new Factor("MyTools")));
 
-        b.multiply(new Factor("a"));
+        b.multiply(new Factor("MyTools"));
         System.err.println(a);
         System.err.println(b);
         Assert.assertTrue(a.hasFactor(b));
@@ -362,7 +362,7 @@ public class Test {
 
     }
 
-    @org.junit.Test
+//    @org.junit.Test
     public void factorTest2() {
         Character ch = (char) (Math.random() * 10000);
         final Symbol a = new Symbol(ch.toString());
@@ -393,9 +393,9 @@ public class Test {
 
     }
 
-    @org.junit.Test
+//    @org.junit.Test
     public void factorTest() {
-        final Factor a = new Factor("a");
+        final Factor a = new Factor("MyTools");
         final Factor a1 = new Factor("a1");
 
         a.multiply(a1);
@@ -415,7 +415,7 @@ public class Test {
     }
 
 
-    @org.junit.Test
+//    @org.junit.Test
     public void SymbolTest() {
         Character ch = (char) (Math.random() * 10000);
         System.err.println("ch = " + ch + "/" + (int) ch);

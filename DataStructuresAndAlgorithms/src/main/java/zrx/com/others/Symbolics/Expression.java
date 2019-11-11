@@ -21,9 +21,9 @@ public class Expression {
 
     /**
      * 鬼斧神工开始了!!!
-     * 表达式 a*a + a*b + b*b +a
-     * 输入factor a
-     * 则返回 a*b +a
+     * 表达式 MyTools*MyTools + MyTools*b + b*b +MyTools
+     * 输入factor MyTools
+     * 则返回 MyTools*b +MyTools
      *
      * 即返回带有factor 相同次项的子表达式
      *
