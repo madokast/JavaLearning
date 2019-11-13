@@ -36,10 +36,10 @@ import java.util.*;
  * @version 1.0
  */
 
-public class Q0030SubstringWithConcatenationOfAllWords implements Question {
+public class Q0030SubstringWithConcatenationOfAllWordsBrute implements Question {
     @Override
     public String getQuestionName() {
-        return "Q0030SubstringWithConcatenationOfAllWords";
+        return "Q0030SubstringWithConcatenationOfAllWordsBrute";
     }
 
     @Override

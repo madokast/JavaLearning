@@ -2,6 +2,7 @@ package zrx.com.leetcode;
 
 import org.junit.Test;
 import zrx.com.leetcode.Q0020.*;
+import zrx.com.leetcode.Q0040.Q0042TrappingRainWater;
 import zrx.com.leetcode.UtilsTest.MyArrayAddOneTest;
 import zrx.com.leetcode.UtilsTest.MyStringAllIndexOfTest;
 import zrx.com.leetcode.utils.LeerCodeTest.QuestionDemo;
@@ -26,13 +27,15 @@ public class AllTest {
         TestForLeetCode.happy(new Q0027RemoveElement());
         TestForLeetCode.happy(new Q0028ImplementStrStrBrute());
         TestForLeetCode.happyTimeLimit(new Q0028ImplementStrStrKMP(),2);
-        TestForLeetCode.happyTimeLimit(new Q0030SubstringWithConcatenationOfAllWords(),2);
+        TestForLeetCode.happyTimeLimit(new Q0030SubstringWithConcatenationOfAllWordsBrute(),2);
+        TestForLeetCode.happyTimeLimit(new Q0030SubstringWithConcatenationOfAllWordsMap(),5);
+        TestForLeetCode.happyTimeLimit(new Q0042TrappingRainWater(),5);
+
     }
 
     @Test
     public void utilsTest(){
         TestForLeetCode.happy(new MyStringAllIndexOfTest());
         TestForLeetCode.happy(new MyArrayAddOneTest());
-
     }
 }

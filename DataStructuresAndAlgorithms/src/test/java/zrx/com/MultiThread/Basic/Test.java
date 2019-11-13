@@ -1,6 +1,8 @@
 package zrx.com.MultiThread.Basic;
 
 import zrx.com.MultiThread.Basic.BasicSkill.ConcurrentAccess;
+import zrx.com.MultiThread.Basic.BasicSkill.ExecutorLearn;
+import zrx.com.MultiThread.Basic.BasicSkill.FutureLearn;
 import zrx.com.MultiThread.Basic.BasicSkill.HowToStopAThread;
 import zrx.com.MultiThread.MyTools;
 import zrx.com.leetcode.utils.MyTimer;
@@ -18,6 +20,14 @@ import zrx.com.leetcode.utils.MyTimer;
 
 public class Test {
     @org.junit.Test public void Test(){}
+
+    @org.junit.Test public void TestExecutor(){
+        ExecutorLearn.learn();
+    }
+
+    @org.junit.Test public void FutureTest(){
+        FutureLearn.learn();
+    }
 
     @org.junit.Test public void TestConcurrentAccess(){
         ConcurrentAccess.test();
@@ -41,4 +51,5 @@ public class Test {
     @org.junit.Test public void testHowToStopAThread(){
         HowToStopAThread.learn();
     }
+
 }

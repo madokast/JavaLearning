@@ -6,6 +6,10 @@ import zrx.com.leetcode.utils.MyTimer;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.List;
+import java.util.concurrent.Callable;
+import java.util.concurrent.FutureTask;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 
 /**
  * Description
@@ -19,25 +23,49 @@ import java.util.List;
  */
 
 public class TestForLeetCode {
-    public static void happyTimeLimit(Question q,int maxSecond){
-        Thread mainThread = Thread.currentThread();
-        Thread thread = new Thread(()->{
+    public static void happyTimeLimit(Question q, int maxSecond) {
+        //使用future重写
+        Callable<?> callable = () -> {
             happy(q);
-            mainThread.interrupt();
-        });
-        thread.start();
+            return null;//不需要返回值
+        };
+
+        FutureTask<?> futureTask = new FutureTask<>(callable);
+
+        Thread runTheTest = new Thread(futureTask);
+        runTheTest.setDaemon(true);//神来之笔
+        runTheTest.start();
+
         try {
-            thread.join(maxSecond*1000);
-        }catch (InterruptedException e){
-            return;
+            //核心代码
+            futureTask.get(maxSecond, TimeUnit.SECONDS);
+        }catch (TimeoutException te){
+            System.err.println("计算超时"+"["+maxSecond+"s]"+"："+q.getQuestionName());
+        }
+        catch (Exception e){
+            System.err.println("TestForLeetCode happyTimeLimit未知错误");
+            e.printStackTrace();
         }
 
-        System.err.println("计算超时"+"["+maxSecond+"s]"+"："+q.getQuestionName());
-        try {
-            thread.stop();
-        }catch (ThreadDeath e){
-            return;
-        }
+
+//        Thread mainThread = Thread.currentThread();
+//        Thread thread = new Thread(()->{
+//            happy(q);
+//            mainThread.interrupt();
+//        });
+//        thread.start();
+//        try {
+//            thread.join(maxSecond*1000);
+//        }catch (InterruptedException e){
+//            return;
+//        }
+//
+//        System.err.println("计算超时"+"["+maxSecond+"s]"+"："+q.getQuestionName());
+//        try {
+//            thread.stop();
+//        }catch (ThreadDeath e){
+//            return;
+//        }
     }
 
     public static void happy(Question q) {
@@ -63,7 +91,7 @@ public class TestForLeetCode {
         for (int i = 0; i < times; i++) {
             System.out.println("***测试第" + (i + 1) + "组");
             try {
-                oneByOne(q,entry, inputsList.get(i), answerList.get(i));
+                oneByOne(q, entry, inputsList.get(i), answerList.get(i));
             } catch (Exception e) {
                 System.err.println("测试中出现异常，测试中断");
                 e.printStackTrace();
@@ -76,7 +104,7 @@ public class TestForLeetCode {
         System.out.println("------ " + questionName + " 测试完毕，用时" + runtimeBack + "ms ------\n\n");
     }
 
-    private static void oneByOne(Question q,TestEntry entry, Input[] inputs, Answer answer) throws Exception {
+    private static void oneByOne(Question q, TestEntry entry, Input[] inputs, Answer answer) throws Exception {
         final Class<?> solutionClass = entry.getSolution().getClass();
         final Method testMethod = solutionClass.getMethod(entry.getMethodName(), entry.getParameters());
         final int[] reprintInputs = q.reprintInputs();
@@ -87,10 +115,10 @@ public class TestForLeetCode {
             testMethodInput[i] = inputs[i].getValue();
         }
 
-        if(reprintInputs.length!=0){
+        if (reprintInputs.length != 0) {
             for (int reprintInput : reprintInputs) {
                 String parameterName = testMethod.getParameters()[reprintInput].getName();
-                System.out.println("形参("+parameterName+")执行前："+Printer.print(inputs[reprintInput].getClazz(),
+                System.out.println("形参(" + parameterName + ")执行前：" + Printer.print(inputs[reprintInput].getClazz(),
                         inputs[reprintInput].getValue()));
             }
         }
@@ -99,7 +127,7 @@ public class TestForLeetCode {
         Object ret = null;
         try {
             ret = testMethod.invoke(entry.getSolution(), testMethodInput);
-        }catch (InvocationTargetException e){
+        } catch (InvocationTargetException e) {
             // 测试超时引发
             return;
         }
@@ -107,10 +135,10 @@ public class TestForLeetCode {
         System.out.println("输出：" + Printer.print(answer.getClazz(), ret));
         System.out.println("答案：" + Printer.print(answer.getClazz(), answer.getValue()));
 
-        if(reprintInputs.length!=0){
+        if (reprintInputs.length != 0) {
             for (int reprintInput : reprintInputs) {
                 String parameterName = testMethod.getParameters()[reprintInput].getName();
-                System.out.println("形参("+parameterName+")执行后："+Printer.print(inputs[reprintInput].getClazz(),
+                System.out.println("形参(" + parameterName + ")执行后：" + Printer.print(inputs[reprintInput].getClazz(),
                         inputs[reprintInput].getValue()));
             }
         }

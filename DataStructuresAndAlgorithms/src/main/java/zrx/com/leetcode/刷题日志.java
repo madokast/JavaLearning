@@ -4,6 +4,8 @@ import zrx.com.leetcode.Q0000.*;
 import zrx.com.leetcode.Q0020.Q0026RemoveDuplicatesFromSortedArray;
 import zrx.com.leetcode.Q0020.Q0027RemoveElement;
 import zrx.com.leetcode.Q0020.Q0028ImplementStrStrKMP;
+import zrx.com.leetcode.Q0020.Q0030SubstringWithConcatenationOfAllWordsMap;
+import zrx.com.leetcode.Q0040.Q0042TrappingRainWater;
 import zrx.com.leetcode.Q0160.Q0167TwoSum2InputArrayIsSorted;
 import zrx.com.leetcode.Q0440.Q0454FourSumII;
 import zrx.com.leetcode.Q0560.Q0560SubarraySumEqualsK;
@@ -43,12 +45,20 @@ import zrx.com.leetcode.Q0560.Q0560SubarraySumEqualsK;
  * 0028 28. Implement strStr() KMP算法
  * @see Q0028ImplementStrStrKMP
  *
- * 0030 30. Substring with Concatenation of All Words
- * @see
+ * 2019年11月11日
+ * 0030 30. Substring with Concatenation of All Words 好题目
+ * @see Q0030SubstringWithConcatenationOfAllWordsMap
  * 0042 42. Trapping Rain Water
- * @see
+ * @see Q0042TrappingRainWater
+ *
+ *
  * 0061 61. Rotate List
  * @see
+ * 238. Product of Array Except Self
+ * @see
+ * 75. Sort Colors
+ * @see
+ *
  */
 
 public class 刷题日志 {
@@ -62,6 +72,8 @@ public class 刷题日志 {
     private Q0026RemoveDuplicatesFromSortedArray q0026RemoveDuplicatesFromSortedArray;
     private Q0027RemoveElement q0027RemoveElement;
     private Q0028ImplementStrStrKMP q0028ImplementStrStrKMP;
+    private Q0030SubstringWithConcatenationOfAllWordsMap q0030SubstringWithConcatenationOfAllWordsMap;
+    private Q0042TrappingRainWater q0042TrappingRainWater;
     private Q0167TwoSum2InputArrayIsSorted q0167TwoSum2InputArrayIsSorted;
     private Q0454FourSumII q0454FourSumII;
     private Q0560SubarraySumEqualsK q0560SubarraySumEqualsK;

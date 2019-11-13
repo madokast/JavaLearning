@@ -9,6 +9,7 @@ zrx\com\leetcode\utils\LeerCodeTest\Input.class
 zrx\com\leetcode\Q0000\Q0015ThreeSum.class
 zrx\com\leetcode\utils\LeerCodeTest\Value.class
 zrx\com\leetcode\À¢Ã‚»’÷æ.class
+zrx\com\leetcode\Q0020\Q0030SubstringWithConcatenationOfAllWordsBrute.class
 zrx\com\leetcode\utils\singlyLinkedList\ListNode.class
 zrx\com\leetcode\Q0020\Q0028ImplementStrStrKMP.class
 zrx\com\leetcode\Q0000\Solution0019.class
@@ -24,7 +25,6 @@ zrx\com\leetcode\Q0000\Solution.class
 zrx\com\leetcode\Q0560\Q0560SubarraySumEqualsK.class
 zrx\com\leetcode\Q0000\Solution0016.class
 zrx\com\leetcode\utils\LeerCodeTest\EqualMethod.class
-zrx\com\leetcode\Q0020\Q0030SubstringWithConcatenationOfAllWords$Solution0030.class
 zrx\com\leetcode\Q0020\Q0028ImplementStrStrBrute.class
 zrx\com\leetcode\Q0000\Q0019RemoveNthNodeFromEndOfList.class
 zrx\com\leetcode\Q0000\Q0018FourSum.class
@@ -39,6 +39,7 @@ zrx\com\MultiThread\Basic\BasicSkill\ConcurrentAccessSynchronized.class
 zrx\com\leetcode\Q0000\Doublet.class
 zrx\com\leetcode\Q0160\Q0167TwoSum2InputArrayIsSorted.class
 zrx\com\leetcode\Q0000\Q0011ContainerWithMostWater.class
+zrx\com\leetcode\Q0020\Q0030SubstringWithConcatenationOfAllWordsBrute$Solution0030.class
 zrx\com\leetcode\utils\MyArrayTools.class
 zrx\com\leetcode\Q0020\Q0026RemoveDuplicatesFromSortedArray$Solution0026.class
 zrx\com\others\Symbolics\Vector.class
@@ -48,17 +49,22 @@ zrx\com\leetcode\Q0020\Q0028ImplementStrStrKMP$Solution0028.class
 zrx\com\leetcode\Q0000\Quadruplet.class
 zrx\com\leetcode\Q0440\Doublet.class
 zrx\com\leetcode\Q0020\Q0027RemoveElement.class
+zrx\com\leetcode\Q0040\Q0042TrappingRainWater.class
 zrx\com\others\Symbolics\Matrix3.class
 zrx\com\leetcode\Q0000\Q0001TwoSum.class
 zrx\com\leetcode\utils\MyRandom.class
+zrx\com\MultiThread\Basic\BasicSkill\FutureLearn.class
 zrx\com\leetcode\utils\MyTimer.class
+zrx\com\leetcode\Q0040\Q0042TrappingRainWater$Solution0042.class
 zrx\com\leetcode\utils\LeerCodeTest\TestEntry.class
 zrx\com\MultiThread\Basic\BasicSkill\ConcurrentAccess.class
 zrx\com\leetcode\utils\LeerCodeTest\Printer.class
 zrx\com\MultiThread\Basic\BasicSkill\HowToStopAThread.class
 zrx\com\others\Symbolics\Factor.class
-zrx\com\leetcode\Q0020\Q0030SubstringWithConcatenationOfAllWords.class
+zrx\com\MultiThread\Basic\BasicSkill\ExecutorLearn.class
 zrx\com\leetcode\Q0440\Solution0454.class
 zrx\com\leetcode\Q0000\Q0003LongestSubstringWithoutRepeatingCharacters.class
+zrx\com\leetcode\Q0020\Q0030SubstringWithConcatenationOfAllWordsMap.class
 zrx\com\leetcode\Q0160\Solution.class
 zrx\com\MultiThread\MyTools.class
+zrx\com\leetcode\Q0020\Q0030SubstringWithConcatenationOfAllWordsMap$Solution0030.class

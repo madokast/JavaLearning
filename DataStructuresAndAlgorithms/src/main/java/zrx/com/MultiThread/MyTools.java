@@ -13,6 +13,27 @@ package zrx.com.MultiThread;
 
 public class MyTools {
     /**
+     * 打印调用这个方法的前一个方法名
+     * 类名+方法名
+     */
+    public static void printCurrentMethod(boolean isErr){
+        final StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
+        final StackTraceElement traceElement = stackTrace[2];
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("\n-------正在执行").
+                append(traceElement.getClassName()).
+                append("::").
+                append(traceElement.getMethodName());
+
+        if(isErr){
+            System.err.println(sb.toString());
+        }else {
+            System.out.println(sb.toString());
+        }
+    }
+
+    /**
      * 自己睡ms毫秒
      * @param ms 毫秒
      */
@@ -20,7 +41,7 @@ public class MyTools {
         try {
             Thread.sleep(ms);
         }catch (InterruptedException e){
-            e.printStackTrace();
+//            e.printStackTrace();
         }
     }
 

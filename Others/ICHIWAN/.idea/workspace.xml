@@ -7,75 +7,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c48bac0-8308-43cd-b824-4f2fb4c19430" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/ConcurrentAccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/HowToStopAThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/MyTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0000/Q0003LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0000/Q0011ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0000/Q0019RemoveNthNodeFromEndOfList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0020/Q0026RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0020/Q0027RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0020/Q0028ImplementStrStrBrute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0020/Q0028ImplementStrStrKMP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0020/Q0030SubstringWithConcatenationOfAllWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/EqualJudge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/EqualMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/QuestionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/TestEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/TestForLeetCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/ToString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Value.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyStringTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/singlyLinkedList/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/MultiThread/Basic/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/AllTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/UtilsTest/MyArrayAddOneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/UtilsTest/MyStringAllIndexOfTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/ExecutorLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/FutureLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0020/Q0030SubstringWithConcatenationOfAllWordsBrute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0040/Q0042TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/others/JunitLearn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0000/Q0001TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0000/Q0001TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0000/Q0015ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0000/Q0015ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0000/Q0018FourSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0000/Q0018FourSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0160/Q0167TwoSum2InputArrayIsSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0160/Q0167TwoSum2InputArrayIsSorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0440/Q0454FourSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0440/Q0454FourSumII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyArrayTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyArrayTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/MyTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/MyTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0020/Q0030SubstringWithConcatenationOfAllWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0020/Q0030SubstringWithConcatenationOfAllWordsMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/TestEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/TestEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/TestForLeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/TestForLeetCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyRequire.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyRequire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyTimer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/刷题日志.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/刷题日志.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/others/Symbolics/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/others/Symbolics/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/others/Symbolics/Factor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/others/Symbolics/Factor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/others/Symbolics/Symbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/others/Symbolics/Symbol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/Q0000Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/NoUse/Q0000Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/Q0160Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/NoUse/Q0160Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/UtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/NoUse/UtilsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/others/Symblic/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/others/Symblic/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/t126.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/t126.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/MultiThread/Basic/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/MultiThread/Basic/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/AllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/AllTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.Q0000Test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.Q0160Test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.others.Symblic.Test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.Q0000Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.Q0160Test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.others.Symblic.Test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.MultiThread.Basic.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.MultiThread.Basic.Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.AllTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.AllTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.Q0000Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.Q0000Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.UtilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.UtilsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.MultiThread.Basic.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.MultiThread.Basic.Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.AllTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.AllTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.pom" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,7 +81,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ichiwan/web/servlet/web/HandOutServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="71">
               <caret line="36" column="76" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -233,7 +196,7 @@
     <option name="x" value="-425" />
     <option name="y" value="325" />
     <option name="width" value="2420" />
-    <option name="height" value="1104" />
+    <option name="height" value="1105" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -243,8 +206,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -618,6 +581,8 @@
       <workItem from="1571362496181" duration="5478000" />
       <workItem from="1571972142523" duration="10938000" />
       <workItem from="1573201608166" duration="1288000" />
+      <workItem from="1573454991989" duration="625000" />
+      <workItem from="1573473249739" duration="694000" />
     </task>
     <servers />
   </component>
@@ -654,7 +619,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99880000" />
+    <option name="totallyTimeSpent" value="101199000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -668,7 +633,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.1461126" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.15013404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -678,7 +643,7 @@
       <window_info id="Web" order="7" sideWeight="0.50141644" side_tool="true" weight="0.20107238" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6274788" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6274788" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.65014166" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1169,7 +1134,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ichiwan/web/servlet/web/HandOutServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="71">
           <caret line="36" column="76" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />

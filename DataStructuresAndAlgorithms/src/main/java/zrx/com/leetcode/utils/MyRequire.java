@@ -13,6 +13,10 @@ package zrx.com.leetcode.utils;
  */
 
 public class MyRequire {
+    public static void throwRunTimeException(String msg){
+        throw new RuntimeException(msg);
+    }
+
     /**
      * MyTools!=b时，抛出异常
      * @param a 数1
