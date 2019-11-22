@@ -20,10 +20,10 @@ public class TimeCounterThread implements Runnable {
             while(true){
                 long current = System.currentTimeMillis()/1000;
                 long remain = end - current;
-                timeJLabels[textFieldNumber].setText(""+(remain));
-                Thread.currentThread().sleep(1000);
+                timeJLabels[textFieldNumber].setText(NumberConverter.convert((int) remain));
+                Thread.sleep(1000);
                 if(remain<=0){
-                    timeJLabels[textFieldNumber].setText("▇ ▇ ▇");
+                    timeJLabels[textFieldNumber].setText("〇〇〇");
                     break;
                 }
             }

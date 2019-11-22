@@ -14,13 +14,13 @@ public class CountDown {
     private static JPanel panelShow = new JPanel();
     private static JLabel[] timeJLabels = new JLabel[NUM];//文本
     private static JLabel[] labels = new JLabel[]{
-            new JLabel("1　　靈　　"),
-            new JLabel("2　廣　覽　"),
-            new JLabel("3　川　布　"),
-            new JLabel("4　晃　丘　"),
-            new JLabel("5　別　類　"),
-            new JLabel("6　別　類　"),
-            new JLabel("7　警　告　"),
+            new JLabel("　ヒ　"),
+            new JLabel("　フ　"),
+            new JLabel("　ミ　"),
+            new JLabel("　ヨ　"),
+            new JLabel("　イ　"),
+            new JLabel("　ム　"),
+            new JLabel("　オ　"),
     };
 
     static {

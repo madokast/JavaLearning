@@ -1,9 +1,6 @@
 package zrx.com.MultiThread.Basic;
 
-import zrx.com.MultiThread.Basic.BasicSkill.ConcurrentAccess;
-import zrx.com.MultiThread.Basic.BasicSkill.ExecutorLearn;
-import zrx.com.MultiThread.Basic.BasicSkill.FutureLearn;
-import zrx.com.MultiThread.Basic.BasicSkill.HowToStopAThread;
+import zrx.com.MultiThread.Basic.BasicSkill.*;
 import zrx.com.MultiThread.MyTools;
 import zrx.com.leetcode.utils.MyTimer;
 
@@ -20,6 +17,10 @@ import zrx.com.leetcode.utils.MyTimer;
 
 public class Test {
     @org.junit.Test public void Test(){}
+
+    @org.junit.Test public void IETest(){
+        InterruptExceptionTest.test();
+    }
 
     @org.junit.Test public void TestExecutor(){
         ExecutorLearn.learn();
