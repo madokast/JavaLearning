@@ -1,5 +1,7 @@
 package zrx.com.DesignPatterns;
 
+import zrx.com.DesignPatterns.ObserverPatttern.OPUser;
+
 import java.util.concurrent.Callable;
 import java.util.concurrent.Future;
 import java.util.concurrent.FutureTask;
@@ -16,6 +18,11 @@ import java.util.concurrent.FutureTask;
  */
 
 public class Test {
+    @org.junit.Test
+    public void test2(){
+        OPUser.use();
+    }
+
     @org.junit.Test
     public void test(){
         LearnAndTest.test();

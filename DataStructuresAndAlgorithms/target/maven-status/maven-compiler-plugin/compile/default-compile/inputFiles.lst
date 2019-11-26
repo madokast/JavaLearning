@@ -4,9 +4,11 @@ D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\c
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\MultiThread\Basic\BasicSkill\ConcurrentAccess.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\others\Symbolics\Factor.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\utils\LeerCodeTest\Printer.java
+D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\ObserverPatttern\OPUser.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0000\Q0016ThreeSumClosest.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0040\Q0042TrappingRainWater.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\utils\LeerCodeTest\Answer.java
+D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\ObserverPatttern\MyObservable.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0020\Q0028ImplementStrStrKMP.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\utils\LeerCodeTest\Input.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\strategyPpattern\duck\impl\MallarDuck.java
@@ -19,6 +21,7 @@ D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\c
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\utils\LeerCodeTest\EqualMethod.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\utils\MyTimer.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\MultiThread\Basic\BasicSkill\FutureLearn.java
+D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\ObserverPatttern\GeneralDisplay.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\utils\MyRequire.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\utils\LeerCodeTest\TestEntry.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\strategyPpattern\fly\impl\FlyWithWings.java
@@ -28,6 +31,7 @@ D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\c
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\others\Symbolics\Matrix3.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0020\Q0028ImplementStrStrBrute.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\utils\LeerCodeTest\ToString.java
+D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\ObserverPatttern\MyObserver.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\others\Symbolics\Symbol.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\strategyPpattern\fly\impl\FlyNoWay.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0000\Q0019RemoveNthNodeFromEndOfList.java
@@ -36,6 +40,7 @@ D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\c
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0160\Q0167TwoSum2InputArrayIsSorted.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0000\Q0011ContainerWithMostWater.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\MultiThread\Basic\BasicSkill\HowToStopAThread.java
+D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\ObserverPatttern\WeatherStation.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0560\Q0560SubarraySumEqualsK.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\utils\LeerCodeTest\TestForLeetCode.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\strategyPpattern\quack\QuackBehavior.java

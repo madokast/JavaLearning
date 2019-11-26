@@ -6,7 +6,7 @@ import zrx.com.leetcode.utils.MyTimer;
 
 /**
  * Description
- * TODO
+ * zrx.com.MultiThread.Basic
  * <p>
  * Data
  * 2019/11/9 17:47
@@ -17,6 +17,10 @@ import zrx.com.leetcode.utils.MyTimer;
 
 public class Test {
     @org.junit.Test public void Test(){}
+
+    @org.junit.Test public void VolatileKeyTest(){
+        VolatileKey.test();
+    }
 
     @org.junit.Test public void IETest(){
         InterruptExceptionTest.test();
