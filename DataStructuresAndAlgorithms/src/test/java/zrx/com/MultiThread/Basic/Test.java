@@ -18,6 +18,10 @@ import zrx.com.leetcode.utils.MyTimer;
 public class Test {
     @org.junit.Test public void Test(){}
 
+    @org.junit.Test public void ForkJoinPoolTestTest(){
+        ForkJoinPoolTest.go();
+    }
+
     @org.junit.Test public void VolatileKeyTest(){
         VolatileKey.test();
     }

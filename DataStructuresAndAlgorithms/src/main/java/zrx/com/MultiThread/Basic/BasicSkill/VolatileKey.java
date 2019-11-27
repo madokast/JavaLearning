@@ -17,7 +17,63 @@ public class VolatileKey {
     public static void test(){
         new VolatileKey().NoVolatileTest();
         new VolatileKey().HasVolatileTest();
+        try {
+            new VolatileKey().reRange();
+        }catch (Exception e){e.printStackTrace();}
     }
+
+
+
+    private static int x,y,a,b,c,d,e,f,count;
+    private void reRange() throws InterruptedException{
+
+        MyTools.printCurrentMethod(true);
+        System.out.println("测试跳过");
+        System.out.println("往期测试结果：" + "14294次: x, y = 0, 0");
+        System.err.println("CPU发生了重排序");
+
+        //这个测试太耗时间
+        if(false){
+            count = 0;
+
+            for(;;){
+                count++;
+                x = 0;
+                y = 0;
+                a = 0;
+                b = 0;
+                c = 0;
+                d = 0;
+                e = 0;
+                f = 0;
+
+                Thread t1 = new Thread(()->{
+                    c = 100;
+                    a = 1;
+                    d = 200;
+                    x = b;
+                });
+                Thread t2 = new Thread(()->{
+                    e = 1000;
+                    b = 1;
+                    f = 2000;
+                    y = a;
+                });
+                t1.start();
+                t2.start();
+
+                t1.join();
+                t2.join();
+
+                System.out.println(count+"次: " + "x, y = " + x+", "+y);
+                if(x==0&&y==0){
+                    System.err.println("CPU发生了重排序");
+                    break;
+                }
+            }
+        }
+    }
+
 
     private void HasVolatileTest(){
         MyTools.printCurrentMethod(true);
@@ -81,6 +137,7 @@ public class VolatileKey {
         public void setStop(boolean stop) {
             this.stop = stop;
         }
+
 
         public void run(){
             System.out.println("thread: 开始死循环");

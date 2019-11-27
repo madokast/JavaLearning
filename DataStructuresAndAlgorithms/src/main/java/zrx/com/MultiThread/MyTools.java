@@ -38,6 +38,10 @@ public class MyTools {
      * @param ms 毫秒
      */
     public static void sleepSelf(int ms){
+        sleepSelf((long)ms);
+    }
+
+    public static void sleepSelf(long ms){
         try {
             Thread.sleep(ms);
         }catch (InterruptedException e){
@@ -54,6 +58,11 @@ public class MyTools {
             int sum = 0;
             for (int j = 0; j < (Integer.MAX_VALUE - times)/100 ; j++) {
                 sum+=j;
+            }
+            if(sum==0){
+                System.err.println("hardWork(int times)这不可能吧");
+            }else {
+                return;
             }
         }
     }

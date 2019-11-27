@@ -18,7 +18,7 @@ import zrx.com.MultiThread.MyTools;
  */
 
 public class HowToStopAThread {
-    private static final int PERIOD = 500 ;
+    private static final int PERIOD = 300 ;
     public static void learn(){
         final HowToStopAThread how = new HowToStopAThread();
         how.interruptMethod();
@@ -86,7 +86,7 @@ public class HowToStopAThread {
             System.out.println("我是守护线程tA");
             for (int i = 0; i < 1000; i++) {
                 System.out.print("tA");
-                MyTools.hardWork(2);
+                MyTools.hardWork(128);
             }
         });
 
@@ -94,7 +94,7 @@ public class HowToStopAThread {
             System.out.println("我是守护线程tB");
             for (int i = 0; i < 1000; i++) {
                 System.out.print("tB");
-                MyTools.hardWork(1);
+                MyTools.hardWork(64);
             }
         });
 
