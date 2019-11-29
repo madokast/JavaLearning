@@ -2,6 +2,9 @@ package zrx.com.MultiThread.Basic.BasicSkill;
 
 import zrx.com.MultiThread.MyTools;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Description
  * 学习volatile关键字
@@ -31,6 +34,8 @@ public class VolatileKey {
         System.out.println("测试跳过");
         System.out.println("往期测试结果：" + "14294次: x, y = 0, 0");
         System.err.println("CPU发生了重排序");
+
+//        ArrayList arrayList;
 
         //这个测试太耗时间
         if(false){

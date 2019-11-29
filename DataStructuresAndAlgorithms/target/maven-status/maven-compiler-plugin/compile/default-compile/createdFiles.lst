@@ -11,10 +11,8 @@ zrx\com\DesignPatterns\strategyPpattern\duck\impl\MallarDuck.class
 zrx\com\leetcode\Q0020\Q0030SubstringWithConcatenationOfAllWordsBrute.class
 zrx\com\MultiThread\Basic\BasicSkill\ForkJoinPoolTest.class
 zrx\com\DesignPatterns\ObserverPatttern\FlowAPI\FlowAPIGo.class
-zrx\com\DesignPatterns\strategyPpattern\quack\QuackBehavior.class
 zrx\com\MultiThread\Basic\BasicSkill\VolatileKey$HasVolatile.class
 zrx\com\leetcode\utils\LeerCodeTest\ToString.class
-zrx\com\DesignPatterns\strategyPpattern\duck\Duck.class
 zrx\com\leetcode\utils\LeerCodeTest\SolutionXXXX.class
 zrx\com\MultiThread\Basic\BasicSkill\VolatileKey$NoVolatile.class
 zrx\com\leetcode\Q0020\Q0026RemoveDuplicatesFromSortedArray.class
@@ -88,6 +86,7 @@ zrx\com\MultiThread\Basic\BasicSkill\FutureLearn.class
 zrx\com\leetcode\Q0040\Q0042TrappingRainWater$Solution0042.class
 zrx\com\leetcode\utils\LeerCodeTest\TestEntry.class
 zrx\com\MultiThread\Basic\BasicSkill\ConcurrentAccess.class
+zrx\com\others\Permutation.class
 zrx\com\leetcode\utils\LeerCodeTest\Printer.class
 zrx\com\others\Symbolics\Factor.class
 zrx\com\MultiThread\Basic\BasicSkill\ExecutorLearn.class

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="zrx.com.MultiThread.Basic.Test" time="6.968" errors="0" skipped="0">
+<testsuite tests="9" failures="0" name="zrx.com.MultiThread.Basic.Test" time="6.491" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="12.0.1+12"/>
@@ -62,13 +62,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="IETest" time="0.274"/>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="FutureTest" time="1.096"/>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="testHowToStopAThread" time="0.764"/>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="TestExecutor" time="1.167"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="IETest" time="0.283"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="FutureTest" time="1.126"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="testHowToStopAThread" time="0.777"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="TestExecutor" time="1.228"/>
   <testcase classname="zrx.com.MultiThread.Basic.Test" name="Test" time="0"/>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="VolatileKeyTest" time="1.449"/>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="ForkJoinPoolTestTest" time="1.454"/>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="hardWorkTest" time="0.031"/>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="TestConcurrentAccess" time="0.733"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="VolatileKeyTest" time="1.455"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="ForkJoinPoolTestTest" time="0.944"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="hardWorkTest" time="0.048"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="TestConcurrentAccess" time="0.63"/>
 </testsuite>
