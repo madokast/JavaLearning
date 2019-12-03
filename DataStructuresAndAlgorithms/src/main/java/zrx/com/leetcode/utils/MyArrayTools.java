@@ -18,12 +18,12 @@ import java.util.List;
  */
 
 public class MyArrayTools {
-    public static String intArrayToString(Object arr){
-        if(!(arr instanceof int[])){
+    public static String intArrayToString(Object arr) {
+        if (!(arr instanceof int[])) {
             return arr.toString();
         }
 
-        int[] array = (int[])arr;
+        int[] array = (int[]) arr;
 
         StringBuilder sb = new StringBuilder();
         sb.append("ints[");
@@ -31,13 +31,90 @@ public class MyArrayTools {
             sb.append(array[i]);
             sb.append(",");
         }
-        sb.deleteCharAt(sb.length()-1);
+        sb.deleteCharAt(sb.length() - 1);
         sb.append("]");
 
         return sb.toString();
     }
+    /**
+     * 数组中指定范围是否反序
+     * 这里说的有序是，从大到小，可以相等
+     * 另见 isSorted
+     *
+     * @param arr            数组
+     * @param startIncluding 起始位置，包含
+     * @param endExcluding   结束位置，不包含
+     * @return 是否有序
+     */
+    public static boolean isAntiSorted(int[] arr, int startIncluding, int endExcluding){
+        if (endExcluding <= startIncluding)
+            MyRequire.throwRunTimeException("error in MyArrayTools::isSorted");
 
-    public static void swap(int[] arr,int i,int j){
+        if (endExcluding - startIncluding == 1)
+            return true;
+
+        for (int i = startIncluding; i < endExcluding - 1; i++) {
+            if (arr[i] < arr[i + 1])
+                return false;
+        }
+
+        return true;
+    }
+
+    public static boolean isAntiSorted(int[] arr){
+        return isAntiSorted(arr,0,arr.length);
+    }
+
+    /**
+     * 数组中指定范围是否有序
+     * 这里说的有序是，从小到大，可以相等
+     * 另见 isAntiSorted
+     *
+     * @param arr            数组
+     * @param startIncluding 起始位置，包含
+     * @param endExcluding   结束位置，不包含
+     * @return 是否有序
+     */
+    public static boolean isSorted(int[] arr, int startIncluding, int endExcluding) {
+        if (endExcluding <= startIncluding)
+            MyRequire.throwRunTimeException("error in MyArrayTools::isSorted");
+
+        if (endExcluding - startIncluding == 1)
+            return true;
+
+
+        for (int i = startIncluding; i < endExcluding - 1; i++) {
+            if (arr[i] > arr[i + 1])
+                return false;
+        }
+
+        return true;
+    }
+
+    public static boolean isSorted(int[] arr){
+        return isSorted(arr,0,arr.length);
+    }
+
+    /**
+     * 自然数数组生成
+     * 如n = 3
+     * 返回 1 2 3
+     *
+     * @param n 数目
+     * @return 自然数数组
+     */
+    public static int[] naturalNumber(int n) {
+        MyRequire.requireTrue(n > 0);
+
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = i + 1;
+        }
+
+        return arr;
+    }
+
+    public static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
@@ -206,29 +283,30 @@ public class MyArrayTools {
         }
     }
 
-    public static List<Integer> getIntList(int...ints){
+    public static List<Integer> getIntList(int... ints) {
         return MyArrayTools.intArrayToList(ints);
     }
 
     /**
      * 数组加法，对ret加1，max[i].length代表ret第i位的权
+     *
      * @param ret 被加数
      * @param max max[i].length代表ret第i位的权
      * @return 0-正常/ -1 溢出
      */
-    public static int addOne(int[] ret,int[][] max){
-        int i = ret.length-1;
+    public static int addOne(int[] ret, int[][] max) {
+        int i = ret.length - 1;
         int carry = 1;
-        while (carry!=0){
-            if(i==-1){
+        while (carry != 0) {
+            if (i == -1) {
                 return -1;//溢出
             }
             ret[i]++;
-            if(ret[i]==max[i].length){
-                ret[i]=0;
+            if (ret[i] == max[i].length) {
+                ret[i] = 0;
                 i--;
                 carry = 1;
-            }else {
+            } else {
                 carry = 0;
             }
         }

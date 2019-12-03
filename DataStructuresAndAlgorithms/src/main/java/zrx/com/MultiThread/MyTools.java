@@ -1,5 +1,7 @@
 package zrx.com.MultiThread;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 /**
  * Description
  * zrx.com.MultiThread
@@ -12,6 +14,30 @@ package zrx.com.MultiThread;
  */
 
 public class MyTools {
+
+    public static void joinAll(Thread...threads){
+        try {
+            for (Thread thread : threads) {
+                thread.join();
+            }
+        }catch (InterruptedException e){e.printStackTrace();}
+    }
+
+    private static final long startTime  = System.currentTimeMillis();
+    public static void printMsgWithThreadAndTime(String msg){
+        final long time = System.currentTimeMillis() - startTime;
+        System.out.println("["+Thread.currentThread().getName()+"]: " + msg + "[" + time + "]");
+    }
+
+    public static Thread runItInThread(Runnable r,boolean daemon){
+        Thread thread = new Thread(r);
+        thread.setDaemon(daemon);
+        thread.start();
+
+        return thread;
+    }
+
+
     /**
      * 打印调用这个方法的前一个方法名
      * 类名+方法名
@@ -31,6 +57,27 @@ public class MyTools {
         }else {
             System.out.println(sb.toString());
         }
+    }
+
+    public static void printCurrentMethod(boolean isErr,String msg){
+        final StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
+        final StackTraceElement traceElement = stackTrace[2];
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("\n-------正在执行").
+                append(traceElement.getClassName()).
+                append("::").
+                append(traceElement.getMethodName());
+
+        if(isErr){
+            System.err.println(sb.toString());
+            System.err.println(msg);
+        }else {
+            System.out.println(sb.toString());
+            System.out.println(msg);
+        }
+
+
     }
 
     /**

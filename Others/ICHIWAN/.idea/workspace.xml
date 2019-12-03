@@ -7,10 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c48bac0-8308-43cd-b824-4f2fb4c19430" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/others/Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/others/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/DecoratorPattern/Addition01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/DecoratorPattern/Addition02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/DecoratorPattern/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/DecoratorPattern/DesignPatternsLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/DecoratorPattern/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/Factorys/AbstractFactoryPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/Factorys/FactoryPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/Factorys/SimpleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/CompletionStageLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/ProducerConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/SuspendAndResume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/WaitNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/javaApi/CollectionAPI/CollectionLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/javaApi/concurrentAPI/ThreadLearn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/others/MyDualPivotQuicksort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/javaApi/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/UtilsTest/SmallTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/VolatileKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/VolatileKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/MyTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/MyTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyArrayTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyArrayTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/others/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/others/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/DesignPatterns/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/DesignPatterns/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/MultiThread/Basic/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/MultiThread/Basic/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/others/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/others/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
@@ -19,11 +39,22 @@
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.DesignPatterns.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.DesignPatterns.Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.MultiThread.Basic.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.MultiThread.Basic.Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.AllTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.AllTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.UtilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.UtilsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.others.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.others.Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.DesignPatterns.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.DesignPatterns.Test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.MultiThread.Basic.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.MultiThread.Basic.Test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.AllTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.AllTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.NoUse.Q0000Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.NoUse.Q0000Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.NoUse.UtilsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.NoUse.UtilsTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.others.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.others.Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ANKI/anki.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../ANKI/anki.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ANKI/低级PS软件-forANKI.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../ANKI/低级PS软件-forANKI.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,8 +97,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ichiwan/web/servlet/web/HandOutServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="327">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,10 +209,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="115" />
-    <option name="y" value="50" />
-    <option name="width" value="1750" />
-    <option name="height" value="980" />
+    <option name="x" value="143" />
+    <option name="y" value="62" />
+    <option name="width" value="2188" />
+    <option name="height" value="1225" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -191,9 +222,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -568,7 +599,8 @@
       <workItem from="1573201608166" duration="1288000" />
       <workItem from="1573454991989" duration="625000" />
       <workItem from="1573473249739" duration="694000" />
-      <workItem from="1574674142348" duration="2335000" />
+      <workItem from="1574674142348" duration="2373000" />
+      <workItem from="1575034639352" duration="863000" />
     </task>
     <servers />
   </component>
@@ -605,7 +637,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103534000" />
+    <option name="totallyTimeSpent" value="104435000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -617,10 +649,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.15214477" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.1930295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -630,7 +661,7 @@
       <window_info id="Web" order="7" sideWeight="0.50141644" side_tool="true" weight="0.20107238" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29036826" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36685553" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.65014166" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1121,8 +1152,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ichiwan/web/servlet/web/HandOutServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="327">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

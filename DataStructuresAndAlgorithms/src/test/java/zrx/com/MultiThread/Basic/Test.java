@@ -18,6 +18,20 @@ import zrx.com.leetcode.utils.MyTimer;
 public class Test {
     @org.junit.Test public void Test(){}
 
+    @org.junit.Test public void TestProducerConsumer(){
+        ProducerConsumer.go();
+    }
+
+    @org.junit.Test public void TestWaitNotify(){
+        WaitNotify.go();
+    }
+
+    @org.junit.Test public void TestSuspendAndResume(){
+        SuspendAndResume.go();
+    }
+
+    @org.junit.Test public void TestCompletionStageLearn(){CompletionStageLearn.go();}
+
     @org.junit.Test public void ForkJoinPoolTestTest(){
         ForkJoinPoolTest.go();
     }
