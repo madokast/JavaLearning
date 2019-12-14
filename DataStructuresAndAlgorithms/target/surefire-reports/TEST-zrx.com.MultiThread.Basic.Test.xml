@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="13" failures="0" name="zrx.com.MultiThread.Basic.Test" time="18.058" errors="0" skipped="0">
+<testsuite tests="16" failures="0" name="zrx.com.MultiThread.Basic.Test" time="19.356" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="12.0.1+12"/>
@@ -44,7 +44,7 @@
     <property name="java.class.path" value="D:\program\apache-maven-3.5.2\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="12"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.1.4 -s D:\program\apache-maven-3.5.2\conf\settings.xml test"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.1.4 -s D:\program\apache-maven-3.5.2\conf\settings.xml install"/>
     <property name="java.home" value="D:\program\jdk-12.0.1"/>
     <property name="user.language" value="zh"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -62,17 +62,20 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="IETest" time="0"/>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="FutureTest" time="0"/>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="testHowToStopAThread" time="0"/>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="TestExecutor" time="0"/>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="TestCompletionStageLearn" time="0.001"/>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="TestSuspendAndResume" time="0.791"/>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="TestProducerConsumer" time="10.174"/>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="Test" time="0.004"/>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="VolatileKeyTest" time="7.043"/>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="ForkJoinPoolTestTest" time="0.002"/>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="hardWorkTest" time="0"/>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="TestConcurrentAccess" time="0.003"/>
-  <testcase classname="zrx.com.MultiThread.Basic.Test" name="TestWaitNotify" time="0.04"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="IETest" time="0.243"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="FutureTest" time="1.014"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="LockLearnTest" time="1.79"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="testHowToStopAThread" time="0.72"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="TestExecutor" time="1.249"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="TestCompletionStageLearn" time="4.379"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="TestSuspendAndResume" time="2.301"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="TestProducerConsumer" time="1.008"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="Test" time="0"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="TestThreadLocalTest" time="0.003"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="VolatileKeyTest" time="1.276"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="TestJoinLearn" time="0.003"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="ForkJoinPoolTestTest" time="0.626"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="hardWorkTest" time="0.043"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="TestConcurrentAccess" time="0.574"/>
+  <testcase classname="zrx.com.MultiThread.Basic.Test" name="TestWaitNotify" time="4.127"/>
 </testsuite>

@@ -23,6 +23,14 @@ public class MyTools {
         }catch (InterruptedException e){e.printStackTrace();}
     }
 
+    public static void joinAll(long time,Thread...threads){
+        try {
+            for (Thread thread : threads) {
+                thread.join(time);
+            }
+        }catch (InterruptedException e){e.printStackTrace();}
+    }
+
     private static final long startTime  = System.currentTimeMillis();
     public static void printMsgWithThreadAndTime(String msg){
         final long time = System.currentTimeMillis() - startTime;

@@ -2,6 +2,7 @@ package zrx.com.MultiThread.Basic.BasicSkill;
 
 import zrx.com.MultiThread.MyTools;
 
+import java.util.List;
 import java.util.Queue;
 import java.util.Random;
 import java.util.concurrent.LinkedBlockingQueue;

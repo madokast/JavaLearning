@@ -37,6 +37,7 @@
                     </compilerArgs>
                     <source>9</source>
                     <target>9</target>
+                    <useIncrementalCompilation>true</useIncrementalCompilation>
                 </configuration>
             </plugin>
         </plugins>
