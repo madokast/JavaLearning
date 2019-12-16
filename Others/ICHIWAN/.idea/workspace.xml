@@ -8,31 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5c48bac0-8308-43cd-b824-4f2fb4c19430" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/LockLearn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/LockLearn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ANKI/anki.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../ANKI/anki.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ANKI/低级PS软件-forANKI.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../ANKI/低级PS软件-forANKI.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/avalon-framework/avalon-framework/4.1.3/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/avalon-framework/avalon-framework/4.1.3/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/commons-digester/commons-digester/1.6/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/commons-digester/commons-digester/1.6/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.0.4/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.0.4/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/logkit/logkit/1.0.1/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/logkit/logkit/1.0.1/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/doxia/doxia-site-renderer/1.7.4/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/doxia/doxia-site-renderer/1.7.4/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/doxia/doxia-skin-model/1.7.4/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/doxia/doxia-skin-model/1.7.4/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-compat/3.0/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-compat/3.0/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-interpolation/1.22/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-interpolation/1.22/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-io/3.0.0/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-io/3.0.0/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-velocity/1.2/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-velocity/1.2/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-api/1.0.2.v20150114/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-api/1.0.2.v20150114/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-impl/1.0.2.v20150114/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-impl/1.0.2.v20150114/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-spi/1.0.2.v20150114/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-spi/1.0.2.v20150114/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-util/1.0.2.v20150114/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-util/1.0.2.v20150114/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.6/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.6/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.4/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.4/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +38,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ichiwan/web/servlet/web/PageServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-721">
+            <state relative-caret-position="-606">
               <caret line="67" column="75" selection-start-line="67" selection-start-column="75" selection-end-line="67" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -579,7 +554,7 @@
       <workItem from="1573473249739" duration="694000" />
       <workItem from="1574674142348" duration="2373000" />
       <workItem from="1575034639352" duration="882000" />
-      <workItem from="1575451951054" duration="2097000" />
+      <workItem from="1575451951054" duration="2411000" />
     </task>
     <servers />
   </component>
@@ -616,7 +591,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106551000" />
+    <option name="totallyTimeSpent" value="106865000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -629,7 +604,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.19571045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -641,7 +615,7 @@
       <window_info id="Web" order="7" sideWeight="0.50141644" side_tool="true" weight="0.20107238" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16288953" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5042493" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.65014166" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1132,7 +1106,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ichiwan/web/servlet/web/PageServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-721">
+        <state relative-caret-position="-606">
           <caret line="67" column="75" selection-start-line="67" selection-start-column="75" selection-end-line="67" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
