@@ -7,42 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c48bac0-8308-43cd-b824-4f2fb4c19430" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/JoinLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/LockLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/ThreadLocalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/others/EqualEqual.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/ProducerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/ProducerConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/MyTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/MyTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/MultiThread/Basic/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/MultiThread/Basic/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/others/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/others/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.DesignPatterns.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.DesignPatterns.Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.MultiThread.Basic.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.MultiThread.Basic.Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.javaApi.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.javaApi.Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.AllTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.AllTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.Q0000Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.Q0000Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.UtilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.UtilsTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SmallTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SmallTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.others.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.others.Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.DesignPatterns.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.DesignPatterns.Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.MultiThread.Basic.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.MultiThread.Basic.Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.javaApi.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.javaApi.Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.AllTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.AllTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.others.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.others.Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/LockLearn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/LockLearn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ANKI/anki.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../ANKI/anki.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ANKI/低级PS软件-forANKI.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../ANKI/低级PS软件-forANKI.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.pom" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/avalon-framework/avalon-framework/4.1.3/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/avalon-framework/avalon-framework/4.1.3/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/commons-digester/commons-digester/1.6/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/commons-digester/commons-digester/1.6/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.0.4/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.0.4/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/logkit/logkit/1.0.1/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/logkit/logkit/1.0.1/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/doxia/doxia-site-renderer/1.7.4/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/doxia/doxia-site-renderer/1.7.4/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/doxia/doxia-skin-model/1.7.4/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/doxia/doxia-skin-model/1.7.4/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-compat/3.0/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-compat/3.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-interpolation/1.22/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-interpolation/1.22/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-io/3.0.0/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-io/3.0.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-velocity/1.2/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-velocity/1.2/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-api/1.0.2.v20150114/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-api/1.0.2.v20150114/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-impl/1.0.2.v20150114/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-impl/1.0.2.v20150114/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-spi/1.0.2.v20150114/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-spi/1.0.2.v20150114/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-util/1.0.2.v20150114/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-util/1.0.2.v20150114/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.6/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.6/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.4/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.4/_remote.repositories" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" afterDir="false" />
     </list>
@@ -198,7 +186,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -640,7 +628,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.19571045" />

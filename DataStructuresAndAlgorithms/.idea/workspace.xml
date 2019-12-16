@@ -2,44 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e4013e8-60ef-4cf7-9904-25b5f1b052be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/JoinLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/LockLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/ThreadLocalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/zrx/com/others/EqualEqual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/springBoot201912.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/application/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/application/FileUploadSizeLimitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/ApplicationPropertiesReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/FileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/InjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/JsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/RestControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/SampleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/WebpageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/methodTest/GetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/methodTest/OtherMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/methodTest/PostTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/domain/FileUploadState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/domain/InjectObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/hotDeployTrigger.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/inject.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/static/fileupload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/static/img/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/static/js/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/static/存放静态文件如CSS_JS_IMG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/templates/存放静态页面如HTML" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/ProducerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/ProducerConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/MyTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/MyTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/zrx/com/MultiThread/Basic/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/zrx/com/MultiThread/Basic/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/zrx/com/others/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/zrx/com/others/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.DesignPatterns.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.DesignPatterns.Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.MultiThread.Basic.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.MultiThread.Basic.Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.javaApi.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.javaApi.Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.AllTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.AllTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.Q0000Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.Q0000Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.UtilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.UtilsTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SmallTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SmallTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.others.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.others.Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.DesignPatterns.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.DesignPatterns.Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.MultiThread.Basic.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.MultiThread.Basic.Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.javaApi.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.javaApi.Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.AllTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.AllTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.NoUse.Q0000Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.NoUse.Q0000Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.SmallTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.SmallTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.others.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.others.Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/ANKI/anki.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/ANKI/anki.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/ANKI/低级PS软件-forANKI.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/ANKI/低级PS软件-forANKI.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/LockLearn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/LockLearn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Others/ICHIWAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/ICHIWAN/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.pom" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/avalon-framework/avalon-framework/4.1.3/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/avalon-framework/avalon-framework/4.1.3/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/commons-digester/commons-digester/1.6/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/commons-digester/commons-digester/1.6/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.0.4/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.0.4/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/logkit/logkit/1.0.1/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/logkit/logkit/1.0.1/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/doxia/doxia-site-renderer/1.7.4/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/doxia/doxia-site-renderer/1.7.4/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/doxia/doxia-skin-model/1.7.4/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/doxia/doxia-skin-model/1.7.4/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/maven-compat/3.0/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/maven-compat/3.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-interpolation/1.22/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-interpolation/1.22/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-io/3.0.0/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-io/3.0.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-velocity/1.2/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-velocity/1.2/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-api/1.0.2.v20150114/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-api/1.0.2.v20150114/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-impl/1.0.2.v20150114/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-impl/1.0.2.v20150114/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-spi/1.0.2.v20150114/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-spi/1.0.2.v20150114/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-util/1.0.2.v20150114/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/eclipse/aether/aether-util/1.0.2.v20150114/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.6/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.6/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.4/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.4/_remote.repositories" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" afterDir="false" />
     </list>
@@ -73,14 +89,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/LockLearn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="60" column="59" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
+            <state relative-caret-position="178">
+              <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="41" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/program/jdk-12.0.1/lib/src.zip!/java.base/java/util/concurrent/CompletableFuture.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="1984" column="75" selection-start-line="1984" selection-start-column="67" selection-end-line="1984" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -220,7 +254,7 @@
     <option name="jreName" value="12" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=GB2312" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -508,7 +542,7 @@
       <workItem from="1573473378218" duration="19395000" />
       <workItem from="1574674562842" duration="25763000" />
       <workItem from="1575034914707" duration="67236000" />
-      <workItem from="1575449665325" duration="22123000" />
+      <workItem from="1575449665325" duration="27309000" />
     </task>
     <servers />
   </component>
@@ -545,7 +579,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228247000" />
+    <option name="totallyTimeSpent" value="233433000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -557,10 +591,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16621985" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16621985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -569,7 +603,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25779036" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23937677" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37818697" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -636,37 +670,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/program/jdk-12.0.1/lib/src.zip!/java.base/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="113" column="55" selection-start-line="113" selection-start-column="55" selection-end-line="113" selection-end-column="55" />
-          <folding>
-            <element signature="e#6941#6942#0" expanded="true" />
-            <element signature="e#7006#7007#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/jdk-12.0.1/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="176" column="23" selection-start-line="176" selection-start-column="23" selection-end-line="176" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#148583#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#2444#2445#0" expanded="true" />
-            <element signature="e#2476#2477#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Void.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="28" column="64" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/program/jdk-12.0.1/lib/src.zip!/java.base/java/lang/ThreadGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -929,13 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/zrx/com/others/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
@@ -1165,13 +1161,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/program/jdk-12.0.1/lib/src.zip!/java.base/java/util/concurrent/CompletableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="1984" column="75" selection-start-line="1984" selection-start-column="67" selection-end-line="1984" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/jdk-12.0.1/lib/src.zip!/java.base/java/util/function/BiConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/jdk-12.0.1/lib/src.zip!/java.base/java/util/concurrent/CompletionStage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="781" column="14" selection-start-line="781" selection-start-column="9" selection-end-line="781" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/LockLearn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="60" column="59" selection-start-line="60" selection-start-column="59" selection-end-line="60" selection-end-column="59" />
+        <state relative-caret-position="178">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="41" selection-end-column="21" />
         </state>
       </provider>
     </entry>

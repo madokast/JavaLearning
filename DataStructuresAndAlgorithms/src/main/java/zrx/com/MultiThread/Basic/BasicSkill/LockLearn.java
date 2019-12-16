@@ -4,6 +4,9 @@ import sun.misc.Unsafe;
 import zrx.com.MultiThread.MyTools;
 
 import java.lang.reflect.Field;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.CompletionStage;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.LockSupport;
@@ -67,6 +70,26 @@ public class LockLearn {
             finally {
                 lock.unlock();
             }
+
+            CompletionStage completionStage;
+            CompletionStage completableFuture;
+//            CompletableFuture.supplyAsync()
+//            completionStage.whenComplete()
+
+//            SecurityManager securityManager = System.getSecurityManager();
+
+            AtomicInteger atomicInteger = new AtomicInteger(1);
+//            atomicInteger.compareAndSet()
+
+
+            Unsafe unsafe;
+//            unsafe.loadFence();
+//            unsafe.storeFence();
+
+//            unsafe.objectFieldOffset(field)
+
+
+
         }
     }
 
