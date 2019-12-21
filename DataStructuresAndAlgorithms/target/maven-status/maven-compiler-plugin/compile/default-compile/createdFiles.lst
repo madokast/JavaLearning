@@ -49,7 +49,6 @@ zrx\com\MultiThread\Basic\BasicSkill\Summer.class
 zrx\com\MultiThread\Basic\BasicSkill\ThreadLocalTest$A.class
 zrx\com\DesignPatterns\ObserverPatttern\OPUser.class
 zrx\com\leetcode\utils\MyTimer.class
-zrx\com\MultiThread\Basic\BasicSkill\LockLearn$1.class
 zrx\com\MultiThread\Basic\BasicSkill\ProducerConsumer$Consumer.class
 zrx\com\MultiThread\Basic\BasicSkill\HowToStopAThread.class
 zrx\com\DesignPatterns\DecoratorPattern\Food.class
@@ -86,7 +85,6 @@ zrx\com\DesignPatterns\DecoratorPattern\Base.class
 zrx\com\DesignPatterns\ObserverPatttern\GeneralDisplay.class
 zrx\com\leetcode\Q0020\Q0028ImplementStrStrBrute.class
 zrx\com\MultiThread\Basic\BasicSkill\SuspendAndResume.class
-zrx\com\MultiThread\Basic\BasicSkill\VolatileKey$1.class
 zrx\com\DesignPatterns\strategyPpattern\fly\FlyBehavior.class
 zrx\com\MultiThread\Basic\BasicSkill\InterruptExceptionTest.class
 zrx\com\leetcode\Q0000\Q0018FourSum.class

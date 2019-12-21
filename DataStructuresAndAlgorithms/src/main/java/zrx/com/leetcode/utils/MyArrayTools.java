@@ -1,8 +1,6 @@
 package zrx.com.leetcode.utils;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -18,6 +16,89 @@ import java.util.List;
  */
 
 public class MyArrayTools {
+
+    /**
+     * 找无序数组 arr 种第 k 小的数
+     * 方法：数组划分法
+     *
+     * @param arr 数组
+     * @param k   要找的数，第k小
+     * @return 要找的数
+     */
+    public static int select(int[] arr, int k) {
+        MyRequire.requireTrue(k >= 0);
+        MyRequire.requireTrue(k <= arr.length);
+
+        int left = 0;
+        int right = arr.length - 1;
+
+        while (true) {
+            final int pointOfPivot = partition(arr, left, right, left);
+
+            if (pointOfPivot == k - 1){
+                return arr[pointOfPivot];
+            }else if(pointOfPivot < k -1){
+                left = pointOfPivot + 1;
+            }else {
+                right = pointOfPivot - 1;
+            }
+
+        }
+    }
+
+    /**
+     * 数组划分，即快排的核心算法
+     * arr[pointOfPivot] 即 pivot
+     * 划分为 小于pivot pivot 大于等于pivot
+     * <p>
+     * 2019年12月17日 通过测试
+     *
+     * @param arr          数组 会发生变化
+     * @param left0        数组左端 包含
+     * @param right0       数组右端 包含
+     * @param pointOfPivot 用于pivot的索引
+     * @return pivot index
+     */
+    public static int partition(int[] arr, int left0, int right0, int pointOfPivot) {
+        MyRequire.requireTrue(pointOfPivot >= left0);
+        MyRequire.requireTrue(pointOfPivot <= right0);
+
+        if (left0 == right0)
+            return left0;
+
+        int pivot = arr[pointOfPivot]; //提取 pivot
+        arr[pointOfPivot] = arr[left0];//保存 arr[left0]
+
+        int left = left0;
+        int right = right0;
+        boolean onRight = true;
+
+        while (right > left) {
+            if (onRight) {
+                //right
+                while (arr[right] >= pivot && right > left) {
+                    right--;
+                }
+                arr[left] = arr[right];
+                onRight = false;
+            } else {
+                //left
+                while (arr[left] < pivot && right > left) {
+                    left++;
+                }
+                arr[right] = arr[left];
+                onRight = true;
+            }
+//            swap(arr, right, left);
+        }
+
+        MyRequire.requireTrue(right == left);
+        arr[left] = pivot;
+
+        return left;
+    }
+
+
     public static String intArrayToString(Object arr) {
         if (!(arr instanceof int[])) {
             return arr.toString();
@@ -36,6 +117,7 @@ public class MyArrayTools {
 
         return sb.toString();
     }
+
     /**
      * 数组中指定范围是否反序
      * 这里说的有序是，从大到小，可以相等
@@ -46,7 +128,7 @@ public class MyArrayTools {
      * @param endExcluding   结束位置，不包含
      * @return 是否有序
      */
-    public static boolean isAntiSorted(int[] arr, int startIncluding, int endExcluding){
+    public static boolean isAntiSorted(int[] arr, int startIncluding, int endExcluding) {
         if (endExcluding <= startIncluding)
             MyRequire.throwRunTimeException("error in MyArrayTools::isSorted");
 
@@ -61,8 +143,8 @@ public class MyArrayTools {
         return true;
     }
 
-    public static boolean isAntiSorted(int[] arr){
-        return isAntiSorted(arr,0,arr.length);
+    public static boolean isAntiSorted(int[] arr) {
+        return isAntiSorted(arr, 0, arr.length);
     }
 
     /**
@@ -91,8 +173,8 @@ public class MyArrayTools {
         return true;
     }
 
-    public static boolean isSorted(int[] arr){
-        return isSorted(arr,0,arr.length);
+    public static boolean isSorted(int[] arr) {
+        return isSorted(arr, 0, arr.length);
     }
 
     /**

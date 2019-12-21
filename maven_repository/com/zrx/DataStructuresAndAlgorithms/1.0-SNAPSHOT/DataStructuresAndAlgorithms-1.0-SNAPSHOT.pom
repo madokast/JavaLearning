@@ -35,8 +35,8 @@
                     <compilerArgs>
                         <arg>-parameters</arg>
                     </compilerArgs>
-                    <source>9</source>
-                    <target>9</target>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
                     <useIncrementalCompilation>true</useIncrementalCompilation>
                 </configuration>
             </plugin>

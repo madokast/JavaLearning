@@ -1,3 +1,4 @@
+zrx\com\leetcode\UtilsTest\PartitionTest.class
 zrx\com\leetcode\UtilsTest\SmallTest.class
 zrx\com\leetcode\NoUse\UtilsTest.class
 zrx\com\leetcode\UtilsTest\MyStringAllIndexOfTest.class
@@ -6,6 +7,7 @@ zrx\com\leetcode\UtilsTest\MyArrayAddOneTest.class
 zrx\com\others\JunitLearn.class
 zrx\com\leetcode\AllTest.class
 zrx\com\javaApi\Test.class
+zrx\com\leetcode\UtilsTest\SelectTest.class
 zrx\com\leetcode\NoUse\Q0160Test.class
 zrx\com\DesignPatterns\Test.class
 zrx\com\MultiThread\Basic\Test.class
