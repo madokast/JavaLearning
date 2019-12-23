@@ -3,6 +3,7 @@ package zrx.com.leetcode.utils.LeerCodeTest;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Stream;
 
 /**
@@ -34,6 +35,28 @@ public class Input {
         }
 
         return inputsList;
+    }
+
+    public static List<Input[]> makeInputSet(InputSet...inputSets){
+        Objects.requireNonNull(inputSets);
+        int parameterNumber = inputSets[0].set.length;
+        int totalNumber = parameterNumber * inputSets.length;
+
+        List<Object> list = new ArrayList<>(totalNumber);
+        for (InputSet inputSet : inputSets) {
+            list.addAll(Arrays.asList(inputSet.set));
+        }
+
+        return makeInputsList(parameterNumber,list.toArray());
+    }
+
+    public static class InputSet{
+        private Object[] set;
+        public static InputSet build(Object...inputs){
+            final InputSet inputSet = new InputSet();
+            inputSet.set = inputs;
+            return inputSet;
+        }
     }
 
     public static List<Input[]> makeInputsList(int parameterNumber,Object...inputs){

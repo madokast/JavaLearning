@@ -6,10 +6,13 @@ zrx\com\leetcode\NoUse\Q0000Test.class
 zrx\com\leetcode\UtilsTest\MyArrayAddOneTest.class
 zrx\com\others\JunitLearn.class
 zrx\com\leetcode\AllTest.class
+zrx\com\leetcode\UtilsTest\ListNodeTest.class
 zrx\com\javaApi\Test.class
 zrx\com\leetcode\UtilsTest\SelectTest.class
 zrx\com\leetcode\NoUse\Q0160Test.class
 zrx\com\DesignPatterns\Test.class
+zrx\com\leetcode\UtilsTest\MergeSortTest.class
+zrx\com\leetcode\UtilsTest\QuickSort2Test.class
 zrx\com\MultiThread\Basic\Test.class
 zrx\com\others\Test.class
 zrx\com\others\EqualEqual.class

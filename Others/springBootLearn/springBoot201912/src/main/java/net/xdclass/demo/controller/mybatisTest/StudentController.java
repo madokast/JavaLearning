@@ -26,9 +26,14 @@ import java.util.Map;
 @RequestMapping("/mybatis")
 public class StudentController {
 
-    @Resource(name = "studentServiceImpl")
-    private StudentService studentServiceImpl;
+//    @Resource(name = "studentServiceImpl")
+    private final StudentService studentServiceImpl;
 
+
+    @Autowired
+    public StudentController(@Qualifier("studentServiceImpl") StudentService studentServiceImpl) {
+        this.studentServiceImpl = studentServiceImpl;
+    }
 
     @RequestMapping("/add")
     public Object add(@RequestBody Student student){
@@ -110,6 +115,22 @@ public class StudentController {
         Map<String,Object> map = new HashMap<>();
 
         map.put("delete",id);
+
+        return map;
+    }
+
+    //异常测试
+
+    @RequestMapping("/add/exception")
+    public Object addException(@RequestBody Student student){
+        student.setCreateTime(new Date());
+
+        int id = studentServiceImpl.addException(student);
+
+        Map<String,Object> map = new HashMap<>();
+
+        map.put("value",student.toString());
+        map.put("back",id);
 
         return map;
     }

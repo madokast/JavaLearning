@@ -2,6 +2,7 @@ package zrx.com.leetcode.utils.LeerCodeTest;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.function.Predicate;
 
 /**
@@ -29,6 +30,11 @@ public class Answer {
         }
 
         return makeAnswerList(answerArr);
+    }
+
+    public static List<Answer> makeAnswerList(Object...answers){
+        Objects.requireNonNull(answers);
+        return makeAnswerList(answers[0].getClass(),answers);
     }
 
     static List<Answer> makeAnswerList(Answer...answers){

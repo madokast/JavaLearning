@@ -6,7 +6,11 @@ import zrx.com.leetcode.Q0020.Q0027RemoveElement;
 import zrx.com.leetcode.Q0020.Q0028ImplementStrStrKMP;
 import zrx.com.leetcode.Q0020.Q0030SubstringWithConcatenationOfAllWordsMap;
 import zrx.com.leetcode.Q0040.Q0042TrappingRainWater;
+import zrx.com.leetcode.Q0060.Q0061RotateList;
+import zrx.com.leetcode.Q0060.Q0075SortColors;
+import zrx.com.leetcode.Q0140.Q0152MaximumProductSubarray;
 import zrx.com.leetcode.Q0160.Q0167TwoSum2InputArrayIsSorted;
+import zrx.com.leetcode.Q0220.Q0238ProductOfArrayExceptSelf;
 import zrx.com.leetcode.Q0440.Q0454FourSumII;
 import zrx.com.leetcode.Q0560.Q0560SubarraySumEqualsK;
 
@@ -52,12 +56,22 @@ import zrx.com.leetcode.Q0560.Q0560SubarraySumEqualsK;
  * @see Q0042TrappingRainWater
  *
  *
+ * 2019年12月23日
  * 0061 61. Rotate List
- * @see
+ * @see zrx.com.leetcode.Q0060.Q0061RotateList
  * 238. Product of Array Except Self
- * @see
+ * @see zrx.com.leetcode.Q0220.Q0238ProductOfArrayExceptSelf
  * 75. Sort Colors
- * @see
+ * @see zrx.com.leetcode.Q0060.Q0075SortColors
+ * 152. Maximum Product Subarray
+ * @see zrx.com.leetcode.Q0140.Q0152MaximumProductSubarray
+ *
+ * 2019年12月24日
+ * 628. Maximum Product of Three Numbers
+ *
+ * 53. Maximum Subarray
+ *
+ * 198. House Robber
  *
  */
 
@@ -74,7 +88,11 @@ public class 刷题日志 {
     private Q0028ImplementStrStrKMP q0028ImplementStrStrKMP;
     private Q0030SubstringWithConcatenationOfAllWordsMap q0030SubstringWithConcatenationOfAllWordsMap;
     private Q0042TrappingRainWater q0042TrappingRainWater;
+    private Q0061RotateList q0061RotateList;
+    private Q0075SortColors q0075SortColors;
+    private Q0152MaximumProductSubarray q0152MaximumProductSubarray;
     private Q0167TwoSum2InputArrayIsSorted q0167TwoSum2InputArrayIsSorted;
+    private Q0238ProductOfArrayExceptSelf q0238ProductOfArrayExceptSelf;
     private Q0454FourSumII q0454FourSumII;
     private Q0560SubarraySumEqualsK q0560SubarraySumEqualsK;
 }

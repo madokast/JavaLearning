@@ -3,6 +3,13 @@ package zrx.com.leetcode;
 import org.junit.Test;
 import zrx.com.leetcode.Q0020.*;
 import zrx.com.leetcode.Q0040.Q0042TrappingRainWater;
+import zrx.com.leetcode.Q0040.Q0053MaximumSubarray;
+import zrx.com.leetcode.Q0060.Q0061RotateList;
+import zrx.com.leetcode.Q0060.Q0075SortColors;
+import zrx.com.leetcode.Q0140.Q0152MaximumProductSubarray;
+import zrx.com.leetcode.Q0180.Q0198HouseRobber;
+import zrx.com.leetcode.Q0220.Q0238ProductOfArrayExceptSelf;
+import zrx.com.leetcode.Q0620.Q0628MaximumProductOfThreeNumbers;
 import zrx.com.leetcode.UtilsTest.MyArrayAddOneTest;
 import zrx.com.leetcode.UtilsTest.MyStringAllIndexOfTest;
 import zrx.com.leetcode.utils.LeerCodeTest.QuestionDemo;
@@ -30,7 +37,17 @@ public class AllTest {
         TestForLeetCode.happyTimeLimit(new Q0030SubstringWithConcatenationOfAllWordsBrute(),2);
         TestForLeetCode.happyTimeLimit(new Q0030SubstringWithConcatenationOfAllWordsMap(),5);
         TestForLeetCode.happyTimeLimit(new Q0042TrappingRainWater(),5);
+        TestForLeetCode.happy(Q0061RotateList.class);
+        TestForLeetCode.happy(Q0238ProductOfArrayExceptSelf.class);
+        TestForLeetCode.happy(Q0075SortColors.class);
+        TestForLeetCode.happy(Q0152MaximumProductSubarray.class);
+    }
 
+    @Test
+    public void todayTest(){
+        TestForLeetCode.happy(Q0198HouseRobber.class);
+        TestForLeetCode.happy(Q0053MaximumSubarray.class);
+        TestForLeetCode.happy(Q0628MaximumProductOfThreeNumbers.class);
     }
 
     @Test
@@ -38,4 +55,6 @@ public class AllTest {
         TestForLeetCode.happy(new MyStringAllIndexOfTest());
         TestForLeetCode.happy(new MyArrayAddOneTest());
     }
+
+
 }

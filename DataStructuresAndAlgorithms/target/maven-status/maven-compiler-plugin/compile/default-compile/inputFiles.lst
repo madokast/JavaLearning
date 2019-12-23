@@ -8,6 +8,7 @@ D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\c
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\MultiThread\Basic\BasicSkill\SuspendAndResume.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0000\Q0016ThreeSumClosest.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0040\Q0042TrappingRainWater.java
+D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0060\Q0061RotateList.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\utils\LeerCodeTest\Answer.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\MultiThread\Basic\BasicSkill\CompletionStageLearn.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\DecoratorPattern\DesignPatternsLearn.java
@@ -17,6 +18,8 @@ D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\c
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\strategyPpattern\duck\impl\MallarDuck.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\strategyPpattern\duck\AbstractDuck.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\MultiThread\Basic\BasicSkill\WaitNotify.java
+D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0140\Q0152MaximumProductSubarray.java
+D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0180\Q0198HouseRobber.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\ObserverPatttern\FlowAPI\MySubscriber.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0020\Q0030SubstringWithConcatenationOfAllWordsBrute.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0020\Q0030SubstringWithConcatenationOfAllWordsMap.java
@@ -42,6 +45,7 @@ D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\c
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0000\Q0018FourSum.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\ObserverPatttern\FlowAPI\ReactiveFlowApp.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\utils\MyPrinter.java
+D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0620\Q0628MaximumProductOfThreeNumbers.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\others\Symbolics\Matrix3.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\javaApi\concurrentAPI\ThreadLearn.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0020\Q0028ImplementStrStrBrute.java
@@ -64,16 +68,19 @@ D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\c
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0560\Q0560SubarraySumEqualsK.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\utils\LeerCodeTest\TestForLeetCode.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\strategyPpattern\quack\QuackBehavior.java
+D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0060\Q0075SortColors.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\others\Symbolics\Matrix2.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\others\Symbolics\Vector.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0000\Q0003LongestSubstringWithoutRepeatingCharacters.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\utils\MyArrayTools.java
+D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0220\Q0238ProductOfArrayExceptSelf.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\utils\LeerCodeTest\QuestionDemo.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\Factorys\SimpleFactory.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\strategyPpattern\quack\impl\QuackNoWay.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0440\Q0454FourSumII.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0000\Q0001TwoSum.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\DecoratorPattern\Food.java
+D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\Q0040\Q0053MaximumSubarray.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\strategyPpattern\quack\impl\Squack.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\DesignPatterns\strategyPpattern\quack\impl\Quack.java
 D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms\src\main\java\zrx\com\leetcode\utils\LeerCodeTest\EqualJudge.java

@@ -3,13 +3,12 @@ package zrx.com.leetcode.utils.LeerCodeTest;
 
 import zrx.com.leetcode.utils.MyTimer;
 
+import java.awt.event.KeyEvent;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.Callable;
-import java.util.concurrent.FutureTask;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeoutException;
+import java.util.concurrent.*;
 
 /**
  * Description
@@ -114,6 +113,7 @@ public class TestForLeetCode {
         for (int i = 0; i < inputs.length; i++) {
             testMethodInput[i] = inputs[i].getValue();
         }
+        System.out.println("输入：" + Printer.print(testMethodInput)); // 必须此时调用
 
         if (reprintInputs.length != 0) {
             for (int reprintInput : reprintInputs) {
@@ -132,6 +132,7 @@ public class TestForLeetCode {
             return;
         }
 
+//        System.out.println("输入：" + Printer.print(testMethodInput));
         System.out.println("输出：" + Printer.print(answer.getClazz(), ret));
         System.out.println("答案：" + Printer.print(answer.getClazz(), answer.getValue()));
 
@@ -148,6 +149,15 @@ public class TestForLeetCode {
             System.out.println("输出正确");
         } else {
             System.err.println("输出错误");
+        }
+    }
+
+
+    public static void happy(Class<? extends Question> klass){
+        try {
+            happy(klass.getConstructor().newInstance());
+        }catch (Exception e){
+            e.printStackTrace();
         }
     }
 }

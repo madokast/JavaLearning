@@ -1,5 +1,7 @@
 package zrx.com.leetcode.utils.LeerCodeTest;
 
+import zrx.com.leetcode.utils.MyRequire;
+
 import java.util.List;
 
 /**
@@ -9,10 +11,22 @@ import java.util.List;
  */
 
 public interface Question {
-    String getQuestionName();
+    default String getQuestionName(){
+        final String[] splits = this.getClass().toString().split("\\.");
+        return splits[splits.length-1];
+    }
     List<Input[]> getInputsList();
     List<Answer> getAnswers();
-    TestEntry getTestEntry();
+    default TestEntry getTestEntry(){
+        final String className = "Solution" + this.getQuestionName().substring(1,5);
+        for (Class<?> declaredClass : this.getClass().getDeclaredClasses()) {
+            if(declaredClass.toString().contains(className)){
+                return TestEntry.getInstance(declaredClass);
+            }
+        }
+        MyRequire.throwRunTimeException("请声明内部类Solution+题号");
+        return null;
+    }
 
     default int[] reprintInputs(){
         return new int[]{};

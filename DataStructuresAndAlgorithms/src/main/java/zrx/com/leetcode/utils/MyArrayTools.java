@@ -1,7 +1,9 @@
 package zrx.com.leetcode.utils;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Description
@@ -16,6 +18,112 @@ import java.util.List;
  */
 
 public class MyArrayTools {
+
+    public static void quickSort2(int[] arr) {
+        Objects.requireNonNull(arr);
+        quickSort2(arr, 0, arr.length - 1);
+    }
+
+    private static void quickSort2(int[] arr, int start, int end) {
+        if (end > start) {
+            int pivot = arr[start];
+            int pointToPivot = start;
+
+            for (int i = start + 1; i <= end; i++) {
+                if(arr[i]<pivot){
+                    pointToPivot++;
+                    swap(arr,i,pointToPivot);
+                }
+            }
+
+            swap(arr,pointToPivot,start);
+
+            quickSort2(arr,start,pointToPivot-1);
+            quickSort2(arr,pointToPivot+1,end);
+        }
+    }
+
+    /**
+     * 归并排序法
+     *
+     * @param arr 要排序的数组
+     */
+    public static void mergeSort(int[] arr) {
+        Objects.requireNonNull(arr);
+        mergeSort(arr, 0, arr.length - 1);
+    }
+
+    /**
+     * 归并排序内部实现
+     *
+     * @param arr   要排序的数组
+     * @param start 开始元素索引，包含
+     * @param end   结束元素索引，包含
+     */
+    private static void mergeSort(int[] arr, int start, int end) {
+        MyRequire.requireTrue(end >= start);
+
+        if (start == end) {
+            //数组中只有一个元素
+            return;
+        } else {
+            //数组中多个元素
+            int mid = (start + end) / 2;
+            //排序
+            mergeSort(arr, start, mid);
+            mergeSort(arr, mid + 1, end);
+
+            //此时 [start, mid] 和 [mid + 1, end] 分别有序
+            //那就合并
+
+            //temp数组
+            int[] temp = new int[end - start + 1];
+
+            int i = start;//index [start, mid]
+            int j = mid + 1;//index [mid + 1, end]
+            int t = 0;//index temp
+
+            //合并步骤一
+            while (i <= mid && j <= end) {
+                //合并
+                if (arr[i] <= arr[j]) {
+                    temp[t] = arr[i];
+                    i++;
+                } else {
+                    temp[t] = arr[j];
+                    j++;
+                }
+                t++;
+            }
+
+            //合并步骤二
+            while (i <= mid) {
+                temp[t] = arr[i];
+                t++;
+                i++;
+            }
+            while (j <= end) {
+                temp[t] = arr[j];
+                t++;
+                j++;
+            }
+
+            //这时temp[] 应该满了
+            MyRequire.requireTrue(t == temp.length);
+
+            //复制到arr[start, end]
+            for (i = start, t = 0; t < temp.length; t++, i++) {
+                arr[i] = temp[t];
+            }
+
+            MyRequire.requireTrue(i == end + 1);
+
+            //排序结束
+            return;
+        }
+
+    }
+
 
     /**
      * 找无序数组 arr 种第 k 小的数
@@ -35,11 +143,11 @@ public class MyArrayTools {
         while (true) {
             final int pointOfPivot = partition(arr, left, right, left);
 
-            if (pointOfPivot == k - 1){
+            if (pointOfPivot == k - 1) {
                 return arr[pointOfPivot];
-            }else if(pointOfPivot < k -1){
+            } else if (pointOfPivot < k - 1) {
                 left = pointOfPivot + 1;
-            }else {
+            } else {
                 right = pointOfPivot - 1;
             }
 
@@ -105,17 +213,17 @@ public class MyArrayTools {
         }
 
         int[] array = (int[]) arr;
+//
+//        StringBuilder sb = new StringBuilder();
+//        sb.append("ints[");
+//        for (int i = 0; i < array.length; i++) {
+//            sb.append(array[i]);
+//            sb.append(",");
+//        }
+//        sb.deleteCharAt(sb.length() - 1);
+//        sb.append("]");
 
-        StringBuilder sb = new StringBuilder();
-        sb.append("ints[");
-        for (int i = 0; i < array.length; i++) {
-            sb.append(array[i]);
-            sb.append(",");
-        }
-        sb.deleteCharAt(sb.length() - 1);
-        sb.append("]");
-
-        return sb.toString();
+        return Arrays.toString(array);
     }
 
     /**
@@ -394,5 +502,29 @@ public class MyArrayTools {
         }
 
         return 0;
+    }
+
+    public int max(int...ints){
+        Objects.requireNonNull(ints);
+        int max = ints[0];
+        for (int i = 1; i < ints.length; i++) {
+            if(ints[i]>max){
+                max = ints[i];
+            }
+        }
+
+        return max;
+    }
+
+    public int min(int...ints){
+        Objects.requireNonNull(ints);
+        int min = ints[0];
+        for (int i = 1; i < ints.length; i++) {
+            if(ints[i]<min){
+                min = ints[i];
+            }
+        }
+
+        return min;
     }
 }

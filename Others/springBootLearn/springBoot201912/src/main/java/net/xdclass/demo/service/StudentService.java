@@ -34,4 +34,6 @@ public interface StudentService {
 
     void delete(Long id);
 
+    int addException(Student student);
+
 }

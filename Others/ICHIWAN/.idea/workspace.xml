@@ -7,37 +7,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c48bac0-8308-43cd-b824-4f2fb4c19430" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/UtilsTest/PartitionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/UtilsTest/SelectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/ExceptionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/freemarker/FreemarkerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/mybatisTest/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/domain/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/domain/MyExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/domain/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/filter/MyFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/interceptor/MyInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/listener/MyListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/mapper/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/servlet/MyServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/webMvcConfigurer/MyWebMvcConfigurer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/resources/student.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/resources/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/resources/templates/hello.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/test/java/net/xdclass/demo/MockMvcTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/test/java/net/xdclass/demo/SpringBootTestDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0040/Q0053MaximumSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0060/Q0061RotateList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0060/Q0075SortColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0140/Q0152MaximumProductSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0180/Q0198HouseRobber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0220/Q0238ProductOfArrayExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0620/Q0628MaximumProductOfThreeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/UtilsTest/ListNodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/UtilsTest/MergeSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/UtilsTest/QuickSort2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/relearnJS/relearn1912122.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/async/AsyncTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/activemq/ActivemqTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/asyncController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/redisTest/RedisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/domain/JsonData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/schedule/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/utils/LoggerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/resources/banner.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/DataStructuresAndAlgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/DataStructuresAndAlgorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/EqualJudge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/EqualJudge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/TestForLeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/TestForLeetCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyArrayTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyArrayTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/singlyLinkedList/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/singlyLinkedList/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/刷题日志.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/刷题日志.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/AllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/AllTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.DesignPatterns.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.DesignPatterns.Test.xml" afterDir="false" />
@@ -46,34 +49,55 @@
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.AllTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.AllTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.Q0000Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.Q0000Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.UtilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.UtilsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.PartitionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.PartitionTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SelectTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SelectTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SmallTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SmallTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.others.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.others.Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.DesignPatterns.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.DesignPatterns.Test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.MultiThread.Basic.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.MultiThread.Basic.Test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.javaApi.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.javaApi.Test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.AllTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.AllTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.NoUse.Q0000Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.NoUse.Q0000Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.NoUse.UtilsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.NoUse.UtilsTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.PartitionTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.PartitionTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.SelectTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.SelectTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.SmallTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.SmallTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.others.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.others.Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ANKI/低级PS软件-forANKI.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../ANKI/低级PS软件-forANKI.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/application/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/application/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/InjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/InjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/mybatisTest/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/mybatisTest/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/service/impl/StudentServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/resources/hotDeployTrigger.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/resources/hotDeployTrigger.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/resources/inject.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/src/main/resources/inject.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/hotDeployTrigger.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/hotDeployTrigger.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/inject.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/inject.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/xdclass_springboot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/xdclass_springboot-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/xdclass_springboot-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/xdclass_springboot-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/hotDeployTrigger.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/inject.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/static/fileupload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/static/img/test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/static/js/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/static/存放静态文件如CSS_JS_IMG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/student.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/templates/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/templates/freemarker/hello.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/templates/hello.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/templates/myfreemarker/hello.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/classes/templates/存放静态页面如HTML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/surefire-reports/TEST-net.xdclass.demo.MockMvcTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/surefire-reports/net.xdclass.demo.MockMvcTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/xdclass_springboot-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBootLearn/springBoot201912/target/xdclass_springboot-1.0-SNAPSHOT.jar.original" beforeDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.pom" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" afterDir="false" />
@@ -84,8 +108,9 @@
       <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.pom" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/maven-metadata-local.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/jetbrains/annotations/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/jetbrains/annotations/resolver-status.properties" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-/unknown/spring-boot-starter--unknown.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-/unknown/spring-boot-starter--unknown.jar.lastUpdated" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-/unknown/spring-boot-starter--unknown.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-/unknown/spring-boot-starter--unknown.pom.lastUpdated" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,7 +146,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ichiwan/web/servlet/web/PageServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
+            <state relative-caret-position="218">
               <caret line="67" column="75" selection-start-line="67" selection-start-column="75" selection-end-line="67" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -133,7 +158,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ichiwan/web/servlet/web/HandOutServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="806">
+            <state>
               <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -145,7 +170,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dispatchServlet.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state>
               <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
@@ -245,10 +270,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1551" />
-    <option name="height" value="839" />
+    <option name="x" value="128" />
+    <option name="y" value="128" />
+    <option name="width" value="1600" />
+    <option name="height" value="720" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -334,7 +359,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DataStructuresAndAlgorithms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springBootLearn/springBoot201912" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -571,7 +596,7 @@
       <workItem from="1574674142348" duration="2373000" />
       <workItem from="1575034639352" duration="882000" />
       <workItem from="1575451951054" duration="2411000" />
-      <workItem from="1576465971955" duration="1623000" />
+      <workItem from="1576465971955" duration="4668000" />
     </task>
     <servers />
   </component>
@@ -608,7 +633,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108488000" />
+    <option name="totallyTimeSpent" value="111533000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -620,10 +645,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.19839142" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.15778251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -633,7 +658,7 @@
       <window_info id="Web" order="7" sideWeight="0.50141644" side_tool="true" weight="0.20107238" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5042493" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25637394" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.65014166" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -644,7 +669,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Statistic" order="13" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Statistic" order="13" visible="true" weight="0.36550975" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="15" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="16" weight="0.3286119" />
@@ -655,7 +680,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="SciView" order="6" />
-      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.13941018" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.1108742" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
@@ -1097,7 +1122,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ichiwan/web/servlet/web/HandOutServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
+        <state>
           <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1107,7 +1132,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dispatchServlet.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state>
           <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
@@ -1124,7 +1149,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ichiwan/web/servlet/web/PageServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
+        <state relative-caret-position="218">
           <caret line="67" column="75" selection-start-line="67" selection-start-column="75" selection-end-line="67" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
