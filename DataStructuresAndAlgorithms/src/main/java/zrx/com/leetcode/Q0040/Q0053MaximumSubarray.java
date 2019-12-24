@@ -35,19 +35,33 @@ public class Q0053MaximumSubarray implements Question {
     @Override
     public List<Input[]> getInputsList() {
         return Input.makeInputSet(
-                Input.InputSet.build((Object) MyArrayTools.getIntArray(-2,1,-3,4,-1,2,1,-5,4))
+                Input.InputSet.build((Object) MyArrayTools.getIntArray(-2,1,-3,4,-1,2,1,-5,4)),
+                Input.InputSet.build((Object) MyArrayTools.getIntArray(-2,-1))
         );
     }
 
     @Override
     public List<Answer> getAnswers() {
-        return Answer.makeAnswerList(6);
+        return Answer.makeAnswerList(6,-1);
     }
 
-    public class Solution {
+    public class Solution0053 {
         public int maxSubArray(int[] nums) {
-            //TODO
-            return 0;
+            int wholeMaxSum = nums[0];
+            int localMaxSum = 0;
+
+            for (int i = 0; i < nums.length; i++) {
+                localMaxSum+=nums[i];
+                //更新全局和
+                wholeMaxSum = Math.max(wholeMaxSum,localMaxSum);
+
+                if(localMaxSum<0){
+                    //局部和是负数 全部抛弃
+                    localMaxSum = 0;
+                }
+            }
+
+            return wholeMaxSum;
         }
     }
 }

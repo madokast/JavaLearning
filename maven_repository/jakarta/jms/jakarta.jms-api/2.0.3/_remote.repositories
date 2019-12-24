@@ -1,4 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Dec 23 15:39:08 CST 2019
+#Mon Dec 23 21:43:06 CST 2019
 jakarta.jms-api-2.0.3.jar>central=
 jakarta.jms-api-2.0.3.pom>central=
+jakarta.jms-api-2.0.3-sources.jar>central=

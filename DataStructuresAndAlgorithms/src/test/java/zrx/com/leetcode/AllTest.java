@@ -41,13 +41,14 @@ public class AllTest {
         TestForLeetCode.happy(Q0238ProductOfArrayExceptSelf.class);
         TestForLeetCode.happy(Q0075SortColors.class);
         TestForLeetCode.happy(Q0152MaximumProductSubarray.class);
+        TestForLeetCode.happy(Q0198HouseRobber.class);
+        TestForLeetCode.happy(Q0053MaximumSubarray.class);
+        TestForLeetCode.happy(Q0628MaximumProductOfThreeNumbers.class);
     }
 
     @Test
     public void todayTest(){
-        TestForLeetCode.happy(Q0198HouseRobber.class);
-        TestForLeetCode.happy(Q0053MaximumSubarray.class);
-        TestForLeetCode.happy(Q0628MaximumProductOfThreeNumbers.class);
+
     }
 
     @Test

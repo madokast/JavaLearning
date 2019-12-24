@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="cn">
 <head>
+
     <meta charset="UTF-8">
+    <!-- 在移动设备上进行网页的重构或开发，首先得搞明白的就
+        是移动设备上的viewport了，只有明白了viewport的概念
+        以及弄清楚了跟viewport有关的meta标签的使用，才能更
+        好地让我们的网页适配或响应各种不同分辨率的移动设备。 -->
+        <!-- 该meta标签的作用是让当前viewport的宽度等于设备的宽度 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- X-UA-Compatible：X-UA-Compatible是自从IE8新加的一个设置，对于IE8以下的浏览器是不识别的。 -->
+<!-- 通过在meta中设置X-UA-Compatible的值，可以指定网页的兼容性模式设置。 -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script src="../lib/vue.js"></script>
+    <script src="../../lib/vue.js"></script>
 </head>
 <body>
 

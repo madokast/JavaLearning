@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="zrx.com.others.Test" time="5.876" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="zrx.com.others.Test" time="5.541" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="12.0.1+12"/>
@@ -44,7 +44,7 @@
     <property name="java.class.path" value="D:\program\apache-maven-3.5.2\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="12"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.1.4 -s D:\program\apache-maven-3.5.2\conf\settings.xml test"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.1.4 -s D:\program\apache-maven-3.5.2\conf\settings.xml install"/>
     <property name="java.home" value="D:\program\jdk-12.0.1"/>
     <property name="user.language" value="zh"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -62,8 +62,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="zrx.com.others.Test" name="MyDualPivotQuicksortTest" time="5.866"/>
+  <testcase classname="zrx.com.others.Test" name="MyDualPivotQuicksortTest" time="5.519"/>
   <testcase classname="zrx.com.others.Test" name="test01" time="0"/>
   <testcase classname="zrx.com.others.Test" name="equal" time="0.001"/>
-  <testcase classname="zrx.com.others.Test" name="PermutationTest" time="0.009"/>
+  <testcase classname="zrx.com.others.Test" name="PermutationTest" time="0.021"/>
 </testsuite>

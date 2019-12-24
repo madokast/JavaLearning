@@ -504,7 +504,7 @@ public class MyArrayTools {
         return 0;
     }
 
-    public int max(int...ints){
+    public static int max(int...ints){
         Objects.requireNonNull(ints);
         int max = ints[0];
         for (int i = 1; i < ints.length; i++) {
@@ -516,7 +516,7 @@ public class MyArrayTools {
         return max;
     }
 
-    public int min(int...ints){
+    public static int min(int...ints){
         Objects.requireNonNull(ints);
         int min = ints[0];
         for (int i = 1; i < ints.length; i++) {

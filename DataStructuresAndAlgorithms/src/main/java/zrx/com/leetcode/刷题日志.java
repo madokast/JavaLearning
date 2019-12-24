@@ -6,13 +6,16 @@ import zrx.com.leetcode.Q0020.Q0027RemoveElement;
 import zrx.com.leetcode.Q0020.Q0028ImplementStrStrKMP;
 import zrx.com.leetcode.Q0020.Q0030SubstringWithConcatenationOfAllWordsMap;
 import zrx.com.leetcode.Q0040.Q0042TrappingRainWater;
+import zrx.com.leetcode.Q0040.Q0053MaximumSubarray;
 import zrx.com.leetcode.Q0060.Q0061RotateList;
 import zrx.com.leetcode.Q0060.Q0075SortColors;
 import zrx.com.leetcode.Q0140.Q0152MaximumProductSubarray;
 import zrx.com.leetcode.Q0160.Q0167TwoSum2InputArrayIsSorted;
+import zrx.com.leetcode.Q0180.Q0198HouseRobber;
 import zrx.com.leetcode.Q0220.Q0238ProductOfArrayExceptSelf;
 import zrx.com.leetcode.Q0440.Q0454FourSumII;
 import zrx.com.leetcode.Q0560.Q0560SubarraySumEqualsK;
+import zrx.com.leetcode.Q0620.Q0628MaximumProductOfThreeNumbers;
 
 /**
  * 2019年11月6日
@@ -68,10 +71,18 @@ import zrx.com.leetcode.Q0560.Q0560SubarraySumEqualsK;
  *
  * 2019年12月24日
  * 628. Maximum Product of Three Numbers
- *
+ * @see zrx.com.leetcode.Q0620.Q0628MaximumProductOfThreeNumbers
  * 53. Maximum Subarray
- *
+ * @see zrx.com.leetcode.Q0040.Q0053MaximumSubarray
  * 198. House Robber
+ * @see zrx.com.leetcode.Q0180.Q0198HouseRobber
+ *
+ * 2019年12月24日
+ * 697. Degree of an Array
+ *
+ * 121. Best Time to Buy and Sell Stock
+ *
+ * 5. Longest Palindromic Substring
  *
  */
 
@@ -88,11 +99,14 @@ public class 刷题日志 {
     private Q0028ImplementStrStrKMP q0028ImplementStrStrKMP;
     private Q0030SubstringWithConcatenationOfAllWordsMap q0030SubstringWithConcatenationOfAllWordsMap;
     private Q0042TrappingRainWater q0042TrappingRainWater;
+    private Q0053MaximumSubarray q0053MaximumSubarray;
     private Q0061RotateList q0061RotateList;
     private Q0075SortColors q0075SortColors;
     private Q0152MaximumProductSubarray q0152MaximumProductSubarray;
     private Q0167TwoSum2InputArrayIsSorted q0167TwoSum2InputArrayIsSorted;
+    private Q0198HouseRobber q0198HouseRobber;
     private Q0238ProductOfArrayExceptSelf q0238ProductOfArrayExceptSelf;
     private Q0454FourSumII q0454FourSumII;
     private Q0560SubarraySumEqualsK q0560SubarraySumEqualsK;
+    private Q0628MaximumProductOfThreeNumbers q0628MaximumProductOfThreeNumbers;
 }

@@ -2,110 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e4013e8-60ef-4cf7-9904-25b5f1b052be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0040/Q0053MaximumSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0060/Q0061RotateList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0060/Q0075SortColors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0140/Q0152MaximumProductSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0180/Q0198HouseRobber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0220/Q0238ProductOfArrayExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0620/Q0628MaximumProductOfThreeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/zrx/com/leetcode/UtilsTest/ListNodeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/zrx/com/leetcode/UtilsTest/MergeSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/zrx/com/leetcode/UtilsTest/QuickSort2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Others/FrontEnd/relearnJS/relearn1912122.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/async/AsyncTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/activemq/ActivemqTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/asyncController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/redisTest/RedisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/domain/JsonData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/schedule/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/utils/LoggerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_18_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0000/Q0005LongestPalindromicSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0120/Q0121BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0680/Q0697DegreeOfAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/application/JmsListenerForTopicConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/service/MessageProduceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/service/NewsPublishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/service/impl/MessageProduceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/service/impl/NewsPublishServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/EqualJudge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/EqualJudge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Input.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/TestForLeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/TestForLeetCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructuresAndAlgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructuresAndAlgorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0040/Q0053MaximumSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0040/Q0053MaximumSubarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0180/Q0198HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0180/Q0198HouseRobber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0620/Q0628MaximumProductOfThreeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0620/Q0628MaximumProductOfThreeNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/MyArrayTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/MyArrayTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/singlyLinkedList/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/singlyLinkedList/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/刷题日志.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/刷题日志.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/zrx/com/leetcode/AllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/zrx/com/leetcode/AllTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.DesignPatterns.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.DesignPatterns.Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.MultiThread.Basic.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.MultiThread.Basic.Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.javaApi.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.javaApi.Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.AllTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.AllTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.Q0000Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.Q0000Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.UtilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.UtilsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.ListNodeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.ListNodeTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.MergeSortTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.MergeSortTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.PartitionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.PartitionTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.QuickSort2Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.QuickSort2Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SelectTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SelectTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SmallTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SmallTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.others.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.others.Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.DesignPatterns.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.DesignPatterns.Test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.MultiThread.Basic.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.MultiThread.Basic.Test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.javaApi.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.javaApi.Test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.AllTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.AllTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.NoUse.Q0000Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.NoUse.Q0000Test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.NoUse.UtilsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.NoUse.UtilsTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.PartitionTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.PartitionTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.QuickSort2Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.QuickSort2Test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.SelectTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.SelectTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.SmallTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.SmallTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.others.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.others.Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Others/FrontEnd/relearnJS/relearn1912122.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Others/ICHIWAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/ICHIWAN/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/application/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/application/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/mybatisTest/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/mybatisTest/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/activemq/ActivemqTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/activemq/ActivemqTestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/hotDeployTrigger.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/hotDeployTrigger.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/classes/hotDeployTrigger.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/classes/inject.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/classes/static/fileupload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/classes/static/img/test.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/classes/static/js/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/classes/static/存放静态文件如CSS_JS_IMG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/classes/student.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/classes/templates/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/classes/templates/freemarker/hello.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/classes/templates/hello.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/classes/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/classes/templates/myfreemarker/hello.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/classes/templates/存放静态页面如HTML" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/surefire-reports/TEST-net.xdclass.demo.MockMvcTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/surefire-reports/net.xdclass.demo.MockMvcTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/xdclass_springboot-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/xdclass_springboot-1.0-SNAPSHOT.jar.original" beforeDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.pom" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.jar.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/error/error/unknown/error-unknown.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/jakarta/jms/jakarta.jms-api/2.0.3/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/jakarta/jms/jakarta.jms-api/2.0.3/_remote.repositories" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.pom" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/maven-metadata-local.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/jetbrains/annotations/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/jetbrains/annotations/resolver-status.properties" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-/unknown/spring-boot-starter--unknown.jar.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-/unknown/spring-boot-starter--unknown.jar.lastUpdated" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-/unknown/spring-boot-starter--unknown.pom.lastUpdated" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-/unknown/spring-boot-starter--unknown.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/activemq/activemq-client/5.15.11/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/activemq/activemq-client/5.15.11/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/springframework/spring-jms/5.2.2.RELEASE/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/springframework/spring-jms/5.2.2.RELEASE/_remote.repositories" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -140,58 +97,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/刷题日志.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="73" column="20" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0180/Q0198HouseRobber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="485">
+              <caret line="85" column="2" selection-start-line="85" selection-start-column="2" selection-end-line="85" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/zrx/com/leetcode/AllTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0000/Q0005LongestPalindromicSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0040/Q0053MaximumSubarray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+            <state relative-caret-position="802">
+              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0620/Q0628MaximumProductOfThreeNumbers.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0120/Q0121BestTimeToBuyAndSellStock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+            <state relative-caret-position="697">
+              <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/zrx/com/leetcode/AllTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="45" column="71" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0680/Q0697DegreeOfAnArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1010">
+              <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -222,9 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/zrx/com/javaApi/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zrx/com/others/MyDualPivotQuicksort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zrx/com/javaApi/CollectionLearn.java" />
         <option value="$PROJECT_DIR$/src/main/java/zrx/com/javaApi/concurrentAPI/Thread_1_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/CompletionStageLearn.java" />
         <option value="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/SuspendAndResume.java" />
@@ -266,13 +220,16 @@
         <option value="$PROJECT_DIR$/src/test/java/zrx/com/leetcode/UtilsTest/QuickSort2Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0060/Q0075SortColors.java" />
         <option value="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0220/Q0238ProductOfArrayExceptSelf.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/MyArrayTools.java" />
         <option value="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0140/Q0152MaximumProductSubarray.java" />
         <option value="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0620/Q0628MaximumProductOfThreeNumbers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0040/Q0053MaximumSubarray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/刷题日志.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/MyArrayTools.java" />
         <option value="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0180/Q0198HouseRobber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0040/Q0053MaximumSubarray.java" />
         <option value="$PROJECT_DIR$/src/test/java/zrx/com/leetcode/AllTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0680/Q0697DegreeOfAnArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0120/Q0121BestTimeToBuyAndSellStock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/刷题日志.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0000/Q0005LongestPalindromicSubstring.java" />
       </list>
     </option>
   </component>
@@ -383,7 +340,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Q0040" type="462c0819:PsiDirectoryNode" />
+              <item name="Q0000" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -393,7 +350,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Q0180" type="462c0819:PsiDirectoryNode" />
+              <item name="Q0120" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -403,7 +360,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Q0620" type="462c0819:PsiDirectoryNode" />
+              <item name="Q0680" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -491,7 +448,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AllTest.test">
+  <component name="RunManager" selected="JUnit.AllTest.todayTest">
     <configuration name="AllTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
@@ -503,6 +460,22 @@
       <option name="PACKAGE_NAME" value="zrx.com.leetcode" />
       <option name="MAIN_CLASS_NAME" value="zrx.com.leetcode.AllTest" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllTest.todayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zrx.com.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zrx.com.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="zrx.com.leetcode.AllTest" />
+      <option name="METHOD_NAME" value="todayTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -556,29 +529,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zrx.com.leetcode.UtilsTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="zrx.com.leetcode.UtilsTest" />
-      <option name="MAIN_CLASS_NAME" value="zrx.com.leetcode.UtilsTest.SelectTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AllTest.todayTest" />
         <item itemvalue="JUnit.AllTest.test" />
         <item itemvalue="JUnit.QuickSort2Test.test" />
         <item itemvalue="JUnit.ListNodeTest.test" />
         <item itemvalue="JUnit.MergeSortTest.test" />
-        <item itemvalue="JUnit.SelectTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -601,44 +558,44 @@
       <workItem from="1574674562842" duration="25763000" />
       <workItem from="1575034914707" duration="67236000" />
       <workItem from="1575449665325" duration="27309000" />
-      <workItem from="1576466112148" duration="36264000" />
+      <workItem from="1576466112148" duration="48201000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AllTest_test - 2019.12.23 at 16h 12m 24s.xml">
-      <configuration name="AllTest.test" configurationId="JUnit" />
+    <history-entry file="AllTest_todayTest - 2019.12.24 at 12h 45m 17s.xml">
+      <configuration name="AllTest.todayTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllTest_test - 2019.12.23 at 16h 15m 43s.xml">
-      <configuration name="AllTest.test" configurationId="JUnit" />
+    <history-entry file="AllTest_todayTest - 2019.12.24 at 12h 48m 01s.xml">
+      <configuration name="AllTest.todayTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllTest_test - 2019.12.23 at 16h 36m 28s.xml">
-      <configuration name="AllTest.test" configurationId="JUnit" />
+    <history-entry file="AllTest_todayTest - 2019.12.24 at 12h 49m 09s.xml">
+      <configuration name="AllTest.todayTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllTest_test - 2019.12.23 at 17h 39m 37s.xml">
-      <configuration name="AllTest.test" configurationId="JUnit" />
+    <history-entry file="AllTest_todayTest - 2019.12.24 at 12h 50m 44s.xml">
+      <configuration name="AllTest.todayTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllTest_test - 2019.12.23 at 17h 41m 40s.xml">
-      <configuration name="AllTest.test" configurationId="JUnit" />
+    <history-entry file="AllTest_todayTest - 2019.12.24 at 12h 56m 43s.xml">
+      <configuration name="AllTest.todayTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllTest_test - 2019.12.23 at 17h 43m 26s.xml">
-      <configuration name="AllTest.test" configurationId="JUnit" />
+    <history-entry file="AllTest_todayTest - 2019.12.24 at 12h 59m 51s.xml">
+      <configuration name="AllTest.todayTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllTest_test - 2019.12.23 at 17h 47m 44s.xml">
-      <configuration name="AllTest.test" configurationId="JUnit" />
+    <history-entry file="AllTest_todayTest - 2019.12.24 at 13h 04m 20s.xml">
+      <configuration name="AllTest.todayTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllTest_test - 2019.12.23 at 18h 02m 20s.xml">
-      <configuration name="AllTest.test" configurationId="JUnit" />
+    <history-entry file="AllTest_todayTest - 2019.12.24 at 13h 05m 24s.xml">
+      <configuration name="AllTest.todayTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllTest_test - 2019.12.23 at 18h 07m 53s.xml">
-      <configuration name="AllTest.test" configurationId="JUnit" />
+    <history-entry file="AllTest_todayTest - 2019.12.24 at 14h 35m 14s.xml">
+      <configuration name="AllTest.todayTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllTest_test - 2019.12.23 at 18h 10m 54s.xml">
-      <configuration name="AllTest.test" configurationId="JUnit" />
+    <history-entry file="AllTest_todayTest - 2019.12.24 at 14h 36m 54s.xml">
+      <configuration name="AllTest.todayTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269697000" />
+    <option name="totallyTimeSpent" value="281634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -653,7 +610,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15298508" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -662,7 +619,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.22125813" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.15401301" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37818697" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -673,12 +630,12 @@
       <window_info anchor="bottom" id="Statistic" order="10" weight="0.11062907" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Build" order="13" weight="0.30736545" />
+      <window_info anchor="bottom" id="Build" order="13" weight="0.30694142" />
       <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.20575693" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.026119404" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
@@ -729,32 +686,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/ProducerConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/jdk-12.0.1/lib/src.zip!/java.base/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4862">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/jdk-12.0.1/lib/src.zip!/java.base/java/util/concurrent/locks/LockSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7070">
-          <caret line="138" column="13" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/program/jdk-12.0.1/lib/src.zip!/java.base/jdk/internal/vm/annotation/ReservedStackAccess.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -1103,16 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/MyArrayTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="517" column="4" selection-start-line="517" selection-start-column="4" selection-end-line="517" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0140/Q0152MaximumProductSubarray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -1125,29 +1046,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/TestEntry.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/Q0180/Q0198HouseRobber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0620/Q0628MaximumProductOfThreeNumbers.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/MyArrayTools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+        <state relative-caret-position="2459">
+          <caret line="511" column="30" lean-forward="true" selection-start-line="511" selection-start-column="30" selection-end-line="511" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/LeerCodeTest/TestEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1015">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0040/Q0053MaximumSubarray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+        <state relative-caret-position="435">
+          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#505#506#0" expanded="true" />
@@ -1156,36 +1082,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/Q0180/Q0198HouseRobber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/刷题日志.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="73" column="20" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0180/Q0198HouseRobber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="238">
+          <caret line="154" column="15" selection-start-line="154" selection-start-column="15" selection-end-line="154" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#501#502#0" expanded="true" />
             <element signature="e#528#529#0" expanded="true" />
+            <element signature="method#rob#0;class#Solution0198#0;class#Q0198HouseRobber#0" />
+            <element signature="e#2392#2502#1" />
+            <element signature="docComment;method#rob#1;class#Solution0198#0;class#Q0198HouseRobber#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0620/Q0628MaximumProductOfThreeNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="96" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0680/Q0697DegreeOfAnArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1010">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/zrx/com/leetcode/AllTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
+        <state relative-caret-position="459">
+          <caret line="45" column="71" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0120/Q0121BestTimeToBuyAndSellStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/刷题日志.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="85" column="2" selection-start-line="85" selection-start-column="2" selection-end-line="85" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0000/Q0005LongestPalindromicSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
