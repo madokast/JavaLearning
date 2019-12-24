@@ -2,67 +2,161 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d2fbdc3-5ebe-4cd1-ac00-41be91d26526" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/.idea/libraries/Maven__org_jetbrains_annotations_18_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0000/Q0005LongestPalindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0120/Q0121BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0680/Q0697DegreeOfAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/xdclass/demo/application/JmsListenerForTopicConfigBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/xdclass/demo/service/MessageProduceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/xdclass/demo/service/NewsPublishService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/xdclass/demo/service/impl/MessageProduceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/xdclass/demo/service/impl/NewsPublishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/CommandObjects/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/CommandObjects/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/LearnCommandPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/Remoter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/Commmand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/LightColorCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/MetaCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/TVOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/TVVolumeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/xdclass/demo/controller/webflux/WebFluxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootwebflux/src/main/java/com/zrx/springbootwebflux/controller/WebFluxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootwebflux/src/main/java/com/zrx/springbootwebflux/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootwebflux/src/main/java/com/zrx/springbootwebflux/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_buffer_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_codec_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_common_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_handler_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_resolver_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_transport_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_projectreactor_reactor_test_3_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_spring_test_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_spring_web_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/DataStructuresAndAlgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/DataStructuresAndAlgorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0040/Q0053MaximumSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0040/Q0053MaximumSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0180/Q0198HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0180/Q0198HouseRobber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0620/Q0628MaximumProductOfThreeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/Q0620/Q0628MaximumProductOfThreeNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyArrayTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/utils/MyArrayTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/刷题日志.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/leetcode/刷题日志.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/AllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/test/java/zrx/com/leetcode/AllTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/LearnAndTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/strategyPpattern/LearnAndTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/MyTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/MyTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/test/java/zrx/com/DesignPatterns/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/test/java/zrx/com/DesignPatterns/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.DesignPatterns.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.DesignPatterns.Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.MultiThread.Basic.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.MultiThread.Basic.Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.javaApi.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.javaApi.Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.AllTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.AllTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.Q0000Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.Q0000Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.UtilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.UtilsTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.ListNodeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.ListNodeTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.MergeSortTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.MergeSortTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.PartitionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.PartitionTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.QuickSort2Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.QuickSort2Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SelectTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SelectTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SmallTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SmallTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.others.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.others.Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.DesignPatterns.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.DesignPatterns.Test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.MultiThread.Basic.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.MultiThread.Basic.Test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.javaApi.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.javaApi.Test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.AllTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.AllTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.NoUse.Q0000Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.NoUse.Q0000Test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.NoUse.UtilsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.NoUse.UtilsTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.ListNodeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.ListNodeTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.MergeSortTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.MergeSortTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.PartitionTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.PartitionTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.QuickSort2Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.QuickSort2Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.SelectTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.SelectTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.SmallTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.SmallTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.others.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.others.Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FrontEnd/relearnJS/relearn1912122.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ICHIWAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ICHIWAN/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/xdclass/demo/controller/activemq/ActivemqTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/xdclass/demo/controller/activemq/ActivemqTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/xdclass/demo/application/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/xdclass/demo/application/DemoApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hotDeployTrigger.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hotDeployTrigger.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-12-23T21-55-17_496-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-net.xdclass.demo.MockMvcTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-net.xdclass.demo.MockMvcTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/net.xdclass.demo.MockMvcTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/net.xdclass.demo.MockMvcTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xdclass_springboot-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/xdclass_springboot-1.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.pom" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/jakarta/jms/jakarta.jms-api/2.0.3/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/jakarta/jms/jakarta.jms-api/2.0.3/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.3.1.RELEASE/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.3.1.RELEASE/_remote.repositories" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.pom" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/maven-metadata-local.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/activemq/activemq-client/5.15.11/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/activemq/activemq-client/5.15.11/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/springframework/spring-jms/5.2.2.RELEASE/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/springframework/spring-jms/5.2.2.RELEASE/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/jetbrains/annotations/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/jetbrains/annotations/resolver-status.properties" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -104,46 +198,66 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/application/DemoApplication.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1190">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/src/test/java/net/xdclass/demo/SpringBootTestDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/application/JmsListenerForTopicConfigBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="24" column="48" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="160">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/controller/activemq/ActivemqTestController.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/RunWith.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+            <state relative-caret-position="70">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/application/DemoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="48" selection-start-line="46" selection-end-line="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/controller/webflux/WebFluxController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/application/FileUploadSizeLimitConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -166,9 +280,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/demo/controller/ApplicatinnPropertiesReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/demo/controller/ApplicationPropertiesReader.java" />
-        <option value="$PROJECT_DIR$/src/test/java/net/xdclass/demo/SpringBootTestDemo.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/xdclass/demo/MockMvcTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/xdclass/demo/domain/InjectObject.java" />
         <option value="$PROJECT_DIR$/src/main/resources/inject.properties" />
@@ -207,16 +318,19 @@
         <option value="$PROJECT_DIR$/src/main/resources/日志配置.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/日志配置.xml.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/demo/application/DemoApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/xdclass/demo/service/MessageProduceService.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/xdclass/demo/service/impl/MessageProduceServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/net/xdclass/demo/service/NewsPublishService.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/xdclass/demo/service/impl/NewsPublishServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/net/xdclass/demo/application/JmsListenerForTopicConfigBean.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hotDeployTrigger.txt" />
         <option value="$PROJECT_DIR$/src/main/java/net/xdclass/demo/controller/activemq/ActivemqTestController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-test.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/demo/controller/webflux/WebFluxController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/net/xdclass/demo/application/DemoApplication.java" />
       </list>
     </option>
   </component>
@@ -261,7 +375,7 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=GB2312" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="128" />
     <option name="y" value="128" />
     <option name="width" value="1600" />
@@ -316,7 +430,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springBoot201912" type="b2602c69:ProjectViewProjectNode" />
@@ -325,7 +439,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="methodTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springBoot201912" type="b2602c69:ProjectViewProjectNode" />
@@ -334,8 +449,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="webflux" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springBoot201912" type="b2602c69:ProjectViewProjectNode" />
@@ -349,6 +464,21 @@
               <item name="springBoot201912" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBoot201912" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springBoot201912" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springBoot201912" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springBoot201912" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -370,19 +500,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Documents\GitHub\JavaLearning\Others\springBootLearn\springBoot201912\src\main\resources\static\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Documents\GitHub\JavaLearning\Others\springBootLearn\springBoot201912\src\main\resources\templates" />
       <recent name="D:\Documents\GitHub\JavaLearning\Others\springBootLearn\springBoot201912\src\main\resources\static\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\GitHub\JavaLearning\Others\springBootLearn\springBoot201912\src\main\resources" />
+      <recent name="D:\Documents\GitHub\JavaLearning\Others\springBootLearn\springBoot201912\src\main\resources\static\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -488,7 +619,7 @@
       <workItem from="1576908736733" duration="14098000" />
       <workItem from="1577019552860" duration="1268000" />
       <workItem from="1577020832166" duration="5196000" />
-      <workItem from="1577087686310" duration="6097000" />
+      <workItem from="1577087686310" duration="10074000" />
     </task>
     <servers />
   </component>
@@ -519,13 +650,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82647000" />
+    <option name="totallyTimeSpent" value="86624000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -535,7 +666,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.53579175" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.12255965" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -550,7 +681,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Version Control" order="16" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.6898048" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.22234273" />
       <window_info anchor="bottom" id="Database Console" order="18" weight="0.23371105" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -575,84 +706,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Autowired.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="101" column="18" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/jdk1.8.0_221/src.zip!/javax/annotation/Resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-592">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/domain/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/eaf42615-09bf-441c-915d-8e298d3b5e3b/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar!/org/springframework/stereotype/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Qualifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/mapper/StudentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/controller/mybatisTest/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="123" column="35" selection-start-line="123" selection-start-column="26" selection-end-line="123" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/service/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/banner.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -806,13 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="107" column="47" selection-start-line="107" selection-start-column="47" selection-end-line="107" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jms/JmsAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -853,13 +899,6 @@
             <element signature="e#715#716#0" expanded="true" />
             <element signature="e#783#784#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/application/FileUploadSizeLimitConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -943,27 +982,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/application/DemoApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/service/NewsPublishService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        <state relative-caret-position="70">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/controller/activemq/ActivemqTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hotDeployTrigger.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -977,17 +1009,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/service/NewsPublishService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-test.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="140">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/controller/activemq/ActivemqTestController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+        <state relative-caret-position="210">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/controller/methodTest/GetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hotDeployTrigger.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/controller/webflux/WebFluxController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/filter/MyFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/application/FileUploadSizeLimitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="160" column="13" selection-start-line="160" selection-start-column="13" selection-end-line="160" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE-sources.jar!/org/springframework/boot/WebApplicationType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/xdclass/demo/application/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="48" selection-start-line="46" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/xdclass/demo/SpringBootTestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/RunWith.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

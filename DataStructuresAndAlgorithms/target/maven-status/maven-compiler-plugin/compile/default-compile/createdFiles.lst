@@ -14,6 +14,7 @@ zrx\com\DesignPatterns\strategyPpattern\duck\impl\MallarDuck.class
 zrx\com\leetcode\Q0020\Q0030SubstringWithConcatenationOfAllWordsBrute.class
 zrx\com\MultiThread\Basic\BasicSkill\ForkJoinPoolTest.class
 zrx\com\MultiThread\Basic\BasicSkill\LockLearn.class
+zrx\com\leetcode\Q0120\Q0121BestTimeToBuyAndSellStock$Solution0121.class
 zrx\com\DesignPatterns\ObserverPatttern\FlowAPI\FlowAPIGo.class
 zrx\com\DesignPatterns\strategyPpattern\quack\QuackBehavior.class
 zrx\com\MultiThread\Basic\BasicSkill\VolatileKey$HasVolatile.class
@@ -28,7 +29,11 @@ zrx\com\DesignPatterns\Factorys\FactoryPattern$ConcreteProdction1.class
 zrx\com\leetcode\Q0060\Q0075SortColors$Solution0075.class
 zrx\com\leetcode\Q0180\Q0198HouseRobber$Solution0198.class
 zrx\com\leetcode\Q0560\Q0560SubarraySumEqualsK.class
+zrx\com\DesignPatterns\CommandPattern\command\Commmand.class
 zrx\com\leetcode\Q0040\Q0053MaximumSubarray.class
+zrx\com\DesignPatterns\CommandPattern\command\TVOnCommand.class
+zrx\com\DesignPatterns\strategyPpattern\LearnAndTest.class
+zrx\com\DesignPatterns\CommandPattern\command\TVVolumeCommand.class
 zrx\com\leetcode\utils\LeerCodeTest\EqualMethod.class
 zrx\com\javaApi\CollectionAPI\CollectionLearn.class
 zrx\com\leetcode\Q0000\Q0019RemoveNthNodeFromEndOfList.class
@@ -37,6 +42,7 @@ zrx\com\leetcode\utils\LeerCodeTest\Question.class
 zrx\com\DesignPatterns\DecoratorPattern\Addition02.class
 zrx\com\DesignPatterns\ObserverPatttern\MyObserver.class
 zrx\com\leetcode\Q0000\Solution0015.class
+zrx\com\DesignPatterns\CommandPattern\LearnCommandPattern.class
 zrx\com\DesignPatterns\Factorys\SimpleFactory$Production.class
 zrx\com\leetcode\Q0160\Q0167TwoSum2InputArrayIsSorted.class
 zrx\com\DesignPatterns\ObserverPatttern\FlowAPI\ReactiveFlowApp.class
@@ -45,6 +51,7 @@ zrx\com\leetcode\utils\MyArrayTools.class
 zrx\com\MultiThread\Basic\BasicSkill\LockLearn$ServiceInter.class
 zrx\com\DesignPatterns\Factorys\SimpleFactory$Factory.class
 zrx\com\leetcode\Q0020\Q0026RemoveDuplicatesFromSortedArray$Solution0026.class
+zrx\com\leetcode\Q0680\Q0697DegreeOfAnArray.class
 zrx\com\others\Symbolics\Vector.class
 zrx\com\others\Symbolics\Symbol.class
 zrx\com\leetcode\Q0020\Q0028ImplementStrStrKMP$Solution0028.class
@@ -52,6 +59,7 @@ zrx\com\leetcode\Q0140\Q0152MaximumProductSubarray.class
 zrx\com\DesignPatterns\Factorys\SimpleFactory.class
 zrx\com\leetcode\Q0000\Quadruplet.class
 zrx\com\leetcode\Q0440\Doublet.class
+zrx\com\DesignPatterns\CommandPattern\command\NoCommand.class
 zrx\com\MultiThread\Basic\BasicSkill\Summer.class
 zrx\com\MultiThread\Basic\BasicSkill\ThreadLocalTest$A.class
 zrx\com\DesignPatterns\ObserverPatttern\OPUser.class
@@ -65,6 +73,7 @@ zrx\com\MultiThread\Basic\BasicSkill\Printer.class
 zrx\com\leetcode\Q0160\Solution.class
 zrx\com\leetcode\Q0620\Q0628MaximumProductOfThreeNumbers.class
 zrx\com\DesignPatterns\Factorys\FactoryPattern$Production.class
+zrx\com\DesignPatterns\CommandPattern\Remoter.class
 zrx\com\leetcode\Q0000\Solution0003.class
 zrx\com\leetcode\utils\LeerCodeTest\Answer.class
 zrx\com\DesignPatterns\Factorys\FactoryPattern$ConcreteFactory1.class
@@ -74,6 +83,7 @@ zrx\com\leetcode\utils\MyPrinter.class
 zrx\com\leetcode\Q0000\Q0015ThreeSum.class
 zrx\com\DesignPatterns\DecoratorPattern\DesignPatternsLearn.class
 zrx\com\MultiThread\Basic\BasicSkill\ProducerConsumer$Producer.class
+zrx\com\DesignPatterns\CommandPattern\command\LightColorCommand.class
 zrx\com\leetcode\Q0040\Q0053MaximumSubarray$Solution0053.class
 zrx\com\leetcode\utils\singlyLinkedList\ListNode.class
 zrx\com\leetcode\Q0020\Q0028ImplementStrStrKMP.class
@@ -81,6 +91,7 @@ zrx\com\leetcode\Q0220\Q0238ProductOfArrayExceptSelf.class
 zrx\com\MultiThread\Basic\BasicSkill\VolatileKey.class
 zrx\com\DesignPatterns\ObserverPatttern\MyObservable.class
 zrx\com\leetcode\Q0000\Solution0019.class
+zrx\com\leetcode\Q0680\Q0697DegreeOfAnArray$Solution0697.class
 zrx\com\DesignPatterns\ObserverPatttern\WeatherStation.class
 zrx\com\MultiThread\Basic\BasicSkill\Son.class
 zrx\com\leetcode\utils\MyRequire.class
@@ -103,6 +114,7 @@ zrx\com\leetcode\utils\LeerCodeTest\Input$InputSet.class
 zrx\com\MultiThread\Basic\BasicSkill\InterruptExceptionTest.class
 zrx\com\leetcode\Q0000\Q0018FourSum.class
 zrx\com\leetcode\Q0000\Solution0018.class
+zrx\com\leetcode\Q0000\Q0005LongestPalindromicSubstring.class
 zrx\com\MultiThread\Basic\BasicSkill\CompletionStageLearn.class
 zrx\com\DesignPatterns\Factorys\FactoryPattern.class
 zrx\com\leetcode\Q0060\Q0061RotateList.class
@@ -112,14 +124,16 @@ zrx\com\leetcode\Q0000\Solution0011.class
 zrx\com\leetcode\utils\MyStringTools.class
 zrx\com\MultiThread\Basic\BasicSkill\ConcurrentAccessSynchronized.class
 zrx\com\DesignPatterns\strategyPpattern\quack\impl\QuackNoWay.class
+zrx\com\DesignPatterns\CommandPattern\CommandObjects\TV.class
 zrx\com\leetcode\Q0000\Doublet.class
 zrx\com\leetcode\Q0000\Q0011ContainerWithMostWater.class
 zrx\com\DesignPatterns\strategyPpattern\fly\impl\FlyNoWay.class
 zrx\com\leetcode\utils\LeerCodeTest\TestForLeetCode.class
+zrx\com\leetcode\Q0120\Q0121BestTimeToBuyAndSellStock.class
 zrx\com\DesignPatterns\strategyPpattern\fly\impl\FlyWithWings.class
+zrx\com\DesignPatterns\CommandPattern\command\LightOnCommand.class
 zrx\com\leetcode\Q0020\Q0027RemoveElement.class
 zrx\com\leetcode\Q0040\Q0042TrappingRainWater.class
-zrx\com\DesignPatterns\LearnAndTest.class
 zrx\com\others\Symbolics\Matrix3.class
 zrx\com\leetcode\Q0000\Q0001TwoSum.class
 zrx\com\leetcode\utils\MyRandom.class
@@ -132,6 +146,7 @@ zrx\com\others\Permutation.class
 zrx\com\DesignPatterns\Factorys\FactoryPattern$ConcreteFactory2.class
 zrx\com\MultiThread\Basic\BasicSkill\LockLearn$Service01.class
 zrx\com\MultiThread\Basic\BasicSkill\ThreadLocalTest.class
+zrx\com\DesignPatterns\CommandPattern\command\MetaCommand.class
 zrx\com\leetcode\utils\LeerCodeTest\Printer.class
 zrx\com\leetcode\Q0180\Q0198HouseRobber.class
 zrx\com\others\Symbolics\Factor.class
@@ -141,6 +156,8 @@ zrx\com\leetcode\Q0000\Q0003LongestSubstringWithoutRepeatingCharacters.class
 zrx\com\leetcode\Q0020\Q0030SubstringWithConcatenationOfAllWordsMap.class
 zrx\com\leetcode\Q0060\Q0075SortColors.class
 zrx\com\DesignPatterns\Factorys\AbstractFactoryPattern.class
+zrx\com\leetcode\Q0000\Q0005LongestPalindromicSubstring$Solution0005.class
+zrx\com\DesignPatterns\CommandPattern\CommandObjects\Light.class
 zrx\com\leetcode\Q0620\Q0628MaximumProductOfThreeNumbers$Solution0628$Numbers.class
 zrx\com\MultiThread\MyTools.class
 zrx\com\leetcode\Q0020\Q0030SubstringWithConcatenationOfAllWordsMap$Solution0030.class

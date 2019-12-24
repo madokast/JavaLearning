@@ -2,8 +2,10 @@ package net.xdclass.demo.application;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.jms.annotation.EnableJms;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
@@ -38,7 +40,10 @@ import org.springframework.web.filter.RequestContextFilter;
 @EnableJms //支持java消息服务 -> 消息队列
 public class DemoApplication {
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(DemoApplication.class, args);
+
+        final ConfigurableApplicationContext run = SpringApplication.run(DemoApplication.class, args);
+
+//        ((SpringApplication)run).setWebApplicationType(WebApplicationType.REACTIVE);
 
     }
 

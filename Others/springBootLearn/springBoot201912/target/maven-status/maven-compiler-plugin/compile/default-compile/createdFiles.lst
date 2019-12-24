@@ -2,6 +2,7 @@ net\xdclass\demo\application\FileUploadSizeLimitConfig.class
 net\xdclass\demo\controller\RestControllerTest.class
 net\xdclass\demo\interceptor\MyInterceptor.class
 net\xdclass\demo\application\DemoApplication.class
+net\xdclass\demo\controller\webflux\WebFluxController.class
 net\xdclass\demo\schedule\Task.class
 net\xdclass\demo\service\NewsPublishService.class
 net\xdclass\demo\controller\activemq\ActivemqTestController.class

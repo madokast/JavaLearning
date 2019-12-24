@@ -34,7 +34,7 @@ public class MyTools {
     private static final long startTime  = System.currentTimeMillis();
     public static void printMsgWithThreadAndTime(String msg){
         final long time = System.currentTimeMillis() - startTime;
-        System.out.println("["+Thread.currentThread().getName()+"]: " + msg + "[" + time + "]");
+        System.out.println("["+Thread.currentThread().getName()+"]: " + String.format("%s",msg)+ "[" + String.format("%5d",(int)time) + "]");
     }
 
     public static Thread runItInThread(Runnable r,boolean daemon){

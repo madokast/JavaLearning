@@ -2,67 +2,160 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e4013e8-60ef-4cf7-9904-25b5f1b052be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_18_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0000/Q0005LongestPalindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0120/Q0121BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0680/Q0697DegreeOfAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/application/JmsListenerForTopicConfigBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/service/MessageProduceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/service/NewsPublishService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/service/impl/MessageProduceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/service/impl/NewsPublishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/CommandObjects/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/CommandObjects/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/LearnCommandPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/Remoter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/Commmand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/LightColorCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/MetaCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/TVOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/TVVolumeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/webflux/WebFluxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springbootwebflux/src/main/java/com/zrx/springbootwebflux/controller/WebFluxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springbootwebflux/src/main/java/com/zrx/springbootwebflux/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springBootLearn/springbootwebflux/src/main/java/com/zrx/springbootwebflux/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__io_netty_netty_buffer_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__io_netty_netty_codec_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__io_netty_netty_common_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__io_netty_netty_handler_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__io_netty_netty_resolver_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__io_netty_netty_transport_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__io_projectreactor_reactor_test_3_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_spring_test_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_spring_web_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Others/springbootwebflux/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructuresAndAlgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructuresAndAlgorithms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0040/Q0053MaximumSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0040/Q0053MaximumSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0180/Q0198HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0180/Q0198HouseRobber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0620/Q0628MaximumProductOfThreeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0620/Q0628MaximumProductOfThreeNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/MyArrayTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/MyArrayTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/刷题日志.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/刷题日志.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/zrx/com/leetcode/AllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/zrx/com/leetcode/AllTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/LearnAndTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/strategyPpattern/LearnAndTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/MyTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/MyTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/zrx/com/DesignPatterns/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/zrx/com/DesignPatterns/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.DesignPatterns.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.DesignPatterns.Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.MultiThread.Basic.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.MultiThread.Basic.Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.javaApi.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.javaApi.Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.AllTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.AllTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.Q0000Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.Q0000Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.UtilsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.UtilsTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.ListNodeTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.ListNodeTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.MergeSortTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.MergeSortTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.PartitionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.PartitionTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.QuickSort2Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.QuickSort2Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SelectTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SelectTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SmallTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SmallTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.others.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-zrx.com.others.Test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.DesignPatterns.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.DesignPatterns.Test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.MultiThread.Basic.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.MultiThread.Basic.Test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.javaApi.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.javaApi.Test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.AllTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.AllTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.NoUse.Q0000Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.NoUse.Q0000Test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.NoUse.UtilsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.NoUse.UtilsTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.ListNodeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.ListNodeTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.MergeSortTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.MergeSortTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.PartitionTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.PartitionTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.QuickSort2Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.QuickSort2Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.SelectTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.SelectTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.SmallTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.leetcode.UtilsTest.SmallTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/zrx.com.others.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/zrx.com.others.Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/FrontEnd/relearnJS/relearn1912122.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Others/ICHIWAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/ICHIWAN/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/activemq/ActivemqTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/controller/activemq/ActivemqTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/application/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/java/net/xdclass/demo/application/DemoApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/hotDeployTrigger.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/src/main/resources/hotDeployTrigger.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/surefire-reports/2019-12-23T21-55-17_496-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/surefire-reports/TEST-net.xdclass.demo.MockMvcTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/surefire-reports/TEST-net.xdclass.demo.MockMvcTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/surefire-reports/net.xdclass.demo.MockMvcTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/surefire-reports/net.xdclass.demo.MockMvcTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/xdclass_springboot-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../Others/springBootLearn/springBoot201912/target/xdclass_springboot-1.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.pom" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/jakarta/jms/jakarta.jms-api/2.0.3/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/jakarta/jms/jakarta.jms-api/2.0.3/_remote.repositories" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.pom" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/maven-metadata-local.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/apache/activemq/activemq-client/5.15.11/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/activemq/activemq-client/5.15.11/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/springframework/spring-jms/5.2.2.RELEASE/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/springframework/spring-jms/5.2.2.RELEASE/_remote.repositories" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/jetbrains/annotations/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/jetbrains/annotations/resolver-status.properties" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -103,7 +196,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0000/Q0005LongestPalindromicSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="802">
@@ -113,6 +206,33 @@
                 <element signature="e#776#777#0" expanded="true" />
                 <element signature="e#803#804#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/strategyPpattern/LearnAndTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/zrx/com/DesignPatterns/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/MyTools.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="36" column="88" selection-start-line="36" selection-start-column="88" selection-end-line="36" selection-end-column="88" />
             </state>
           </provider>
         </entry>
@@ -179,19 +299,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/zrx/com/javaApi/concurrentAPI/Thread_1_2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/CompletionStageLearn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/SuspendAndResume.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zrx/com/javaApi/concurrentAPI/ThreadLearn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/DecoratorPattern/Base.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/DecoratorPattern/Addition01.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/DecoratorPattern/Addition02.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/DecoratorPattern/Food.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/Factorys/SimpleFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/Factorys/FactoryPattern.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/Factorys/AbstractFactoryPattern.java" />
-        <option value="$PROJECT_DIR$/src/test/java/zrx/com/DesignPatterns/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/DecoratorPattern/DesignPatternsLearn.java" />
         <option value="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/WaitNotify.java" />
         <option value="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/ProducerConsumer.java" />
         <option value="$PROJECT_DIR$/src/test/java/zrx/com/others/equalEqual.java" />
@@ -200,7 +307,6 @@
         <option value="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/JoinLearn.java" />
         <option value="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/ThreadLocalTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/zrx/com/MultiThread/Basic/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/MyTools.java" />
         <option value="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/LockLearn.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/zrx/com/leetcode/UtilsTest/PartitionTest.java" />
@@ -230,6 +336,20 @@
         <option value="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0120/Q0121BestTimeToBuyAndSellStock.java" />
         <option value="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/刷题日志.java" />
         <option value="$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0000/Q0005LongestPalindromicSubstring.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/strategyPpattern/LearnAndTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/LearnCommandPattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/CommandObjects/TV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/CommandObjects/Light.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/Commmand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/TVOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/TVVolumeCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/LightOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/LightColorCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/NoCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/Remoter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/MetaCommand.java" />
+        <option value="$PROJECT_DIR$/src/test/java/zrx/com/DesignPatterns/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/MyTools.java" />
       </list>
     </option>
   </component>
@@ -330,37 +450,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Q0000" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Q0120" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="Q0680" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -390,17 +480,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="UtilsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -448,7 +528,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AllTest.todayTest">
+  <component name="RunManager" selected="JUnit.Test.testCommandPattern">
     <configuration name="AllTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
@@ -497,22 +577,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zrx.com.leetcode.UtilsTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="zrx.com.leetcode.UtilsTest" />
-      <option name="MAIN_CLASS_NAME" value="zrx.com.leetcode.UtilsTest.MergeSortTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QuickSort2Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
@@ -529,13 +593,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test.testCommandPattern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zrx.com.DesignPatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zrx.com.DesignPatterns" />
+      <option name="MAIN_CLASS_NAME" value="zrx.com.DesignPatterns.Test" />
+      <option name="METHOD_NAME" value="testCommandPattern" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test.testCommandPattern" />
         <item itemvalue="JUnit.AllTest.todayTest" />
         <item itemvalue="JUnit.AllTest.test" />
         <item itemvalue="JUnit.QuickSort2Test.test" />
         <item itemvalue="JUnit.ListNodeTest.test" />
-        <item itemvalue="JUnit.MergeSortTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -558,29 +638,11 @@
       <workItem from="1574674562842" duration="25763000" />
       <workItem from="1575034914707" duration="67236000" />
       <workItem from="1575449665325" duration="27309000" />
-      <workItem from="1576466112148" duration="48201000" />
+      <workItem from="1576466112148" duration="52459000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AllTest_todayTest - 2019.12.24 at 12h 45m 17s.xml">
-      <configuration name="AllTest.todayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTest_todayTest - 2019.12.24 at 12h 48m 01s.xml">
-      <configuration name="AllTest.todayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTest_todayTest - 2019.12.24 at 12h 49m 09s.xml">
-      <configuration name="AllTest.todayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTest_todayTest - 2019.12.24 at 12h 50m 44s.xml">
-      <configuration name="AllTest.todayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTest_todayTest - 2019.12.24 at 12h 56m 43s.xml">
-      <configuration name="AllTest.todayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTest_todayTest - 2019.12.24 at 12h 59m 51s.xml">
-      <configuration name="AllTest.todayTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AllTest_todayTest - 2019.12.24 at 13h 04m 20s.xml">
       <configuration name="AllTest.todayTest" configurationId="JUnit" />
     </history-entry>
@@ -593,9 +655,27 @@
     <history-entry file="AllTest_todayTest - 2019.12.24 at 14h 36m 54s.xml">
       <configuration name="AllTest.todayTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test_testCommandPattern - 2019.12.24 at 15h 37m 52s.xml">
+      <configuration name="Test.testCommandPattern" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testCommandPattern - 2019.12.24 at 15h 39m 30s.xml">
+      <configuration name="Test.testCommandPattern" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testCommandPattern - 2019.12.24 at 15h 42m 24s.xml">
+      <configuration name="Test.testCommandPattern" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testCommandPattern - 2019.12.24 at 15h 47m 17s.xml">
+      <configuration name="Test.testCommandPattern" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testCommandPattern - 2019.12.24 at 15h 48m 39s.xml">
+      <configuration name="Test.testCommandPattern" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testCommandPattern - 2019.12.24 at 15h 50m 02s.xml">
+      <configuration name="Test.testCommandPattern" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281634000" />
+    <option name="totallyTimeSpent" value="285892000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -610,7 +690,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -619,7 +699,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.15401301" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.19305857" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37818697" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -686,143 +766,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/program/jdk-12.0.1/lib/src.zip!/java.base/jdk/internal/vm/annotation/ReservedStackAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/jdk-12.0.1/lib/src.zip!/java.base/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="874" column="16" selection-start-line="874" selection-start-column="16" selection-end-line="874" selection-end-column="16" />
-          <folding>
-            <element signature="e#34263#34264#0" expanded="true" />
-            <element signature="e#34313#34314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/jdk-12.0.1/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="279" column="46" lean-forward="true" selection-start-line="279" selection-start-column="46" selection-end-line="279" selection-end-column="46" />
-          <folding>
-            <element signature="class#NonfairSync#0;class#ReentrantLock#0" />
-            <element signature="e#7758#7759#0" expanded="true" />
-            <element signature="e#7798#7799#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/MyTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/jdk-12.0.1/lib/src.zip!/java.base/java/util/function/BiConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/jdk-12.0.1/lib/src.zip!/java.base/java/util/concurrent/CompletionStage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="781" column="14" selection-start-line="781" selection-start-column="9" selection-end-line="781" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/zrx/com/MultiThread/Basic/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#hardWorkTest#0;class#Test#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/program/jdk-12.0.1/lib/src.zip!/java.base/java/util/concurrent/CompletableFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="1984" column="75" selection-start-line="1984" selection-start-column="67" selection-end-line="1984" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/Basic/BasicSkill/LockLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/utils/MyRandom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding>
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/zrx/com/leetcode/UtilsTest/PartitionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="43" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/zrx/com/leetcode/UtilsTest/SelectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/zrx/com/others/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/zrx/com/leetcode/UtilsTest/MergeSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/program/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -1128,18 +1071,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0120/Q0121BestTimeToBuyAndSellStock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/刷题日志.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
@@ -1156,6 +1087,177 @@
             <element signature="e#776#777#0" expanded="true" />
             <element signature="e#803#804#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/LearnCommandPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/CommandObjects/TV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/CommandObjects/Light.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/Commmand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/TVOnCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/TVVolumeCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/LightOnCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="16" selection-start-line="16" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/LightColorCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1015">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding>
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/NoCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding>
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/program/jdk-12.0.1/lib/src.zip!/java.base/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/strategyPpattern/LearnAndTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/leetcode/Q0120/Q0121BestTimeToBuyAndSellStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/Remoter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/MetaCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/zrx/com/DesignPatterns/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zrx/com/MultiThread/MyTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="36" column="88" selection-start-line="36" selection-start-column="88" selection-end-line="36" selection-end-column="88" />
         </state>
       </provider>
     </entry>

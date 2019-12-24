@@ -1,6 +1,7 @@
 D:\Documents\GitHub\JavaLearning\Others\springBootLearn\springBoot201912\src\main\java\net\xdclass\demo\mapper\StudentMapper.java
 D:\Documents\GitHub\JavaLearning\Others\springBootLearn\springBoot201912\src\main\java\net\xdclass\demo\domain\JsonData.java
 D:\Documents\GitHub\JavaLearning\Others\springBootLearn\springBoot201912\src\main\java\net\xdclass\demo\domain\FileUploadState.java
+D:\Documents\GitHub\JavaLearning\Others\springBootLearn\springBoot201912\src\main\java\net\xdclass\demo\controller\webflux\WebFluxController.java
 D:\Documents\GitHub\JavaLearning\Others\springBootLearn\springBoot201912\src\main\java\net\xdclass\demo\application\DemoApplication.java
 D:\Documents\GitHub\JavaLearning\Others\springBootLearn\springBoot201912\src\main\java\net\xdclass\demo\service\impl\NewsPublishServiceImpl.java
 D:\Documents\GitHub\JavaLearning\Others\springBootLearn\springBoot201912\src\main\java\net\xdclass\demo\service\MessageProduceService.java
