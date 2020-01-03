@@ -45,6 +45,14 @@ public class MyTools {
         return thread;
     }
 
+    public static Thread runItInThread(Runnable r,String name,boolean daemon){
+        Thread thread = new Thread(r);
+        thread.setName(name);
+        thread.start();
+
+        return thread;
+    }
+
 
     /**
      * 打印调用这个方法的前一个方法名

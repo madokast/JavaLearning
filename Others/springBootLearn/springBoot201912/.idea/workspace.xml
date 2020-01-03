@@ -2,161 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d2fbdc3-5ebe-4cd1-ac00-41be91d26526" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/CommandObjects/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/CommandObjects/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/LearnCommandPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/Remoter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/Commmand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/LightColorCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/LightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/MetaCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/NoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/TVOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/CommandPattern/command/TVVolumeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/xdclass/demo/controller/webflux/WebFluxController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootwebflux/src/main/java/com/zrx/springbootwebflux/controller/WebFluxController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootwebflux/src/main/java/com/zrx/springbootwebflux/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springbootwebflux/src/main/java/com/zrx/springbootwebflux/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_buffer_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_codec_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_common_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_handler_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_resolver_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_transport_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_43_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__io_projectreactor_reactor_test_3_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_spring_test_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_spring_web_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/Basic/test/WaitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/others/COSY/SR.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/LearnAndTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/DesignPatterns/strategyPpattern/LearnAndTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/MyTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/main/java/zrx/com/MultiThread/MyTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/test/java/zrx/com/DesignPatterns/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/test/java/zrx/com/DesignPatterns/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/test/java/zrx/com/MultiThread/Basic/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/src/test/java/zrx/com/MultiThread/Basic/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.DesignPatterns.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.DesignPatterns.Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.MultiThread.Basic.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.MultiThread.Basic.Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.AllTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.AllTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.MergeSortTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.MergeSortTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.PartitionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.PartitionTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.QuickSort2Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.QuickSort2Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.others.Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.others.Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.DesignPatterns.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.DesignPatterns.Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.MultiThread.Basic.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.MultiThread.Basic.Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.javaApi.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.javaApi.Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.AllTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.AllTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.NoUse.Q0000Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.NoUse.Q0000Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.NoUse.UtilsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.NoUse.UtilsTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.ListNodeTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.ListNodeTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.MergeSortTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.MergeSortTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.PartitionTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.PartitionTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.QuickSort2Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.QuickSort2Test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.SmallTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.SmallTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.others.Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.others.Test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.DesignPatterns.Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.MultiThread.Basic.Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.javaApi.Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.AllTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.Q0000Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.NoUse.UtilsTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.ListNodeTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.MergeSortTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.PartitionTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.QuickSort2Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SelectTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.leetcode.UtilsTest.SmallTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/TEST-zrx.com.others.Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.DesignPatterns.Test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.MultiThread.Basic.Test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.javaApi.Test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.AllTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.NoUse.Q0000Test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.NoUse.UtilsTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.ListNodeTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.MergeSortTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.PartitionTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.QuickSort2Test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.SelectTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.leetcode.UtilsTest.SmallTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DataStructuresAndAlgorithms/target/surefire-reports/zrx.com.others.Test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ANKI/低级PS软件-forANKI.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../ANKI/低级PS软件-forANKI.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/relearnJS/JsRelearn/basic1223.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../FrontEnd/relearnJS/JsRelearn/basic1223.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ICHIWAN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ICHIWAN/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/xdclass/demo/application/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/xdclass/demo/application/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-12-23T21-55-17_496-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-net.xdclass.demo.MockMvcTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-net.xdclass.demo.MockMvcTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/net.xdclass.demo.MockMvcTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/net.xdclass.demo.MockMvcTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/xdclass_springboot-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/xdclass_springboot-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springbootwebflux/src/test/java/com/zrx/springbootwebflux/SpringbootwebfluxApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootwebflux/src/test/java/com/zrx/springbootwebflux/SpringbootwebfluxApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springbootwebflux/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springbootwebflux/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/DataStructuresAndAlgorithms-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
       <change beforePath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/com/zrx/DataStructuresAndAlgorithms/maven-metadata-local.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.3.1.RELEASE/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.3.1.RELEASE/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/maven-metadata-local.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/1.0-SNAPSHOT/xdclass_springboot-1.0-SNAPSHOT.pom" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/maven-metadata-local.xml" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/net/xdclass/xdclass_springboot/maven-metadata-local.xml" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/jetbrains/annotations/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/jetbrains/annotations/resolver-status.properties" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/extras/thymeleaf-extras-tiles2/resolver-status.properties" afterDir="false" />
-      <change beforePath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/resolver-status.properties" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/apache/maven/plugins/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/apache/maven/plugins/resolver-status.properties" afterDir="false" />
+      <change beforePath="$MAVEN_REPOSITORY$/org/codehaus/mojo/resolver-status.properties" beforeDir="false" afterPath="$MAVEN_REPOSITORY$/org/codehaus/mojo/resolver-status.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -375,11 +267,11 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=GB2312" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="128" />
-    <option name="y" value="128" />
-    <option name="width" value="1600" />
-    <option name="height" value="720" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="160" />
+    <option name="y" value="160" />
+    <option name="width" value="2000" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -619,7 +511,7 @@
       <workItem from="1576908736733" duration="14098000" />
       <workItem from="1577019552860" duration="1268000" />
       <workItem from="1577020832166" duration="5196000" />
-      <workItem from="1577087686310" duration="10074000" />
+      <workItem from="1577087686310" duration="10246000" />
     </task>
     <servers />
   </component>
@@ -650,13 +542,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86624000" />
+    <option name="totallyTimeSpent" value="86796000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -681,12 +573,12 @@
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Version Control" order="16" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.22234273" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.29036826" />
       <window_info anchor="bottom" id="Database Console" order="18" weight="0.23371105" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49846154" visible="true" weight="0.15138593" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49846154" visible="true" weight="0.19034852" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Coverage" order="5" sideWeight="0.50153846" side_tool="true" weight="0.25670242" />
       <window_info anchor="right" id="Capture Analysis" order="6" />

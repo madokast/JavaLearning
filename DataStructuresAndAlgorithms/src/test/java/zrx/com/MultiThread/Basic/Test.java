@@ -1,6 +1,7 @@
 package zrx.com.MultiThread.Basic;
 
 import zrx.com.MultiThread.Basic.BasicSkill.*;
+import zrx.com.MultiThread.Basic.test.WaitTest;
 import zrx.com.MultiThread.MyTools;
 import zrx.com.leetcode.utils.MyTimer;
 
@@ -16,9 +17,17 @@ import zrx.com.leetcode.utils.MyTimer;
  */
 
 public class Test {
-    @org.junit.Test public void Test(){}
+    @org.junit.Test public void Test(){
+        System.out.println("hello test！");
+    }
 
-    @org.junit.Test public void LockLearnTest(){
+
+    @org.junit.Test public void TestWaitTest(){
+        new WaitTest().test();
+    }
+
+    @org.junit.Test()
+    public void LockLearnTest(){
         LockLearn.go();
     }
 

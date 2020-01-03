@@ -1,0 +1,197 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 534773760 bytes for Failed to commit area from 0x0000000602000000 to 0x0000000621e00000 of length 534773760.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (t:/workspace/open/src/hotspot/os/windows/os_windows.cpp:3254), pid=73180, tid=64716
+#
+# JRE version:  (12.0.1+12) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (12.0.1+12, mixed mode, aot, sharing, tiered, compressed oops, g1 gc, windows-amd64)
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Dmaven.multiModuleProjectDirectory=D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms -DarchetypeCatalog=internal -Dfile.encoding=GB2312 -Dmaven.home=D:\program\apache-maven-3.5.2 -Dclassworlds.conf=D:\program\apache-maven-3.5.2\bin\m2.conf -javaagent:D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\lib\idea_rt.jar=52132:D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin org.codehaus.classworlds.Launcher -Didea.version2019.1.4 -s D:\program\apache-maven-3.5.2\conf\settings.xml -Dexec.workingdir=D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms -Dexec.args=-classpath %classpath zrx.com.others.COSY.SR -Dexec.executable=D:\program\jdk-12.0.1\bin\java.exe exec:exec
+
+Host: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz, 4 cores, 31G,  Windows 10 , 64 bit Build 18362 (10.0.18362.329)
+Time: Wed Jan  1 11:02:42 2020 ?D1¨²¡À¨º¡Á?¨º¡À?? elapsed time: 0 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000021b21b6f800):  JavaThread "Unknown thread" [_thread_in_vm, id=64716, stack(0x000000fe9e300000,0x000000fe9e400000)]
+
+Stack: [0x000000fe9e300000,0x000000fe9e400000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x63948a]
+V  [jvm.dll+0x78b31f]
+V  [jvm.dll+0x78c9c1]
+V  [jvm.dll+0x78d013]
+V  [jvm.dll+0x262138]
+V  [jvm.dll+0x63698a]
+V  [jvm.dll+0x62b505]
+V  [jvm.dll+0x31d9bc]
+V  [jvm.dll+0x31d7ef]
+V  [jvm.dll+0x323526]
+V  [jvm.dll+0x370f76]
+V  [jvm.dll+0x370750]
+V  [jvm.dll+0x2f786a]
+V  [jvm.dll+0x2f8af2]
+V  [jvm.dll+0x7657b7]
+V  [jvm.dll+0x766e95]
+V  [jvm.dll+0x37f089]
+V  [jvm.dll+0x749b14]
+V  [jvm.dll+0x3ee48d]
+V  [jvm.dll+0x3f03c1]
+C  [jli.dll+0x51cf]
+C  [ucrtbase.dll+0x20e72]
+C  [KERNEL32.DLL+0x17bd4]
+C  [ntdll.dll+0x6ced1]
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x00007ffd0a5148e8, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+  0x0000021b21bec000 GCTaskThread "GC Thread#0" [stack: 0x000000fe9e400000,0x000000fe9e500000] [id=73652]
+  0x0000021b21c06800 ConcurrentGCThread "G1 Main Marker" [stack: 0x000000fe9e500000,0x000000fe9e600000] [id=54544]
+  0x0000021b21c09800 ConcurrentGCThread "G1 Conc#0" [stack: 0x000000fe9e600000,0x000000fe9e700000] [id=56932]
+
+[error occurred during error reporting (printing all threads), id 0xc0000005, EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffd09d47a37]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x0000021b21b6c1a0] Heap_lock - owner thread: 0x0000021b21b6f800
+
+Heap address: 0x0000000602000000, size: 8160 MB, Compressed Oops mode: Non-zero based: 0x0000000602000000
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff78a590000 - 0x00007ff78a59f000 	D:\program\jdk-12.0.1\bin\java.exe
+0x00007ffd6cb00000 - 0x00007ffd6ccf0000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffd6c200000 - 0x00007ffd6c2b2000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ffd6a4b0000 - 0x00007ffd6a753000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ffd69ae0000 - 0x00007ffd69bda000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffd638d0000 - 0x00007ffd638e8000 	D:\program\jdk-12.0.1\bin\jli.dll
+0x00007ffd6bbc0000 - 0x00007ffd6bc63000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffd6bce0000 - 0x00007ffd6bd7e000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffd6c8e0000 - 0x00007ffd6c977000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffd6bde0000 - 0x00007ffd6bf00000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffd638f0000 - 0x00007ffd63906000 	D:\program\jdk-12.0.1\bin\VCRUNTIME140.dll
+0x00007ffd6bf80000 - 0x00007ffd6c114000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffd6a860000 - 0x00007ffd6a881000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffd6b800000 - 0x00007ffd6b826000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffd6a970000 - 0x00007ffd6ab04000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffd5dd20000 - 0x00007ffd5dfa5000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.18362.535_none_e6c3b34713100821\COMCTL32.dll
+0x00007ffd6a7c0000 - 0x00007ffd6a85e000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffd6c370000 - 0x00007ffd6c6a6000 	C:\WINDOWS\System32\combase.dll
+0x00007ffd6ab30000 - 0x00007ffd6abb0000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ffd63ee0000 - 0x00007ffd63eea000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffd6b830000 - 0x00007ffd6b85e000 	C:\WINDOWS\System32\IMM32.DLL
+0x00007ffd57a60000 - 0x00007ffd57b0a000 	D:\program\jdk-12.0.1\bin\msvcp140.dll
+0x00007ffd09a40000 - 0x00007ffd0a5b4000 	D:\program\jdk-12.0.1\bin\server\jvm.dll
+0x00007ffd6b7f0000 - 0x00007ffd6b7f8000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffd5cea0000 - 0x00007ffd5cea9000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffd6bc70000 - 0x00007ffd6bcdf000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ffd600c0000 - 0x00007ffd600e4000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffd5fe80000 - 0x00007ffd5fead000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007ffd69a90000 - 0x00007ffd69ada000 	C:\WINDOWS\System32\cfgmgr32.dll
+0x00007ffd699e0000 - 0x00007ffd699f1000 	C:\WINDOWS\System32\kernel.appcore.dll
+0x00007ffd633e0000 - 0x00007ffd633f1000 	D:\program\jdk-12.0.1\bin\verify.dll
+0x00007ffd682e0000 - 0x00007ffd684d4000 	C:\WINDOWS\SYSTEM32\DBGHELP.DLL
+0x00007ffd61ac0000 - 0x00007ffd61aea000 	C:\WINDOWS\SYSTEM32\dbgcore.DLL
+0x00007ffd61400000 - 0x00007ffd61426000 	D:\program\jdk-12.0.1\bin\java.dll
+0x00007ffd64990000 - 0x00007ffd6499e000 	D:\program\jdk-12.0.1\bin\instrument.dll
+0x00007ffd613e0000 - 0x00007ffd613f7000 	D:\program\jdk-12.0.1\bin\zip.dll
+0x00007ffd648e0000 - 0x00007ffd648ea000 	D:\program\jdk-12.0.1\bin\jimage.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;D:\program\jdk-12.0.1\bin;C:\WINDOWS\SYSTEM32;C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.18362.535_none_e6c3b34713100821;D:\program\jdk-12.0.1\bin\server
+
+VM Arguments:
+jvm_args: -Dmaven.multiModuleProjectDirectory=D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms -DarchetypeCatalog=internal -Dfile.encoding=GB2312 -Dmaven.home=D:\program\apache-maven-3.5.2 -Dclassworlds.conf=D:\program\apache-maven-3.5.2\bin\m2.conf -javaagent:D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\lib\idea_rt.jar=52132:D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\bin 
+java_command: org.codehaus.classworlds.Launcher -Didea.version2019.1.4 -s D:\program\apache-maven-3.5.2\conf\settings.xml -Dexec.workingdir=D:\Documents\GitHub\JavaLearning\DataStructuresAndAlgorithms -Dexec.args=-classpath %classpath zrx.com.others.COSY.SR -Dexec.executable=D:\program\jdk-12.0.1\bin\java.exe exec:exec
+java_class_path (initial): D:\program\apache-maven-3.5.2\boot\plexus-classworlds-2.5.2.jar
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     intx CICompilerCount                          = 3                                         {product} {ergonomic}
+     uint ConcGCThreads                            = 1                                         {product} {ergonomic}
+     uint G1ConcRefinementThreads                  = 4                                         {product} {ergonomic}
+   size_t G1HeapRegionSize                         = 2097152                                   {product} {ergonomic}
+    uintx GCDrainStackTargetSize                   = 64                                        {product} {ergonomic}
+   size_t InitialHeapSize                          = 534773760                                 {product} {ergonomic}
+   size_t MarkStackSize                            = 4194304                                   {product} {ergonomic}
+   size_t MaxHeapSize                              = 8556380160                                {product} {ergonomic}
+   size_t MinHeapDeltaBytes                        = 2097152                                   {product} {ergonomic}
+    uintx NonNMethodCodeHeapSize                   = 5830732                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122913754                              {pd product} {ergonomic}
+    uintx ProfiledCodeHeapSize                     = 122913754                              {pd product} {ergonomic}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+     bool UseCompressedClassPointers               = true                                 {lp64_product} {ergonomic}
+     bool UseCompressedOops                        = true                                 {lp64_product} {ergonomic}
+     bool UseG1GC                                  = true                                      {product} {ergonomic}
+     bool UseLargePagesIndividualAllocation        = false                                  {pd product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags
+ #1: stderr all=off uptime,level,tags
+
+Environment Variables:
+JAVA_HOME=D:\program\jdk1.8.0_221
+PATH=D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\jre64\\bin;D:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\jre64\\bin\server;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\program\jdk1.8.0_221\bin;D:\program\apache-maven-3.5.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\Git\cmd;D:\Program Files\MySQL\MySQL Server 5.5\bin;D:\program\CTEX\UserData\miktex\bin;D:\program\CTEX\MiKTeX\miktex\bin;D:\program\CTEX\CTeX\ctex\bin;D:\program\CTEX\CTeX\cct\bin;D:\program\CTEX\CTeX\ty\bin;D:\program\CTEX\Ghostscript\gs9.05\bin;D:\program\CTEX\GSview\gsview;D:\program\CTEX\WinEdt;C:\Users\madokast\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\madokast\AppData\Local\Programs\Python\Python37-32\;C:\Users\madokast\AppData\Local\Microsoft\WindowsApps;C:\Users\madokast\AppData\Local\GitHubDesktop\bin;C:\Users\madokast\AppData\Local\Microsoft\WindowsApps;D:\program\texlive\2019\bin\win32
+USERNAME=madokast
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10 , 64 bit Build 18362 (10.0.18362.329)
+
+CPU:total 4 (initial active 4) (4 cores per cpu, 1 threads per core) family 6 model 158 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, 3dnowpref, lzcnt, tsc, tscinvbit, bmi1, bmi2, adx, fma
+
+Memory: 4k page, system-wide physical 32634M (10537M free)
+TotalPageFile size 45953M (AvailPageFile size 242M)
+current process WorkingSet (physical memory assigned to process): 10M, peak: 10M
+current process commit charge ("private bytes"): 52M, peak: 562M
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (12.0.1+12) for windows-amd64 JRE (12.0.1+12), built on Apr  2 2019 14:02:19 by "mach5one" with MS VC++ 15.5 (VS2017)
+
+END.

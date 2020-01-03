@@ -18,6 +18,7 @@ class SpringbootwebfluxApplicationTests {
                 accept(MediaType.APPLICATION_JSON).retrieve().bodyToMono(User.class);
 
         System.out.println(userMono.block());
+
     }
 
 }
